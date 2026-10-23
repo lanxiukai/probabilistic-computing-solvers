@@ -1,0 +1,137 @@
+{
+  "schema": "qap-public-source-v1",
+  "accepted_shared_source_archive_sha256": "c92d1d0dfb150cac98524fd525a748d36effe6401a2206ff666008c50fce5f70",
+  "native_confirmation_source_archive_sha256": "846fa7ba18593ee8a821cafbeac1eb33234a362df3f71dbc52850fa8daab3192",
+  "numerical_files": [
+    {
+      "public_destination": "src/combinatorial_solvers/qap/__init__.py",
+      "original_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+      "public_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+      "accepted_source_panel": "Q3 shared-source version",
+      "ast_equal_to_q2": true,
+      "ast_equal_to_q1c": true
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/qap/baseline.py",
+      "original_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+      "public_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+      "accepted_source_panel": "Q3 shared-source version",
+      "ast_equal_to_q2": true,
+      "ast_equal_to_q1c": true
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/qap/gpu.py",
+      "original_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+      "public_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+      "accepted_source_panel": "Q3 shared-source version",
+      "ast_equal_to_q2": true,
+      "ast_equal_to_q1c": true
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/qap/model.py",
+      "original_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+      "public_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+      "accepted_source_panel": "Q3 shared-source version",
+      "ast_equal_to_q2": true,
+      "ast_equal_to_q1c": true
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/qap/rots.py",
+      "original_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+      "public_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+      "accepted_source_panel": "Q3 shared-source version",
+      "ast_equal_to_q2": true,
+      "ast_equal_to_q1c": true
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/qap/runner.py",
+      "original_sha256": "e627203699faf6eabb75f3cb2edaaf5b0dc7a1a07874058577c8ae809f529781",
+      "public_sha256": "ce453232f98e2d3abd03fbdbbf1f063bc6b9e73cc699de5b78bb9756ff3a0ca9",
+      "accepted_source_panel": "Q3 shared-source version",
+      "ast_equal_to_q2": false,
+      "ast_equal_to_q1c": false
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/qap/solver.py",
+      "original_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+      "public_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+      "accepted_source_panel": "Q3 shared-source version",
+      "ast_equal_to_q2": true,
+      "ast_equal_to_q1c": true
+    }
+  ],
+  "source_transformations": [
+    "All seven package modules match the accepted Q3 shared-source AST after package namespace replacement and formatting.",
+    "Six modules and the native runner branch also match Q2/Q1c. The Q3 runner adds the official external-reference dispatcher and three baseline input bindings.",
+    "Published timing belongs to each original executed panel; fixed-work public source replays check numerical output across these source variants."
+  ],
+  "complete_original_audit": {
+    "q2_integer_states": 2020690,
+    "q1c_integer_states": 1186944,
+    "q3_integer_states": 5085
+  },
+  "classical_support": "Exact original objective evaluation and permutation-preserving proposals support p-bit blocks. Owned attribute tabu and official Taillard Ro-TS are separate CPU references.",
+  "public_source_work_replays": {
+    "status": "passed",
+    "work_replays": 9,
+    "new_independent_trials": 0,
+    "records": [
+      {
+        "panel": "q2-5090-independent-confirmation-v1",
+        "id": "replay-q2-nug30-heatbath-s2026102411",
+        "non_timing_arrays_matched": 20,
+        "public_manifest_sha256": "274e1b7f5ad5ea56cdf7e9410c73891edb9c8c81b4360866a28f582edb2b3303"
+      },
+      {
+        "panel": "q2-5090-independent-confirmation-v1",
+        "id": "replay-q2-nug30-tabu-s2026102411",
+        "non_timing_arrays_matched": 13,
+        "public_manifest_sha256": "ac3728ea4e7eb75bf17a429182718cddbba88acfe00389754663494ea48e0612"
+      },
+      {
+        "panel": "q2-5090-independent-confirmation-v1",
+        "id": "replay-q2-tai80a-heatbath-s2026102411",
+        "non_timing_arrays_matched": 20,
+        "public_manifest_sha256": "cbcee653efb267b70f0e485748ef0d1ed54a0d3a323a177d712b3d8683e99551"
+      },
+      {
+        "panel": "q2-5090-independent-confirmation-v1",
+        "id": "replay-q2-tai150b-heatbath-s2026102411",
+        "non_timing_arrays_matched": 20,
+        "public_manifest_sha256": "8128f04c602bf311dd0f711dd3a4958e4f1cf2b47cd2e263c232a4306a11c8a7"
+      },
+      {
+        "panel": "q2-5090-independent-confirmation-v1",
+        "id": "replay-q2-tai150b-tabu-s2026102411",
+        "non_timing_arrays_matched": 13,
+        "public_manifest_sha256": "f6862cd8c78c9b1fad7e2d6c0188992e7efdbb777cb99ac3ec731584c841eeb2"
+      },
+      {
+        "panel": "q1c-5090-warmup-replicas-v1",
+        "id": "replay-q1c-tai150b-b4-r512-c512-cold256",
+        "non_timing_arrays_matched": 20,
+        "public_manifest_sha256": "ec31438f38b37d31fff4bdc7b4a4db3b1f1d35b7a1747289a424394468894d68"
+      },
+      {
+        "panel": "q3-5090-taillard-rots-v1",
+        "id": "replay-q3-nug30-taillard-rots-s2026102401",
+        "non_timing_arrays_matched": 17,
+        "public_manifest_sha256": "0c02bff4463a3bd871174eeb3166cb0bb696d7b5c7cdacf0f87e4534c8fa3fb2"
+      },
+      {
+        "panel": "q3-5090-taillard-rots-v1",
+        "id": "replay-q3-tai80a-taillard-rots-s2026102401",
+        "non_timing_arrays_matched": 17,
+        "public_manifest_sha256": "75066665f1ef7670c247423427074f92264d6fa225b5e2fd6878446b82318ede"
+      },
+      {
+        "panel": "q3-5090-taillard-rots-v1",
+        "id": "replay-q3-tai150b-taillard-rots-s2026102401",
+        "non_timing_arrays_matched": 17,
+        "public_manifest_sha256": "a9015eeedaccab96e25a6cd30c2c45b4e85faf7246a3709125a76b6f0fae5806"
+      }
+    ]
+  },
+  "public_software_tests_passed": 788,
+  "public_software_tests_skipped": 0
+}

@@ -1,0 +1,55 @@
+{
+  "problem": "covering-array",
+  "status": "independently-verified",
+  "planned_natural_calls": 10,
+  "expected_natural_ids": [
+    "ca2b-ca30k300v3-column2-b4",
+    "ca2b-ca30k300v3-column2-b8",
+    "ca2b-ca30k300v3-column2-b12",
+    "ca2b-ca30k300v3-column2-b16",
+    "ca2b-ca30k300v3-column2-plateau",
+    "ca2b-ca30k300v3-column2-metropolis",
+    "ca2b-ca29k300v3-column2-b8",
+    "ca2b-ca29k300v3-column2-b12",
+    "ca2b-ca29k300v3-column2-plateau",
+    "ca2b-ca29k300v3-column2-metropolis"
+  ],
+  "expected_replays": [
+    {
+      "id": "replay-ca2b-ca30k300v3-column2-b8",
+      "origin": "ca2b-ca30k300v3-column2-b8"
+    }
+  ],
+  "frozen_targets": {
+    "ca30k300v3": {
+      "rows": 30,
+      "columns": 300,
+      "levels": 3,
+      "strength": 2,
+      "cost": 0,
+      "status": "fixed-row-feasibility",
+      "source": "Declared fixed-row feasibility target"
+    },
+    "ca29k300v3": {
+      "rows": 29,
+      "columns": 300,
+      "levels": 3,
+      "strength": 2,
+      "cost": 0,
+      "status": "fixed-row-feasibility",
+      "source": "Declared fixed-row feasibility target"
+    }
+  },
+  "completed_natural_calls": 10,
+  "failed_natural_calls": 0,
+  "unexecuted_natural_calls": 0,
+  "work_replays": 1,
+  "replays_add_independent_trials": false,
+  "private_panel_manifest_sha256": "f4b8fc8c198b604231ecb01af78787f767937d9f6e45446eb05445546a6eb271",
+  "full_original_evidence": "Retained independently; this distribution contains core witnesses",
+  "path_resolution": {
+    "configuration_file": "Repository relative",
+    "benchmark_inputs.path": "Repository relative",
+    "witness_file": "Relative to calls.json parent directory"
+  }
+}

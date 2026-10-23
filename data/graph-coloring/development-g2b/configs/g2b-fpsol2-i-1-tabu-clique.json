@@ -1,0 +1,21 @@
+{
+  "baseline": {
+    "build_log": "data/graph-coloring/tabu-reference/build.log",
+    "build_metadata": "data/graph-coloring/tabu-reference/build.json",
+    "executable": "data/graph-coloring/tabu-reference/reference",
+    "max_iterations": 100000000,
+    "max_seconds": 20,
+    "process_limit_seconds": 150,
+    "seed": 2026102342,
+    "source": "data/graph-coloring/tabu-reference/tabu_reference.cpp"
+  },
+  "experiment": {
+    "role": "independent-classical-reference"
+  },
+  "method": "tabucol-style",
+  "problem": {
+    "colors": 65,
+    "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+    "symmetry_clique_file": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json"
+  }
+}

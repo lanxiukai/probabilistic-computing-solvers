@@ -1,0 +1,206 @@
+{
+  "executed_plan_canonical_sha256": "5ccb4439327bdf85afe29f9e383963725ebfdcbde672b491851f2a6c31fa00f6",
+  "executed_plan_file_sha256": "b741f8eedc0a8e72ec18393822e16e8dc13e90c5941a48f1848f84926f94beae",
+  "executed_source_sha256": "ed7418caf6e12546895f1007d588c7c5f06b3b3e6fbb5ef53b4f64ca726c0960",
+  "execution_profile": "buffer_sqrt_qr_v1",
+  "non_numerical_changes": [
+    "problem-specific repository paths and source packaging",
+    "bilingual Markdown report templates and documentation",
+    "core evidence verification and presentation tools",
+    "MIT license and publication metadata"
+  ],
+  "numerical_files_byte_identical_to_executed_source": [
+    {
+      "path": "src/sparse_factorization/__init__.py",
+      "sha256": "fd172bb2ea883c5d811e7b530ec3bb865ac6565121217b281e6f2a2d3da099f8"
+    },
+    {
+      "path": "src/sparse_factorization/arithmetic.py",
+      "sha256": "bd60b48f786d2ca4891a124fbef0332f3f17c4481264ac4e22a8557d52d628bb"
+    },
+    {
+      "path": "src/sparse_factorization/classical.py",
+      "sha256": "05064207136a0aa03a4412c0bdd6aedb6a20d0f0a64e31df8b68e154a6fcf056"
+    },
+    {
+      "path": "src/sparse_factorization/cli.py",
+      "sha256": "cb27925e1091a3218ce2f97cfb5916e362c1457b4c0e6055a2d2eff6cd755558"
+    },
+    {
+      "path": "src/sparse_factorization/core/__init__.py",
+      "sha256": "fd172bb2ea883c5d811e7b530ec3bb865ac6565121217b281e6f2a2d3da099f8"
+    },
+    {
+      "path": "src/sparse_factorization/core/coloring.py",
+      "sha256": "7f76c8da2ba6136cf009a32cc6831bf0d3647dc6efa82d2612ea28ca1c0f34ca"
+    },
+    {
+      "path": "src/sparse_factorization/core/edge_model.py",
+      "sha256": "bc70cdc4f2f056da9c8ed2515440ee857879cb4f33a5e6c9b2b58c08c15d25ee"
+    },
+    {
+      "path": "src/sparse_factorization/core/model.py",
+      "sha256": "bf7c971c7d8c84415be9bca5de5a75fb35757f6ebfa7d3748b87d255186a362f"
+    },
+    {
+      "path": "src/sparse_factorization/core/padded_sparse.py",
+      "sha256": "a7c86db03306ea52cfa27402d7a1d27cef5de485f83a4b87d1d3b50c08a32233"
+    },
+    {
+      "path": "src/sparse_factorization/core/rng.py",
+      "sha256": "905f812c3f24b432bad390c065a55d033d46087c1e39beb35a361e420fd6dd92"
+    },
+    {
+      "path": "src/sparse_factorization/core/triton_sparse.py",
+      "sha256": "5d845c432f8ef5c536fc21b2201a8e3d94de82e05e1e37e69847b36769c2a3c2"
+    },
+    {
+      "path": "src/sparse_factorization/protocol.py",
+      "sha256": "0082dc252754ba4c2608d7a536ee0d7a85f5193e5c4b5449f3559b4da55253e4"
+    },
+    {
+      "path": "src/sparse_factorization/replay.py",
+      "sha256": "04e9597c5bc48ef6b3f7e85b3a5925bdef683f2e4e93e7a81fee42b207576b40"
+    },
+    {
+      "path": "src/sparse_factorization/runner.py",
+      "sha256": "6d62e13a0756099523985ee5028f04478047375adf0e396ad61110da12b409e0"
+    },
+    {
+      "path": "src/sparse_factorization/solver/__init__.py",
+      "sha256": "fd172bb2ea883c5d811e7b530ec3bb865ac6565121217b281e6f2a2d3da099f8"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_cache.py",
+      "sha256": "3a4bf3a4bf3747611fdce848092ba655499c608f939dc33068848715594a4a87"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_deferred_radius.py",
+      "sha256": "f393a9e16e9f5d83b72558812b64913c05378cd30eeb9cd4f4894479da20b7c8"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_deferred_triton.py",
+      "sha256": "2a1b778ae17c71ee8a7c03c84810f0154437eaacf11d3c31f21e4121b04050b4"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_fermat.py",
+      "sha256": "a4456f5e6964c070ca114bf9ac6ec2e40c699f0a41580383ce54e0c6b846f2cd"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_fermat_crt.py",
+      "sha256": "96666026a0bb99c09470f8016eb06045881815ff5bf7cdeb7f748ac018c531f7"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_fermat_crt_wide.py",
+      "sha256": "d448122a24c098926ca2f2c8d266cf7d5fb096afe3edaa4cdc82af8af0584487"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_graph.py",
+      "sha256": "8ac60e01d63b3690b00be4b4993b50d62c4592b2aaeadbb7b484b3a0c3b88dad"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_history.py",
+      "sha256": "d6154b23ba455b42f8e0b46bc9d1285e81bd4e543885c32cf96868d6e51f484f"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_lookahead.py",
+      "sha256": "0b0b9ed86477080ea54934c047587d088e8aef348890ad72a2461377da8feafd"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_modular.py",
+      "sha256": "cdd164e59aa46091ddf0f510391d342145803974d0053ef9dd0722bd254825fa"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_proposal.py",
+      "sha256": "0205bc07ca585932b342204b1252c21ab5af5eae25f161d62601d4e14df4f079"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_quotient.py",
+      "sha256": "7c468fb87d1f54ea45a8f185589f04ba85e41af17c606ecc7ce7bd2e4fc9de55"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_range.py",
+      "sha256": "01bb1b0893fa32ccdd30c21bd3422b14f7797dcfb769191100675e3d5d9a60f8"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_regrowth.py",
+      "sha256": "9e7e504050aa2396666388a3c7de1b4475fbb648c652c7fd24206cdc2403910d"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_root_filter.py",
+      "sha256": "6df72cd8775fc377256b105f77252a23a14106566cb372cfdc35da1dd353ec35"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_roots.py",
+      "sha256": "465388d5cd7bf5c2838cbae2145af671940ad695dce68a93199732fe01d49df9"
+    },
+    {
+      "path": "src/sparse_factorization/solver/circuit_triton.py",
+      "sha256": "0b2b879aba23129bcebf65a1bfbf02079a2b5a244aeda142ca295b7375b2a55f"
+    },
+    {
+      "path": "src/sparse_factorization/solver/compiler.py",
+      "sha256": "3109d8c0c544a6d0661e0ee366be6d0581c68ed1408d332a90c129580ec3d80f"
+    },
+    {
+      "path": "src/sparse_factorization/solver/edge_compiler.py",
+      "sha256": "36cfbc355b3923957315c95a841b5bd129bd8f5c95b3715e20cbf7e956f06d8a"
+    },
+    {
+      "path": "src/sparse_factorization/solver/execution_profiles.py",
+      "sha256": "69689d81ba1605a78f21b365dd4c5e2bf27a815ff2e5707bbcd15f9aa924e82a"
+    },
+    {
+      "path": "src/sparse_factorization/solver/gates.py",
+      "sha256": "e21d8d9574010fe20b1e98a21c55bfc5b41e504d22434507ad8a02847a897c38"
+    },
+    {
+      "path": "src/sparse_factorization/solver/integer_words.py",
+      "sha256": "785636afe40a898607cefc6aec2d2e82727b5b93e461e8b9bc07898841f02402"
+    },
+    {
+      "path": "src/sparse_factorization/solver/netlist.py",
+      "sha256": "5b55aa5ab96a51685805145b15cf102882e34dd4fc4ae9c1a655abe0cee47204"
+    },
+    {
+      "path": "src/sparse_factorization/solver/persistent_circuit.py",
+      "sha256": "65393f111ba73cd081f859ca998fa1d6be1b944c36943f85c08fea16f44d2776"
+    },
+    {
+      "path": "src/sparse_factorization/solver/persistent_gibbs.py",
+      "sha256": "ab6a0db21f7198f119e271ac4ab52b15269613211fc45c2012865f01deb7c110"
+    },
+    {
+      "path": "src/sparse_factorization/solver/persistent_tempering.py",
+      "sha256": "b04cfeb41334e07df5827cfbc8f3db39432480a5ec17879aebb5503d407f8cf9"
+    },
+    {
+      "path": "src/sparse_factorization/solver/primes.py",
+      "sha256": "56a948d20678cc4ae2373ac1f5b57464ce5fdb0133311da03e3350da0a3e4db0"
+    },
+    {
+      "path": "src/sparse_factorization/solver/publication_events.py",
+      "sha256": "73096ae2ffda533e82a71ffa97c9d4360eb34fe85e9cbdc7148c3db4a7324f1a"
+    },
+    {
+      "path": "src/sparse_factorization/solver/publication_io.py",
+      "sha256": "a63eb33a3ad36ba2e66edd3ba83305896c4b5922ce98edc38bf6f70e01da81f4"
+    },
+    {
+      "path": "src/sparse_factorization/solver/publication_runtime.py",
+      "sha256": "40820cfa39b61b1a4b27c0d1479e0a5a2783a5d38d9d1fdc6ee10de1368a894f"
+    },
+    {
+      "path": "src/sparse_factorization/solver/wide_execution_triton.py",
+      "sha256": "acf654efa16ce314aff85753da72a18866a8700188d3072729071fbb7dcd96d4"
+    },
+    {
+      "path": "src/sparse_factorization/stream.py",
+      "sha256": "ce0a7158d7d830a7c5af8bbac907bfece4586c845ecc25a70f4fcde075218c77"
+    }
+  ],
+  "public_plan_canonical_sha256": "f11ef8bdbbbb49571433857eeb51cb6b8eb934e14850af43f8a2a7e526e65585",
+  "public_plan_file_sha256": "a706054fc79b1abd229bd1b243ccd9b98ac7846ed669a970ff32dbcab8cb810e",
+  "public_plan_transformation": "Operational and intermediate-study metadata removed; every physical/control numerical configuration, target and role seed preserved. Core configuration plan bindings point to this portable public plan.",
+  "schema": "accepted-numerical-source-v1"
+}

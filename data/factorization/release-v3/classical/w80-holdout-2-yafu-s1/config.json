@@ -1,0 +1,9 @@
+{
+  "binary_sha256": "37656f83ab571a74e54bc456556a2d8cff1b61081475f468f564d12fa1947b17",
+  "plan": "noecm",
+  "seed": 7352934696425597202,
+  "source_revision": "c7d90283972820f99b3b4920bfc1eff05c1f6342",
+  "target": 1021811099681077405685533,
+  "threads": 1,
+  "wall_cap_seconds": 300
+}

@@ -1,0 +1,31 @@
+{
+  "status": "independently-audited",
+  "natural_calls": 40,
+  "origin_replays": 5,
+  "origin_replay_checks": [
+    {
+      "arrays": 12,
+      "origin": "n32768-i0-s0-pbit"
+    },
+    {
+      "arrays": 12,
+      "origin": "n32768-i0-s0-metropolis"
+    },
+    {
+      "arrays": 1,
+      "origin": "n32768-i0-s0-usw-1"
+    },
+    {
+      "arrays": 3,
+      "origin": "n32768-i0-s0-usw-4"
+    },
+    {
+      "arrays": 3,
+      "origin": "n32768-i0-s0-usw-16"
+    }
+  ],
+  "replays_add_independent_trials": false,
+  "audited_saved_states": 992,
+  "executed_source_identity": "b9b910b367df35b0fff0fd4c62a36a2decc9b9ebc930e9c4b8df0bf3fdf2898b",
+  "complete_raw_evidence_retained_privately": true
+}

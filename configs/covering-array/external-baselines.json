@@ -1,0 +1,11 @@
+{
+  "schema": "covering-array-external-baselines-v1",
+  "acts": {
+    "url": "https://csrc.nist.gov/csrc/media/Projects/automated-combinatorial-testing-for-software/documents/acts_basic_1.0%203.jar",
+    "bytes": 10803019,
+    "sha256": "8efe3cdd5847135381b1daba9e8d57d0d013d00b0b2a7c15dd7c4255f0fb1242"
+  },
+  "license_statement": "https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software/downloadable-tools",
+  "measured_java": "OpenJDK 21.0.12.1",
+  "version": "ACTS Basic 1.0 (official downloadable jar)"
+}

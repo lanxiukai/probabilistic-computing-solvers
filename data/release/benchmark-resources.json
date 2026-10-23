@@ -1,0 +1,1635 @@
+{
+  "schema": "benchmark-resource-overview-v1",
+  "compiled_date": "2026-10-21",
+  "measurement_type": "Derived summary of existing accepted RTX 5090 measurements; no new trials.",
+  "base_measurement_commit": "b53f73f5aa8849e7a29e367e94a27ca40cb07bfb",
+  "memory_semantics": {
+    "allocated": "Torch allocator peak; excludes total device occupancy and complete driver/context overhead.",
+    "reserved": "Torch allocator reserved peak, including its cache; not interchangeable with allocated.",
+    "aggregation": "Maximum recorded per-call peak in the selected method/scale panel, not mean memory."
+  },
+  "tsp_metadata_note": "Allocator peaks and resolved selector counts supplement the existing four CUDA p-bit natural calls. Hashes bind their archived source summaries and existing call manifests; complete trajectories are not redistributed.",
+  "panels": {
+    "mwis": {
+      "source": "data/mwis/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "n32768-i0-s0-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.288806044991361,
+          "peak_allocated_bytes": 39738368
+        },
+        {
+          "id": "n32768-i0-s1-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.314204455993604,
+          "peak_allocated_bytes": 39738368
+        },
+        {
+          "id": "n32768-i1-s0-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.389755533018615,
+          "peak_allocated_bytes": 39185408
+        },
+        {
+          "id": "n32768-i1-s1-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.282153600011952,
+          "peak_allocated_bytes": 39185408
+        },
+        {
+          "id": "n32768-i2-s0-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.31456743500894,
+          "peak_allocated_bytes": 39565824
+        },
+        {
+          "id": "n32768-i2-s1-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.268891982006608,
+          "peak_allocated_bytes": 39565824
+        },
+        {
+          "id": "n32768-i3-s0-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.329284196981462,
+          "peak_allocated_bytes": 39365632
+        },
+        {
+          "id": "n32768-i3-s1-pair-gibbs",
+          "method": "pair-gibbs",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.358645615022397,
+          "peak_allocated_bytes": 39365632
+        }
+      ],
+      "natural_calls": 8,
+      "mean_runner_seconds": 15.318288607879367,
+      "condition_mean_seconds": {
+        "('a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486', 'pair-gibbs')": 15.301505250492482,
+        "('b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d', 'pair-gibbs')": 15.335954566515284,
+        "('e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c', 'pair-gibbs')": 15.291729708507773,
+        "('f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7', 'pair-gibbs')": 15.34396490600193
+      },
+      "parallel_states_per_frame": [
+        16
+      ],
+      "frames_per_call": [
+        1
+      ],
+      "peak_allocated_bytes": 39738368,
+      "peak_allocated_mib": 37.8974609375,
+      "peak_allocated_gib": 0.037009239196777344
+    },
+    "maxsat": {
+      "source": "data/maxsat/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "n32768-i0-s0-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.747702681983355,
+          "peak_allocated_bytes": 177410560
+        },
+        {
+          "id": "n32768-i0-s1-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.830102880019695,
+          "peak_allocated_bytes": 177410560
+        },
+        {
+          "id": "n32768-i1-s0-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.779691246018047,
+          "peak_allocated_bytes": 177197568
+        },
+        {
+          "id": "n32768-i1-s1-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.715199422993464,
+          "peak_allocated_bytes": 177197568
+        },
+        {
+          "id": "n32768-i2-s0-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.713315861998126,
+          "peak_allocated_bytes": 177213440
+        },
+        {
+          "id": "n32768-i2-s1-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.694695459998911,
+          "peak_allocated_bytes": 177213440
+        },
+        {
+          "id": "n32768-i3-s0-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.82664479597588,
+          "peak_allocated_bytes": 177217536
+        },
+        {
+          "id": "n32768-i3-s1-pbit",
+          "method": "pbit",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 8.906390236021252,
+          "peak_allocated_bytes": 177217536
+        }
+      ],
+      "natural_calls": 8,
+      "mean_runner_seconds": 8.776717823126091,
+      "condition_mean_seconds": {
+        "('d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9', 'pbit')": 8.788902781001525,
+        "('88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371', 'pbit')": 8.747445334505755,
+        "('5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575', 'pbit')": 8.704005660998519,
+        "('f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf', 'pbit')": 8.866517515998567
+      },
+      "parallel_states_per_frame": [
+        16
+      ],
+      "frames_per_call": [
+        1
+      ],
+      "peak_allocated_bytes": 177410560,
+      "peak_allocated_mib": 169.19189453125,
+      "peak_allocated_gib": 0.16522645950317383
+    },
+    "maxcut-sparse": {
+      "source": "data/maxcut-sparse/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "n32768-positive-i0-s0-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.912948868004605,
+          "peak_allocated_bytes": 35225088
+        },
+        {
+          "id": "n32768-positive-i0-s1-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.882055305002723,
+          "peak_allocated_bytes": 35225088
+        },
+        {
+          "id": "n32768-positive-i1-s0-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.900547266996,
+          "peak_allocated_bytes": 38183936
+        },
+        {
+          "id": "n32768-positive-i1-s1-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.888343916012673,
+          "peak_allocated_bytes": 38183936
+        },
+        {
+          "id": "n32768-signed-i0-s0-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.922312335984316,
+          "peak_allocated_bytes": 38293504
+        },
+        {
+          "id": "n32768-signed-i0-s1-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.95781039900612,
+          "peak_allocated_bytes": 38293504
+        },
+        {
+          "id": "n32768-signed-i1-s0-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.946299667994026,
+          "peak_allocated_bytes": 35192832
+        },
+        {
+          "id": "n32768-signed-i1-s1-pbit-anneal",
+          "method": "pbit-anneal",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 15.979925552994246,
+          "peak_allocated_bytes": 35192832
+        }
+      ],
+      "natural_calls": 8,
+      "mean_runner_seconds": 15.923780413999339,
+      "condition_mean_seconds": {
+        "('2c7eaca5f1962150040f20473e4a84c37865975da19c54d372609f82747c0420', 'pbit-anneal')": 15.897502086503664,
+        "('cfc9f3a89c408836d8785c6ff060d9fd48c5c81d919c6f146fd477c6da716a72', 'pbit-anneal')": 15.894445591504336,
+        "('d04bdc46ab7eb67572752e8c4597d4cace3944961011bfde1baf0830eb0c3acf', 'pbit-anneal')": 15.940061367495218,
+        "('b13c21de559c59beffe399fbf93e5bf21c61d725de827015b649dc7ed942b4f2', 'pbit-anneal')": 15.963112610494136
+      },
+      "parallel_states_per_frame": [
+        16
+      ],
+      "frames_per_call": [
+        1
+      ],
+      "peak_allocated_bytes": 38293504,
+      "peak_allocated_mib": 36.51953125,
+      "peak_allocated_gib": 0.035663604736328125
+    },
+    "maxcut-dense": {
+      "source": "data/maxcut-dense/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "sk32768-0-s0-sca-matched",
+          "method": "sca-matched",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 136.586745506007,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "sk32768-0-s0-onsager",
+          "method": "onsager",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 122.94564232701669,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "sk32768-0-s0-dsb100",
+          "method": "dsb100",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 125.23699301699526,
+          "peak_allocated_bytes": 4880927232
+        },
+        {
+          "id": "sk32768-0-s1-onsager",
+          "method": "onsager",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 126.82214794002357,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "sk32768-0-s1-dsb100",
+          "method": "dsb100",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 123.12089657702018,
+          "peak_allocated_bytes": 4880927232
+        },
+        {
+          "id": "sk32768-0-s1-sca-matched",
+          "method": "sca-matched",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 127.96219388299505,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "sk32768-1-s0-onsager",
+          "method": "onsager",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 126.59592329000589,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "sk32768-1-s0-dsb100",
+          "method": "dsb100",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 123.25571379400208,
+          "peak_allocated_bytes": 4880927232
+        },
+        {
+          "id": "sk32768-1-s0-sca-matched",
+          "method": "sca-matched",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 123.93623776000459,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "sk32768-1-s1-dsb100",
+          "method": "dsb100",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 122.67094170601922,
+          "peak_allocated_bytes": 4880927232
+        },
+        {
+          "id": "sk32768-1-s1-sca-matched",
+          "method": "sca-matched",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 124.40901178499917,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "sk32768-1-s1-onsager",
+          "method": "onsager",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 124.75005628200597,
+          "peak_allocated_bytes": 4881451520
+        },
+        {
+          "id": "er32768-0-s0-block8x16",
+          "method": "block8x16",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 124.21285847001127,
+          "peak_allocated_bytes": 4350094336
+        },
+        {
+          "id": "er32768-0-s0-dsb0125",
+          "method": "dsb0125",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 121.73324051999953,
+          "peak_allocated_bytes": 4723554816
+        },
+        {
+          "id": "er32768-0-s1-dsb0125",
+          "method": "dsb0125",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 121.63524401799077,
+          "peak_allocated_bytes": 4858240000
+        },
+        {
+          "id": "er32768-0-s1-block8x16",
+          "method": "block8x16",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 122.3912613199791,
+          "peak_allocated_bytes": 4350094336
+        },
+        {
+          "id": "er32768-1-s0-dsb0125",
+          "method": "dsb0125",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 121.88984550099121,
+          "peak_allocated_bytes": 4354247168
+        },
+        {
+          "id": "er32768-1-s0-block8x16",
+          "method": "block8x16",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 121.22704452701146,
+          "peak_allocated_bytes": 4350094336
+        },
+        {
+          "id": "er32768-1-s1-block8x16",
+          "method": "block8x16",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 120.82969850502559,
+          "peak_allocated_bytes": 4350094336
+        },
+        {
+          "id": "er32768-1-s1-dsb0125",
+          "method": "dsb0125",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 0,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 121.47545103699667,
+          "peak_allocated_bytes": 4354247168
+        }
+      ],
+      "natural_calls": 20,
+      "mean_runner_seconds": 124.18435738825501,
+      "condition_mean_seconds": {
+        "('d0d655e3528c8111e236d099d4976b292b5108e77910d5f696f5d657a0587a88', 'sca-matched')": 132.27446969450102,
+        "('d0d655e3528c8111e236d099d4976b292b5108e77910d5f696f5d657a0587a88', 'onsager')": 124.88389513352013,
+        "('d0d655e3528c8111e236d099d4976b292b5108e77910d5f696f5d657a0587a88', 'dsb100')": 124.17894479700772,
+        "('d0d08c3f4ea75d9f2e6e66fb7404929872493d223f15d3ac4988b04888f28ba4', 'onsager')": 125.67298978600593,
+        "('d0d08c3f4ea75d9f2e6e66fb7404929872493d223f15d3ac4988b04888f28ba4', 'dsb100')": 122.96332775001065,
+        "('d0d08c3f4ea75d9f2e6e66fb7404929872493d223f15d3ac4988b04888f28ba4', 'sca-matched')": 124.17262477250188,
+        "('28e64be7e96ad606f8f8fbab5fc9ab5b5f9b802206423b2bc555659010640f57', 'block8x16')": 123.30205989499518,
+        "('28e64be7e96ad606f8f8fbab5fc9ab5b5f9b802206423b2bc555659010640f57', 'dsb0125')": 121.68424226899515,
+        "('6e66036fdbaeaa61e7f46f17cee525777edc2531caea8de71789e08b95682d43', 'dsb0125')": 121.68264826899394,
+        "('6e66036fdbaeaa61e7f46f17cee525777edc2531caea8de71789e08b95682d43', 'block8x16')": 121.02837151601852
+      },
+      "parallel_states_per_frame": [
+        16
+      ],
+      "frames_per_call": [
+        1
+      ],
+      "peak_allocated_bytes": 4881451520,
+      "peak_allocated_mib": 4655.31494140625,
+      "peak_allocated_gib": 4.546205997467041
+    },
+    "labs": {
+      "source": "data/labs/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "n32768-s0-pbit-legendre",
+          "method": "pbit-legendre",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 123.16527672298253,
+          "peak_allocated_bytes": 80487424
+        },
+        {
+          "id": "n32768-s1-pbit-legendre",
+          "method": "pbit-legendre",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 16,
+          "frames": 1,
+          "complete_runner_seconds": 123.17727589799324,
+          "peak_allocated_bytes": 80487424
+        }
+      ],
+      "natural_calls": 2,
+      "mean_runner_seconds": 123.17127631048788,
+      "condition_mean_seconds": {
+        "('bb2177f5f87ae123adf342ef209dc2679c0e6c60a60db879aeddd2cacb3e03e4', 'pbit-legendre')": 123.17127631048788
+      },
+      "parallel_states_per_frame": [
+        16
+      ],
+      "frames_per_call": [
+        1
+      ],
+      "peak_allocated_bytes": 80487424,
+      "peak_allocated_mib": 76.7587890625,
+      "peak_allocated_gib": 0.07495975494384766
+    },
+    "partition": {
+      "source": "data/partition/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "delaunay32k-s0-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 135.83723365000333,
+          "peak_allocated_bytes": 119224832
+        },
+        {
+          "id": "delaunay32k-s1-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 120.07454675700865,
+          "peak_allocated_bytes": 119224832
+        },
+        {
+          "id": "rgg32k-s0-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 195.2012872119958,
+          "peak_allocated_bytes": 169505280
+        },
+        {
+          "id": "rgg32k-s1-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 201.9515145290061,
+          "peak_allocated_bytes": 169505280
+        },
+        {
+          "id": "random32k-a-s0-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 225.3359049629944,
+          "peak_allocated_bytes": 181420544
+        },
+        {
+          "id": "random32k-a-s1-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 240.19046112999786,
+          "peak_allocated_bytes": 181420544
+        },
+        {
+          "id": "random32k-b-s0-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 265.2873604420165,
+          "peak_allocated_bytes": 182315008
+        },
+        {
+          "id": "random32k-b-s1-hb4",
+          "method": "hb4",
+          "logical_variables": 32768,
+          "physical_update_pbits_per_model": 32768,
+          "parallel_states": 8,
+          "frames": 1,
+          "complete_runner_seconds": 235.74191117301234,
+          "peak_allocated_bytes": 182315008
+        }
+      ],
+      "natural_calls": 8,
+      "mean_runner_seconds": 202.45252748200437,
+      "condition_mean_seconds": {
+        "('delaunay32k', 'hb4')": 127.95589020350599,
+        "('rgg32k', 'hb4')": 198.57640087050095,
+        "('random32k-a', 'hb4')": 232.76318304649612,
+        "('random32k-b', 'hb4')": 250.51463580751442
+      },
+      "parallel_states_per_frame": [
+        8
+      ],
+      "frames_per_call": [
+        1
+      ],
+      "peak_allocated_bytes": 182315008,
+      "peak_allocated_mib": 173.869140625,
+      "peak_allocated_gib": 0.16979408264160156
+    },
+    "ldpc-native": {
+      "source": "data/ldpc/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "native32k-a-esm1-s0-penalty-ramp",
+          "method": "penalty-ramp",
+          "logical_variables": 32766,
+          "physical_update_pbits_per_model": 32766,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 3.9570279120234773,
+          "peak_allocated_bytes": 92954624
+        },
+        {
+          "id": "native32k-a-esm1-s1-penalty-ramp",
+          "method": "penalty-ramp",
+          "logical_variables": 32766,
+          "physical_update_pbits_per_model": 32766,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 3.931292752007721,
+          "peak_allocated_bytes": 92954624
+        },
+        {
+          "id": "native32k-b-esm1-s0-penalty-ramp",
+          "method": "penalty-ramp",
+          "logical_variables": 32766,
+          "physical_update_pbits_per_model": 32766,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 3.932040355022764,
+          "peak_allocated_bytes": 92951552
+        },
+        {
+          "id": "native32k-b-esm1-s1-penalty-ramp",
+          "method": "penalty-ramp",
+          "logical_variables": 32766,
+          "physical_update_pbits_per_model": 32766,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 3.9563532689935528,
+          "peak_allocated_bytes": 92951552
+        }
+      ],
+      "natural_calls": 4,
+      "mean_runner_seconds": 3.9441785720118787,
+      "condition_mean_seconds": {
+        "('native32k-a-esm1', 'penalty-ramp')": 3.944160332015599,
+        "('native32k-b-esm1', 'penalty-ramp')": 3.9441968120081583
+      },
+      "parallel_states_per_frame": [
+        4
+      ],
+      "frames_per_call": [
+        8
+      ],
+      "peak_allocated_bytes": 92954624,
+      "peak_allocated_mib": 88.6484375,
+      "peak_allocated_gib": 0.08657073974609375
+    },
+    "ldpc-quadratic": {
+      "source": "data/ldpc/rtx5090/calls.json",
+      "calls": [
+        {
+          "id": "quadratic16k-a-esm1-s0-quad-pair-ramp",
+          "method": "quad-pair-ramp",
+          "logical_variables": 16380,
+          "physical_update_pbits_per_model": 32760,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 4.631357211008435,
+          "peak_allocated_bytes": 52573184
+        },
+        {
+          "id": "quadratic16k-a-esm1-s1-quad-pair-ramp",
+          "method": "quad-pair-ramp",
+          "logical_variables": 16380,
+          "physical_update_pbits_per_model": 32760,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 4.569448444002774,
+          "peak_allocated_bytes": 52573184
+        },
+        {
+          "id": "quadratic16k-b-esm1-s0-quad-pair-ramp",
+          "method": "quad-pair-ramp",
+          "logical_variables": 16380,
+          "physical_update_pbits_per_model": 32760,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 4.6005897910217755,
+          "peak_allocated_bytes": 52573184
+        },
+        {
+          "id": "quadratic16k-b-esm1-s1-quad-pair-ramp",
+          "method": "quad-pair-ramp",
+          "logical_variables": 16380,
+          "physical_update_pbits_per_model": 32760,
+          "parallel_states": 4,
+          "frames": 8,
+          "complete_runner_seconds": 4.589073308015941,
+          "peak_allocated_bytes": 52573184
+        }
+      ],
+      "natural_calls": 4,
+      "mean_runner_seconds": 4.597617188512231,
+      "condition_mean_seconds": {
+        "('quadratic16k-a-esm1', 'quad-pair-ramp')": 4.600402827505604,
+        "('quadratic16k-b-esm1', 'quad-pair-ramp')": 4.594831549518858
+      },
+      "parallel_states_per_frame": [
+        4
+      ],
+      "frames_per_call": [
+        8
+      ],
+      "peak_allocated_bytes": 52573184,
+      "peak_allocated_mib": 50.1376953125,
+      "peak_allocated_gib": 0.04896259307861328
+    },
+    "factorization": {
+      "calls": [
+        {
+          "id": "w128-holdout-0-s0",
+          "replicas": 32,
+          "success": true,
+          "complete_cell_seconds": 2315.2764395889826,
+          "peak_reserved_bytes": 2239758336
+        },
+        {
+          "id": "w128-holdout-0-s1",
+          "replicas": 32,
+          "success": true,
+          "complete_cell_seconds": 2070.2974885660224,
+          "peak_reserved_bytes": 2239758336
+        },
+        {
+          "id": "w128-holdout-0-s2",
+          "replicas": 32,
+          "success": false,
+          "complete_cell_seconds": 2985.194210572983,
+          "peak_reserved_bytes": 1147142144
+        },
+        {
+          "id": "w128-holdout-1-s0",
+          "replicas": 32,
+          "success": true,
+          "complete_cell_seconds": 2269.507280498976,
+          "peak_reserved_bytes": 2239758336
+        },
+        {
+          "id": "w128-holdout-1-s1",
+          "replicas": 32,
+          "success": true,
+          "complete_cell_seconds": 579.1838578160387,
+          "peak_reserved_bytes": 2239758336
+        },
+        {
+          "id": "w128-holdout-1-s2",
+          "replicas": 32,
+          "success": true,
+          "complete_cell_seconds": 388.88461148308124,
+          "peak_reserved_bytes": 2239758336
+        },
+        {
+          "id": "w128-holdout-2-s0",
+          "replicas": 32,
+          "success": false,
+          "complete_cell_seconds": 2947.193040448008,
+          "peak_reserved_bytes": 1147142144
+        },
+        {
+          "id": "w128-holdout-2-s1",
+          "replicas": 32,
+          "success": true,
+          "complete_cell_seconds": 956.2418051760178,
+          "peak_reserved_bytes": 2239758336
+        },
+        {
+          "id": "w128-holdout-2-s2",
+          "replicas": 32,
+          "success": true,
+          "complete_cell_seconds": 847.8527086960385,
+          "peak_reserved_bytes": 2239758336
+        }
+      ],
+      "natural_calls": 9,
+      "successes": 7,
+      "replicas": 32,
+      "median_cell_seconds_all_calls": 2070.2974885660224,
+      "peak_reserved_bytes": 2239758336,
+      "peak_reserved_gib": 2.0859375,
+      "source": "data/factorization/release-v3/physical/"
+    },
+    "spin-glass": {
+      "pt": {
+        "verified_calls": 24,
+        "failed_calls": 0,
+        "parallel_states": 768,
+        "mean_complete_seconds": 70.60628974193241,
+        "amortized_seconds_including_failures": 70.60628974193241,
+        "peak_allocated_bytes": 514409984,
+        "peak_allocated_mib": 490.57958984375,
+        "calls": [
+          {
+            "id": "confirm-l32-i2-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 67.74729109602049,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i2-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.00484739430249,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i3-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.54547348991036,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i3-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 67.84402388706803,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i4-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 67.9182792082429,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i4-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.12748793512583,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i5-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.07113918708637,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i5-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 67.93284870916978,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i6-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.07564582722262,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i6-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.18999853497371,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i7-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 67.8346036830917,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i7-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.02996061788872,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i8-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.07825434906408,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i8-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 128.3984704078175,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i9-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.23143037082627,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i9-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.27818856434897,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i10-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.27813916001469,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i10-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.0243453332223,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i11-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.26291211508214,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i11-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.4145733397454,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i12-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.13126449193805,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i12-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 67.97620325069875,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i13-s0-pt",
+            "status": "verified",
+            "complete_call_seconds": 67.97532905777916,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i13-s1-pt",
+            "status": "verified",
+            "complete_call_seconds": 68.18024379573762,
+            "peak_allocated_bytes": 514409984,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          }
+        ]
+      },
+      "sa": {
+        "verified_calls": 24,
+        "failed_calls": 0,
+        "parallel_states": 768,
+        "mean_complete_seconds": 74.11687947706862,
+        "amortized_seconds_including_failures": 74.11687947706862,
+        "peak_allocated_bytes": 415431680,
+        "peak_allocated_mib": 396.1865234375,
+        "calls": [
+          {
+            "id": "confirm-l32-i2-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.64449004689232,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i2-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.93562430795282,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i3-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.7992357541807,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i3-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.82789357472211,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i4-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.7556623336859,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i4-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.92178277205676,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i5-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.78897778084502,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i5-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.78617460094392,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i6-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.82881479198113,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i6-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.92372091300786,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i7-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 69.03929017670453,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i7-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.75496896915138,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i8-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.73896339908242,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i8-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.8410333530046,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i9-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.94593090377748,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i9-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 194.8456385289319,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i10-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 69.0259695998393,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i10-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.91073643416166,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i11-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.95626025414094,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i11-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 69.03052034275606,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i12-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.97841007169336,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i12-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.8203222071752,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i13-s0-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.82442620303482,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          },
+          {
+            "id": "confirm-l32-i13-s1-sa",
+            "status": "verified",
+            "complete_call_seconds": 68.88026012992486,
+            "peak_allocated_bytes": 415431680,
+            "groups": 4,
+            "temperatures": 96,
+            "copies": 2
+          }
+        ]
+      },
+      "pa": {
+        "verified_calls": 24,
+        "failed_calls": 1,
+        "parallel_states": 2048,
+        "mean_complete_seconds": 69.38917762471829,
+        "amortized_seconds_including_failures": 79.73999160297292,
+        "peak_allocated_bytes": 1622123520,
+        "peak_allocated_mib": 1546.9775390625,
+        "calls": [
+          {
+            "id": "confirm-l32-i2-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.20413491502404,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i2-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.79069512384012,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i3-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.34865347296,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i3-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.20224851090461,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i4-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.47407987294719,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i4-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.42966481903568,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i5-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.31314678676426,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i5-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.33860879437998,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i6-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.39338903827593,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i6-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.23598447581753,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i7-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.39268626039848,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i7-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.29771248204634,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i8-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.27847773768008,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i8-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.33936281083152,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i9-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.53453333489597,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i9-s1-pa",
+            "status": "failed",
+            "complete_call_seconds": 248.41953547811136,
+            "peak_allocated_bytes": null,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "retry-confirm-l32-i9-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.53248840197921,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i10-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.69509261008352,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i10-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.57737343525514,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i11-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.21505980985239,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i11-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.48674904089421,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i12-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.48139904718846,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i12-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.37358298618346,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i13-s0-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.1287487829104,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          },
+          {
+            "id": "confirm-l32-i13-s1-pa",
+            "status": "verified",
+            "complete_call_seconds": 69.27639044309035,
+            "peak_allocated_bytes": 1622123520,
+            "groups": 4,
+            "temperatures": 128,
+            "copies": 4
+          }
+        ]
+      },
+      "source": "data/spin-glass/s23/calls.json"
+    },
+    "tsp-5090": {
+      "calls": [
+        {
+          "id": "public-5090-tsp-v2-kroa150-cuda-pbit-3200000",
+          "complete_first_certificate_seconds": 4.417364741006168,
+          "whole_runner_seconds": 30.00280757699511,
+          "cpu_selector_states": 8,
+          "gpu_local_search_batch_capacity": 8,
+          "gpu_observed_max_batch": 8,
+          "peak_allocated_bytes": 185344,
+          "archived_summary_sha256": "9d2d9f1f117b1e1d9e443ef95d0e34f36fee48b906cb801a951a0c89ea877c9c",
+          "origin_call_manifest_sha256": "cdbd12f236fb4c7d8e7abb43c6efdbfc3ae531223f612de6fee1b21e0fff8336"
+        },
+        {
+          "id": "public-5090-tsp-v2-kroa150-cuda-pbit-3200010",
+          "complete_first_certificate_seconds": 3.6910177810059395,
+          "whole_runner_seconds": 30.002600270003313,
+          "cpu_selector_states": 8,
+          "gpu_local_search_batch_capacity": 8,
+          "gpu_observed_max_batch": 8,
+          "peak_allocated_bytes": 185344,
+          "archived_summary_sha256": "f651f4bc6f0c091ce9813a6714c41f41e5153a8003130c1655652c62a9b40e68",
+          "origin_call_manifest_sha256": "40ae2404db7054178ae54e04a9c42714f941e79049d6c30c8293dbb19595f48c"
+        },
+        {
+          "id": "public-5090-tsp-v2-kroa150-cuda-pbit-3200020",
+          "complete_first_certificate_seconds": 5.200198916019872,
+          "whole_runner_seconds": 30.002910467999754,
+          "cpu_selector_states": 8,
+          "gpu_local_search_batch_capacity": 8,
+          "gpu_observed_max_batch": 8,
+          "peak_allocated_bytes": 185344,
+          "archived_summary_sha256": "86152b50ac95563ca31e7189e60d2b32db25e0272124be4825510676e0226e16",
+          "origin_call_manifest_sha256": "d92bce90b0ed65884e588b96991d76ca8b20af40397fc19ee2d8bd2c7ba54c29"
+        },
+        {
+          "id": "public-5090-tsp-v2-kroa150-cuda-pbit-3200030",
+          "complete_first_certificate_seconds": 3.511001615988789,
+          "whole_runner_seconds": 30.0026568720059,
+          "cpu_selector_states": 8,
+          "gpu_local_search_batch_capacity": 8,
+          "gpu_observed_max_batch": 8,
+          "peak_allocated_bytes": 185344,
+          "archived_summary_sha256": "e9749e776902969eb966e71f49e145c3f7a2ba8663fc8385c7acbda351349d9d",
+          "origin_call_manifest_sha256": "c9904f81f98812eb3ea571120336786567a1575fd46f901f3972e19a64df239a"
+        }
+      ],
+      "median_complete_first_certificate_seconds": 4.0541912610060535,
+      "cpu_selector_states": [
+        8
+      ],
+      "gpu_local_search_batch_capacity": [
+        8
+      ],
+      "peak_allocated_bytes": 185344,
+      "peak_allocated_mib": 0.1767578125,
+      "resource_boundary": "CPU selector states are coupled and updated sequentially; GPU batches local descent tours. Allocator peak is measured over the whole call, not at the first certificate.",
+      "source": "data/tsp/rtx5090/calls.json"
+    }
+  }
+}

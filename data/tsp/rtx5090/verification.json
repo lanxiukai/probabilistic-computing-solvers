@@ -1,0 +1,50 @@
+{
+  "status": "independently-audited",
+  "natural_calls": 16,
+  "origin_replays": 1,
+  "verified_tour_observations": 280798,
+  "paired_backend_prefixes": [
+    {
+      "complete_common_rounds": 777,
+      "instance": "kroA150",
+      "matched_non_timing_events": 15354,
+      "new_trials": 0,
+      "seed": 3200000,
+      "through_event": 15353
+    },
+    {
+      "complete_common_rounds": 803,
+      "instance": "kroA150",
+      "matched_non_timing_events": 14927,
+      "new_trials": 0,
+      "seed": 3200010,
+      "through_event": 14926
+    },
+    {
+      "complete_common_rounds": 768,
+      "instance": "kroA150",
+      "matched_non_timing_events": 15158,
+      "new_trials": 0,
+      "seed": 3200020,
+      "through_event": 15157
+    },
+    {
+      "complete_common_rounds": 841,
+      "instance": "kroA150",
+      "matched_non_timing_events": 15859,
+      "new_trials": 0,
+      "seed": 3200030,
+      "through_event": 15858
+    }
+  ],
+  "replay_checks": [
+    {
+      "matched_non_timing_events": 8,
+      "new_trials": 0,
+      "origin": "public-5090-tsp-v2-kroa150-lkh-3200000",
+      "replay": "public-5090-tsp-v2-replay-kroa150-lkh-origin-3200000",
+      "through_event": null
+    }
+  ],
+  "complete_raw_evidence_retained_privately": true
+}

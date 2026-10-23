@@ -1,0 +1,6 @@
+{
+  "ECM-version": "7.0.5",
+  "GMP-version": "6.3.0",
+  "compiler": "GNUC 13",
+  "yafu-version": "3.1.9"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "CHILS",
+    "url": "https://github.com/KarlsruheMIS/CHILS",
+    "revision": "515952724cd3dcc6c4365a340ecf0f1da782119a",
+    "license_observation": "MIT",
+    "redistributed": false,
+    "interface": "external executable; build source and patches retained privately"
+  },
+  {
+    "name": "USW-LS",
+    "url": "https://github.com/shaowei-cai-group/USW-LS",
+    "revision": "1b1d216f91e7da81460a21f5cfffab5eed40d3c9",
+    "license_observation": "No LICENSE observed at pinned commit",
+    "redistributed": false,
+    "interface": "external executable; build source and patches retained privately"
+  },
+  {
+    "name": "MQLib",
+    "url": "https://github.com/MQLib/MQLib",
+    "revision": "585496274af5abb0849d0d47e135496b4688680b",
+    "license_observation": "MIT",
+    "redistributed": false,
+    "interface": "external executable; build source and patches retained privately"
+  },
+  {
+    "name": "lMAts",
+    "url": "https://github.com/borkob/git_labs",
+    "revision": "1aa123407636e48630174e0bf122037e369c1d68",
+    "license_observation": "GPL-2.0 text; do not relicense under MIT",
+    "redistributed": false,
+    "interface": "external executable; build source and patches retained privately"
+  },
+  {
+    "name": "KaHIP",
+    "url": "https://github.com/KaHIP/KaHIP",
+    "revision": "34e1d0a00afeae2ae2ebfe625826e9c8f8f40ac4",
+    "license_observation": "MIT",
+    "redistributed": false,
+    "interface": "external executable; build source and patches retained privately"
+  },
+  {
+    "name": "decoder",
+    "url": "https://github.com/quantumgizmos/ldpc",
+    "revision": "d3429964cd4ffe1abfc041c6ec8b8425cb174f40",
+    "license_observation": "MIT",
+    "redistributed": false,
+    "interface": "external executable or matrix source"
+  },
+  {
+    "name": "wifi",
+    "url": "https://github.com/tavildar/LDPC",
+    "revision": "05ee7f4af36ed5dacf52861315af68b8a17e71e0",
+    "license_observation": "MIT",
+    "redistributed": false,
+    "interface": "external executable or matrix source"
+  },
+  {
+    "name": "LKH",
+    "url": "http://webhotel4.ruc.dk/~keld/research/LKH-3/",
+    "revision": "3.0.13",
+    "license_observation": "Author distribution terms; not treated as MIT",
+    "redistributed": false,
+    "interface": "external executable"
+  },
+  {
+    "name": "Anechoic",
+    "url": "https://github.com/skethz/anechoic",
+    "revision": "12dab30c3e087daaf41d76820869c71b8633d1fc",
+    "license_observation": "No repository LICENSE observed at pinned commit",
+    "redistributed": false,
+    "interface": "paper algorithm implemented independently; original functions used only for private equivalence checks"
+  },
+  {
+    "name": "pSA_LDPC",
+    "url": "https://github.com/nonizawa/pSA_LDPC",
+    "revision": "99bde4cd173ce90bdde098873925589fb9d4a05d",
+    "license_observation": "Licensing pending in reviewed README",
+    "redistributed": false,
+    "interface": "paper idea only; author code and matrices not executed or reused"
+  }
+]

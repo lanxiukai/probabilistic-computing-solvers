@@ -1,0 +1,48 @@
+{
+  "problem": "graph-coloring",
+  "status": "independently-verified",
+  "planned_natural_calls": 8,
+  "expected_natural_ids": [
+    "g2a-le450-5a-cache-0",
+    "g2a-le450-5a-cache-1",
+    "g2a-le450-5a-fresh-preparation",
+    "g2a-le450-25c-cache-0",
+    "g2a-le450-25c-cache-1",
+    "g2a-fpsol2-i-1-cache-0",
+    "g2a-fpsol2-i-1-cache-1",
+    "g2a-fpsol2-i-1-fresh-preparation"
+  ],
+  "expected_replays": [],
+  "frozen_targets": {
+    "le450_5a": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 5,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "le450_25c": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 25,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "fpsol2.i.1": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 65,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    }
+  },
+  "completed_natural_calls": 8,
+  "failed_natural_calls": 0,
+  "unexecuted_natural_calls": 0,
+  "work_replays": 0,
+  "replays_add_independent_trials": false,
+  "private_panel_manifest_sha256": "dd3cf9e47f4aee83760266cf47959312c6b1c47e924c62f3f4ff1509556098dd",
+  "full_original_evidence": "Retained independently; this distribution contains core witnesses",
+  "path_resolution": {
+    "configuration_file": "Repository relative",
+    "benchmark_inputs.path": "Repository relative",
+    "witness_file": "Relative to calls.json parent directory"
+  }
+}

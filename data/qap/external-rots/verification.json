@@ -1,0 +1,135 @@
+{
+  "status": "verified",
+  "solver_executed": false,
+  "calls": 21,
+  "witnesses_checked": 4386,
+  "work_replays_checked": 3,
+  "records": [
+    {
+      "id": "q3-nug12-taillard-rots-s2026102401",
+      "witnesses_checked": 14,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q3-nug12-taillard-rots-s2026102402",
+      "witnesses_checked": 13,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q3-nug12-taillard-rots-s2026102403",
+      "witnesses_checked": 14,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q3-nug20-taillard-rots-s2026102401",
+      "witnesses_checked": 35,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q3-nug20-taillard-rots-s2026102402",
+      "witnesses_checked": 33,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q3-nug20-taillard-rots-s2026102403",
+      "witnesses_checked": 31,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q3-nug30-taillard-rots-s2026102401",
+      "witnesses_checked": 59,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q3-nug30-taillard-rots-s2026102402",
+      "witnesses_checked": 66,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q3-nug30-taillard-rots-s2026102403",
+      "witnesses_checked": 60,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q3-tai40a-taillard-rots-s2026102401",
+      "witnesses_checked": 88,
+      "best_feasible_cost": 3149680,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q3-tai40a-taillard-rots-s2026102402",
+      "witnesses_checked": 74,
+      "best_feasible_cost": 3150124,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q3-tai40a-taillard-rots-s2026102403",
+      "witnesses_checked": 80,
+      "best_feasible_cost": 3149548,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q3-tai80a-taillard-rots-s2026102401",
+      "witnesses_checked": 122,
+      "best_feasible_cost": 13634674,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q3-tai80a-taillard-rots-s2026102402",
+      "witnesses_checked": 121,
+      "best_feasible_cost": 13653898,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q3-tai80a-taillard-rots-s2026102403",
+      "witnesses_checked": 134,
+      "best_feasible_cost": 13626798,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q3-tai150b-taillard-rots-s2026102401",
+      "witnesses_checked": 816,
+      "best_feasible_cost": 501493731,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q3-tai150b-taillard-rots-s2026102402",
+      "witnesses_checked": 959,
+      "best_feasible_cost": 504548477,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q3-tai150b-taillard-rots-s2026102403",
+      "witnesses_checked": 670,
+      "best_feasible_cost": 501741854,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "replay-q3-nug30-taillard-rots-s2026102401",
+      "witnesses_checked": 59,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "replay-q3-tai80a-taillard-rots-s2026102401",
+      "witnesses_checked": 122,
+      "best_feasible_cost": 13634674,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "replay-q3-tai150b-taillard-rots-s2026102401",
+      "witnesses_checked": 816,
+      "best_feasible_cost": 501493731,
+      "reference_cost": 498896643
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "set-cover-public-source-v1",
+  "accepted_original_source_archive_sha256": "350a210c16e018089fff03ea74c39400ceed1cb5d886002abb3251a9615b141d",
+  "source_transformations": [
+    "Package namespace renamed to combinatorial_solvers.",
+    "Formatting only; accepted numerical Python AST verified before namespace replacement."
+  ],
+  "numerical_files": [
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/__init__.py",
+      "original_sha256": "8e292bdbc8d355c7acf21fb99cef6e89541964e84f9ef04a8729c93a9f334aed",
+      "public_sha256": "8e292bdbc8d355c7acf21fb99cef6e89541964e84f9ef04a8729c93a9f334aed"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/baseline.py",
+      "original_sha256": "0d14ffb5f1e3dec645561e1831bc4a5c9dbd9e09b767d7996c8b42abc34c0138",
+      "public_sha256": "0d14ffb5f1e3dec645561e1831bc4a5c9dbd9e09b767d7996c8b42abc34c0138"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/blocks.py",
+      "original_sha256": "f2d41d735d4684131e17fbae8f7975721741b559b336d400ffa88098b7226b23",
+      "public_sha256": "f2d41d735d4684131e17fbae8f7975721741b559b336d400ffa88098b7226b23"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/gpu.py",
+      "original_sha256": "931cff45b721f184dc2a21780bdf2444660c2c94629129a24d35232d1a01dba0",
+      "public_sha256": "931cff45b721f184dc2a21780bdf2444660c2c94629129a24d35232d1a01dba0"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/model.py",
+      "original_sha256": "55a9e430eb8aae80318fc0db48ca225ab7dc324222ba8c058fbff720d17ed0b4",
+      "public_sha256": "55a9e430eb8aae80318fc0db48ca225ab7dc324222ba8c058fbff720d17ed0b4"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/reference.py",
+      "original_sha256": "b36d634dd0e6c67e4cc3aa7db5372f9f53c92b8dc5382526de4eb4efdad26930",
+      "public_sha256": "b36d634dd0e6c67e4cc3aa7db5372f9f53c92b8dc5382526de4eb4efdad26930"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/runner.py",
+      "original_sha256": "0f947871b853e85ca76af4198d9de4d8c1a8d4e7ec958e24497782621f8d883d",
+      "public_sha256": "7016bbffb1576ca532c55030af17dcc0037dabfdb7fe34c18debd00689cde14c"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/set_cover/solver.py",
+      "original_sha256": "66abc08857cde46f6edae9a21a60d900a95b28a400a8428361c7dd57cccade3c",
+      "public_sha256": "66abc08857cde46f6edae9a21a60d900a95b28a400a8428361c7dd57cccade3c"
+    }
+  ],
+  "complete_original_audit": {
+    "natural_calls": 117,
+    "work_replays": 4,
+    "integer_state_checks": 1083941
+  },
+  "metadata_adjustments": [
+    "Unused problem.instance_id is renamed benchmark_id.",
+    "Classical controls receive zero physical p-bit participation.",
+    "Portable paths are used; rebuilt artifacts can have different hashes.",
+    "Core traces retain every replica-best improvement and quality boundary."
+  ],
+  "public_core_verification": {
+    "natural_calls": 117,
+    "work_replays": 4,
+    "witnesses_checked": 43045,
+    "extra_historical_target_witnesses": 1
+  }
+}

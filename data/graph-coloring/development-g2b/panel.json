@@ -1,0 +1,62 @@
+{
+  "problem": "graph-coloring",
+  "status": "independently-verified",
+  "planned_natural_calls": 13,
+  "expected_natural_ids": [
+    "g2b-le450-5a-pt-r128",
+    "g2b-le450-5a-pt-r512",
+    "g2b-le450-5a-plateau-r512",
+    "g2b-le450-5a-tabu-unfixed",
+    "g2b-fpsol2-i-1-b1-heatbath-unfixed",
+    "g2b-fpsol2-i-1-b1-plateau-unfixed",
+    "g2b-fpsol2-i-1-b1-heatbath-clique",
+    "g2b-fpsol2-i-1-b1-plateau-clique",
+    "g2b-fpsol2-i-1-tabu-unfixed",
+    "g2b-fpsol2-i-1-tabu-clique",
+    "g2b-le450-25c-pt-r128",
+    "g2b-le450-25c-pt-r512",
+    "g2b-le450-25c-tabu-unfixed"
+  ],
+  "expected_replays": [
+    {
+      "id": "replay-g2b-le450-5a-pt-r512",
+      "origin": "g2b-le450-5a-pt-r512"
+    },
+    {
+      "id": "replay-g2b-fpsol2-i-1-b1-heatbath-clique",
+      "origin": "g2b-fpsol2-i-1-b1-heatbath-clique"
+    }
+  ],
+  "frozen_targets": {
+    "le450_5a": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 5,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "fpsol2.i.1": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 65,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "le450_25c": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 25,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    }
+  },
+  "completed_natural_calls": 13,
+  "failed_natural_calls": 0,
+  "unexecuted_natural_calls": 0,
+  "work_replays": 2,
+  "replays_add_independent_trials": false,
+  "private_panel_manifest_sha256": "e4df16ba6248234f9f1af3a1840fd8b3c15a1218498ecdc08eb5b2586f1025a5",
+  "full_original_evidence": "Retained independently; this distribution contains core witnesses",
+  "path_resolution": {
+    "configuration_file": "Repository relative",
+    "benchmark_inputs.path": "Repository relative",
+    "witness_file": "Relative to calls.json parent directory"
+  }
+}

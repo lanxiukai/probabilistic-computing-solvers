@@ -1,0 +1,5196 @@
+[
+  {
+    "id": "n2048-i0-greedy",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-greedy",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 2.222639930987498,
+      "method": "greedy",
+      "role": "development",
+      "runner_seconds": 0.20071929198456928,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 39184
+    },
+    "configuration": {
+      "method": "greedy",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-greedy.npz",
+    "witness_sha256": "d072313dc7b56e309b5304c29d52db2e0551dcbd6bf1545f85ba1dd240748fb4",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 0.20071929198456928,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i0-s0-pbit",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s0-pbit",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.548243529017782,
+      "method": "pbit",
+      "role": "development",
+      "runner_seconds": 4.471565126994392,
+      "size": 2048,
+      "sweeps": 11569,
+      "weight": 40516
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s0-pbit.npz",
+    "witness_sha256": "7227691881a3f18f2ae458e0b15503fb8e031794f8b4376790ded3c3aa87f828",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2442752,
+      "preparation_seconds": 0.1486484549823217,
+      "sampling_seconds": 4.000427263992606,
+      "certification_seconds": 0.1304735399899073,
+      "complete_runner_seconds": 4.471565126994392,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i0-s0-metropolis",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s0-metropolis",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.525161074998323,
+      "method": "metropolis",
+      "role": "development",
+      "runner_seconds": 4.4442618239845615,
+      "size": 2048,
+      "sweeps": 8673,
+      "weight": 40472
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s0-metropolis.npz",
+    "witness_sha256": "cfbc7253a9c3951aa49ce04f8f5f09c92772af3be3964f396cb78861e035595e",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2442752,
+      "preparation_seconds": 0.15035827600513585,
+      "sampling_seconds": 4.000418422016082,
+      "certification_seconds": 0.13302037099492736,
+      "complete_runner_seconds": 4.4442618239845615,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i0-s0-pair-gibbs",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s0-pair-gibbs",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.55943583699991,
+      "method": "pair-gibbs",
+      "role": "development",
+      "runner_seconds": 4.462242037989199,
+      "size": 2048,
+      "sweeps": 3701,
+      "weight": 40739
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s0-pair-gibbs.npz",
+    "witness_sha256": "b2e37f2396e2fe886e58430a4d4c87881319bd003f212e299731edeb65841471",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2412032,
+      "preparation_seconds": 0.16874355997424573,
+      "sampling_seconds": 4.0001984990085475,
+      "certification_seconds": 0.13136001999373548,
+      "complete_runner_seconds": 4.462242037989199,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": [],
+    "origin_replay_configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 30.0,
+        "max_sweeps": 3701,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "quality_max_sweep": 3700,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    }
+  },
+  {
+    "id": "n2048-i0-s0-pair-metropolis",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s0-pair-metropolis",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.557594790996518,
+      "method": "pair-metropolis",
+      "role": "development",
+      "runner_seconds": 4.461792140005855,
+      "size": 2048,
+      "sweeps": 3407,
+      "weight": 39717
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s0-pair-metropolis.npz",
+    "witness_sha256": "6b457e4a12e54f1e0e1a4a8d38d27eff27c70c629a182447a30ed5b85f6df081",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2412032,
+      "preparation_seconds": 0.16689549398142844,
+      "sampling_seconds": 4.0004296459956095,
+      "certification_seconds": 0.13196541997604072,
+      "complete_runner_seconds": 4.461792140005855,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": [],
+    "origin_replay_configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 30.0,
+        "max_sweeps": 3407,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "quality_max_sweep": 3404,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    }
+  },
+  {
+    "id": "n2048-i0-s0-chils-local",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s0-chils-local",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.259777409984963,
+      "method": "chils-local",
+      "role": "development",
+      "runner_seconds": 4.192919160006568,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41726
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 1,
+        "seed": 2026101911,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s0-chils-local.npz",
+    "witness_sha256": "63b042de8fa1feb170dc5bde8ec09dc654dce1db96b6d69fff43321fe7cedaa3",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.192919160006568,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i0-s0-chils-parallel",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s0-chils-parallel",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.325788326008478,
+      "method": "chils-parallel",
+      "role": "development",
+      "runner_seconds": 4.227091128996108,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41741
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 16,
+        "seed": 2026101911,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s0-chils-parallel.npz",
+    "witness_sha256": "263ccd2704e88bc2891d2d28dc480c5dcf64b49eda0e517343d1268f2a38f088",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.227091128996108,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i0-s1-metropolis",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s1-metropolis",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.575999184016837,
+      "method": "metropolis",
+      "role": "development",
+      "runner_seconds": 4.483617268997477,
+      "size": 2048,
+      "sweeps": 8559,
+      "weight": 40532
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s1-metropolis.npz",
+    "witness_sha256": "dca5b69185cc5835597c67ada795b71b46a120c66d260fafee752b5f37ed27bc",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2442752,
+      "preparation_seconds": 0.15726907600765117,
+      "sampling_seconds": 4.000333550997311,
+      "certification_seconds": 0.13354606501525268,
+      "complete_runner_seconds": 4.483617268997477,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i0-s1-pair-gibbs",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s1-pair-gibbs",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.494123604992637,
+      "method": "pair-gibbs",
+      "role": "development",
+      "runner_seconds": 4.405807066010311,
+      "size": 2048,
+      "sweeps": 3698,
+      "weight": 40693
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s1-pair-gibbs.npz",
+    "witness_sha256": "c4af3a5f440d801522dd9b12d2ae32a0e2971d43385817b11f37bdf3ee3345a7",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2412032,
+      "preparation_seconds": 0.17085032901377417,
+      "sampling_seconds": 4.000755832006689,
+      "certification_seconds": 0.13115378899965435,
+      "complete_runner_seconds": 4.405807066010311,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i0-s1-pair-metropolis",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s1-pair-metropolis",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.524598855001386,
+      "method": "pair-metropolis",
+      "role": "development",
+      "runner_seconds": 4.45035067902063,
+      "size": 2048,
+      "sweeps": 3397,
+      "weight": 39708
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s1-pair-metropolis.npz",
+    "witness_sha256": "846b5be8097db81917544e2bc166339f18e2092676f094fe644d86834727be5d",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2412032,
+      "preparation_seconds": 0.1636953950219322,
+      "sampling_seconds": 4.000575384008698,
+      "certification_seconds": 0.1304971989884507,
+      "complete_runner_seconds": 4.45035067902063,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i0-s1-chils-local",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s1-chils-local",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.238509560003877,
+      "method": "chils-local",
+      "role": "development",
+      "runner_seconds": 4.194351776008261,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41726
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 1,
+        "seed": 2026101912,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s1-chils-local.npz",
+    "witness_sha256": "63b042de8fa1feb170dc5bde8ec09dc654dce1db96b6d69fff43321fe7cedaa3",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.194351776008261,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i0-s1-chils-parallel",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s1-chils-parallel",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.298684484005207,
+      "method": "chils-parallel",
+      "role": "development",
+      "runner_seconds": 4.236252282978967,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41741
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 16,
+        "seed": 2026101912,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s1-chils-parallel.npz",
+    "witness_sha256": "263ccd2704e88bc2891d2d28dc480c5dcf64b49eda0e517343d1268f2a38f088",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.236252282978967,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i0-s1-pbit",
+    "instance": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i0-s1-pbit",
+      "instance_seed": 202610190300,
+      "launcher_seconds": 6.579587032989366,
+      "method": "pbit",
+      "role": "development",
+      "runner_seconds": 4.4711033049970865,
+      "size": 2048,
+      "sweeps": 11378,
+      "weight": 40419
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190300,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i0-s1-pbit.npz",
+    "witness_sha256": "f70fe8e67392719bcdb374447e5ed85884333f6eebdb14274025f800b021928a",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2442752,
+      "preparation_seconds": 0.1519618949969299,
+      "sampling_seconds": 4.000379539997084,
+      "certification_seconds": 0.13060117402346805,
+      "complete_runner_seconds": 4.4711033049970865,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-greedy",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-greedy",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 2.1767907370231114,
+      "method": "greedy",
+      "role": "development",
+      "runner_seconds": 0.1689500369830057,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 38206
+    },
+    "configuration": {
+      "method": "greedy",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-greedy.npz",
+    "witness_sha256": "987f5b046e3625afd591c7a957282e516d90a48ed36ced307ed00d6a1f2030c8",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 0.1689500369830057,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s0-metropolis",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s0-metropolis",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.573540920013329,
+      "method": "metropolis",
+      "role": "development",
+      "runner_seconds": 4.49883140300517,
+      "size": 2048,
+      "sweeps": 8612,
+      "weight": 40037
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s0-metropolis.npz",
+    "witness_sha256": "c00808750f243f8d1271dd00a1dfd4e21e3da8231b9987ae25b2120a369fe359",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2425856,
+      "preparation_seconds": 0.1713831619999837,
+      "sampling_seconds": 4.000176036002813,
+      "certification_seconds": 0.13500073598697782,
+      "complete_runner_seconds": 4.49883140300517,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s0-pair-gibbs",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s0-pair-gibbs",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.477277119003702,
+      "method": "pair-gibbs",
+      "role": "development",
+      "runner_seconds": 4.404788662999636,
+      "size": 2048,
+      "sweeps": 3197,
+      "weight": 40170
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s0-pair-gibbs.npz",
+    "witness_sha256": "46e4549e580a3f6c937dce9671d6daf545b2cf62aa38b8d95316736bff16c509",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2407424,
+      "preparation_seconds": 0.1629458850075025,
+      "sampling_seconds": 4.0013202280097175,
+      "certification_seconds": 0.13630330897285603,
+      "complete_runner_seconds": 4.404788662999636,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s0-pair-metropolis",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s0-pair-metropolis",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.585591220995411,
+      "method": "pair-metropolis",
+      "role": "development",
+      "runner_seconds": 4.456096116016852,
+      "size": 2048,
+      "sweeps": 2942,
+      "weight": 38903
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s0-pair-metropolis.npz",
+    "witness_sha256": "4d9c40a0037cc55dac5cb75663204fbf8026be37c4e6e8f396631cfda9387b2d",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2407424,
+      "preparation_seconds": 0.16603375499835238,
+      "sampling_seconds": 4.000198017980438,
+      "certification_seconds": 0.13304197700927034,
+      "complete_runner_seconds": 4.456096116016852,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s0-chils-local",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s0-chils-local",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.269714551977813,
+      "method": "chils-local",
+      "role": "development",
+      "runner_seconds": 4.20271185299498,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41396
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 1,
+        "seed": 2026101911,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s0-chils-local.npz",
+    "witness_sha256": "f758e3c3aa37dc62aff96309dca7db5752d35fa3605f36efdd1540181188b161",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.20271185299498,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i1-s0-chils-parallel",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s0-chils-parallel",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.284105718979845,
+      "method": "chils-parallel",
+      "role": "development",
+      "runner_seconds": 4.225685275014257,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41573
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 16,
+        "seed": 2026101911,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s0-chils-parallel.npz",
+    "witness_sha256": "28cb13b05e2926721ebc426f34bb6f3fc12db3aa0a2ce8477fc5bfa537bd0f09",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.225685275014257,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i1-s0-pbit",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s0-pbit",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.571787141991081,
+      "method": "pbit",
+      "role": "development",
+      "runner_seconds": 4.485234947002027,
+      "size": 2048,
+      "sweeps": 11438,
+      "weight": 40082
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s0-pbit.npz",
+    "witness_sha256": "ce7785076d03dd081490c97c2defdfe5e0b0c0cfd866417547ae06b13fc99ec1",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2425856,
+      "preparation_seconds": 0.15519948001019657,
+      "sampling_seconds": 4.000305163994199,
+      "certification_seconds": 0.131484793004347,
+      "complete_runner_seconds": 4.485234947002027,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s1-pair-gibbs",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s1-pair-gibbs",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.56564720600727,
+      "method": "pair-gibbs",
+      "role": "development",
+      "runner_seconds": 4.459779978991719,
+      "size": 2048,
+      "sweeps": 3187,
+      "weight": 40325
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s1-pair-gibbs.npz",
+    "witness_sha256": "90d814a66a58bc6e016e0b86cc3d93f4c3f95bed3782136380378c6ce0b51ea5",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2407424,
+      "preparation_seconds": 0.1688487640058156,
+      "sampling_seconds": 4.001070020982297,
+      "certification_seconds": 0.13145878401701339,
+      "complete_runner_seconds": 4.459779978991719,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s1-pair-metropolis",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s1-pair-metropolis",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.541928630991606,
+      "method": "pair-metropolis",
+      "role": "development",
+      "runner_seconds": 4.458714814012637,
+      "size": 2048,
+      "sweeps": 2949,
+      "weight": 39069
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s1-pair-metropolis.npz",
+    "witness_sha256": "0fc7f07c0344612694c251718fea53dd8216e8bd10ce53eda6b29b95e57b4c2c",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2407424,
+      "preparation_seconds": 0.16823459399165586,
+      "sampling_seconds": 4.000621360988589,
+      "certification_seconds": 0.12891758501064032,
+      "complete_runner_seconds": 4.458714814012637,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s1-chils-local",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s1-chils-local",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.227301781007554,
+      "method": "chils-local",
+      "role": "development",
+      "runner_seconds": 4.192604793992359,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41154
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 1,
+        "seed": 2026101912,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s1-chils-local.npz",
+    "witness_sha256": "b6fedd4a5645e03c5d018962111b3010d3eb77d1ede3ec83ed50867ead7c19af",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.192604793992359,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i1-s1-chils-parallel",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s1-chils-parallel",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.300484642997617,
+      "method": "chils-parallel",
+      "role": "development",
+      "runner_seconds": 4.231185541982995,
+      "size": 2048,
+      "sweeps": null,
+      "weight": 41573
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 4.0,
+        "population": 16,
+        "seed": 2026101912,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s1-chils-parallel.npz",
+    "witness_sha256": "c90b3946f07c6f8c2c878ccbafb17f72237b4f609ff5653f3aaf27c1d337e0c1",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 4.231185541982995,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n2048-i1-s1-pbit",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s1-pbit",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.555419022013666,
+      "method": "pbit",
+      "role": "development",
+      "runner_seconds": 4.4796867269906215,
+      "size": 2048,
+      "sweeps": 11512,
+      "weight": 40014
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s1-pbit.npz",
+    "witness_sha256": "b6c430c50fd6100e5543801c3348a2999b1bf8ff9bd042293896f8b465c54251",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2425856,
+      "preparation_seconds": 0.1515237910207361,
+      "sampling_seconds": 4.000277001003269,
+      "certification_seconds": 0.12957754998933524,
+      "complete_runner_seconds": 4.4796867269906215,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n2048-i1-s1-metropolis",
+    "instance": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n2048-i1-s1-metropolis",
+      "instance_seed": 202610190301,
+      "launcher_seconds": 6.5438483230245765,
+      "method": "metropolis",
+      "role": "development",
+      "runner_seconds": 4.4547317910182755,
+      "size": 2048,
+      "sweeps": 8526,
+      "weight": 40213
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 4.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190301,
+        "mean_degree": 8,
+        "size": 2048,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n2048-i1-s1-metropolis.npz",
+    "witness_sha256": "7f3a6eb830671d679fb9ca94b23cfce3ac4ace8485f4cce486634293190760e2",
+    "first_certificate": null,
+    "historical_role": "development",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 2425856,
+      "preparation_seconds": 0.1572662139951717,
+      "sampling_seconds": 4.000171841005795,
+      "certification_seconds": 0.1306287350016646,
+      "complete_runner_seconds": 4.4547317910182755,
+      "logical_variables": 2048,
+      "physical_update_pbits_per_model": 2048,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-greedy",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-greedy",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 2.6317809940082952,
+      "method": "greedy",
+      "role": "confirmation",
+      "runner_seconds": 0.6130407079763245,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 629140
+    },
+    "configuration": {
+      "method": "greedy",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-greedy.npz",
+    "witness_sha256": "56be0c8f39c3452030e87d4188c7e771dbadca5713104a21d32860aad7a0e3eb",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 0.6130407079763245,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-s0-metropolis",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s0-metropolis",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.077286640007515,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.985364844993455,
+      "size": 32768,
+      "sweeps": 25206,
+      "weight": 651798
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-metropolis.npz",
+    "witness_sha256": "3af04e35daade28a897bf9548328a29c07ba9f1d92977e61f57480a90715a968",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40929792,
+      "preparation_seconds": 0.49181884501012973,
+      "sampling_seconds": 12.000512908009114,
+      "certification_seconds": 2.0645258000004105,
+      "complete_runner_seconds": 14.985364844993455,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-s0-pair-gibbs",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s0-pair-gibbs",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.384961670992197,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.288806044991361,
+      "size": 32768,
+      "sweeps": 11094,
+      "weight": 656333
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-pair-gibbs.npz",
+    "witness_sha256": "dbdc07ee2012a89090fea7b661f43b32ee8e2e13359a518a5b74dbb087b75254",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39738368,
+      "preparation_seconds": 0.8605657079897355,
+      "sampling_seconds": 12.000981296005193,
+      "certification_seconds": 2.076026672992157,
+      "complete_runner_seconds": 15.288806044991361,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": [],
+    "origin_replay_configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 48.0,
+        "max_sweeps": 11094,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "quality_max_sweep": 11092,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    }
+  },
+  {
+    "id": "n32768-i0-s0-pair-metropolis",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s0-pair-metropolis",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.44119818598847,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.337547186994925,
+      "size": 32768,
+      "sweeps": 10162,
+      "weight": 636516
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-pair-metropolis.npz",
+    "witness_sha256": "944df91c75c1b8e535727329a17f14af784a94c9b6087cee156c32c9b5b611d1",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39738368,
+      "preparation_seconds": 0.8737067769980058,
+      "sampling_seconds": 12.000456199020846,
+      "certification_seconds": 2.1065927089948673,
+      "complete_runner_seconds": 15.337547186994925,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": [],
+    "origin_replay_configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 48.0,
+        "max_sweeps": 10162,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "quality_max_sweep": 10160,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    }
+  },
+  {
+    "id": "n32768-i0-s0-chils-local",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s0-chils-local",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 14.660359400004381,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.616125736007234,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 679872
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101911,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-chils-local.npz",
+    "witness_sha256": "fe0d6dfacb03c0fcbf4d0557e9c2d1dd7bfc364678c517f5f377c9e0955a0874",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.616125736007234,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i0-s0-chils-parallel",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s0-chils-parallel",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 14.686427491978975,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.635101353982463,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 681880
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101911,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-chils-parallel.npz",
+    "witness_sha256": "e98e359f727ea61f4db8ea8d1557b5597bdc9deb4cb9e0397fd7d4e6553eb84c",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.635101353982463,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i0-s0-pbit",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s0-pbit",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.134380138013512,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.049491459009005,
+      "size": 32768,
+      "sweeps": 34215,
+      "weight": 650895
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-pbit.npz",
+    "witness_sha256": "fc038555ec581aa07911c7731ee4880d9c13b0952c457f8b45b1bc48189277e7",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40929792,
+      "preparation_seconds": 0.49824060598621145,
+      "sampling_seconds": 12.000354275980499,
+      "certification_seconds": 2.125090007990366,
+      "complete_runner_seconds": 15.049491459009005,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-s1-pair-gibbs",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s1-pair-gibbs",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.403164667019155,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.314204455993604,
+      "size": 32768,
+      "sweeps": 11042,
+      "weight": 656699
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-pair-gibbs.npz",
+    "witness_sha256": "edfebefebc0b52b09640c1615964fae153252c05230bffae043f759d35af9c56",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39738368,
+      "preparation_seconds": 0.8675215170078445,
+      "sampling_seconds": 12.000560357992072,
+      "certification_seconds": 2.0966954329924192,
+      "complete_runner_seconds": 15.314204455993604,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-s1-pair-metropolis",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s1-pair-metropolis",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.504966289998265,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.37967102098628,
+      "size": 32768,
+      "sweeps": 10109,
+      "weight": 636582
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-pair-metropolis.npz",
+    "witness_sha256": "8074d1f583e721faaf3bedb3886eb818f787458d31629d4d4af54207e6ff931e",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39738368,
+      "preparation_seconds": 0.8740799720108043,
+      "sampling_seconds": 12.000985541992122,
+      "certification_seconds": 2.0948001930082683,
+      "complete_runner_seconds": 15.37967102098628,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-s1-chils-local",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s1-chils-local",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 14.667927356000291,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.60785276099341,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 679784
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101912,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-chils-local.npz",
+    "witness_sha256": "df502919bc3d4b440cfa33f0eac8a820afd8967c2e70d84425f36aba6073bd05",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.60785276099341,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i0-s1-chils-parallel",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s1-chils-parallel",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 14.695800557994517,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.649105876975227,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 682198
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101912,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-chils-parallel.npz",
+    "witness_sha256": "345030d3563e060b542e8f5b88d3365925f7e8d62de937dd99cb35f56a644102",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.649105876975227,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i0-s1-pbit",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s1-pbit",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.160038150992477,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.057510579004884,
+      "size": 32768,
+      "sweeps": 33658,
+      "weight": 651227
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-pbit.npz",
+    "witness_sha256": "04b2685f9ae3ea6ec428a37d804d57b17c2abee9ba46b25632db1c4d7c74ab7b",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40929792,
+      "preparation_seconds": 0.5004178509989288,
+      "sampling_seconds": 12.000157498987392,
+      "certification_seconds": 2.1170689089922234,
+      "complete_runner_seconds": 15.057510579004884,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-s1-metropolis",
+    "instance": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i0-s1-metropolis",
+      "instance_seed": 202610190310,
+      "launcher_seconds": 17.047104355006013,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.965374302002601,
+      "size": 32768,
+      "sweeps": 25525,
+      "weight": 651253
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190310,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-metropolis.npz",
+    "witness_sha256": "f90ed7d12ffab55a14df683cbeac9eec772a536104308702f0b019681729a232",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40929792,
+      "preparation_seconds": 0.5005825640109833,
+      "sampling_seconds": 12.000143941986607,
+      "certification_seconds": 2.099163862003479,
+      "complete_runner_seconds": 14.965374302002601,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-greedy",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-greedy",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 2.6034560760017484,
+      "method": "greedy",
+      "role": "confirmation",
+      "runner_seconds": 0.5698220019985456,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 620805
+    },
+    "configuration": {
+      "method": "greedy",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-greedy.npz",
+    "witness_sha256": "4d101bcda4a5a4f433f689436e8a4c68959dad38c4972a52d0dd315256608ff8",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 0.5698220019985456,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s0-pair-gibbs",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s0-pair-gibbs",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.477738049987238,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.389755533018615,
+      "size": 32768,
+      "sweeps": 9517,
+      "weight": 650485
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-pair-gibbs.npz",
+    "witness_sha256": "77c689c528c1a3896eab942d6a8a58eb84366601789dd010762fb35d656d0bf3",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39185408,
+      "preparation_seconds": 0.8743538120179437,
+      "sampling_seconds": 12.000955976982368,
+      "certification_seconds": 2.1363521630119067,
+      "complete_runner_seconds": 15.389755533018615,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s0-pair-metropolis",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s0-pair-metropolis",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.468381502025295,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.382313882000744,
+      "size": 32768,
+      "sweeps": 8754,
+      "weight": 631702
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-pair-metropolis.npz",
+    "witness_sha256": "c7583405d48a891c9cdeba2926920ac8a835edef6d8e9f238109bb110b5addf4",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39185408,
+      "preparation_seconds": 0.8772298209951259,
+      "sampling_seconds": 12.001165282999864,
+      "certification_seconds": 2.1243098709965125,
+      "complete_runner_seconds": 15.382313882000744,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s0-chils-local",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s0-chils-local",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 14.62935082000331,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.598545852000825,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 674376
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101911,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-chils-local.npz",
+    "witness_sha256": "bcac886b8de0ee13ab752aa86aa53bb45ab8e1ce3968aae268b5a30a2a3a2d81",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.598545852000825,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s0-chils-parallel",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s0-chils-parallel",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 14.68863792400225,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.638151118007954,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 676611
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101911,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-chils-parallel.npz",
+    "witness_sha256": "0396690bf13cd58ecee7dd779c160c72021d37b5ada9801bbc3a0fcfc0a549f6",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.638151118007954,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s0-pbit",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s0-pbit",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.11985903599998,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.029540158982854,
+      "size": 32768,
+      "sweeps": 34559,
+      "weight": 645431
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-pbit.npz",
+    "witness_sha256": "10fd33d52fe85169a9d8b68f798ff03f4cbdfd87ea812b811e2444738d52fefe",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39520256,
+      "preparation_seconds": 0.49722274899249896,
+      "sampling_seconds": 12.000181212002644,
+      "certification_seconds": 2.091041967010824,
+      "complete_runner_seconds": 15.029540158982854,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s0-metropolis",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s0-metropolis",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.05517692299327,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.963510069006588,
+      "size": 32768,
+      "sweeps": 25871,
+      "weight": 646088
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-metropolis.npz",
+    "witness_sha256": "da08422f0cb7ab08baa56c3c73aea2d96855c282432945b4b0fe928e4ee26af0",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39520256,
+      "preparation_seconds": 0.5006301949906629,
+      "sampling_seconds": 12.000460304989247,
+      "certification_seconds": 2.1011836520046927,
+      "complete_runner_seconds": 14.963510069006588,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s1-pair-metropolis",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s1-pair-metropolis",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.4132071910135,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.321438352024416,
+      "size": 32768,
+      "sweeps": 8732,
+      "weight": 631545
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-pair-metropolis.npz",
+    "witness_sha256": "191b064b59d5659915c6e41e8897bb8193c4e1cda172befa59e8bc28ac1b3743",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39185408,
+      "preparation_seconds": 0.8672676309943199,
+      "sampling_seconds": 12.000712480978109,
+      "certification_seconds": 2.10188372398261,
+      "complete_runner_seconds": 15.321438352024416,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s1-chils-local",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s1-chils-local",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 14.652400368009694,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.60663170000771,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 674463
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101912,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-chils-local.npz",
+    "witness_sha256": "e21fce3a12bfac58a13c6b3f7d4743d637cd6469934060aac287f7a0da410942",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.60663170000771,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s1-chils-parallel",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s1-chils-parallel",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 14.69718843800365,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.642359471996315,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 676692
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101912,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-chils-parallel.npz",
+    "witness_sha256": "30e9753e965c0508502d53f8719ed26685a3e191e319a9b005a27f1a5ad5ba01",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.642359471996315,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s1-pbit",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s1-pbit",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.143811893009115,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.07253830000991,
+      "size": 32768,
+      "sweeps": 34299,
+      "weight": 645181
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-pbit.npz",
+    "witness_sha256": "21624cd4e21311e832864e8efc351d7b8ab027d2f4523dff838a50fdb95bcb93",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39520256,
+      "preparation_seconds": 0.5383300440153107,
+      "sampling_seconds": 12.000390815985156,
+      "certification_seconds": 2.095777979993727,
+      "complete_runner_seconds": 15.07253830000991,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s1-metropolis",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s1-metropolis",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.058005933009554,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.970700914011104,
+      "size": 32768,
+      "sweeps": 25712,
+      "weight": 645218
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-metropolis.npz",
+    "witness_sha256": "edbeb960a4a08ddba23ae07ca8e700b3e957af2b04553b60eee650b2c28a4333",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39520256,
+      "preparation_seconds": 0.4958118639769964,
+      "sampling_seconds": 12.000357306998922,
+      "certification_seconds": 2.1148823619878385,
+      "complete_runner_seconds": 14.970700914011104,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s1-pair-gibbs",
+    "instance": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i1-s1-pair-gibbs",
+      "instance_seed": 202610190311,
+      "launcher_seconds": 17.38901858899044,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.282153600011952,
+      "size": 32768,
+      "sweeps": 9618,
+      "weight": 650902
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190311,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-pair-gibbs.npz",
+    "witness_sha256": "3a4eb6f28322109a0fa686759c0b3f8997a1c55a06a451fe4c548ead9191f880",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39185408,
+      "preparation_seconds": 0.8599375349876937,
+      "sampling_seconds": 12.00024943400058,
+      "certification_seconds": 2.0882581529731397,
+      "complete_runner_seconds": 15.282153600011952,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-greedy",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-greedy",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 2.657234485988738,
+      "method": "greedy",
+      "role": "confirmation",
+      "runner_seconds": 0.6078374859935138,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 623375
+    },
+    "configuration": {
+      "method": "greedy",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-greedy.npz",
+    "witness_sha256": "5c394776b3bc60cc5977eccf1295a2fc099374ed12cac1dd6b92d4b8b818e65c",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 0.6078374859935138,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s0-pair-metropolis",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s0-pair-metropolis",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.46474169899011,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.360707461019047,
+      "size": 32768,
+      "sweeps": 10210,
+      "weight": 631990
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-pair-metropolis.npz",
+    "witness_sha256": "eaa6b33bc8f2f0b8efa9bbf8933d922bf6b26b4d4501a99783e120cbdea5df2b",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39565824,
+      "preparation_seconds": 0.8719594219874125,
+      "sampling_seconds": 12.000549925985979,
+      "certification_seconds": 2.0825981950038113,
+      "complete_runner_seconds": 15.360707461019047,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s0-chils-local",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s0-chils-local",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 14.617724698997336,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.577350862004096,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 674128
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101911,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-chils-local.npz",
+    "witness_sha256": "fdf7b183792c19b18fda370ccf049ebb58b82271ee878966b6bf29e4750f1083",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.577350862004096,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s0-chils-parallel",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s0-chils-parallel",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 14.696035373985069,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.635878892004257,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 676615
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101911,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-chils-parallel.npz",
+    "witness_sha256": "97e97206bcfa2383f4670a0259c3c7869d0d4a3203475e9f7d8b59b5942fcfb9",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.635878892004257,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s0-pbit",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s0-pbit",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.189763233996928,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.040626653004438,
+      "size": 32768,
+      "sweeps": 34053,
+      "weight": 645676
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-pbit.npz",
+    "witness_sha256": "387ea7cdac8860ed308c46b6bbacfe5111259f53b806f22336ed17a0c99c3930",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40031232,
+      "preparation_seconds": 0.497790196997812,
+      "sampling_seconds": 12.00016571598826,
+      "certification_seconds": 2.0879833770159166,
+      "complete_runner_seconds": 15.040626653004438,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s0-metropolis",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s0-metropolis",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.034901576989796,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.931954241998028,
+      "size": 32768,
+      "sweeps": 25745,
+      "weight": 646790
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-metropolis.npz",
+    "witness_sha256": "76c151843656cc33fa8d6f57a671ba6434d281ee23241b8c205b42c0459ea553",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40031232,
+      "preparation_seconds": 0.4921418360027019,
+      "sampling_seconds": 12.000178415008122,
+      "certification_seconds": 2.101109548995737,
+      "complete_runner_seconds": 14.931954241998028,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s0-pair-gibbs",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s0-pair-gibbs",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.42376590499771,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.31456743500894,
+      "size": 32768,
+      "sweeps": 11056,
+      "weight": 650877
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-pair-gibbs.npz",
+    "witness_sha256": "44f9cf027488f4328e0322f94367277b18264c8aa427ac5ca97491aee1fe888f",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39565824,
+      "preparation_seconds": 0.8660093199869152,
+      "sampling_seconds": 12.001046430988936,
+      "certification_seconds": 2.098872044996824,
+      "complete_runner_seconds": 15.31456743500894,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s1-chils-local",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s1-chils-local",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 14.650844548013993,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.608250273013255,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 674465
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101912,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-chils-local.npz",
+    "witness_sha256": "791da2ef809b065edeea5b47c6bf8332cac0b06ba9b4c6e1848893234bc8d825",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.608250273013255,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s1-chils-parallel",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s1-chils-parallel",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 14.705107109999517,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.620629377983278,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 676657
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101912,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-chils-parallel.npz",
+    "witness_sha256": "fa790cb5cb576354857d33f26fc128b392c0a9b9b4c366c7d0e5e390d8eafb28",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.620629377983278,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s1-pbit",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s1-pbit",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.19657928100787,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.09212151702377,
+      "size": 32768,
+      "sweeps": 34317,
+      "weight": 645447
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-pbit.npz",
+    "witness_sha256": "a96a8bea7966fceda244038cedc40278f64dc743534d74c2b3eafa9ba31fe1ba",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40031232,
+      "preparation_seconds": 0.5196778230019845,
+      "sampling_seconds": 12.000336786994012,
+      "certification_seconds": 2.09954258200014,
+      "complete_runner_seconds": 15.09212151702377,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s1-metropolis",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s1-metropolis",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.04478496001684,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.950798744976055,
+      "size": 32768,
+      "sweeps": 25703,
+      "weight": 646740
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-metropolis.npz",
+    "witness_sha256": "2494c88f989fde8168e7917b635eb9a8674ca33df7fa043a857a4c8d67cfb4d5",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 40031232,
+      "preparation_seconds": 0.49315654300153255,
+      "sampling_seconds": 12.000419048999902,
+      "certification_seconds": 2.0997549889725633,
+      "complete_runner_seconds": 14.950798744976055,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s1-pair-gibbs",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s1-pair-gibbs",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.36146641499363,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.268891982006608,
+      "size": 32768,
+      "sweeps": 10832,
+      "weight": 651251
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-pair-gibbs.npz",
+    "witness_sha256": "304758ea86de25dccd21eada76098e0657498ce69ad48ab820f1e5c0421b8b18",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39565824,
+      "preparation_seconds": 0.8576133080059662,
+      "sampling_seconds": 12.000953768001636,
+      "certification_seconds": 2.078322070010472,
+      "complete_runner_seconds": 15.268891982006608,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s1-pair-metropolis",
+    "instance": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i2-s1-pair-metropolis",
+      "instance_seed": 202610190312,
+      "launcher_seconds": 17.474609822995262,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.344645572011359,
+      "size": 32768,
+      "sweeps": 10111,
+      "weight": 633193
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190312,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-pair-metropolis.npz",
+    "witness_sha256": "c2b82824ea9fe3d113284922796fc8a6dd6c42b3d81b5feb71e250f2f6c05aeb",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39565824,
+      "preparation_seconds": 0.8864079019986093,
+      "sampling_seconds": 12.001118544023484,
+      "certification_seconds": 2.077294910995988,
+      "complete_runner_seconds": 15.344645572011359,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-greedy",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-greedy",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 2.649385316995904,
+      "method": "greedy",
+      "role": "confirmation",
+      "runner_seconds": 0.6041709819983225,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 625539
+    },
+    "configuration": {
+      "method": "greedy",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-greedy.npz",
+    "witness_sha256": "3e4816e46704a54aa9f947cff0b9002513a547851e85332a09973ed76fc5fb1e",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 0.6041709819983225,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s0-chils-local",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s0-chils-local",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 14.704597972013289,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.65040676400531,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 678613
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101911,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-chils-local.npz",
+    "witness_sha256": "f67093f6287f2d8d19b7ed04bfd2c0c7983e9d0a11e6cef2aa39308047f2e0f0",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.65040676400531,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s0-chils-parallel",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s0-chils-parallel",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 14.660894835018553,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.60179810700356,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 680980
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101911,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-chils-parallel.npz",
+    "witness_sha256": "d73c4171bc0255610d198de5e2dfc727a9f6cd9020027c48afb3318b1be8a3fb",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.60179810700356,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s0-pbit",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s0-pbit",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.122203908016672,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.03141587501159,
+      "size": 32768,
+      "sweeps": 33929,
+      "weight": 649218
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-pbit.npz",
+    "witness_sha256": "774570637781cde654649a454f79e5f13ec117cb234c4eea836a401d918ef9b8",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39726080,
+      "preparation_seconds": 0.5032600970007479,
+      "sampling_seconds": 12.000394072005292,
+      "certification_seconds": 2.1023898999847006,
+      "complete_runner_seconds": 15.03141587501159,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s0-metropolis",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s0-metropolis",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.02145641099196,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.929152288998011,
+      "size": 32768,
+      "sweeps": 25613,
+      "weight": 650063
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-metropolis.npz",
+    "witness_sha256": "34ebb4b5f6793e0e4321f6387e4e12aae0136418cabdb3643683e4bfd0fa34f1",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39726080,
+      "preparation_seconds": 0.49954516600701027,
+      "sampling_seconds": 12.000708789011696,
+      "certification_seconds": 2.0948501479870174,
+      "complete_runner_seconds": 14.929152288998011,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s0-pair-gibbs",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s0-pair-gibbs",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.41520681302063,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.329284196981462,
+      "size": 32768,
+      "sweeps": 11095,
+      "weight": 654997
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-pair-gibbs.npz",
+    "witness_sha256": "f2b3b95508915ca0c24d667b209a4e2bdc8c15a054c0085d8761d49eb769a979",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39365632,
+      "preparation_seconds": 0.8664727629802655,
+      "sampling_seconds": 12.000239070010139,
+      "certification_seconds": 2.115549030015245,
+      "complete_runner_seconds": 15.329284196981462,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s0-pair-metropolis",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s0-pair-metropolis",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.46559244999662,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.368177592026768,
+      "size": 32768,
+      "sweeps": 10228,
+      "weight": 634696
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101911
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-pair-metropolis.npz",
+    "witness_sha256": "18f91f938a1ece57da310a4d2967cdaeaaa38795f41fd789fb6e8a158f11931a",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39365632,
+      "preparation_seconds": 0.8708278519916348,
+      "sampling_seconds": 12.00074948600377,
+      "certification_seconds": 2.1163319949992,
+      "complete_runner_seconds": 15.368177592026768,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s1-chils-parallel",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s1-chils-parallel",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 14.682699030003278,
+      "method": "chils-parallel",
+      "role": "confirmation",
+      "runner_seconds": 12.604853691009339,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 680986
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 16,
+        "seed": 2026101912,
+        "threads": 4
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-chils-parallel.npz",
+    "witness_sha256": "91b3051496fd467711f925e33cf7429eca9108ae09c7e14256d7cdfaa62c2e8e",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.604853691009339,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s1-pbit",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s1-pbit",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.131526896992,
+      "method": "pbit",
+      "role": "confirmation",
+      "runner_seconds": 15.034539771004347,
+      "size": 32768,
+      "sweeps": 34157,
+      "weight": 648542
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-pbit.npz",
+    "witness_sha256": "1edef78c59d62c657c147ce843fb0b368b72531a2b6a253f37ed4c8a6e51ea1d",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39726080,
+      "preparation_seconds": 0.4952264709863812,
+      "sampling_seconds": 12.00026065800921,
+      "certification_seconds": 2.113835772004677,
+      "complete_runner_seconds": 15.034539771004347,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s1-metropolis",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s1-metropolis",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.069271853019018,
+      "method": "metropolis",
+      "role": "confirmation",
+      "runner_seconds": 14.964915077987825,
+      "size": 32768,
+      "sweeps": 25867,
+      "weight": 650943
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-metropolis.npz",
+    "witness_sha256": "26bfe053fb972297839c1b0ed195e0e845bd4f472c45b25332aecf8acc2260b7",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39726080,
+      "preparation_seconds": 0.4924884820065927,
+      "sampling_seconds": 12.00043637098861,
+      "certification_seconds": 2.0665557110041846,
+      "complete_runner_seconds": 14.964915077987825,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s1-pair-gibbs",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s1-pair-gibbs",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.453939029976027,
+      "method": "pair-gibbs",
+      "role": "confirmation",
+      "runner_seconds": 15.358645615022397,
+      "size": 32768,
+      "sweeps": 11060,
+      "weight": 654359
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-gibbs",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-pair-gibbs.npz",
+    "witness_sha256": "7a504b6319707113f2e9790aa7c136003e9b332cb2d9fcd016d2f3129f52a09f",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39365632,
+      "preparation_seconds": 0.8702110550075304,
+      "sampling_seconds": 12.00027748499997,
+      "certification_seconds": 2.1414379810157698,
+      "complete_runner_seconds": 15.358645615022397,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s1-pair-metropolis",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s1-pair-metropolis",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 17.44074788899161,
+      "method": "pair-metropolis",
+      "role": "confirmation",
+      "runner_seconds": 15.35160861100303,
+      "size": 32768,
+      "sweeps": 10139,
+      "weight": 636102
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 12.0,
+        "max_sweeps": 1000000,
+        "method": "pair-metropolis",
+        "observe_every": 4,
+        "penalty_multiplier": 2,
+        "seed": 2026101912
+      },
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-pair-metropolis.npz",
+    "witness_sha256": "4472889af27d9d393e27dda70994fe1d270268c6270613e1a4739f71e484327f",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "peak_cuda_allocated_bytes": 39365632,
+      "preparation_seconds": 0.8762753950140905,
+      "sampling_seconds": 12.000610271992628,
+      "certification_seconds": 2.0951349909882993,
+      "complete_runner_seconds": 15.35160861100303,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s1-chils-local",
+    "instance": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "metrics": {
+      "exact_optimum": null,
+      "id": "n32768-i3-s1-chils-local",
+      "instance_seed": 202610190313,
+      "launcher_seconds": 14.632285511004739,
+      "method": "chils-local",
+      "role": "confirmation",
+      "runner_seconds": 12.582347295974614,
+      "size": 32768,
+      "sweeps": null,
+      "weight": 679109
+    },
+    "configuration": {
+      "method": "chils",
+      "exact_reference": false,
+      "problem": {
+        "instance_seed": 202610190313,
+        "mean_degree": 8,
+        "size": 32768,
+        "weight_max": 100
+      },
+      "baseline_parameters": {
+        "exchange_seconds": 0.25,
+        "max_seconds": 12.0,
+        "population": 1,
+        "seed": 2026101912,
+        "threads": 1
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-chils-local.npz",
+    "witness_sha256": "e12ced7a60d9f0fe6ec36648db134037df36a8181411c00ed5001c27ce308db3",
+    "first_certificate": null,
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "complete_runner_seconds": 12.582347295974614,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 48392,
+        "sha256": "9419a958e036954da70b480db4d9b3ebe529a8cbe2503b06788f794a939e34e7",
+        "executable": true,
+        "filename": "CHILS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 159647,
+        "sha256": "f1d1756de8223f7995131e5c539c52dd087f608aff81f64652b4840e8a07c552",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1368,
+        "sha256": "c9642101f73f80b390d570dcbad9e239f2cc1eff734b0dae4fa4a7ef2f0faa36",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.license",
+        "bytes": 1116,
+        "sha256": "9a3ab6868798da45b3f43fb7b56795dbd21d442f10d9d74295f1ab0a30b97997",
+        "executable": false,
+        "filename": "LICENSE"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 768,
+        "sha256": "8a8dcdcac1bb5d3c8219e45538e528faca6b3e297502f889c04cb90acc849dd0",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  }
+]

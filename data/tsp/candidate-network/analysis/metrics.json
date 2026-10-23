@@ -1,0 +1,304 @@
+{
+  "schema": "tsp-candidate-workflow-metrics-v1",
+  "natural_calls": 28,
+  "pbit_natural_calls": 7,
+  "attribution_control_calls": 21,
+  "origin_replays": 1,
+  "pbit_target_hits": 1,
+  "pbit_prefix_improvements": 0,
+  "maximum_single_model_bits": 33662,
+  "maximum_peak_allocated_bytes": 38063616,
+  "simultaneous_replicas": [
+    8
+  ],
+  "complete_call_seconds_including_replay": 227.79446638113586,
+  "pbit_complete_seconds": 61.51242634304799,
+  "pbit_phase_seconds": {
+    "network_setup": 8.399941657029558,
+    "polishing": 2.1749724558903836,
+    "prefix": 10.06415886391187,
+    "readout": 12.743470696907025,
+    "sampling": 3.8360828069853596
+  },
+  "pbit_boundary_states": 224,
+  "pbit_degree_feasible_boundary_states": 4,
+  "comparisons": {
+    "random": {
+      "pbit_wins": 0,
+      "ties": 5,
+      "pbit_losses": 2
+    },
+    "assignment": {
+      "pbit_wins": 0,
+      "ties": 7,
+      "pbit_losses": 0
+    },
+    "ils": {
+      "pbit_wins": 0,
+      "ties": 5,
+      "pbit_losses": 2
+    }
+  },
+  "instances": [
+    {
+      "instance": "kroA200",
+      "cities": 200,
+      "optimum": 29368,
+      "seed": 41011,
+      "nodes": 3200,
+      "prefix_length": 29368,
+      "best_post_prefix_length": 31084,
+      "best_length": 29368,
+      "gap_percent": 0.0,
+      "complete_seconds": 4.2026612359914,
+      "first_certificate_seconds": 2.1086237959680147,
+      "phase_seconds": {
+        "network_setup": 1.0981892379932106,
+        "polishing": 0.03201982396421954,
+        "prefix": 0.11971795599674806,
+        "readout": 0.0585222159861587,
+        "sampling": 0.2876251800917089
+      },
+      "peak_allocated_bytes": 534016,
+      "target_hit": true,
+      "prefix_improved": false,
+      "controls": {
+        "random": {
+          "best_length": 29368,
+          "complete_seconds": 3.660430733987596
+        },
+        "assignment": {
+          "best_length": 29368,
+          "complete_seconds": 3.6120662519242615
+        },
+        "ils": {
+          "best_length": 29368,
+          "complete_seconds": 3.619977059017401
+        }
+      }
+    },
+    {
+      "instance": "pcb442",
+      "cities": 442,
+      "optimum": 50778,
+      "seed": 42001,
+      "nodes": 7073,
+      "prefix_length": 50785,
+      "best_post_prefix_length": 59893,
+      "best_length": 50785,
+      "gap_percent": 0.01378549765647108,
+      "complete_seconds": 4.62359282898251,
+      "first_certificate_seconds": null,
+      "phase_seconds": {
+        "network_setup": 1.1354019460268319,
+        "polishing": 0.08122931193793193,
+        "prefix": 0.1703949379734695,
+        "readout": 0.16055640997365117,
+        "sampling": 0.341530404984951
+      },
+      "peak_allocated_bytes": 2033152,
+      "target_hit": false,
+      "prefix_improved": false,
+      "controls": {
+        "random": {
+          "best_length": 50785,
+          "complete_seconds": 4.056635050976183
+        },
+        "ils": {
+          "best_length": 50785,
+          "complete_seconds": 3.9029001579619944
+        },
+        "assignment": {
+          "best_length": 50785,
+          "complete_seconds": 3.839781149988994
+        }
+      }
+    },
+    {
+      "instance": "pr1002",
+      "cities": 1002,
+      "optimum": 259045,
+      "seed": 42001,
+      "nodes": 16037,
+      "prefix_length": 260520,
+      "best_post_prefix_length": 340972,
+      "best_length": 260520,
+      "gap_percent": 0.5693991391457098,
+      "complete_seconds": 6.394898700003978,
+      "first_certificate_seconds": null,
+      "phase_seconds": {
+        "network_setup": 1.1436818400397897,
+        "polishing": 0.21143069298705086,
+        "prefix": 1.0708359759883024,
+        "readout": 0.6566148049896583,
+        "sampling": 0.43922885693609715
+      },
+      "peak_allocated_bytes": 9079296,
+      "target_hit": false,
+      "prefix_improved": false,
+      "controls": {
+        "ils": {
+          "best_length": 260520,
+          "complete_seconds": 5.743864750023931
+        },
+        "assignment": {
+          "best_length": 260520,
+          "complete_seconds": 5.2922568609938025
+        },
+        "random": {
+          "best_length": 260520,
+          "complete_seconds": 6.013591922004707
+        }
+      }
+    },
+    {
+      "instance": "nrw1379",
+      "cities": 1379,
+      "optimum": 56638,
+      "seed": 44011,
+      "nodes": 22065,
+      "prefix_length": 56692,
+      "best_post_prefix_length": 76257,
+      "best_length": 56692,
+      "gap_percent": 0.09534234965924426,
+      "complete_seconds": 7.967894242028706,
+      "first_certificate_seconds": null,
+      "phase_seconds": {
+        "network_setup": 1.313143085979391,
+        "polishing": 0.3036773559288122,
+        "prefix": 1.3715249639935791,
+        "readout": 1.02043486997718,
+        "sampling": 0.5828563509858213
+      },
+      "peak_allocated_bytes": 16709120,
+      "target_hit": false,
+      "prefix_improved": false,
+      "controls": {
+        "ils": {
+          "best_length": 56692,
+          "complete_seconds": 7.203210540988948
+        },
+        "assignment": {
+          "best_length": 56692,
+          "complete_seconds": 6.323774833057541
+        },
+        "random": {
+          "best_length": 56692,
+          "complete_seconds": 7.2007323010475375
+        }
+      }
+    },
+    {
+      "instance": "fl1577",
+      "cities": 1577,
+      "optimum": 22249,
+      "seed": 44021,
+      "nodes": 25270,
+      "prefix_length": 23535,
+      "best_post_prefix_length": 31069,
+      "best_length": 23535,
+      "gap_percent": 5.780035057755395,
+      "complete_seconds": 10.154002005059738,
+      "first_certificate_seconds": null,
+      "phase_seconds": {
+        "network_setup": 1.1994567359797657,
+        "polishing": 0.4371401500538923,
+        "prefix": 1.8790321190026589,
+        "readout": 2.2175294210319407,
+        "sampling": 0.619566285982728
+      },
+      "peak_allocated_bytes": 21617152,
+      "target_hit": false,
+      "prefix_improved": false,
+      "controls": {
+        "ils": {
+          "best_length": 22910,
+          "complete_seconds": 7.816502145957202
+        },
+        "assignment": {
+          "best_length": 23535,
+          "complete_seconds": 7.129690768953878
+        },
+        "random": {
+          "best_length": 22946,
+          "complete_seconds": 9.308598879026249
+        }
+      }
+    },
+    {
+      "instance": "u1817",
+      "cities": 1817,
+      "optimum": 57201,
+      "seed": 44031,
+      "nodes": 29086,
+      "prefix_length": 57504,
+      "best_post_prefix_length": 82885,
+      "best_length": 57504,
+      "gap_percent": 0.5297110190381371,
+      "complete_seconds": 11.12196114496328,
+      "first_certificate_seconds": null,
+      "phase_seconds": {
+        "network_setup": 1.2480000359937549,
+        "polishing": 0.49906423198990524,
+        "prefix": 2.377724200952798,
+        "readout": 2.156559472961817,
+        "sampling": 0.6623966659535654
+      },
+      "peak_allocated_bytes": 29181440,
+      "target_hit": false,
+      "prefix_improved": false,
+      "controls": {
+        "ils": {
+          "best_length": 57504,
+          "complete_seconds": 9.40148787794169
+        },
+        "assignment": {
+          "best_length": 57504,
+          "complete_seconds": 8.14099222101504
+        },
+        "random": {
+          "best_length": 57504,
+          "complete_seconds": 10.38611798005877
+        }
+      }
+    },
+    {
+      "instance": "d2103",
+      "cities": 2103,
+      "optimum": 80450,
+      "seed": 43001,
+      "nodes": 33662,
+      "prefix_length": 80655,
+      "best_post_prefix_length": 116060,
+      "best_length": 80655,
+      "gap_percent": 0.25481665630826544,
+      "complete_seconds": 17.04741618601838,
+      "first_certificate_seconds": null,
+      "phase_seconds": {
+        "network_setup": 1.2620687750168145,
+        "polishing": 0.6104108890285715,
+        "prefix": 3.074928710004315,
+        "readout": 6.473253501986619,
+        "sampling": 0.9028790620504878
+      },
+      "peak_allocated_bytes": 38063616,
+      "target_hit": false,
+      "prefix_improved": false,
+      "controls": {
+        "assignment": {
+          "best_length": 80655,
+          "complete_seconds": 9.387193353031762
+        },
+        "random": {
+          "best_length": 80632,
+          "complete_seconds": 15.811203426041175
+        },
+        "ils": {
+          "best_length": 80632,
+          "complete_seconds": 11.067345281073358
+        }
+      }
+    }
+  ],
+  "new_solver_calls": 0
+}

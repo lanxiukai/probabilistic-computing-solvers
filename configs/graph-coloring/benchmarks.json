@@ -1,0 +1,160 @@
+{
+  "schema": "graph-coloring-benchmarks-v1",
+  "source_catalog": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/",
+  "scope": "Catalog membership does not mean a solver call was completed or a target was reached; accepted calls and independently checked witnesses define the evaluation scope.",
+  "redistribution": "Original input files are not bundled; fetch the pinned public-source bytes separately. Public availability alone does not grant redistribution permission.",
+  "records": [
+    {
+      "name": "le450_5a",
+      "vertices": 450,
+      "edges": 5714,
+      "palette_reference": 5,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 2250,
+      "nonisolated_vertices": 450,
+      "interacting_model_binary_variables": 2250,
+      "family": "Leighton constructed graph",
+      "retrieved_at": "2026-10-23T08:54:50.167584+00:00",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_5a.col",
+        "filename": "le450_5a.col",
+        "sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490",
+        "bytes": 55501
+      }
+    },
+    {
+      "name": "le450_5b",
+      "vertices": 450,
+      "edges": 5734,
+      "palette_reference": 5,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 2250,
+      "nonisolated_vertices": 450,
+      "interacting_model_binary_variables": 2250,
+      "family": "Leighton constructed graph",
+      "retrieved_at": "2026-10-23T08:54:50.495787+00:00",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_5b.col",
+        "filename": "le450_5b.col",
+        "sha256": "b645467611cc3cbc6ae7e0ff80810b920e345dedd8668f793f231e04a005fc79",
+        "bytes": 55589
+      }
+    },
+    {
+      "name": "le450_25c",
+      "vertices": 450,
+      "edges": 17343,
+      "palette_reference": 25,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 11250,
+      "nonisolated_vertices": 450,
+      "interacting_model_binary_variables": 11250,
+      "family": "Leighton constructed graph",
+      "retrieved_at": "2026-10-23T08:54:50.860775+00:00",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_25c.col",
+        "filename": "le450_25c.col",
+        "sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524",
+        "bytes": 166375
+      }
+    },
+    {
+      "name": "le450_25d",
+      "vertices": 450,
+      "edges": 17425,
+      "palette_reference": 25,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 11250,
+      "nonisolated_vertices": 450,
+      "interacting_model_binary_variables": 11250,
+      "family": "Leighton constructed graph",
+      "retrieved_at": "2026-10-23T08:54:51.183936+00:00",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_25d.col",
+        "filename": "le450_25d.col",
+        "sha256": "8a8e80280296f45b12c24d2bed0f6111430c6fcb834c9922539bb95c6cd685f6",
+        "bytes": 166639
+      }
+    },
+    {
+      "name": "fpsol2.i.1",
+      "vertices": 496,
+      "edges": 11654,
+      "palette_reference": 65,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 32240,
+      "nonisolated_vertices": 269,
+      "interacting_model_binary_variables": 17485,
+      "family": "Register allocation",
+      "retrieved_at": "2026-10-23T08:54:51.672093+00:00",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "filename": "fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "bytes": 106164
+      }
+    },
+    {
+      "name": "fpsol2.i.2",
+      "vertices": 451,
+      "edges": 8691,
+      "palette_reference": 30,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 13530,
+      "nonisolated_vertices": 363,
+      "interacting_model_binary_variables": 10890,
+      "family": "Register allocation",
+      "retrieved_at": "2026-10-23T08:54:52.257947+00:00",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.2.col",
+        "filename": "fpsol2.i.2.col",
+        "sha256": "660ebcba830d86218134c45df81b8a6cb7af38b842daeaa4f802f47556c266d7",
+        "bytes": 76640
+      }
+    },
+    {
+      "name": "mulsol.i.1",
+      "vertices": 197,
+      "edges": 3925,
+      "palette_reference": 49,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 9653,
+      "nonisolated_vertices": 138,
+      "interacting_model_binary_variables": 6762,
+      "family": "Register allocation",
+      "retrieved_at": "2026-10-23T08:54:52.672167+00:00",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/mulsol.i.1.col",
+        "filename": "mulsol.i.1.col",
+        "sha256": "dd4d55ff7926e4e207c61bebf9cdb6011cd31eead8761aed9ef64343038ca8dd",
+        "bytes": 33225
+      }
+    },
+    {
+      "name": "inithx.i.1",
+      "vertices": 864,
+      "edges": 18707,
+      "palette_reference": 54,
+      "palette_reference_status": "historical_chromatic_target_not_a_solver_certificate",
+      "palette_reference_url": "https://mat.tepper.cmu.edu/COLOR/instances.html",
+      "materialized_binary_variables": 46656,
+      "nonisolated_vertices": 519,
+      "interacting_model_binary_variables": 28026,
+      "family": "Register allocation",
+      "verified_on": "2026-10-23",
+      "file": {
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/inithx.i.1.col",
+        "filename": "inithx.i.1.col",
+        "sha256": "a61233d939d4840159069c0f0f5c2f3e165d25d7d2ab39e76dc48e6c44c0f9e2",
+        "bytes": 166511
+      }
+    }
+  ]
+}

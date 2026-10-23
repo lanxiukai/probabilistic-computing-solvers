@@ -1,0 +1,1141 @@
+{
+  "automatic_retries": 0,
+  "automatic_teardown": false,
+  "budgets": "Retain all p-bit workflow caps and parameters from v5; 28 natural calls plus one d2103 p-bit replay; no standalone classical research calls on the cloud instance",
+  "cases": [
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/kroA200.tsp",
+          "optimum": 29368,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 30,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 41011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-kroa200-pbit-41011",
+      "instance": "kroA200",
+      "method": "pbit",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/kroA200.tsp",
+          "optimum": 29368,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 30,
+          "method": "random",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 41011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-kroa200-random-41011",
+      "instance": "kroA200",
+      "method": "random",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/kroA200.tsp",
+          "optimum": 29368,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 30,
+          "method": "assignment",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 41011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-kroa200-assignment-41011",
+      "instance": "kroA200",
+      "method": "assignment",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/kroA200.tsp",
+          "optimum": 29368,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 30,
+          "method": "ils",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 41011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-kroa200-ils-41011",
+      "instance": "kroA200",
+      "method": "ils",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pcb442.tsp",
+          "optimum": 50778,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 45,
+          "method": "random",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pcb442-random-42001",
+      "instance": "pcb442",
+      "method": "random",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pcb442.tsp",
+          "optimum": 50778,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 45,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pcb442-pbit-42001",
+      "instance": "pcb442",
+      "method": "pbit",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pcb442.tsp",
+          "optimum": 50778,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 45,
+          "method": "ils",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pcb442-ils-42001",
+      "instance": "pcb442",
+      "method": "ils",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pcb442.tsp",
+          "optimum": 50778,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 45,
+          "method": "assignment",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pcb442-assignment-42001",
+      "instance": "pcb442",
+      "method": "assignment",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pr1002.tsp",
+          "optimum": 259045,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "ils",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pr1002-ils-42001",
+      "instance": "pr1002",
+      "method": "ils",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pr1002.tsp",
+          "optimum": 259045,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "assignment",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pr1002-assignment-42001",
+      "instance": "pr1002",
+      "method": "assignment",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pr1002.tsp",
+          "optimum": 259045,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "random",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pr1002-random-42001",
+      "instance": "pr1002",
+      "method": "random",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/pr1002.tsp",
+          "optimum": 259045,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 42001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-pr1002-pbit-42001",
+      "instance": "pr1002",
+      "method": "pbit",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/nrw1379.tsp",
+          "optimum": 56638,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "ils",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-nrw1379-ils-44011",
+      "instance": "nrw1379",
+      "method": "ils",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/nrw1379.tsp",
+          "optimum": 56638,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "assignment",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-nrw1379-assignment-44011",
+      "instance": "nrw1379",
+      "method": "assignment",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/nrw1379.tsp",
+          "optimum": 56638,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "random",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-nrw1379-random-44011",
+      "instance": "nrw1379",
+      "method": "random",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/nrw1379.tsp",
+          "optimum": 56638,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44011,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-nrw1379-pbit-44011",
+      "instance": "nrw1379",
+      "method": "pbit",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/fl1577.tsp",
+          "optimum": 22249,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "ils",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44021,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-fl1577-ils-44021",
+      "instance": "fl1577",
+      "method": "ils",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/fl1577.tsp",
+          "optimum": 22249,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "assignment",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44021,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-fl1577-assignment-44021",
+      "instance": "fl1577",
+      "method": "assignment",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/fl1577.tsp",
+          "optimum": 22249,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "random",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44021,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-fl1577-random-44021",
+      "instance": "fl1577",
+      "method": "random",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/fl1577.tsp",
+          "optimum": 22249,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44021,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-fl1577-pbit-44021",
+      "instance": "fl1577",
+      "method": "pbit",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/u1817.tsp",
+          "optimum": 57201,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "ils",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44031,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-u1817-ils-44031",
+      "instance": "u1817",
+      "method": "ils",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/u1817.tsp",
+          "optimum": 57201,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "assignment",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44031,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-u1817-assignment-44031",
+      "instance": "u1817",
+      "method": "assignment",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/u1817.tsp",
+          "optimum": 57201,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "random",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44031,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-u1817-random-44031",
+      "instance": "u1817",
+      "method": "random",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/u1817.tsp",
+          "optimum": 57201,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 60,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 44031,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-u1817-pbit-44031",
+      "instance": "u1817",
+      "method": "pbit",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/d2103.tsp",
+          "optimum": 80450,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 120,
+          "method": "assignment",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 43001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-d2103-assignment-43001",
+      "instance": "d2103",
+      "method": "assignment",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/d2103.tsp",
+          "optimum": 80450,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 120,
+          "method": "random",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 43001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-d2103-random-43001",
+      "instance": "d2103",
+      "method": "random",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/d2103.tsp",
+          "optimum": 80450,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 120,
+          "method": "ils",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 43001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-d2103-ils-43001",
+      "instance": "d2103",
+      "method": "ils",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/d2103.tsp",
+          "optimum": 80450,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 120,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 43001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-d2103-pbit-43001",
+      "instance": "d2103",
+      "method": "pbit",
+      "trial_kind": "natural"
+    },
+    {
+      "configuration": {
+        "experiment": {},
+        "prefix": {},
+        "problem": {
+          "instance": "inputs/instances/d2103.tsp",
+          "optimum": 80450,
+          "target_relative_gap": 0
+        },
+        "solver": {
+          "device": "cuda",
+          "kind": "edge_assignment",
+          "lkh_sha256": null,
+          "local_moves": 128,
+          "max_seconds": 120,
+          "method": "pbit",
+          "neighbors": 16,
+          "penalty": 2,
+          "prefix_seconds": 5,
+          "prefix_trials": 1,
+          "readout_bias": 4,
+          "readouts": 8,
+          "replicas": 8,
+          "rounds": 4,
+          "seed": 43001,
+          "sweeps": 128
+        }
+      },
+      "id": "pbit-5090-d2103-pbit-43001-replay",
+      "instance": "d2103",
+      "method": "pbit",
+      "origin_id": "pbit-5090-d2103-pbit-43001",
+      "trial_kind": "origin-replay"
+    }
+  ],
+  "controller_seconds": 3600,
+  "execution_authorized": false,
+  "gpu_results_source": "Actual RTX 5090 measurement only",
+  "hypothesis": "Measure the GPU p-bit hybrid workflow and its incremental contribution relative to the same-prefix readout controls on the selected RTX 5090",
+  "instances": [
+    {
+      "dimension": 200,
+      "evaluation_role": "device-confirmation",
+      "filename": "kroA200.tsp",
+      "name": "kroA200",
+      "optimum": 29368,
+      "reference_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+      "sha256": "fd1f7640e823286826796bfccd103787c25f0b52e7275fae7eabf286303c0cbe",
+      "source_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/kroA200.tsp.gz"
+    },
+    {
+      "dimension": 442,
+      "evaluation_role": "device-confirmation",
+      "filename": "pcb442.tsp",
+      "name": "pcb442",
+      "optimum": 50778,
+      "reference_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+      "sha256": "0f58bc2f1aa0023764ebc14b3b0dcb6e765ffe173963fdc1cb8443d969842b51",
+      "source_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/pcb442.tsp.gz"
+    },
+    {
+      "dimension": 1002,
+      "evaluation_role": "device-confirmation",
+      "filename": "pr1002.tsp",
+      "name": "pr1002",
+      "optimum": 259045,
+      "reference_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+      "sha256": "2211b491e3b8c6ad087d58ead2a8480f9b1bb006fc4b9a245fc594cedd2ee8a7",
+      "source_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/pr1002.tsp.gz"
+    },
+    {
+      "dimension": 1379,
+      "evaluation_role": "device-confirmation",
+      "filename": "nrw1379.tsp",
+      "name": "nrw1379",
+      "optimum": 56638,
+      "reference_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+      "sha256": "3795847d716a49f196bdb17000eef8982a375c66f9f1b27e905e8bf98aa1c9e8",
+      "source_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/nrw1379.tsp.gz"
+    },
+    {
+      "dimension": 1577,
+      "evaluation_role": "device-confirmation",
+      "filename": "fl1577.tsp",
+      "name": "fl1577",
+      "optimum": 22249,
+      "reference_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+      "sha256": "cb473802e29b1f4190980683bd4dd16a12e7fdcf3a80d0448c52fdda27d2e5a5",
+      "source_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/fl1577.tsp.gz"
+    },
+    {
+      "dimension": 1817,
+      "evaluation_role": "device-confirmation",
+      "filename": "u1817.tsp",
+      "name": "u1817",
+      "optimum": 57201,
+      "reference_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+      "sha256": "a91126f8908ae999bd9358ad43bf4b88c7298cdef19c67acbfe9b6819d1d56b0",
+      "source_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/u1817.tsp.gz"
+    },
+    {
+      "dimension": 2103,
+      "evaluation_role": "device-confirmation",
+      "filename": "d2103.tsp",
+      "name": "d2103",
+      "optimum": 80450,
+      "reference_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/TSP-BEST.html",
+      "sha256": "df39e98c45bdb377085491f5d273abde1634991a71c5b0b43f1cf65d755964b0",
+      "source_url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/d2103.tsp.gz"
+    }
+  ],
+  "model_scope": "Sparse candidate assignment relaxation; classical connectivity repair",
+  "native_control_policy": "LKH is built and checked only as the shared initialization component; no GA-EAX build or standalone classical performance calls are scheduled",
+  "natural_calls": 28,
+  "origin_replays": 1,
+  "pending_results": [],
+  "preflight_seconds": 600,
+  "primary_metrics": [
+    "integer tour length",
+    "known-optimum gap",
+    "prefix improvement",
+    "raw assignment feasibility",
+    "complete first certificate",
+    "complete exit time",
+    "phase costs",
+    "single-model nodes",
+    "bit flips",
+    "peak allocated GPU bytes"
+  ],
+  "revision": {
+    "historical_results_preserved": true,
+    "omitted_cases": [
+      {
+        "id": "candidate-5090-kroa200-eax-41011",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-kroa200-lkh-41011",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-pcb442-lkh-42001",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-pcb442-eax-42001",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-pr1002-eax-42001",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-pr1002-lkh-42001",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-nrw1379-eax-44011",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-nrw1379-lkh-44011",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-fl1577-eax-44021",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-fl1577-lkh-44021",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-u1817-eax-44031",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-u1817-lkh-44031",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-d2103-lkh-43001",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-d2103-eax-43001",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      },
+      {
+        "id": "candidate-5090-u1817-eax-44031-replay",
+        "reason": "Standalone classical research is outside this cloud allocation"
+      }
+    ],
+    "reason": "User restricts the selected cloud resource to GPU p-bit experiments and directly related data; classical independent solvers remain separately measured references",
+    "requested_date": "2026-10-21",
+    "retained_numerical_configurations_unchanged": true,
+    "supersedes": "tsp-5090-candidate-confirmation-v5"
+  },
+  "runner_seconds": 1860,
+  "schema": "tsp-5090-candidate-confirmation-v6",
+  "seed_role": "One seed per instance; all seven groups were evaluated during private local development. Device confirmation only, with no unseen-instance claim or success-probability estimate from single-seed results",
+  "status": "awaiting-selected-rtx5090",
+  "stop_rules": [
+    "source/input mismatch",
+    "invalid certificate",
+    "failed preflight",
+    "controller deadline",
+    "native failure",
+    "failed replay"
+  ],
+  "suggested_total_resource_window_seconds": 7200
+}

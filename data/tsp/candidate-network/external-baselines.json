@@ -1,0 +1,14 @@
+{
+  "eax": {
+    "archive_sha256": "d00186a9281a77ee940dd0be6b876821aab2ff0ca51264523fa7fcc1967a5885",
+    "commit": "015dfbe9f267230f78787bd244af393ffc018900",
+    "url": "https://github.com/nagata-yuichi/GA-EAX/tree/015dfbe9f267230f78787bd244af393ffc018900",
+    "version": "1.0 Normal"
+  },
+  "lkh": {
+    "archive_sha256": "693bb5e6b048e58f11584f32ac56325020f6d65fbabbec5d6da95528bcad3f04",
+    "url": "http://webhotel4.ruc.dk/~keld/research/LKH-3/LKH-3.0.13.tgz",
+    "version": "3.0.13"
+  },
+  "policy": "Upstream authors reserve rights; no source, binary or benchmark input is redistributed in this overlay"
+}

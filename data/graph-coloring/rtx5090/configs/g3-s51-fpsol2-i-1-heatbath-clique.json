@@ -1,0 +1,32 @@
+{
+  "experiment": {
+    "evaluation_split": "development-new-seed",
+    "role": "pbit-confirmation",
+    "seed_role": "frozen fresh-seed confirmation; not tuning"
+  },
+  "problem": {
+    "colors": 65,
+    "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+    "symmetry_clique_file": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json"
+  },
+  "solver": {
+    "beta_end": 16,
+    "beta_start": 16,
+    "cache_boltzmann_weights": true,
+    "checkpoint_seconds": 2.0,
+    "chunk_steps": 512,
+    "cycle_steps": 15872,
+    "exchange_every_chunks": 1,
+    "max_seconds": 20,
+    "max_steps": 100000000,
+    "method": "heatbath",
+    "replicas": 128,
+    "reuse_preparation": true,
+    "seed": 2026102351,
+    "snapshot_every_chunks": null,
+    "stop_when_all_groups_solved": true,
+    "tempering_ladder_size": 1,
+    "warmup_steps": null,
+    "width": 1
+  }
+}

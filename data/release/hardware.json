@@ -1,0 +1,33 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "vram_bytes": 33668726784,
+  "compute_capability": [
+    12,
+    0
+  ],
+  "driver": "580.178.04",
+  "cpu_model": "AMD Eng Sample: 100-000001537-04",
+  "cpu_quota": "1756000 100000",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "python": "3.14.6",
+  "vram_measurement": "Value recorded by the frozen formal preflight",
+  "nvidia_smi_memory_total_mib": 32607,
+  "gpu_results_are_measurements": true,
+  "cpu_controls_measured_on_same_host": true,
+  "initialization_search_certification_and_complete_times_are_distinct": true,
+  "runtime_packages": {
+    "numpy": "2.4.4",
+    "torch": "2.13.0+cu130",
+    "triton": "3.7.1",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "pyyaml": "6.0.3",
+    "pytest": "9.0.2",
+    "ruff": "0.14.14"
+  },
+  "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "system_libraries": "libc6:amd64\t2.39-0ubuntu8.9\nlibgomp1:amd64\t14.2.0-4ubuntu2~24.04.1\nlibstdc++6:amd64\t14.2.0-4ubuntu2~24.04.1\n",
+  "operating_system_release": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "host_memory_cgroup_limit_bytes": 196057497600
+}

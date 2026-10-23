@@ -1,0 +1,6 @@
+{
+  "RESULT_ROWS": "| chils-local | 8 | 676851.250 | 12.606 |\n| chils-parallel | 8 | 679077.375 | 12.628 |\n| greedy | 4 | 624714.750 | 0.599 |\n| metropolis | 8 | 648611.625 | 14.958 |\n| pair-gibbs | 8 | 653237.875 | 15.318 |\n| pair-metropolis | 8 | 634040.750 | 15.356 |\n| pbit | 8 | 647702.125 | 15.051 |",
+  "PAIR_GAIN": "0.855",
+  "PAIR_GAP": "-3.489",
+  "HARDWARE": "NVIDIA GeForce RTX 5090 (32607 MiB); AMD Eng Sample: 100-000001537-04 (quota 17.56 vCPU); Python 3.14.6; PyTorch 2.13.0+cu130; CUDA 13.0; driver 580.178.04."
+}

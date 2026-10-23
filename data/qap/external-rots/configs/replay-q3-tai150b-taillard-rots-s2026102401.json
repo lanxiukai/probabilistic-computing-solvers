@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "adapter_source": "data/qap/baselines/taillard-rots/rots_adapter.c",
+    "build_log": "data/qap/baselines/taillard-rots/build.log",
+    "build_metadata": "data/qap/baselines/taillard-rots/build.json",
+    "executable": "data/qap/baselines/taillard-rots/rots",
+    "instrumented_source": "data/qap/baselines/taillard-rots/instrumented.c",
+    "max_iterations": 156945,
+    "max_seconds": 180,
+    "process_limit_seconds": 210,
+    "quality_max_curve_index": 811,
+    "quality_max_iteration": 140510,
+    "seed": 2026102401,
+    "source": "data/qap/baselines/taillard-rots/upstream.c",
+    "upstream_conditions": "data/qap/baselines/taillard-rots/UPSTREAM-CONDITIONS.txt"
+  },
+  "experiment": {
+    "role": "independent-external-classical-reference"
+  },
+  "method": "taillard-rots",
+  "problem": {
+    "instance_file": "data/qap/qaplib/tai150b.dat",
+    "reference_file": "data/qap/qaplib/tai150b.sln",
+    "reference_index_base": 1,
+    "reference_inverse": false,
+    "reference_status": "historical_feasible_reference"
+  }
+}

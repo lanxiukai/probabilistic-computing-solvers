@@ -1,0 +1,8 @@
+{
+  "rows": 35,
+  "columns": 300,
+  "levels": 3,
+  "strength": 2,
+  "reference_source": "https://math.nist.gov/coveringarrays/ipof/tables/table.2.3.html",
+  "reference_status": "historical_feasible_rows"
+}

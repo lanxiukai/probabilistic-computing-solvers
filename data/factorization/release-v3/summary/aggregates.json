@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "all_run_cell_median_seconds": 21.13462653197348,
+      "integer_control_cell_median_seconds": 1.100019524921663,
+      "integer_control_runs": 3,
+      "integer_control_successes": 3,
+      "max_reserved_vram_bytes": 3986685952,
+      "physical_runs": 9,
+      "product_bits": 64,
+      "strict_successes": 9,
+      "successful_first_passage_max_seconds": 3.070310819079168,
+      "successful_first_passage_median_seconds": 1.3332714650314301,
+      "successful_first_passage_min_seconds": 0.24921514303423464,
+      "yafu_wall_median_seconds": 0.03319207299500704
+    },
+    {
+      "all_run_cell_median_seconds": 18.692183919018134,
+      "integer_control_cell_median_seconds": 0.8090651760576293,
+      "integer_control_runs": 3,
+      "integer_control_successes": 3,
+      "max_reserved_vram_bytes": 3066036224,
+      "physical_runs": 9,
+      "product_bits": 80,
+      "strict_successes": 9,
+      "successful_first_passage_max_seconds": 2.8070651709567755,
+      "successful_first_passage_median_seconds": 0.04437656595837325,
+      "successful_first_passage_min_seconds": 0.014387638890184462,
+      "yafu_wall_median_seconds": 0.06592139194253832
+    },
+    {
+      "all_run_cell_median_seconds": 20.488252175040543,
+      "integer_control_cell_median_seconds": 2.696633551036939,
+      "integer_control_runs": 3,
+      "integer_control_successes": 3,
+      "max_reserved_vram_bytes": 2086666240,
+      "physical_runs": 9,
+      "product_bits": 96,
+      "strict_successes": 9,
+      "successful_first_passage_max_seconds": 12.79677964001894,
+      "successful_first_passage_median_seconds": 5.997097980929539,
+      "successful_first_passage_min_seconds": 1.1004895829828456,
+      "yafu_wall_median_seconds": 0.11604034900665283
+    },
+    {
+      "all_run_cell_median_seconds": 11.45680635701865,
+      "integer_control_cell_median_seconds": 5.565105055924505,
+      "integer_control_runs": 3,
+      "integer_control_successes": 3,
+      "max_reserved_vram_bytes": 2227175424,
+      "physical_runs": 9,
+      "product_bits": 112,
+      "strict_successes": 9,
+      "successful_first_passage_max_seconds": 15.552503313985653,
+      "successful_first_passage_median_seconds": 5.662223909050226,
+      "successful_first_passage_min_seconds": 1.2607759330421686,
+      "yafu_wall_median_seconds": 0.1159009599359706
+    },
+    {
+      "all_run_cell_median_seconds": 134.73004898196086,
+      "integer_control_cell_median_seconds": 32.33044665597845,
+      "integer_control_runs": 3,
+      "integer_control_successes": 3,
+      "max_reserved_vram_bytes": 2233466880,
+      "physical_runs": 9,
+      "product_bits": 120,
+      "strict_successes": 9,
+      "successful_first_passage_max_seconds": 1067.3156357320258,
+      "successful_first_passage_median_seconds": 128.03524862101767,
+      "successful_first_passage_min_seconds": 23.91536266298499,
+      "yafu_wall_median_seconds": 0.1654665779788047
+    },
+    {
+      "all_run_cell_median_seconds": 2070.2974885660224,
+      "integer_control_cell_median_seconds": 921.5989521209849,
+      "integer_control_runs": 3,
+      "integer_control_successes": 2,
+      "max_reserved_vram_bytes": 2239758336,
+      "physical_runs": 9,
+      "product_bits": 128,
+      "strict_successes": 7,
+      "successful_first_passage_max_seconds": 2307.7763751050225,
+      "successful_first_passage_median_seconds": 948.6861573280767,
+      "successful_first_passage_min_seconds": 381.2588076640386,
+      "yafu_wall_median_seconds": 0.16571484098676592
+    }
+  ]
+}

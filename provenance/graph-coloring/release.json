@@ -1,0 +1,80 @@
+{
+  "schema": "graph-coloring-public-source-v1",
+  "original_source_archive_sha256": "7d5d27fc54f13bcd2f20cb722254b2add594e9758b9b1520536b45d4d3ab3eec",
+  "numerical_files": [
+    {
+      "public_destination": "src/combinatorial_solvers/graph_coloring/__init__.py",
+      "original_sha256": "9cf709da4c59d2d0a4560cecb0da1f951d51082bd0521921d52dc20212ccdaf4",
+      "public_sha256": "9cf709da4c59d2d0a4560cecb0da1f951d51082bd0521921d52dc20212ccdaf4"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/graph_coloring/baseline.py",
+      "original_sha256": "5efbebea5864b4bf48f570160f6e95d8a066c7d19a1f6086cb50ca038404c5d4",
+      "public_sha256": "5efbebea5864b4bf48f570160f6e95d8a066c7d19a1f6086cb50ca038404c5d4"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/graph_coloring/gpu.py",
+      "original_sha256": "d76958ca7960071f5ba67dbfff2802d3f15d067f3864e77882c5b45a45786444",
+      "public_sha256": "52a46d97b966170b1adff1b90d33350e67b2b7d38ffce7e7659af1b3f7eafc36"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/graph_coloring/model.py",
+      "original_sha256": "18df5e7a54766d2773d0b6945b615a71c322960d5de4adc1f0cb04f200a84dca",
+      "public_sha256": "18df5e7a54766d2773d0b6945b615a71c322960d5de4adc1f0cb04f200a84dca"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/graph_coloring/runner.py",
+      "original_sha256": "3ef44b1088e9427988fbcb6b1a30e9613846488949db72bce9364bc120188d7f",
+      "public_sha256": "1c03aa45afd38a6df795370d498fbe75480e71fb819c81b98ff6f26f335213db"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/graph_coloring/solver.py",
+      "original_sha256": "b1dfa970b134fc3c0d00311097a58ffbe4df0b329b2fb73308ae214723a22e1e",
+      "public_sha256": "98649e6955fe031e1b6c5af8e9fe6466b2a373d0c29601e5062e7a178e518a0e"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/graph_coloring/tempering.py",
+      "original_sha256": "b7bd7a7eeab3e0b7b1f968f13fa2199328978d5c5de2bad699cc2e3431c560e4",
+      "public_sha256": "b7bd7a7eeab3e0b7b1f968f13fa2199328978d5c5de2bad699cc2e3431c560e4"
+    }
+  ],
+  "source_transformations": [
+    "Package namespace replacement and formatting only; numerical AST matched the executed final confirmation."
+  ],
+  "complete_original_audit": {
+    "confirmation_color_states": 298050,
+    "development_color_states": 276324,
+    "implementation_color_states": 10240
+  },
+  "classical_support": "Clique-based symmetry fixing and temperature-label exchange are classical support; TabuCol-style search is an independent CPU comparison.",
+  "public_software_suite_passed": 742,
+  "unrelated_covering_array_checks_initially_skipped": 2,
+  "unrelated_acts_checks_resolved_by_targeted_verification": 2,
+  "public_source_work_replays": {
+    "status": "passed",
+    "work_replays": 4,
+    "new_independent_trials": 0,
+    "records": [
+      {
+        "id": "replay-g3-s51-le450-5b-heatbath-unfixed",
+        "non_timing_arrays_matched": 31,
+        "public_manifest_sha256": "1a510d9b42c2fefce868e5fb48722a22ce41ef3f081cfc9fec89a3382dface1a"
+      },
+      {
+        "id": "replay-g3-s51-le450-25d-heatbath-unfixed",
+        "non_timing_arrays_matched": 31,
+        "public_manifest_sha256": "9a21a43f5369398f5aeec182d2dadf8852f187dc99c69603433fab06fac28777"
+      },
+      {
+        "id": "replay-g3-s51-inithx-i-1-heatbath-clique",
+        "non_timing_arrays_matched": 32,
+        "public_manifest_sha256": "10f853c43ad3f8ef1932acf7608e0351510ff29215692f52e7bf1715fe3f6f70"
+      },
+      {
+        "id": "replay-g3-s51-list4-256-heatbath-lists",
+        "non_timing_arrays_matched": 31,
+        "public_manifest_sha256": "8cbb0dc296677d20e3bdbc0c3034daf2521bb3d835e43d5fe8bd9bf4b1377249"
+      }
+    ]
+  }
+}

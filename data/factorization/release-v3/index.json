@@ -1,0 +1,391 @@
+{
+  "additional_trials_from_replay": 0,
+  "classical_controls": 54,
+  "full_origin_replays": 6,
+  "physical_runs": 54,
+  "planned_physical_runs": 54,
+  "rows": [
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-0-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "2f3d03fd477aa6ae299991a78b05db6b8d696b136e13d96512db26f6dcfc8e72"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-0-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "41c5f189a1d84e5d074c503afa35b90bf9dcec77f4c8ef8b58f65b21310898fc"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-0-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "dcd9086a152bebaa8daf8ee5383b18de64a7df9f8929fad59818db67119bc1fc"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-1-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "f5a2e9f01f3fed46524da66027c3436cbd79046066a5f8eabd94bc68a52159cb"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-1-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "c1601282cfc0171d8b35f9397f0e3f3d1577451a3478d56c59cec0ce77c9ad53"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-1-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "382b257393209abc1268c3940e0b06b77ddc1696e923518261700a0805e3b474"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-2-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "2ae24905d4cf53298cf577688adc0f584a99027418758703ba491641679f35f1"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-2-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "19abcbf1833834639004c0a2d8d1f7b12d7ef85675ef60e31d0288343ca3a324"
+    },
+    {
+      "product_bits": 64,
+      "run_id": "w64-holdout-2-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "147988a83a27489fd5e5b6087fd15207eae2d9d014933bd951615b6e4945de45"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-0-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "288790e36c08f7e9baaba63c8db9e8a0f7496a587033a3a4182b819617e06b7d"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-0-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "5ec1bbb481a153f92e95de9fe934124b510a9ac3803d5fef07f931b43fcc8d40"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-0-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "50e4a5dcf94280ab5e4728d60bde1c5797e82f34798eb23e7111487fa3ffabc5"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-1-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "d978821376034c55da1ce50bcccaab79791ee99781b9bb1c8548489ef2874c84"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-1-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "4ffcbff8a15fb78ffa25a035005cb0fbb0b0a7e2950d60c20ec22fb0b65dd661"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-1-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "1c1a723478b3ce7c14c805cf00bc1b2837c5bfc6088411b5dfe7f34d4b1bb6b8"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-2-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "afab2b53706a5a07885c2285933d3ddc47956cc8e9076c0f82820a589161e3b2"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-2-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "ceb376dd74f3b5934bfb7bfc3fe2dedc734ae995c7cbb917ebdb7a75fd7a41f8"
+    },
+    {
+      "product_bits": 80,
+      "run_id": "w80-holdout-2-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "a842654331bd432c00906a098a1f3f05227987a51521c88a8ea2989abf957a3c"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-0-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "2539a4b4c0296c5216d8150c8e5ae81664249d9c699a15acc3c2a1689473903f"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-0-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "e6e0046f1170c590f37ba78d5f5a6b06a1ee2418fcd34e3ff87fc9f8de097555"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-0-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "eea473ec6ee8d56d0ef8ce8b5213cc5ef9f577962f936f258541e11973875da5"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-1-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "ef3c0d29a0864c622d1c886866c1b64633f96bf9912a2d130058beb1427445ef"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-1-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "91a0d9c247fa28d8b17c459965caed7e840d4541a96e07f50ca2b220e9ea72e8"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-1-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "939a4d9df06b64089e6e1a1a43bc73e4cc05bbcc4cbfc7726dd5ac8711f5b63a"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-2-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "e256533caabaf375b6593501d106d6552ab70305f962b25b913ccb0b4c56ef38"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-2-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "c474a4aa7a90f4b177e61ab6c087ecab0da229e4c464dc96bf3a9e6ef81f2278"
+    },
+    {
+      "product_bits": 96,
+      "run_id": "w96-holdout-2-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "0bd40209a1e73c5575a151fb2db6a4e4db7b82ec258fda9cebb5d9f27c92c27d"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-0-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "0958cc5d8ce6efde0931e00d85b44d6dfbadc944ff800ba60689035604721cb6"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-0-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "1e97c258e27407d895ee96510081a74537574722f7e454dcd6115c965b229d8c"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-0-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "09be7fcf3ef887ffd96cf04b6910bf772b829e7d6bc2f135a910488cfe70fe97"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-1-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "7fa6f5d0c51e178760e02104b11768a8bbcf1cb8a1e8912371ec48e2df50afd5"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-1-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "67a6df1176042c95ac311c7902e0bfae827074a244a846bf6ffb19cdee4a57a7"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-1-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "1d50c76f0f603bd42de395d466919f3e4e4f1adc64e2840a75bfa5700057976d"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-2-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "af20dfaae2e9ccacee25c05920ae0cd2dfbdff858d2f2620eb0df1730d8346ab"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-2-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "e896f3d24dc562ab42d09dc99f1e23d80f526c0827bd1f07e31874c29adf925e"
+    },
+    {
+      "product_bits": 112,
+      "run_id": "w112-holdout-2-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "5e5654deb32d9ff890b686c4c130219580b47ed71110d2dec54704d1cfefc916"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-0-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "24aba237caf4c4a20c6df5dcbbd96b65773e9294e098df3b6822db3eb7f6927f"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-0-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "26923ad937cb3ac4193554e7762f42e73132e24a1315e2341d1c76dc9dba484c"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-0-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "77d09db685aed30cb1b53bfb7d5c1a528b3f9c03ebbfcaf11747ea32fefae7cb"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-1-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "7be1420e3949d1c76fed5eab00845886195b10f4e44b9b674f0fdc8f64208dc4"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-1-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "27308d7d2ffd945f3b1a39a92bbbe235633b50d0a21f8b49f904b9fb4b5e990e"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-1-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "b3044105b8859454d94666e07f2e1be679c9bfe6d4fe8764479bc93d6253e753"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-2-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "c9b19205664be332a5596305167672387eff90f917d7fe289eb3090e215e1cb7"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-2-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "71cd5afcb37f4c6a50e60456b17c64a778795c28e2c35f547fb8555614411c5e"
+    },
+    {
+      "product_bits": 120,
+      "run_id": "w120-holdout-2-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "35f50021089fe6bb0056670eb8e2bfaa6ca4103a216a59b0563e7b57f4891229"
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-0-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "1e12fb6b2dc16456e71ad79e0ab396161fb13252d4701b1b8a70102ce497c625"
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-0-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "16fc87b39e3bc024d1cf89d90eeeacee2798c66bbf0e9bff80ff15c04357d17b"
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-0-s2",
+      "status": "event_limit",
+      "success": false,
+      "witness_sha256": null
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-1-s0",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "c05601bd3e698d82758239627cf53b2fa1889ccc32b2dc4d1277e13b6b06584b"
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-1-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "93773729a174397a2a2ec848356d0fb087e7eb59afd06d54470f1325d401672a"
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-1-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "0bc0d4522ca691fcb7a23eee3310a189045d99a677bfd2f52de9a8c71a67e2d4"
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-2-s0",
+      "status": "event_limit",
+      "success": false,
+      "witness_sha256": null
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-2-s1",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "9bf5eb8589398c7ba12ce32a5bfe25b178cca5988535ad6f785e3a23d7f05622"
+    },
+    {
+      "product_bits": 128,
+      "run_id": "w128-holdout-2-s2",
+      "status": "strict_hit",
+      "success": true,
+      "witness_sha256": "1f5ae9cabe14bfe9c69652b271fca1ca073f92847f67e961b121b9b423299608"
+    }
+  ],
+  "schema": "factorization-core-results-v1",
+  "selected_root_integer_controls": 18,
+  "successes": 52,
+  "unexecuted": 0
+}

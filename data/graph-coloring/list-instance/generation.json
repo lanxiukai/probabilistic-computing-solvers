@@ -1,0 +1,16 @@
+{
+  "benchmark_scope": "Generated list-constraint demonstration; not an external benchmark or evidence of general hardness.",
+  "bernoulli_expected_degree_before_connecting_cycle": 16.0,
+  "colors": 4,
+  "list_size": 3,
+  "numpy_version": "2.4.4",
+  "rng": "numpy.PCG64",
+  "seed": 2026102391,
+  "solver_inputs": [
+    "instance.col",
+    "allowed.npy"
+  ],
+  "source": "generate_list_instance.py",
+  "source_kind": "Owned independent synthetic generator",
+  "vertices": 256
+}

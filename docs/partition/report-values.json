@@ -1,0 +1,9 @@
+{
+  "RESULT_ROWS": "| delaunay32k | greedy4-warm | 1 | 343.000 | 3.602 |\n| delaunay32k | hb4 | 2 | 5615.500 | 127.956 |\n| delaunay32k | hb4-warm | 2 | 343.000 | 48.498 |\n| delaunay32k | initial | 1 | 343.000 | 0.642 |\n| delaunay32k | kaffpa-restarts | 2 | 323.000 | 46.832 |\n| delaunay32k | metro2 | 2 | 8494.000 | 128.606 |\n| random32k-a | greedy4-warm | 1 | 109420.000 | 46.264 |\n| random32k-a | hb4 | 2 | 111897.000 | 232.763 |\n| random32k-a | hb4-warm | 2 | 109420.000 | 91.541 |\n| random32k-a | initial | 1 | 109420.000 | 39.160 |\n| random32k-a | kaffpa-restarts | 2 | 109420.000 | 107.716 |\n| random32k-a | metro2 | 2 | 115939.500 | 254.177 |\n| random32k-b | greedy4-warm | 1 | 109685.000 | 35.538 |\n| random32k-b | hb4 | 2 | 111783.500 | 250.515 |\n| random32k-b | hb4-warm | 2 | 109685.000 | 78.390 |\n| random32k-b | initial | 1 | 109685.000 | 28.357 |\n| random32k-b | kaffpa-restarts | 2 | 109567.000 | 81.629 |\n| random32k-b | metro2 | 2 | 115902.000 | 247.315 |\n| rgg32k | greedy4-warm | 1 | 234.000 | 4.727 |\n| rgg32k | hb4 | 2 | 6708.500 | 198.576 |\n| rgg32k | hb4-warm | 2 | 234.000 | 49.688 |\n| rgg32k | initial | 1 | 234.000 | 0.879 |\n| rgg32k | kaffpa-restarts | 2 | 182.000 | 46.896 |\n| rgg32k | metro2 | 2 | 10340.500 | 186.561 |",
+  "COLD_METRO_WINS": "4",
+  "COLD_REFERENCE_WINS": "0",
+  "GRAPHS": "4",
+  "WARM_IMPROVEMENTS": "0",
+  "WARM_CALLS": "12",
+  "HARDWARE": "NVIDIA GeForce RTX 5090 (32607 MiB); AMD Eng Sample: 100-000001537-04 (quota 17.56 vCPU); Python 3.14.6; PyTorch 2.13.0+cu130; CUDA 13.0; driver 580.178.04."
+}

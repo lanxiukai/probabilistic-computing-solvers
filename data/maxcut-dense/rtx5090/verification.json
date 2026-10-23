@@ -1,0 +1,31 @@
+{
+  "status": "independently-audited",
+  "natural_calls": 20,
+  "origin_replays": 5,
+  "origin_replay_checks": [
+    {
+      "arrays": 23,
+      "origin": "sk32768-0-s0-sca-matched"
+    },
+    {
+      "arrays": 23,
+      "origin": "sk32768-0-s0-onsager"
+    },
+    {
+      "arrays": 23,
+      "origin": "sk32768-0-s0-dsb100"
+    },
+    {
+      "arrays": 23,
+      "origin": "er32768-0-s0-block8x16"
+    },
+    {
+      "arrays": 23,
+      "origin": "er32768-0-s0-dsb0125"
+    }
+  ],
+  "replays_add_independent_trials": false,
+  "audited_saved_states": 960,
+  "executed_source_identity": "b9b910b367df35b0fff0fd4c62a36a2decc9b9ebc930e9c4b8df0bf3fdf2898b",
+  "complete_raw_evidence_retained_privately": true
+}

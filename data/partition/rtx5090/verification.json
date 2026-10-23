@@ -1,0 +1,41 @@
+{
+  "status": "independently-audited",
+  "natural_calls": 40,
+  "origin_replays": 5,
+  "origin_replay_checks": [
+    {
+      "arrays_checked": 16,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "random32k-a-s0-hb4"
+    },
+    {
+      "arrays_checked": 16,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "random32k-a-s0-metro2"
+    },
+    {
+      "arrays_checked": 16,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "random32k-a-s0-hb4-warm"
+    },
+    {
+      "arrays_checked": 16,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "delaunay32k-s0-greedy4-warm"
+    },
+    {
+      "arrays_checked": 10,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "rgg32k-s0-kaffpa-restarts"
+    }
+  ],
+  "replays_add_independent_trials": false,
+  "audited_saved_states": 100087,
+  "executed_source_identity": "b9b910b367df35b0fff0fd4c62a36a2decc9b9ebc930e9c4b8df0bf3fdf2898b",
+  "complete_raw_evidence_retained_privately": true
+}

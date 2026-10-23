@@ -1,0 +1,30 @@
+{
+  "experiment": {
+    "role": "confirmation"
+  },
+  "method": "native",
+  "problem": {
+    "format": "scp",
+    "instance_file": "data/set-cover/or-library-v1/scpa1.txt.gz",
+    "benchmark_id": "scpa1"
+  },
+  "solver": {
+    "banks": 16,
+    "beta_end": 4,
+    "beta_start": 4,
+    "block_policy": "cost-minhash",
+    "cache_initial": true,
+    "chunk_steps": 256,
+    "cycle_sweeps": 64,
+    "initialization": "greedy",
+    "max_seconds": 30,
+    "max_steps": 200000000,
+    "method": "heatbath",
+    "replicas": 128,
+    "representation": "feasible",
+    "seed": 2026102393,
+    "selection": "active",
+    "snapshot_every_chunks": 512,
+    "width": 8
+  }
+}

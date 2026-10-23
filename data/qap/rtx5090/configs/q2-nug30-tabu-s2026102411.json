@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "build_log": "data/qap/baselines/attribute-tabu/build.log",
+    "build_metadata": "data/qap/baselines/attribute-tabu/build.json",
+    "executable": "data/qap/baselines/attribute-tabu/tabu",
+    "max_iterations": 100000000,
+    "max_seconds": 15,
+    "process_limit_seconds": 180,
+    "seed": 2026102411,
+    "source": "data/qap/baselines/attribute-tabu/tabu_reference.cpp"
+  },
+  "experiment": {
+    "role": "independent-seed-classical-reference"
+  },
+  "method": "attribute-tabu",
+  "problem": {
+    "instance_file": "data/qap/qaplib/nug30.dat",
+    "reference_file": "data/qap/qaplib/nug30.sln",
+    "reference_index_base": 1,
+    "reference_inverse": false,
+    "reference_status": "proven_optimum"
+  }
+}

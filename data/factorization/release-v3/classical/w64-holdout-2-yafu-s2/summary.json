@@ -1,0 +1,15 @@
+{
+  "arm": "yafu_cpu_noecm",
+  "certificate_error": null,
+  "factors": [
+    3668603219,
+    4278937979
+  ],
+  "independent_physical_trials": 0,
+  "returncode": 0,
+  "status": "completed",
+  "success": true,
+  "success_criterion": "complete integer factorization; no Ising certificate",
+  "target": 15697725643660754401,
+  "wall_seconds": 0.033361200941726565
+}

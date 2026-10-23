@@ -1,0 +1,28 @@
+{
+  "experiment": {
+    "role": "independent-seed-confirmation"
+  },
+  "problem": {
+    "instance_file": "data/qap/qaplib/tai80a.dat",
+    "reference_file": "data/qap/qaplib/tai80a.sln",
+    "reference_index_base": 1,
+    "reference_inverse": true,
+    "reference_status": "historical_feasible_reference"
+  },
+  "solver": {
+    "beta_end": 0.011872173099585397,
+    "beta_start": 4.637567617025546e-05,
+    "checkpoint_seconds": 2.0,
+    "chunk_steps": 512,
+    "cycle_steps": 65536,
+    "energy_layout": "factored",
+    "max_seconds": 30,
+    "max_steps": 100000000,
+    "method": "metropolis",
+    "num_warps": 4,
+    "replicas": 512,
+    "seed": 2026102411,
+    "snapshot_every_chunks": 280,
+    "width": 4
+  }
+}

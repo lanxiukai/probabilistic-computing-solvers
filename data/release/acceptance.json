@@ -1,0 +1,17 @@
+{
+  "schema": "combinatorial-rtx5090-release-v1",
+  "status": "independently-verified-evidence",
+  "natural_calls": 365,
+  "origin_work_replays": 35,
+  "instance_role": "Previously frozen inputs reused for device confirmation",
+  "cloud_cpu_cuda_preflight_tests_passed": 395,
+  "preserved_pretrial_preparation_failures": 1,
+  "preserved_postrun_audit_path_failures": 1,
+  "failed_trials_before_preparation_correction": 0,
+  "new_instance_or_seed_selection_after_results": false,
+  "automatic_experiment_retries": 0,
+  "classical_pbit_labels_corrected_after_measurement": true,
+  "numerical_model_or_sampler_changes_during_curation": false,
+  "full_raw_evidence_and_operational_records_kept_private": true,
+  "external_software_rights_not_relicensed": true
+}

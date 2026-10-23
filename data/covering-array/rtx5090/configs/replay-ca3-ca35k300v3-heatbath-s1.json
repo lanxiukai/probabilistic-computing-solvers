@@ -1,0 +1,26 @@
+{
+  "experiment": {
+    "evaluation_split": "development-dimensions-fresh-seed",
+    "role": "pbit-confirmation"
+  },
+  "problem": {
+    "instance_file": "data/covering-array/instances/ca35k300v3.json"
+  },
+  "solver": {
+    "beta_end": 8,
+    "beta_start": 8,
+    "cache_parameters": true,
+    "chunk_steps": 512,
+    "cycle_steps": 9000,
+    "max_seconds": 300,
+    "max_steps": 1395712,
+    "method": "heatbath",
+    "orientation": "column",
+    "prewarm_full_chunks": true,
+    "quality_max_step": 1395200,
+    "replicas": 128,
+    "seed": 2026102361,
+    "snapshot_every_chunks": 1024,
+    "width": 2
+  }
+}

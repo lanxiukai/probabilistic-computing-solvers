@@ -1,0 +1,1878 @@
+[
+  {
+    "id": "g2b-le450-5a-pt-r128",
+    "instance": "le450_5a",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 5,
+        "instance_file": "data/graph-coloring/dimacs/le450_5a.col"
+      },
+      "solver": {
+        "beta_end": 12,
+        "beta_start": 0.4,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 3600,
+        "exchange_every_chunks": 1,
+        "max_seconds": 60,
+        "method": "heatbath",
+        "replicas": 128,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 16,
+        "warmup_steps": null,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-le450-5a-pt-r128.json",
+    "metrics": {
+      "allowed_binary_variables": 2250,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 65.28438276611269,
+      "completed_steps": 5428736,
+      "deadline_overshoot_seconds": 0.002616614568978548,
+      "edges": 5714,
+      "exchange_accepted_pairs": 212705,
+      "exchange_events": 10603,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 8,
+      "initial_best_cost": 1069,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "interacting_unclamped_allowed_binary_variables": 2250,
+      "isolated_vertices": 0,
+      "method": "heatbath",
+      "model_binary_variables": 2250,
+      "nonisolated_vertices": 450,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 5,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 24,
+      "peak_allocated_bytes": 9329152,
+      "peak_reserved_bytes": 25165824,
+      "physical_update_pbits_per_model": 2250,
+      "preparation_reuse": true,
+      "preparation_seconds": 2.803968778811395,
+      "quality_max_step": 5428224,
+      "replicas_improved": 128,
+      "returned_best_cost": 0,
+      "search_seconds": 60.00261661456898,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 16,
+      "unclamped_allowed_binary_variables": 2250,
+      "vertices": 450,
+      "visited_assignment_bits_min": 2250,
+      "visited_unclamped_assignment_bits_min": 2250,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 7,
+      "zero_conflict_hits": 24
+    },
+    "witness_file": "witnesses/g2b-le450-5a-pt-r128.npz",
+    "witness_sha256": "c951ae6838bc0035f48d444dd572885a2b6d53ef82a5c40a983290169c59774b",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "visited_assignment_bits_min": 2250,
+      "peak_allocated_bytes": 9329152,
+      "peak_reserved_bytes": 25165824,
+      "preparation_seconds": 2.803968778811395,
+      "search_seconds": 60.00261661456898,
+      "complete_runner_seconds": 65.28438276611269,
+      "physical_update_pbits_per_model": 2250
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_5a.col",
+        "sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_5a.col",
+        "recorded_original_sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 10603,
+        "retained_observations": 873,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-le450-5a-pt-r512",
+    "instance": "le450_5a",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 5,
+        "instance_file": "data/graph-coloring/dimacs/le450_5a.col"
+      },
+      "solver": {
+        "beta_end": 12,
+        "beta_start": 0.4,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 3600,
+        "exchange_every_chunks": 1,
+        "max_seconds": 60,
+        "method": "heatbath",
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 16,
+        "warmup_steps": null,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-le450-5a-pt-r512.json",
+    "metrics": {
+      "allowed_binary_variables": 2250,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 70.87034895829856,
+      "completed_steps": 2729984,
+      "deadline_overshoot_seconds": 0.006861039903014898,
+      "edges": 5714,
+      "exchange_accepted_pairs": 397267,
+      "exchange_events": 5332,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 32,
+      "initial_best_cost": 1044,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "interacting_unclamped_allowed_binary_variables": 2250,
+      "isolated_vertices": 0,
+      "method": "heatbath",
+      "model_binary_variables": 2250,
+      "nonisolated_vertices": 450,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 5,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 70,
+      "peak_allocated_bytes": 37058048,
+      "peak_reserved_bytes": 56623104,
+      "physical_update_pbits_per_model": 2250,
+      "preparation_reuse": true,
+      "preparation_seconds": 4.658917574677616,
+      "quality_max_step": 2729472,
+      "replicas_improved": 512,
+      "returned_best_cost": 0,
+      "search_seconds": 60.006861039903015,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 16,
+      "unclamped_allowed_binary_variables": 2250,
+      "vertices": 450,
+      "visited_assignment_bits_min": 2250,
+      "visited_unclamped_assignment_bits_min": 2250,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 27,
+      "zero_conflict_hits": 70
+    },
+    "witness_file": "witnesses/g2b-le450-5a-pt-r512.npz",
+    "witness_sha256": "b71dcf3354a07ff643275ddf7af55f8a280d8160fd95d394bbba8355871390ff",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "visited_assignment_bits_min": 2250,
+      "peak_allocated_bytes": 37058048,
+      "peak_reserved_bytes": 56623104,
+      "preparation_seconds": 4.658917574677616,
+      "search_seconds": 60.006861039903015,
+      "complete_runner_seconds": 70.87034895829856,
+      "physical_update_pbits_per_model": 2250
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_5a.col",
+        "sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_5a.col",
+        "recorded_original_sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 5332,
+        "retained_observations": 1885,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-le450-5a-plateau-r512",
+    "instance": "le450_5a",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 5,
+        "instance_file": "data/graph-coloring/dimacs/le450_5a.col"
+      },
+      "solver": {
+        "beta_end": 12,
+        "beta_start": 0.4,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 3600,
+        "exchange_every_chunks": 1,
+        "max_seconds": 60,
+        "method": "plateau",
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 1,
+        "warmup_steps": null,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-le450-5a-plateau-r512.json",
+    "metrics": {
+      "allowed_binary_variables": 2250,
+      "best_feasible_cost": 13,
+      "boltzmann_weight_cache_active": false,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 68.42797247041017,
+      "completed_steps": 3832320,
+      "deadline_overshoot_seconds": 0.0034912899136543274,
+      "edges": 5714,
+      "exchange_accepted_pairs": 0,
+      "exchange_events": 0,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 512,
+      "initial_best_cost": 1044,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "interacting_unclamped_allowed_binary_variables": 2250,
+      "isolated_vertices": 0,
+      "method": "plateau",
+      "model_binary_variables": 2250,
+      "nonisolated_vertices": 450,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 5,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": false,
+      "pbit_new_zero_conflict_hits": 0,
+      "peak_allocated_bytes": 35896832,
+      "peak_reserved_bytes": 56623104,
+      "physical_update_pbits_per_model": 0,
+      "preparation_reuse": true,
+      "preparation_seconds": 4.532195167150348,
+      "quality_max_step": 3831808,
+      "replicas_improved": 512,
+      "returned_best_cost": 13,
+      "search_seconds": 60.003491289913654,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 1,
+      "unclamped_allowed_binary_variables": 2250,
+      "vertices": 450,
+      "visited_assignment_bits_min": 2250,
+      "visited_unclamped_assignment_bits_min": 2250,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 0,
+      "zero_conflict_hits": 0
+    },
+    "witness_file": "witnesses/g2b-le450-5a-plateau-r512.npz",
+    "witness_sha256": "9f91d10b5f5e2a778c56f6ab685b30a5d4414a2e99169b4c4ed45eb843a5165c",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "visited_assignment_bits_min": 2250,
+      "peak_allocated_bytes": 35896832,
+      "peak_reserved_bytes": 56623104,
+      "preparation_seconds": 4.532195167150348,
+      "search_seconds": 60.003491289913654,
+      "complete_runner_seconds": 68.42797247041017,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_5a.col",
+        "sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_5a.col",
+        "recorded_original_sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 7485,
+        "retained_observations": 579,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-le450-5a-tabu-unfixed",
+    "instance": "le450_5a",
+    "configuration": {
+      "baseline": {
+        "build_log": "data/graph-coloring/tabu-reference/build.log",
+        "build_metadata": "data/graph-coloring/tabu-reference/build.json",
+        "executable": "data/graph-coloring/tabu-reference/reference",
+        "max_iterations": 100000000,
+        "max_seconds": 60,
+        "process_limit_seconds": 150,
+        "seed": 2026102342,
+        "source": "data/graph-coloring/tabu-reference/tabu_reference.cpp"
+      },
+      "experiment": {
+        "role": "independent-classical-reference"
+      },
+      "method": "tabucol-style",
+      "problem": {
+        "colors": 5,
+        "instance_file": "data/graph-coloring/dimacs/le450_5a.col"
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-le450-5a-tabu-unfixed.json",
+    "metrics": {
+      "allowed_binary_variables": 2250,
+      "baseline_complete_seconds": 0.7317037950269878,
+      "best_feasible_cost": 0,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 0.9869092633016407,
+      "deadline_overshoot_seconds": 0,
+      "edges": 5714,
+      "fixed_zero_variables": 0,
+      "interacting_allowed_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "interacting_unclamped_allowed_binary_variables": 2250,
+      "isolated_vertices": 0,
+      "iterations": 16716,
+      "method": "tabucol-style",
+      "nonisolated_vertices": 450,
+      "observation": "Every completed move; a move observed beyond the deadline is excluded from best_feasible_cost and retained in returned_best_cost.",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 5,
+      "parallel_workers": 1,
+      "pbit_heatbath_participation": false,
+      "physical_update_pbits_per_model": 0,
+      "quality_iteration": 16716,
+      "returned_best_cost": 0,
+      "search_seconds": 0.014619197,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "unclamped_allowed_binary_variables": 2250,
+      "vertices": 450,
+      "zero_conflict_hits": 1
+    },
+    "witness_file": "witnesses/g2b-le450-5a-tabu-unfixed.npz",
+    "witness_sha256": "6c54bcb1389d249fdc2c910131c62f4302f046c73f8f69270fe26d1ec137ea44",
+    "resources": {
+      "parallel_workers": 1,
+      "interacting_model_binary_variables": 2250,
+      "search_seconds": 0.014619197,
+      "complete_runner_seconds": 0.9869092633016407,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_5a.col",
+        "sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_5a.col",
+        "recorded_original_sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490"
+      }
+    ],
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "path": "data/graph-coloring/tabu-reference/reference",
+        "sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04"
+      },
+      {
+        "field": "baseline.source",
+        "path": "data/graph-coloring/tabu-reference/tabu_reference.cpp",
+        "sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054"
+      },
+      {
+        "field": "baseline.build_metadata",
+        "path": "data/graph-coloring/tabu-reference/build.json",
+        "sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa"
+      },
+      {
+        "field": "baseline.build_log",
+        "path": "data/graph-coloring/tabu-reference/build.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "independent-classical-reference",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 559,
+        "retained_observations": 559,
+        "selection": "Complete classical improvement trace with original witnesses",
+        "rule": "all_original_observations",
+        "first_reference_hit_preserved": true
+      }
+    }
+  },
+  {
+    "id": "g2b-fpsol2-i-1-b1-heatbath-unfixed",
+    "instance": "fpsol2.i.1",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 65,
+        "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 16,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 15872,
+        "exchange_every_chunks": 1,
+        "max_seconds": 60,
+        "method": "heatbath",
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 1,
+        "warmup_steps": null,
+        "width": 1
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-fpsol2-i-1-b1-heatbath-unfixed.json",
+    "metrics": {
+      "allowed_binary_variables": 32240,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 74.78579576965421,
+      "completed_steps": 11989504,
+      "deadline_overshoot_seconds": 0.0003927098587155342,
+      "edges": 11654,
+      "exchange_accepted_pairs": 0,
+      "exchange_events": 0,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 512,
+      "initial_best_cost": 148,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 17485,
+      "interacting_model_binary_variables": 17485,
+      "interacting_unclamped_allowed_binary_variables": 17485,
+      "isolated_vertices": 227,
+      "method": "heatbath",
+      "model_binary_variables": 32240,
+      "nonisolated_vertices": 269,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 65,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 12,
+      "peak_allocated_bytes": 216647680,
+      "peak_reserved_bytes": 222298112,
+      "physical_update_pbits_per_model": 32240,
+      "preparation_reuse": true,
+      "preparation_seconds": 5.746406636200845,
+      "quality_max_step": 11988992,
+      "replicas_improved": 512,
+      "returned_best_cost": 0,
+      "search_seconds": 60.000392709858716,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 1,
+      "unclamped_allowed_binary_variables": 32240,
+      "vertices": 496,
+      "visited_assignment_bits_min": 32240,
+      "visited_unclamped_assignment_bits_min": 32240,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 12,
+      "zero_conflict_hits": 12
+    },
+    "witness_file": "witnesses/g2b-fpsol2-i-1-b1-heatbath-unfixed.npz",
+    "witness_sha256": "0aee11b722c11017d86fbbcafcb7ac7cedd30656e5fb6c6cae127950e604923f",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 32240,
+      "interacting_model_binary_variables": 17485,
+      "visited_assignment_bits_min": 32240,
+      "peak_allocated_bytes": 216647680,
+      "peak_reserved_bytes": 222298112,
+      "preparation_seconds": 5.746406636200845,
+      "search_seconds": 60.000392709858716,
+      "complete_runner_seconds": 74.78579576965421,
+      "physical_update_pbits_per_model": 32240
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "recorded_original_sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 23417,
+        "retained_observations": 1520,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-fpsol2-i-1-b1-plateau-unfixed",
+    "instance": "fpsol2.i.1",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 65,
+        "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 16,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 15872,
+        "exchange_every_chunks": 1,
+        "max_seconds": 60,
+        "method": "plateau",
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 1,
+        "warmup_steps": null,
+        "width": 1
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-fpsol2-i-1-b1-plateau-unfixed.json",
+    "metrics": {
+      "allowed_binary_variables": 32240,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": false,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 74.5654351268895,
+      "completed_steps": 11893248,
+      "deadline_overshoot_seconds": 0.0008223620243370533,
+      "edges": 11654,
+      "exchange_accepted_pairs": 0,
+      "exchange_events": 0,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 512,
+      "initial_best_cost": 148,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 17485,
+      "interacting_model_binary_variables": 17485,
+      "interacting_unclamped_allowed_binary_variables": 17485,
+      "isolated_vertices": 227,
+      "method": "plateau",
+      "model_binary_variables": 32240,
+      "nonisolated_vertices": 269,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 65,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": false,
+      "pbit_new_zero_conflict_hits": 0,
+      "peak_allocated_bytes": 215566336,
+      "peak_reserved_bytes": 222298112,
+      "physical_update_pbits_per_model": 0,
+      "preparation_reuse": true,
+      "preparation_seconds": 5.391794303897768,
+      "quality_max_step": 11892736,
+      "replicas_improved": 512,
+      "returned_best_cost": 0,
+      "search_seconds": 60.00082236202434,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 1,
+      "unclamped_allowed_binary_variables": 32240,
+      "vertices": 496,
+      "visited_assignment_bits_min": 32240,
+      "visited_unclamped_assignment_bits_min": 32240,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 34,
+      "zero_conflict_hits": 34
+    },
+    "witness_file": "witnesses/g2b-fpsol2-i-1-b1-plateau-unfixed.npz",
+    "witness_sha256": "7b818a7369e798b74a1db2ffe2cae6854d0c552d6f3c864b302cc94c981f5d0b",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 32240,
+      "interacting_model_binary_variables": 17485,
+      "visited_assignment_bits_min": 32240,
+      "peak_allocated_bytes": 215566336,
+      "peak_reserved_bytes": 222298112,
+      "preparation_seconds": 5.391794303897768,
+      "search_seconds": 60.00082236202434,
+      "complete_runner_seconds": 74.5654351268895,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "recorded_original_sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 23229,
+        "retained_observations": 1586,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-fpsol2-i-1-b1-heatbath-clique",
+    "instance": "fpsol2.i.1",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 65,
+        "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "symmetry_clique_file": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 16,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 15872,
+        "exchange_every_chunks": 1,
+        "max_seconds": 20,
+        "method": "heatbath",
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 1,
+        "warmup_steps": null,
+        "width": 1
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-fpsol2-i-1-b1-heatbath-clique.json",
+    "metrics": {
+      "allowed_binary_variables": 28080,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": 65,
+      "chromatic_optimum_certified": true,
+      "complete_runner_seconds": 13.16382268583402,
+      "completed_steps": 56320,
+      "deadline_overshoot_seconds": 0,
+      "edges": 11654,
+      "exchange_accepted_pairs": 0,
+      "exchange_events": 0,
+      "fixed_zero_variables": 4160,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 512,
+      "initial_best_cost": 121,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 13325,
+      "interacting_model_binary_variables": 17485,
+      "interacting_unclamped_allowed_binary_variables": 13260,
+      "isolated_vertices": 227,
+      "method": "heatbath",
+      "model_binary_variables": 32240,
+      "nonisolated_vertices": 269,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.13645388884469867,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 65,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 512,
+      "peak_allocated_bytes": 216647680,
+      "peak_reserved_bytes": 222298112,
+      "physical_update_pbits_per_model": 28015,
+      "preparation_reuse": true,
+      "preparation_seconds": 5.327744286041707,
+      "quality_max_step": 56320,
+      "replicas_improved": 512,
+      "returned_best_cost": 0,
+      "search_seconds": 0.18330306001007557,
+      "singleton_color_vertices": 65,
+      "status": "completed",
+      "tempering_ladder_size": 1,
+      "unclamped_allowed_binary_variables": 28015,
+      "vertices": 496,
+      "visited_assignment_bits_min": 28080,
+      "visited_unclamped_assignment_bits_min": 28015,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 512,
+      "zero_conflict_hits": 512
+    },
+    "witness_file": "witnesses/g2b-fpsol2-i-1-b1-heatbath-clique.npz",
+    "witness_sha256": "c74ff5a806947de8634b4d2e45a7486ba165184e6e6a52747c9aa02d95e4d5df",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 32240,
+      "interacting_model_binary_variables": 17485,
+      "visited_assignment_bits_min": 28080,
+      "peak_allocated_bytes": 216647680,
+      "peak_reserved_bytes": 222298112,
+      "preparation_seconds": 5.327744286041707,
+      "search_seconds": 0.18330306001007557,
+      "complete_runner_seconds": 13.16382268583402,
+      "physical_update_pbits_per_model": 28015
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "recorded_original_sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+      },
+      {
+        "field": "problem.symmetry_clique_file",
+        "path": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json",
+        "sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055",
+        "source": "Owned structural clique certificate from original graph edges",
+        "recorded_original_sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 110,
+        "retained_observations": 29,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-fpsol2-i-1-b1-plateau-clique",
+    "instance": "fpsol2.i.1",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 65,
+        "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "symmetry_clique_file": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 16,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 15872,
+        "exchange_every_chunks": 1,
+        "max_seconds": 20,
+        "method": "plateau",
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 1,
+        "warmup_steps": null,
+        "width": 1
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-fpsol2-i-1-b1-plateau-clique.json",
+    "metrics": {
+      "allowed_binary_variables": 28080,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": false,
+      "chromatic_lower_bound": 65,
+      "chromatic_optimum_certified": true,
+      "complete_runner_seconds": 12.691376497969031,
+      "completed_steps": 56320,
+      "deadline_overshoot_seconds": 0,
+      "edges": 11654,
+      "exchange_accepted_pairs": 0,
+      "exchange_events": 0,
+      "fixed_zero_variables": 4160,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 512,
+      "initial_best_cost": 121,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 13325,
+      "interacting_model_binary_variables": 17485,
+      "interacting_unclamped_allowed_binary_variables": 13260,
+      "isolated_vertices": 227,
+      "method": "plateau",
+      "model_binary_variables": 32240,
+      "nonisolated_vertices": 269,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.13645388884469867,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 65,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": false,
+      "pbit_new_zero_conflict_hits": 0,
+      "peak_allocated_bytes": 215566336,
+      "peak_reserved_bytes": 222298112,
+      "physical_update_pbits_per_model": 0,
+      "preparation_reuse": true,
+      "preparation_seconds": 5.231043227948248,
+      "quality_max_step": 56320,
+      "replicas_improved": 512,
+      "returned_best_cost": 0,
+      "search_seconds": 0.18071683403104544,
+      "singleton_color_vertices": 65,
+      "status": "completed",
+      "tempering_ladder_size": 1,
+      "unclamped_allowed_binary_variables": 28015,
+      "vertices": 496,
+      "visited_assignment_bits_min": 28080,
+      "visited_unclamped_assignment_bits_min": 28015,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 512,
+      "zero_conflict_hits": 512
+    },
+    "witness_file": "witnesses/g2b-fpsol2-i-1-b1-plateau-clique.npz",
+    "witness_sha256": "f9e31d3b975172da6b44b40c3ebeb78998ed8348c1b26405a41bec21a2e02cc1",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 32240,
+      "interacting_model_binary_variables": 17485,
+      "visited_assignment_bits_min": 28080,
+      "peak_allocated_bytes": 215566336,
+      "peak_reserved_bytes": 222298112,
+      "preparation_seconds": 5.231043227948248,
+      "search_seconds": 0.18071683403104544,
+      "complete_runner_seconds": 12.691376497969031,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "recorded_original_sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+      },
+      {
+        "field": "problem.symmetry_clique_file",
+        "path": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json",
+        "sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055",
+        "source": "Owned structural clique certificate from original graph edges",
+        "recorded_original_sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 110,
+        "retained_observations": 29,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-fpsol2-i-1-tabu-unfixed",
+    "instance": "fpsol2.i.1",
+    "configuration": {
+      "baseline": {
+        "build_log": "data/graph-coloring/tabu-reference/build.log",
+        "build_metadata": "data/graph-coloring/tabu-reference/build.json",
+        "executable": "data/graph-coloring/tabu-reference/reference",
+        "max_iterations": 100000000,
+        "max_seconds": 60,
+        "process_limit_seconds": 150,
+        "seed": 2026102342,
+        "source": "data/graph-coloring/tabu-reference/tabu_reference.cpp"
+      },
+      "experiment": {
+        "role": "independent-classical-reference"
+      },
+      "method": "tabucol-style",
+      "problem": {
+        "colors": 65,
+        "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col"
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-fpsol2-i-1-tabu-unfixed.json",
+    "metrics": {
+      "allowed_binary_variables": 32240,
+      "baseline_complete_seconds": 60.29534964682534,
+      "best_feasible_cost": 12,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 60.5433754902333,
+      "deadline_overshoot_seconds": 0.00010411800000298399,
+      "edges": 11654,
+      "fixed_zero_variables": 0,
+      "interacting_allowed_binary_variables": 17485,
+      "interacting_model_binary_variables": 17485,
+      "interacting_unclamped_allowed_binary_variables": 17485,
+      "isolated_vertices": 227,
+      "iterations": 15064307,
+      "method": "tabucol-style",
+      "nonisolated_vertices": 269,
+      "observation": "Every completed move; a move observed beyond the deadline is excluded from best_feasible_cost and retained in returned_best_cost.",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 65,
+      "parallel_workers": 1,
+      "pbit_heatbath_participation": false,
+      "physical_update_pbits_per_model": 0,
+      "quality_iteration": 15064306,
+      "returned_best_cost": 12,
+      "search_seconds": 60.000104118,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "unclamped_allowed_binary_variables": 32240,
+      "vertices": 496,
+      "zero_conflict_hits": 0
+    },
+    "witness_file": "witnesses/g2b-fpsol2-i-1-tabu-unfixed.npz",
+    "witness_sha256": "222acb9170855586f58528844dfb7e6dec3054b1d6fbd7c8b3a9ad7b835da33d",
+    "resources": {
+      "parallel_workers": 1,
+      "interacting_model_binary_variables": 17485,
+      "search_seconds": 60.000104118,
+      "complete_runner_seconds": 60.5433754902333,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "recorded_original_sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+      }
+    ],
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "path": "data/graph-coloring/tabu-reference/reference",
+        "sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04"
+      },
+      {
+        "field": "baseline.source",
+        "path": "data/graph-coloring/tabu-reference/tabu_reference.cpp",
+        "sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054"
+      },
+      {
+        "field": "baseline.build_metadata",
+        "path": "data/graph-coloring/tabu-reference/build.json",
+        "sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa"
+      },
+      {
+        "field": "baseline.build_log",
+        "path": "data/graph-coloring/tabu-reference/build.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "independent-classical-reference",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 90,
+        "retained_observations": 90,
+        "selection": "Complete classical improvement trace with original witnesses",
+        "rule": "all_original_observations",
+        "first_reference_hit_preserved": true
+      }
+    }
+  },
+  {
+    "id": "g2b-fpsol2-i-1-tabu-clique",
+    "instance": "fpsol2.i.1",
+    "configuration": {
+      "baseline": {
+        "build_log": "data/graph-coloring/tabu-reference/build.log",
+        "build_metadata": "data/graph-coloring/tabu-reference/build.json",
+        "executable": "data/graph-coloring/tabu-reference/reference",
+        "max_iterations": 100000000,
+        "max_seconds": 20,
+        "process_limit_seconds": 150,
+        "seed": 2026102342,
+        "source": "data/graph-coloring/tabu-reference/tabu_reference.cpp"
+      },
+      "experiment": {
+        "role": "independent-classical-reference"
+      },
+      "method": "tabucol-style",
+      "problem": {
+        "colors": 65,
+        "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "symmetry_clique_file": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json"
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-fpsol2-i-1-tabu-clique.json",
+    "metrics": {
+      "allowed_binary_variables": 28080,
+      "baseline_complete_seconds": 20.375402942299843,
+      "best_feasible_cost": 2,
+      "chromatic_lower_bound": 65,
+      "chromatic_optimum_certified": false,
+      "complete_runner_seconds": 20.65294530475512,
+      "deadline_overshoot_seconds": 0.00011663600000133556,
+      "edges": 11654,
+      "fixed_zero_variables": 4160,
+      "interacting_allowed_binary_variables": 13325,
+      "interacting_model_binary_variables": 17485,
+      "interacting_unclamped_allowed_binary_variables": 13260,
+      "isolated_vertices": 227,
+      "iterations": 19865077,
+      "method": "tabucol-style",
+      "nonisolated_vertices": 269,
+      "observation": "Every completed move; a move observed beyond the deadline is excluded from best_feasible_cost and retained in returned_best_cost.",
+      "one_time_clique_preprocessing_seconds": 0.13645388884469867,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 65,
+      "parallel_workers": 1,
+      "pbit_heatbath_participation": false,
+      "physical_update_pbits_per_model": 0,
+      "quality_iteration": 19865076,
+      "returned_best_cost": 2,
+      "search_seconds": 20.000116636,
+      "singleton_color_vertices": 65,
+      "status": "completed",
+      "unclamped_allowed_binary_variables": 28015,
+      "vertices": 496,
+      "zero_conflict_hits": 0
+    },
+    "witness_file": "witnesses/g2b-fpsol2-i-1-tabu-clique.npz",
+    "witness_sha256": "883d4d072bde1e04ca333159ff02d8422b806ff8df9d45e9ee0fdc2f6f4b082c",
+    "resources": {
+      "parallel_workers": 1,
+      "interacting_model_binary_variables": 17485,
+      "search_seconds": 20.000116636,
+      "complete_runner_seconds": 20.65294530475512,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "recorded_original_sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+      },
+      {
+        "field": "problem.symmetry_clique_file",
+        "path": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json",
+        "sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055",
+        "source": "Owned structural clique certificate from original graph edges",
+        "recorded_original_sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055"
+      }
+    ],
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "path": "data/graph-coloring/tabu-reference/reference",
+        "sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04"
+      },
+      {
+        "field": "baseline.source",
+        "path": "data/graph-coloring/tabu-reference/tabu_reference.cpp",
+        "sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054"
+      },
+      {
+        "field": "baseline.build_metadata",
+        "path": "data/graph-coloring/tabu-reference/build.json",
+        "sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa"
+      },
+      {
+        "field": "baseline.build_log",
+        "path": "data/graph-coloring/tabu-reference/build.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "independent-classical-reference",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 121,
+        "retained_observations": 121,
+        "selection": "Complete classical improvement trace with original witnesses",
+        "rule": "all_original_observations",
+        "first_reference_hit_preserved": true
+      }
+    }
+  },
+  {
+    "id": "g2b-le450-25c-pt-r128",
+    "instance": "le450_25c",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 25,
+        "instance_file": "data/graph-coloring/dimacs/le450_25c.col"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 1,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 7200,
+        "exchange_every_chunks": 1,
+        "max_seconds": 60,
+        "method": "heatbath",
+        "replicas": 128,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 16,
+        "warmup_steps": null,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-le450-25c-pt-r128.json",
+    "metrics": {
+      "allowed_binary_variables": 11250,
+      "best_feasible_cost": 7,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 67.09455660078675,
+      "completed_steps": 7709184,
+      "deadline_overshoot_seconds": 0.002296942286193371,
+      "edges": 17343,
+      "exchange_accepted_pairs": 108894,
+      "exchange_events": 15057,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 8,
+      "initial_best_cost": 645,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 11250,
+      "interacting_model_binary_variables": 11250,
+      "interacting_unclamped_allowed_binary_variables": 11250,
+      "isolated_vertices": 0,
+      "method": "heatbath",
+      "model_binary_variables": 11250,
+      "nonisolated_vertices": 450,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 25,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 0,
+      "peak_allocated_bytes": 22633472,
+      "peak_reserved_bytes": 37748736,
+      "physical_update_pbits_per_model": 11250,
+      "preparation_reuse": true,
+      "preparation_seconds": 2.5993212410248816,
+      "quality_max_step": 7708672,
+      "replicas_improved": 128,
+      "returned_best_cost": 7,
+      "search_seconds": 60.00229694228619,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 16,
+      "unclamped_allowed_binary_variables": 11250,
+      "vertices": 450,
+      "visited_assignment_bits_min": 11250,
+      "visited_unclamped_assignment_bits_min": 11250,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 0,
+      "zero_conflict_hits": 0
+    },
+    "witness_file": "witnesses/g2b-le450-25c-pt-r128.npz",
+    "witness_sha256": "6f7afc61f2507946ba76657261a831615a2761455251b46c22e7d44325cc32f4",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 11250,
+      "interacting_model_binary_variables": 11250,
+      "visited_assignment_bits_min": 11250,
+      "peak_allocated_bytes": 22633472,
+      "peak_reserved_bytes": 37748736,
+      "preparation_seconds": 2.5993212410248816,
+      "search_seconds": 60.00229694228619,
+      "complete_runner_seconds": 67.09455660078675,
+      "physical_update_pbits_per_model": 11250
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_25c.col",
+        "sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_25c.col",
+        "recorded_original_sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 15057,
+        "retained_observations": 2308,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-le450-25c-pt-r512",
+    "instance": "le450_25c",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 25,
+        "instance_file": "data/graph-coloring/dimacs/le450_25c.col"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 1,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 7200,
+        "exchange_every_chunks": 1,
+        "max_seconds": 60,
+        "method": "heatbath",
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 16,
+        "warmup_steps": null,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-le450-25c-pt-r512.json",
+    "metrics": {
+      "allowed_binary_variables": 11250,
+      "best_feasible_cost": 8,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 79.87611129321158,
+      "completed_steps": 2956288,
+      "deadline_overshoot_seconds": 0.6438927003182471,
+      "edges": 17343,
+      "exchange_accepted_pairs": 153446,
+      "exchange_events": 5774,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 32,
+      "initial_best_cost": 628,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 11250,
+      "interacting_model_binary_variables": 11250,
+      "interacting_unclamped_allowed_binary_variables": 11250,
+      "isolated_vertices": 0,
+      "method": "heatbath",
+      "model_binary_variables": 11250,
+      "nonisolated_vertices": 450,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 25,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 0,
+      "peak_allocated_bytes": 87514624,
+      "peak_reserved_bytes": 92274688,
+      "physical_update_pbits_per_model": 11250,
+      "preparation_reuse": true,
+      "preparation_seconds": 6.287363715004176,
+      "quality_max_step": 2956288,
+      "replicas_improved": 512,
+      "returned_best_cost": 8,
+      "search_seconds": 60.64389270031825,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 16,
+      "unclamped_allowed_binary_variables": 11250,
+      "vertices": 450,
+      "visited_assignment_bits_min": 11250,
+      "visited_unclamped_assignment_bits_min": 11250,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 0,
+      "zero_conflict_hits": 0
+    },
+    "witness_file": "witnesses/g2b-le450-25c-pt-r512.npz",
+    "witness_sha256": "5f242e3e1f3e653c5100f9295c7b64fb32e9c2ae70ebb9d59d6910a0346286a2",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 11250,
+      "interacting_model_binary_variables": 11250,
+      "visited_assignment_bits_min": 11250,
+      "peak_allocated_bytes": 87514624,
+      "peak_reserved_bytes": 92274688,
+      "preparation_seconds": 6.287363715004176,
+      "search_seconds": 60.64389270031825,
+      "complete_runner_seconds": 79.87611129321158,
+      "physical_update_pbits_per_model": 11250
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_25c.col",
+        "sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_25c.col",
+        "recorded_original_sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 5774,
+        "retained_observations": 3601,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "g2b-le450-25c-tabu-unfixed",
+    "instance": "le450_25c",
+    "configuration": {
+      "baseline": {
+        "build_log": "data/graph-coloring/tabu-reference/build.log",
+        "build_metadata": "data/graph-coloring/tabu-reference/build.json",
+        "executable": "data/graph-coloring/tabu-reference/reference",
+        "max_iterations": 100000000,
+        "max_seconds": 60,
+        "process_limit_seconds": 150,
+        "seed": 2026102342,
+        "source": "data/graph-coloring/tabu-reference/tabu_reference.cpp"
+      },
+      "experiment": {
+        "role": "independent-classical-reference"
+      },
+      "method": "tabucol-style",
+      "problem": {
+        "colors": 25,
+        "instance_file": "data/graph-coloring/dimacs/le450_25c.col"
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/g2b-le450-25c-tabu-unfixed.json",
+    "metrics": {
+      "allowed_binary_variables": 11250,
+      "baseline_complete_seconds": 61.35921474965289,
+      "best_feasible_cost": 4,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 61.62257406627759,
+      "deadline_overshoot_seconds": 0.00010642299999830129,
+      "edges": 17343,
+      "fixed_zero_variables": 0,
+      "interacting_allowed_binary_variables": 11250,
+      "interacting_model_binary_variables": 11250,
+      "interacting_unclamped_allowed_binary_variables": 11250,
+      "isolated_vertices": 0,
+      "iterations": 69133589,
+      "method": "tabucol-style",
+      "nonisolated_vertices": 450,
+      "observation": "Every completed move; a move observed beyond the deadline is excluded from best_feasible_cost and retained in returned_best_cost.",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 25,
+      "parallel_workers": 1,
+      "pbit_heatbath_participation": false,
+      "physical_update_pbits_per_model": 0,
+      "quality_iteration": 69133588,
+      "returned_best_cost": 4,
+      "search_seconds": 60.000106423,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "unclamped_allowed_binary_variables": 11250,
+      "vertices": 450,
+      "zero_conflict_hits": 0
+    },
+    "witness_file": "witnesses/g2b-le450-25c-tabu-unfixed.npz",
+    "witness_sha256": "314ddf09d2810e880836d9c93115afa98e1f4a1a9dcee2889fde44f1fd0ccb03",
+    "resources": {
+      "parallel_workers": 1,
+      "interacting_model_binary_variables": 11250,
+      "search_seconds": 60.000106423,
+      "complete_runner_seconds": 61.62257406627759,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_25c.col",
+        "sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_25c.col",
+        "recorded_original_sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524"
+      }
+    ],
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "path": "data/graph-coloring/tabu-reference/reference",
+        "sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "1d7de0ca1103de53f65a01dbdccc6786d099b01f42267966f66f90eef34cbc04"
+      },
+      {
+        "field": "baseline.source",
+        "path": "data/graph-coloring/tabu-reference/tabu_reference.cpp",
+        "sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "11c96d4b645136e12ec5b8aa081f507137e330b3b8e1f3c5fe5bd42f3a11d054"
+      },
+      {
+        "field": "baseline.build_metadata",
+        "path": "data/graph-coloring/tabu-reference/build.json",
+        "sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "34f8ba1cf0a5d18ede27b2306df880625f1a905e12d50a82fe6d4b0821266efa"
+      },
+      {
+        "field": "baseline.build_log",
+        "path": "data/graph-coloring/tabu-reference/build.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "identity_scope": "Measured build input. Rebuild from the released source; host-specific executable/log/metadata identities may differ.",
+        "recorded_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "independent-classical-reference",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 342,
+        "retained_observations": 342,
+        "selection": "Complete classical improvement trace with original witnesses",
+        "rule": "all_original_observations",
+        "first_reference_hit_preserved": true
+      }
+    }
+  },
+  {
+    "id": "replay-g2b-le450-5a-pt-r512",
+    "instance": "le450_5a",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 5,
+        "instance_file": "data/graph-coloring/dimacs/le450_5a.col"
+      },
+      "solver": {
+        "beta_end": 12,
+        "beta_start": 0.4,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 3600,
+        "exchange_every_chunks": 1,
+        "max_seconds": 180,
+        "max_steps": 2729984,
+        "method": "heatbath",
+        "quality_max_step": 2729472,
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 16,
+        "warmup_steps": null,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/replay-g2b-le450-5a-pt-r512.json",
+    "metrics": {
+      "allowed_binary_variables": 2250,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": null,
+      "chromatic_optimum_certified": false,
+      "classical_clique_preprocessing": null,
+      "complete_runner_seconds": 70.780600189697,
+      "completed_steps": 2729984,
+      "deadline_overshoot_seconds": 0,
+      "edges": 5714,
+      "exchange_accepted_pairs": 397267,
+      "exchange_events": 5332,
+      "fixed_zero_variables": 0,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 32,
+      "initial_best_cost": 1044,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "interacting_unclamped_allowed_binary_variables": 2250,
+      "isolated_vertices": 0,
+      "method": "heatbath",
+      "model_binary_variables": 2250,
+      "nonisolated_vertices": 450,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.0,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 5,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 70,
+      "peak_allocated_bytes": 37058048,
+      "peak_reserved_bytes": 56623104,
+      "physical_update_pbits_per_model": 2250,
+      "preparation_reuse": true,
+      "preparation_seconds": 4.6482098968699574,
+      "quality_max_step": 2729472,
+      "replicas_improved": 512,
+      "returned_best_cost": 0,
+      "search_seconds": 59.85439530108124,
+      "singleton_color_vertices": 0,
+      "status": "completed",
+      "tempering_ladder_size": 16,
+      "unclamped_allowed_binary_variables": 2250,
+      "vertices": 450,
+      "visited_assignment_bits_min": 2250,
+      "visited_unclamped_assignment_bits_min": 2250,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 27,
+      "zero_conflict_hits": 70
+    },
+    "witness_file": "witnesses/replay-g2b-le450-5a-pt-r512.npz",
+    "witness_sha256": "76d8947265ef0697941e18d22b0664c6225c020f2b4df482722b8e2c468f707d",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 2250,
+      "interacting_model_binary_variables": 2250,
+      "visited_assignment_bits_min": 2250,
+      "peak_allocated_bytes": 37058048,
+      "peak_reserved_bytes": 56623104,
+      "preparation_seconds": 4.6482098968699574,
+      "search_seconds": 59.85439530108124,
+      "complete_runner_seconds": 70.780600189697,
+      "physical_update_pbits_per_model": 2250
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/le450_5a.col",
+        "sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/le450_5a.col",
+        "recorded_original_sha256": "a39058fbffffa5220e7c70e64403196b0be19ec859d7d29a105738bf80785490"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "work-replay",
+    "replay_of": "g2b-le450-5a-pt-r512",
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 5332,
+        "retained_observations": 1885,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "replay-g2b-fpsol2-i-1-b1-heatbath-clique",
+    "instance": "fpsol2.i.1",
+    "configuration": {
+      "experiment": {
+        "role": "replica-and-route-refinement"
+      },
+      "problem": {
+        "colors": 65,
+        "instance_file": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "symmetry_clique_file": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 16,
+        "cache_boltzmann_weights": true,
+        "checkpoint_seconds": 2.0,
+        "chunk_steps": 512,
+        "cycle_steps": 15872,
+        "exchange_every_chunks": 1,
+        "max_seconds": 180,
+        "max_steps": 56320,
+        "method": "heatbath",
+        "quality_max_step": 56320,
+        "replicas": 512,
+        "reuse_preparation": true,
+        "seed": 2026102342,
+        "snapshot_every_chunks": null,
+        "stop_when_all_groups_solved": true,
+        "tempering_ladder_size": 1,
+        "warmup_steps": null,
+        "width": 1
+      }
+    },
+    "configuration_file": "data/graph-coloring/development-g2b/configs/replay-g2b-fpsol2-i-1-b1-heatbath-clique.json",
+    "metrics": {
+      "allowed_binary_variables": 28080,
+      "best_feasible_cost": 0,
+      "boltzmann_weight_cache_active": true,
+      "chromatic_lower_bound": 65,
+      "chromatic_optimum_certified": true,
+      "complete_runner_seconds": 12.819406151305884,
+      "completed_steps": 56320,
+      "deadline_overshoot_seconds": 0,
+      "edges": 11654,
+      "exchange_accepted_pairs": 0,
+      "exchange_events": 0,
+      "fixed_zero_variables": 4160,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "independent_replica_groups": 512,
+      "initial_best_cost": 121,
+      "initial_zero_conflict_hits": 0,
+      "initialization": "independent_uniform_allowed_colors",
+      "interacting_allowed_binary_variables": 13325,
+      "interacting_model_binary_variables": 17485,
+      "interacting_unclamped_allowed_binary_variables": 13260,
+      "isolated_vertices": 227,
+      "method": "heatbath",
+      "model_binary_variables": 32240,
+      "nonisolated_vertices": 269,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "one_time_clique_preprocessing_seconds": 0.13645388884469867,
+      "optimality_scope": "Zero conflicts is the ground state of this fixed-palette objective; a chromatic lower bound requires the separately verified clique certificate.",
+      "palette": 65,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "pbit_new_zero_conflict_hits": 512,
+      "peak_allocated_bytes": 216647680,
+      "peak_reserved_bytes": 222298112,
+      "physical_update_pbits_per_model": 28015,
+      "preparation_reuse": true,
+      "preparation_seconds": 5.32562106102705,
+      "quality_max_step": 56320,
+      "replicas_improved": 512,
+      "returned_best_cost": 0,
+      "search_seconds": 0.1800567670725286,
+      "singleton_color_vertices": 65,
+      "status": "completed",
+      "tempering_ladder_size": 1,
+      "unclamped_allowed_binary_variables": 28015,
+      "vertices": 496,
+      "visited_assignment_bits_min": 28080,
+      "visited_unclamped_assignment_bits_min": 28015,
+      "warmup_steps": 512,
+      "zero_conflict_groups": 512,
+      "zero_conflict_hits": 512
+    },
+    "witness_file": "witnesses/replay-g2b-fpsol2-i-1-b1-heatbath-clique.npz",
+    "witness_sha256": "b90d4c12a3588da92614a8e27e4d7c47b2233d73da70e1b9c379d5f19956d42d",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 32240,
+      "interacting_model_binary_variables": 17485,
+      "visited_assignment_bits_min": 28080,
+      "peak_allocated_bytes": 216647680,
+      "peak_reserved_bytes": 222298112,
+      "preparation_seconds": 5.32562106102705,
+      "search_seconds": 0.1800567670725286,
+      "complete_runner_seconds": 12.819406151305884,
+      "physical_update_pbits_per_model": 28015
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/graph-coloring/dimacs/fpsol2.i.1.col",
+        "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+        "url": "https://archive.dimacs.rutgers.edu/pub/challenge/graph/benchmarks/color/fpsol2.i.1.col",
+        "recorded_original_sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2"
+      },
+      {
+        "field": "problem.symmetry_clique_file",
+        "path": "data/graph-coloring/preprocessing/fpsol2.i.1-896f54795631.json",
+        "sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055",
+        "source": "Owned structural clique certificate from original graph edges",
+        "recorded_original_sha256": "896f547956312c8dcc64e3db2f8d4a864f736bd1479a3679b59954acb7108055"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "replica-and-route-refinement",
+    "trial_kind": "work-replay",
+    "replay_of": "g2b-fpsol2-i-1-b1-heatbath-clique",
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 110,
+        "retained_observations": 29,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  }
+]

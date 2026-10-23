@@ -1,0 +1,79 @@
+{
+  "schema": "cubic-spin-glass-s23-verification-v1",
+  "actual_attempts": 272,
+  "successful_logical_calls": 271,
+  "failed_attempts": 1,
+  "phase_counts": {
+    "preflight": 16,
+    "calibration": 36,
+    "confirmation": 216,
+    "recovery": 3
+  },
+  "raw_arrays_audited": 6229,
+  "full_comparisons": [
+    {
+      "cell": "fixture-pt-replay",
+      "reference": "fixture-pt",
+      "exact_arrays": 19,
+      "rng_identical": true
+    },
+    {
+      "cell": "work-2026101904-pt-lattice-v5",
+      "reference": "work-2026101904-pt-lattice-v1",
+      "exact_arrays": 19,
+      "rng_identical": true
+    },
+    {
+      "cell": "work-2026101904-sa-lattice-v5",
+      "reference": "work-2026101904-sa-lattice-v1",
+      "exact_arrays": 19,
+      "rng_identical": true
+    },
+    {
+      "cell": "work-2026101904-pa-lattice-v5",
+      "reference": "work-2026101904-pa-lattice-v1",
+      "exact_arrays": 31,
+      "rng_identical": true
+    },
+    {
+      "cell": "work-2026101905-pt-lattice-v5",
+      "reference": "work-2026101905-pt-lattice-v1",
+      "exact_arrays": 19,
+      "rng_identical": true
+    },
+    {
+      "cell": "work-2026101905-sa-lattice-v5",
+      "reference": "work-2026101905-sa-lattice-v1",
+      "exact_arrays": 19,
+      "rng_identical": true
+    },
+    {
+      "cell": "work-2026101905-pa-lattice-v5",
+      "reference": "work-2026101905-pa-lattice-v1",
+      "exact_arrays": 31,
+      "rng_identical": true
+    },
+    {
+      "cell": "replay-pt",
+      "reference": "confirm-l32-i2-s1-pt",
+      "exact_arrays": 19,
+      "rng_identical": true
+    },
+    {
+      "cell": "replay-sa",
+      "reference": "confirm-l32-i2-s1-sa",
+      "exact_arrays": 19,
+      "rng_identical": true
+    },
+    {
+      "cell": "replay-pa",
+      "reference": "confirm-l32-i2-s1-pa",
+      "exact_arrays": 31,
+      "rng_identical": true
+    }
+  ],
+  "exact_arrays": 226,
+  "matched_confirmation_initializations": 72,
+  "public_evidence_scope": "All call metrics and array fingerprints, frozen couplings/configurations, and 108 integer witnesses. Full raw trajectories and operational archives are retained separately and are not distributed here.",
+  "replay_status": "Recorded same-device full-origin comparisons passed; no new replay is implied by reading this receipt."
+}

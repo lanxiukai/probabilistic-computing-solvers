@@ -1,0 +1,55 @@
+{
+  "source_revision": "8a6e36ef31263d36975e56fb481e0ba04e188d6f",
+  "records": [
+    {
+      "id": "ft06",
+      "file": "ft06.txt",
+      "sha256": "0cc5ca77665766f7829c20722a9439800ee2b34e8271ed9f0ca98c41b0c3ab3b",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/instances/text/FisherThompson1963/ft06.txt",
+      "reference_makespan": 55,
+      "reference_status": "catalog_equal_lower_and_upper_bound"
+    },
+    {
+      "id": "ft10",
+      "file": "ft10.txt",
+      "sha256": "e10bbc52f7a7bb7604bdadfbe322af84fc7726dd9937512b89759e7ac2d9aac3",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/instances/text/FisherThompson1963/ft10.txt",
+      "reference_makespan": 930,
+      "reference_status": "catalog_equal_lower_and_upper_bound"
+    },
+    {
+      "id": "la01",
+      "file": "la01.txt",
+      "sha256": "813573d84c1c42ef073ee056048dfcf460b748530e28c14fe3cc39cd11884b53",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/instances/text/Lawrence1984/la01.txt",
+      "reference_makespan": 666,
+      "reference_status": "catalog_equal_lower_and_upper_bound"
+    },
+    {
+      "id": "la16",
+      "file": "la16.txt",
+      "sha256": "99c2944e82fb9452545e19fdabe18ae5f9f5353984544dce85645bcda0923292",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/instances/text/Lawrence1984/la16.txt",
+      "reference_makespan": 945,
+      "reference_status": "catalog_equal_lower_and_upper_bound"
+    },
+    {
+      "id": "ta01js",
+      "file": "ta01js.txt",
+      "sha256": "eb6efca2f3b22f29609abbbc15acc3ec33cac91eb2b75097aad343fc6930623d",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/instances/text/Taillard1993/ta01js.txt",
+      "reference_makespan": 1231,
+      "reference_status": "catalog_equal_lower_and_upper_bound"
+    },
+    {
+      "id": "ta51js",
+      "file": "ta51js.txt",
+      "sha256": "80be589030a44dbd2bd317e30478559a866394d34526b81d54d4bf62026e7c01",
+      "url": "https://raw.githubusercontent.com/ScheduleOpt/benchmarks/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/instances/text/Taillard1993/ta51js.txt",
+      "reference_makespan": 2760,
+      "reference_status": "catalog_equal_lower_and_upper_bound"
+    }
+  ],
+  "source_url": "https://github.com/ScheduleOpt/benchmarks/tree/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop",
+  "distribution": "Fetch originals from the source owner; benchmark files are not redistributed."
+}

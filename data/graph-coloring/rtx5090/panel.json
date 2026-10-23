@@ -1,0 +1,143 @@
+{
+  "problem": "graph-coloring",
+  "status": "independently-verified",
+  "planned_natural_calls": 56,
+  "expected_natural_ids": [
+    "g3-s51-le450-5a-heatbath-unfixed",
+    "g3-s51-le450-5a-plateau-unfixed",
+    "g3-s51-le450-5a-tabu-unfixed",
+    "g3-s51-le450-5b-heatbath-unfixed",
+    "g3-s51-le450-5b-plateau-unfixed",
+    "g3-s51-le450-5b-tabu-unfixed",
+    "g3-s51-le450-25c-heatbath-unfixed",
+    "g3-s51-le450-25c-plateau-unfixed",
+    "g3-s51-le450-25c-tabu-unfixed",
+    "g3-s51-le450-25d-heatbath-unfixed",
+    "g3-s51-le450-25d-plateau-unfixed",
+    "g3-s51-le450-25d-tabu-unfixed",
+    "g3-s51-fpsol2-i-1-heatbath-clique",
+    "g3-s51-fpsol2-i-1-plateau-clique",
+    "g3-s51-fpsol2-i-1-tabu-clique",
+    "g3-s51-fpsol2-i-2-heatbath-clique",
+    "g3-s51-fpsol2-i-2-plateau-clique",
+    "g3-s51-fpsol2-i-2-tabu-clique",
+    "g3-s51-fpsol2-i-1-heatbath-unfixed",
+    "g3-s51-fpsol2-i-1-plateau-unfixed",
+    "g3-s51-fpsol2-i-1-tabu-unfixed",
+    "g3-s51-inithx-i-1-heatbath-clique",
+    "g3-s51-inithx-i-1-plateau-clique",
+    "g3-s51-inithx-i-1-tabu-clique",
+    "g3-s51-inithx-i-1-tabu-unfixed",
+    "g3-s51-list4-256-heatbath-lists",
+    "g3-s51-list4-256-plateau-lists",
+    "g3-s51-list4-256-tabu-lists",
+    "g3-s52-list4-256-tabu-lists",
+    "g3-s52-list4-256-plateau-lists",
+    "g3-s52-list4-256-heatbath-lists",
+    "g3-s52-inithx-i-1-tabu-unfixed",
+    "g3-s52-inithx-i-1-tabu-clique",
+    "g3-s52-inithx-i-1-plateau-clique",
+    "g3-s52-inithx-i-1-heatbath-clique",
+    "g3-s52-fpsol2-i-1-tabu-unfixed",
+    "g3-s52-fpsol2-i-1-plateau-unfixed",
+    "g3-s52-fpsol2-i-1-heatbath-unfixed",
+    "g3-s52-fpsol2-i-2-tabu-clique",
+    "g3-s52-fpsol2-i-2-plateau-clique",
+    "g3-s52-fpsol2-i-2-heatbath-clique",
+    "g3-s52-fpsol2-i-1-tabu-clique",
+    "g3-s52-fpsol2-i-1-plateau-clique",
+    "g3-s52-fpsol2-i-1-heatbath-clique",
+    "g3-s52-le450-25d-tabu-unfixed",
+    "g3-s52-le450-25d-plateau-unfixed",
+    "g3-s52-le450-25d-heatbath-unfixed",
+    "g3-s52-le450-25c-tabu-unfixed",
+    "g3-s52-le450-25c-plateau-unfixed",
+    "g3-s52-le450-25c-heatbath-unfixed",
+    "g3-s52-le450-5b-tabu-unfixed",
+    "g3-s52-le450-5b-plateau-unfixed",
+    "g3-s52-le450-5b-heatbath-unfixed",
+    "g3-s52-le450-5a-tabu-unfixed",
+    "g3-s52-le450-5a-plateau-unfixed",
+    "g3-s52-le450-5a-heatbath-unfixed"
+  ],
+  "expected_replays": [
+    {
+      "id": "replay-g3-s51-le450-5b-heatbath-unfixed",
+      "origin": "g3-s51-le450-5b-heatbath-unfixed"
+    },
+    {
+      "id": "replay-g3-s51-le450-25d-heatbath-unfixed",
+      "origin": "g3-s51-le450-25d-heatbath-unfixed"
+    },
+    {
+      "id": "replay-g3-s51-inithx-i-1-heatbath-clique",
+      "origin": "g3-s51-inithx-i-1-heatbath-clique"
+    },
+    {
+      "id": "replay-g3-s51-list4-256-heatbath-lists",
+      "origin": "g3-s51-list4-256-heatbath-lists"
+    }
+  ],
+  "frozen_targets": {
+    "le450_5a": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 5,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "le450_5b": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 5,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "le450_25c": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 25,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "le450_25d": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 25,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "fpsol2.i.1": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 65,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "fpsol2.i.2": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 30,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "inithx.i.1": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 54,
+      "source": "https://mat.tepper.cmu.edu/COLOR/instances.html"
+    },
+    "list4-256": {
+      "cost": 0,
+      "status": "fixed-palette-zero-conflict",
+      "palette": 4,
+      "source": "Independently generated planted list-coloring feasibility illustration"
+    }
+  },
+  "completed_natural_calls": 56,
+  "failed_natural_calls": 0,
+  "unexecuted_natural_calls": 0,
+  "work_replays": 4,
+  "replays_add_independent_trials": false,
+  "private_panel_manifest_sha256": "384c2a922f0bef310f6f52c1282568cf02573f5a51f94c34c64dca11e8fbfa46",
+  "full_original_evidence": "Retained independently; this distribution contains core witnesses",
+  "path_resolution": {
+    "configuration_file": "Repository relative",
+    "benchmark_inputs.path": "Repository relative",
+    "witness_file": "Relative to calls.json parent directory"
+  }
+}

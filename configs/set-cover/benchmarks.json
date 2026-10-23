@@ -1,0 +1,196 @@
+{
+  "schema": "set-cover-benchmarks-v1",
+  "source_specification": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html",
+  "records": [
+    {
+      "id": "scp41",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp41.txt",
+      "format": "scp",
+      "file": "scp41.txt.gz",
+      "raw_bytes": 20562,
+      "raw_sha256": "85788fe18b2af8034fea25619a8ce0e8db1c870935854f73d9be4bb721ae445e",
+      "archive_sha256": "09fa8476b5db9d3063bf7496ec9f0a8bd3bb7f38166aa92fd05e20ee42f690e0",
+      "statistics": {
+        "rows": 200,
+        "columns": 1000,
+        "incidences": 4009,
+        "row_degree_min": 11,
+        "row_degree_max": 30,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 962
+      }
+    },
+    {
+      "id": "scp42",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scp42.txt",
+      "format": "scp",
+      "file": "scp42.txt.gz",
+      "raw_bytes": 20428,
+      "raw_sha256": "08094a5dda03cdc4975e5750978131f45462645ff1f44abd0816c05cf706edd7",
+      "archive_sha256": "5f2fdab3c56540af42d883a610cdbbdbe77efd543fe7b2922658d2283c8891ed",
+      "statistics": {
+        "rows": 200,
+        "columns": 1000,
+        "incidences": 3982,
+        "row_degree_min": 9,
+        "row_degree_max": 31,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 963
+      }
+    },
+    {
+      "id": "scpa1",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpa1.txt",
+      "format": "scp",
+      "file": "scpa1.txt.gz",
+      "raw_bytes": 97110,
+      "raw_sha256": "e47f63dcaf249b141396a0ad9dbb34ace7b97de3d5554907e0bbf5389a5bf39d",
+      "archive_sha256": "79e41d0fe05744beec7ad302c37541e3285fe339d423fc9688786f6d198bddec",
+      "statistics": {
+        "rows": 300,
+        "columns": 3000,
+        "incidences": 18091,
+        "row_degree_min": 40,
+        "row_degree_max": 81,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 1886
+      }
+    },
+    {
+      "id": "scpa4",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpa4.txt",
+      "format": "scp",
+      "file": "scpa4.txt.gz",
+      "raw_bytes": 97021,
+      "raw_sha256": "bee46166d53b16141d0148cbe25b16da358bb0de8b7b2ae935c70a302cd481d3",
+      "archive_sha256": "2f39c23c81088da88c92172ef75f1eff9cbdf827483c28502c21ce5673ea5ae4",
+      "statistics": {
+        "rows": 300,
+        "columns": 3000,
+        "incidences": 18084,
+        "row_degree_min": 41,
+        "row_degree_max": 81,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 1885
+      }
+    },
+    {
+      "id": "scpnre1",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnre1.txt",
+      "format": "scp",
+      "file": "scpnre1.txt.gz",
+      "raw_bytes": 1243844,
+      "raw_sha256": "d47ed62600f686c0a37c61f51606c5eba42ff0201fcdd9cb824fbb4ed823e0df",
+      "archive_sha256": "62db640641a97163d85deae8f4313c38b6af3bfcef6a4f2311a9fa0adc4f522e",
+      "statistics": {
+        "rows": 500,
+        "columns": 5000,
+        "incidences": 249448,
+        "row_degree_min": 445,
+        "row_degree_max": 560,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 4631
+      }
+    },
+    {
+      "id": "scpnre4",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnre4.txt",
+      "format": "scp",
+      "file": "scpnre4.txt.gz",
+      "raw_bytes": 1243363,
+      "raw_sha256": "337726599934cda5d44d5c2df965a3a9958f3e6da5e4b6ab82f7134b1dc0f1d9",
+      "archive_sha256": "37ccb6e2fbb6f50237108da1c127db7cff1bf1770f0f5cdbf958af3f263abac5",
+      "statistics": {
+        "rows": 500,
+        "columns": 5000,
+        "incidences": 249341,
+        "row_degree_min": 444,
+        "row_degree_max": 561,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 4631
+      }
+    },
+    {
+      "id": "scpnrg1",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnrg1.txt",
+      "format": "scp",
+      "file": "scpnrg1.txt.gz",
+      "raw_bytes": 1039042,
+      "raw_sha256": "ca3b01d305d33db1cd01b4cb8e8d2718e2d5773387afc6dd1a4cdb1945722dd4",
+      "archive_sha256": "a4ca29391cd32047054d05151dbae9793a317c3a47d2770ce76ebf9395bb074c",
+      "statistics": {
+        "rows": 1000,
+        "columns": 10000,
+        "incidences": 199471,
+        "row_degree_min": 153,
+        "row_degree_max": 254,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 8000
+      }
+    },
+    {
+      "id": "scpnrg4",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/scpnrg4.txt",
+      "format": "scp",
+      "file": "scpnrg4.txt.gz",
+      "raw_bytes": 1039026,
+      "raw_sha256": "07597c9bd064cb0210807104d59a2ddc7d7f7a5ee39ecdd113931fed6649777d",
+      "archive_sha256": "302e9f9eb67be5c69987d8745171fe28dfadc450468470335534808b48f94d38",
+      "statistics": {
+        "rows": 1000,
+        "columns": 10000,
+        "incidences": 199456,
+        "row_degree_min": 155,
+        "row_degree_max": 256,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 100,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 8000
+      }
+    },
+    {
+      "id": "rail516",
+      "url": "https://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/rail516.txt",
+      "format": "rail",
+      "file": "rail516.txt.gz",
+      "raw_bytes": 1412110,
+      "raw_sha256": "b12e088764cc514df463ae888f6f3b8c58b8caf74ec875e20dd20093f4ae5fd7",
+      "archive_sha256": "85945737480c42896ccabd232f78365f911380c29baa408d4f8dfed50bcf3cb3",
+      "statistics": {
+        "rows": 516,
+        "columns": 47311,
+        "incidences": 314896,
+        "row_degree_min": 1,
+        "row_degree_max": 7805,
+        "empty_columns": 0,
+        "cost_min": 1,
+        "cost_max": 2,
+        "native_auxiliary_bits": 0,
+        "binary_slack_bits": 3940
+      }
+    }
+  ],
+  "distribution": "Fetch originals from their owner; numerical input hashes are fixed."
+}

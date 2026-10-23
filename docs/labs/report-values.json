@@ -1,0 +1,9 @@
+{
+  "RESULT_ROWS": "| appended | 1 | 84715248.000 | 6.337359 | 0.241 |\n| metro-legendre | 2 | 84226446.000 | 6.374137 | 123.121 |\n| mts-legendre | 2 | 84226508.000 | 6.374132 | 123.043 |\n| pbit-legendre | 2 | 84226210.000 | 6.374155 | 123.171 |\n| polish | 1 | 84226824.000 | 6.374108 | 0.667 |\n| quarter | 1 | 89514508.000 | 5.997585 | 0.187 |",
+  "BEST_ENERGY": "84226192",
+  "GREEDY_ENERGY": "84226824",
+  "GREEDY_SECONDS": "0.667",
+  "BEST_IMPROVEMENT_PERCENT": "0.000750",
+  "STOCHASTIC_SECONDS": "123.112",
+  "HARDWARE": "NVIDIA GeForce RTX 5090 (32607 MiB); AMD Eng Sample: 100-000001537-04 (quota 17.56 vCPU); Python 3.14.6; PyTorch 2.13.0+cu130; CUDA 13.0; driver 580.178.04."
+}

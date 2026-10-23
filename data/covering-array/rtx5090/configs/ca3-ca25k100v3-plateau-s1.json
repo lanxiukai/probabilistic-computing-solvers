@@ -1,0 +1,25 @@
+{
+  "experiment": {
+    "evaluation_split": "heldout-dimensions",
+    "role": "matched-classical-control"
+  },
+  "problem": {
+    "instance_file": "data/covering-array/instances/ca25k100v3.json"
+  },
+  "solver": {
+    "beta_end": 8,
+    "beta_start": 8,
+    "cache_parameters": true,
+    "chunk_steps": 128,
+    "cycle_steps": 1024,
+    "max_seconds": 20,
+    "max_steps": 100000000,
+    "method": "plateau",
+    "orientation": "column",
+    "prewarm_full_chunks": true,
+    "replicas": 128,
+    "seed": 2026102361,
+    "snapshot_every_chunks": 1024,
+    "width": 2
+  }
+}

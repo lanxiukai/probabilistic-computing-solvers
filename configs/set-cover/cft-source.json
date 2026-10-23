@@ -1,0 +1,236 @@
+{
+  "repository": "https://github.com/c4v4/cft",
+  "revision": "6cb63d0036223b8be9c4d01f95b296d641209f95",
+  "selection": "All src/ and cmake/ blobs plus root build/license/readme files; upstream instances omitted.",
+  "git_tree": "6cb63d0036223b8be9c4d01f95b296d641209f95",
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "git_blob": "938c1565ec75acf59692e519114eede1c51517ac",
+      "bytes": 2705,
+      "sha256": "b1d3a7409c35723e516b16ddcd2b42c1da46b412dd68fd02614a9465a360f66b"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob": "d6a4c96d89abb780a401f6aa52eec84cfb9374a6",
+      "bytes": 1075,
+      "sha256": "6ff3350b54399783bd1dc44a890f584a175544495a9b47c58e1651facf859487"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "03accfded6ff10a5a36f8dfab2aba896ba037a51",
+      "bytes": 15765,
+      "sha256": "9c119fd8aef9e995dc14fcd2d6b372b17114a2f9c72d7dabd153a820b1b1b686"
+    },
+    {
+      "path": "src/algorithms/Refinement.hpp",
+      "git_blob": "b43945501de62a1f15f4ecade1497ba2ff5611db",
+      "bytes": 6176,
+      "sha256": "d10747f93d43a9d874d5b26557b4a9e574dcd1c6c443b0268288ae2bba547c50"
+    },
+    {
+      "path": "src/algorithms/ThreePhase.hpp",
+      "git_blob": "3e6eec1efd42e97081f3718f818f485440bdbaa4",
+      "bytes": 8482,
+      "sha256": "1f7e42d42e32f2b7bcdd7a993202805c68cadfb3ba619704264d76b628753fbc"
+    },
+    {
+      "path": "src/core/CliArgs.hpp",
+      "git_blob": "ebf5835d2fa29593422252157e48656ff8d75cbc",
+      "bytes": 8412,
+      "sha256": "cd03277d779bfdf072ed6acb9c7f2acf094a256abdb69508036936ce1c36cb02"
+    },
+    {
+      "path": "src/core/Instance.hpp",
+      "git_blob": "07eee2c9e4a1bd2f7df4695a4554c6b73609882e",
+      "bytes": 2982,
+      "sha256": "cb4a82dd304cb238fe6b0752edf13cafdb3a059b20f27bb2eb7c467bcd074865"
+    },
+    {
+      "path": "src/core/cft.hpp",
+      "git_blob": "3239ab9a82da7b3492e887780f5e67af6a3bae7e",
+      "bytes": 6070,
+      "sha256": "5c00098c32d8f359b0dd0f0f51db28eb444da808418487820b92337961ede195"
+    },
+    {
+      "path": "src/core/parsing.hpp",
+      "git_blob": "628c8e3b94a4e421da4cf0c082ce0d624a6ec875",
+      "bytes": 10627,
+      "sha256": "6de484e6204394347a8a2b3e9af55db6f9d2d4de7d366ff916d838601e956a16"
+    },
+    {
+      "path": "src/core/utils.hpp",
+      "git_blob": "6ebfb9d360963cc1f5be8ecbfdd6e891d80e2255",
+      "bytes": 1822,
+      "sha256": "5c23a4a583b3d246374823aedd65b27afe24d020e80d1e12e8c18ad633b0dcc5"
+    },
+    {
+      "path": "src/fixing/ColFixing.hpp",
+      "git_blob": "6844457c098a7654c4ad8c94355e480e8c7047cb",
+      "bytes": 4330,
+      "sha256": "672568ce377ccec955fe5bba2ac10ee33e39a7ebd60ab9d90bba502bc71e3e13"
+    },
+    {
+      "path": "src/fixing/FixingData.hpp",
+      "git_blob": "171928016a451f73822096a37dab015252c34201",
+      "bytes": 4498,
+      "sha256": "c1928e19a622979b89a45541c7448aa2a162636a3a6fc762a9d4fe9c8003fb93"
+    },
+    {
+      "path": "src/fixing/fix_columns.hpp",
+      "git_blob": "0191fc314fdd6076cdadc8e176a8711451f2b6ee",
+      "bytes": 6666,
+      "sha256": "92a6cdfaf73975544484726e8a0c9ace3ce9e26034e3a1e60e740b29f404cba6"
+    },
+    {
+      "path": "src/greedy/Greedy.hpp",
+      "git_blob": "0d956b6161567cbb1c1cd4bba58abe62085ef638",
+      "bytes": 6235,
+      "sha256": "78bde427d6301f3c6402eedd8c537819f9dabe16f3a17be7c7fb64d9735fc82e"
+    },
+    {
+      "path": "src/greedy/redundancy.hpp",
+      "git_blob": "aeb4291b6886b7ecff4a70c90a3d271129421bdf",
+      "bytes": 8506,
+      "sha256": "cf0e90f95595c66b71afde76e85a2b0d3da571fdeed13c2deeb1c5c50be9327d"
+    },
+    {
+      "path": "src/greedy/scores.hpp",
+      "git_blob": "a811adde5deb872ee7895551bf80ca94023dbb92",
+      "bytes": 5535,
+      "sha256": "931f6a72f8b7153566a2cfd02151b6b364b63af68ce6d170ce4ca2a27e369672"
+    },
+    {
+      "path": "src/main.cpp",
+      "git_blob": "6fdf157b806c42ec0d3025416f80fb58586bde2f",
+      "bytes": 1180,
+      "sha256": "9c35bb903e7bd608633e5372040633bac917ff040bb3a8e67eb01bb8e2a8d39d"
+    },
+    {
+      "path": "src/pycft/__init__.py",
+      "git_blob": "36bcc75c19d7929f3d5e97689be5844c676be8ee",
+      "bytes": 172,
+      "sha256": "fcd294ad35aeee59377ae1dd886beb84b22feeb342171224742ebbd2457abe76"
+    },
+    {
+      "path": "src/pycft/_bindings.cpp",
+      "git_blob": "eb929872a273aae80bfe0044ab3f86652dc9b04d",
+      "bytes": 7455,
+      "sha256": "ac2e295603fe6a11ec683f1bd342747e3be91719120667c96caac01a636dde89"
+    },
+    {
+      "path": "src/pycft/set_cover_solver.py",
+      "git_blob": "d47876e16b097d3b8303e6c3f782cefd919b7d3a",
+      "bytes": 5999,
+      "sha256": "acc95107c9109bad2b417f32ee4cc558349d57494a90ff6d54ce7723b518ef4b"
+    },
+    {
+      "path": "src/subgradient/Pricer.hpp",
+      "git_blob": "0ac4d1158fd057c5590f82cd5b64bd4729708bfb",
+      "bytes": 4370,
+      "sha256": "2f298464c657f28e1773309497bc89c9bf455e541c87f887a06c61e5186c2441"
+    },
+    {
+      "path": "src/subgradient/Subgradient.hpp",
+      "git_blob": "f17a540b1126f86049d21ee0971edd42bd7a27fd",
+      "bytes": 10585,
+      "sha256": "dd64d254c5dd04e497a4bdd7aeb3730549b4059754e58d88482d7a41f5573618"
+    },
+    {
+      "path": "src/subgradient/utils.hpp",
+      "git_blob": "f6eb05f245462b8ef5579c80cbfd1f5d502979aa",
+      "bytes": 4104,
+      "sha256": "e95a53eb002bc94cd224dc2aea543a7a21eda1f56dfa89794c330ae6263eb390"
+    },
+    {
+      "path": "src/utils/Chrono.hpp",
+      "git_blob": "e67a23888155573ece670d5ab00d9ccf1704d28a",
+      "bytes": 1820,
+      "sha256": "71e104ef72b97a70c5ce0daeababaffc8f58e458388f9bcaf8ccfbb3d22e07aa"
+    },
+    {
+      "path": "src/utils/CoverCounters.hpp",
+      "git_blob": "4dff089dd670032f4ce454870cb6e4b1bf4d2825",
+      "bytes": 2475,
+      "sha256": "c67edd1f8b79457e48f870353ab9ca2cc9fc8a4d6bbe3d3deb15f707f4a4b403"
+    },
+    {
+      "path": "src/utils/SortedArray.hpp",
+      "git_blob": "d3db8600bfadff866be652a2b02e8d7be9edd0ac",
+      "bytes": 2319,
+      "sha256": "b1c71afb82243e20c3a211b1152c03f2df45bb5db0fdec8a8e1b51841fb01af4"
+    },
+    {
+      "path": "src/utils/Span.hpp",
+      "git_blob": "d0117229d2f6f6112f7aa4f82ec91c507b05ff1e",
+      "bytes": 1814,
+      "sha256": "e58a02575074917bbb905bde1d65550431202902e000e84c889481d2abc1fb1a"
+    },
+    {
+      "path": "src/utils/SparseBinMat.hpp",
+      "git_blob": "d0129e441721049a7f52cec257b7ec5ab4e657cd",
+      "bytes": 1627,
+      "sha256": "f691d7bc89c91a3022dfcea77ccc38ba192ff884b7a6aeef94c63522b3034bc1"
+    },
+    {
+      "path": "src/utils/StringView.hpp",
+      "git_blob": "0be44b01c1443865e0a8d7b04ca54513fec06eed",
+      "bytes": 4523,
+      "sha256": "c30d355496b43c91c0875e267748090ee16cab8a4093d6c63469ee413ac998a3"
+    },
+    {
+      "path": "src/utils/assert.hpp",
+      "git_blob": "ccb38b7740a075fd0f2a51d4aa8c999814111f60",
+      "bytes": 1805,
+      "sha256": "1087ae31d349e29a35ab3fe28e308de1c330052db9bad1361133b98849df4d0c"
+    },
+    {
+      "path": "src/utils/custom_types.hpp",
+      "git_blob": "0ed4ff2c17439aea87bc37b75d24db8e7f70f48b",
+      "bytes": 763,
+      "sha256": "92ebd5a13e3cda44cb2ece98454660e720196d1f37353eb094c07b80b932fd97"
+    },
+    {
+      "path": "src/utils/limits.hpp",
+      "git_blob": "8c0bd712980a02809cc2053d533e8e4807c0d5a4",
+      "bytes": 762,
+      "sha256": "4f9ac02312651d53758d79db2707418ee6b1162607e062e78278542b1f927b2b"
+    },
+    {
+      "path": "src/utils/parse_utils.hpp",
+      "git_blob": "85eb4414a0d8d0e1a1e49b00f2082ff2b67baea6",
+      "bytes": 4229,
+      "sha256": "8dd676075d099990a153e493786f4e77a6582c0aa4d06d4a43fbed00201ff9f6"
+    },
+    {
+      "path": "src/utils/print.hpp",
+      "git_blob": "126b785554f978858798c7a3aaaa9fbfb5bab1a6",
+      "bytes": 1226,
+      "sha256": "f26296727cd4b9cc9786d6b76382119338dade8bfcd12df934aa9941ea830302"
+    },
+    {
+      "path": "src/utils/random.hpp",
+      "git_blob": "dde8aafa1a39b62523201735c73d622aa5d9603f",
+      "bytes": 3856,
+      "sha256": "8ae5c81faff6064f0a1acb9b923ad9091379b35c31082ad18c5b318e38d5f92a"
+    },
+    {
+      "path": "src/utils/sort.hpp",
+      "git_blob": "06ff761e8842fa58514f9ad0de1e03acb0b3145d",
+      "bytes": 1092,
+      "sha256": "d59a2a4b9b84bbf088cc6d053a255709997b862150352c0485f9baccf6c77fb9"
+    },
+    {
+      "path": "src/utils/utility.hpp",
+      "git_blob": "9bfb449a8733d47eb3cc4fa4b8cf6242b750a911",
+      "bytes": 4312,
+      "sha256": "335ce6f05bfe55ccd80c92b41d43fe18ba5f5b95a09503139340ad31648161c0"
+    },
+    {
+      "path": "src/utils/xoshiro_prng.hpp",
+      "git_blob": "6ee2536e17c2aa72818abfb955b485539812ad79",
+      "bytes": 3483,
+      "sha256": "068da06e457cb58370efce0d46df26d917eebeebbe78f776128cfa46264e6629"
+    }
+  ]
+}

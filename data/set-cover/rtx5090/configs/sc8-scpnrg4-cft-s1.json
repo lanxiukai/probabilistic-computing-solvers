@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "adapter": "scripts/set_cover/reference_driver.cpp",
+    "build_log": "data/set-cover/baselines/cft-build-v1/build.log",
+    "executable": "data/set-cover/baselines/cft-build-v1/reference",
+    "fmt_archive": "data/set-cover/baselines/cft-build-v1/fmt-10.2.1.tar.gz",
+    "fmt_license": "data/set-cover/baselines/cft-build-v1/fmt-LICENSE",
+    "fmt_manifest": "data/set-cover/baselines/cft-build-v1/fmt-source.json",
+    "license": "data/set-cover/baselines/cft-build-v1/LICENSE",
+    "max_seconds": 30,
+    "metadata": "data/set-cover/baselines/cft-build-v1/metadata.json",
+    "process_limit_seconds": 120,
+    "seed": 2026102391,
+    "source_archive": "data/set-cover/baselines/cft-build-v1/source-only.tar.gz",
+    "source_manifest": "data/set-cover/baselines/cft-build-v1/source.json"
+  },
+  "experiment": {
+    "role": "confirmation"
+  },
+  "method": "cft",
+  "problem": {
+    "format": "scp",
+    "instance_file": "data/set-cover/or-library-v1/scpnrg4.txt.gz",
+    "benchmark_id": "scpnrg4"
+  }
+}

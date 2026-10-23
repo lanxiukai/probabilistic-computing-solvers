@@ -1,0 +1,81 @@
+{
+  "status": "verified",
+  "solver_executed": false,
+  "calls": 12,
+  "witnesses_checked": 14848,
+  "work_replays_checked": 1,
+  "records": [
+    {
+      "id": "q1c-tai150b-prewarmed-candidate-work",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 515782171,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-tai150b-prewarmed-factored-work",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 515782171,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-nug30-b4-r128-c128",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q1c-tai150b-b2-r128-c128",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 500198046,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-nug30-b4-r128-c512",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q1c-tai150b-b2-r128-c512",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 500333783,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-tai150b-b2-r256-c512",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 500183480,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-tai150b-b2-r512-c512",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 499989110,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-tai150b-b2-r1024-c512",
+      "witnesses_checked": 4096,
+      "best_feasible_cost": 500290327,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-tai150b-b4-r128-c512-cold256",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 499403784,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q1c-tai150b-b4-r512-c512-cold256",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 499266749,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "replay-q1c-tai150b-b4-r512-c512-cold256",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 499266749,
+      "reference_cost": 498896643
+    }
+  ]
+}

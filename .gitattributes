@@ -1,0 +1,11 @@
+# Preserve the measured spin-glass runtime and core evidence bytes.
+src/cubic_spin_glass/** -text
+configs/spin-glass/** -text
+data/spin-glass/** -text
+provenance/spin-glass/** -text
+# Preserve original CSV terminators and generated SVG path whitespace.
+data/spin-glass/**/*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/spin-glass/figures/*.svg -whitespace
+
+# Preserve Matplotlib's harmless line-end spacing in generated SVG path data.
+docs/*/figures/rtx5090.svg -whitespace

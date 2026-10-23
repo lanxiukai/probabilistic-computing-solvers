@@ -1,0 +1,7 @@
+{
+  "RESULT_ROWS": "| metropolis | 8 | 8 | 8.690 | 8.785 |\n| pbit | 8 | 8 | 8.683 | 8.777 |\n| usw-1 | 8 | 8 | 35.585 | 35.624 |\n| usw-16 | 8 | 8 | 32.327 | 32.544 |\n| usw-4 | 8 | 8 | 32.225 | 32.355 |",
+  "PBIT_SECONDS": "8.683",
+  "METRO_SECONDS": "8.690",
+  "CPU_RATIO": "3.711",
+  "HARDWARE": "NVIDIA GeForce RTX 5090 (32607 MiB); AMD Eng Sample: 100-000001537-04 (quota 17.56 vCPU); Python 3.14.6; PyTorch 2.13.0+cu130; CUDA 13.0; driver 580.178.04."
+}

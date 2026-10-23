@@ -1,0 +1,19 @@
+{
+  "elapsed_seconds": 0.007083583157509565,
+  "input_name": "le450_5b.col",
+  "input_sha256": "b645467611cc3cbc6ae7e0ff80810b920e345dedd8668f793f231e04a005fc79",
+  "method": "Deterministic multi-start greedy common-neighbor clique",
+  "pair_checks": 10,
+  "scope": "Structural lower-bound certificate and global color-symmetry reduction; no coloring solution is read or generated.",
+  "size": 5,
+  "source_sha256": "f53798cd46fae480d6220f0ce130fa3e1d55fb521e9f8e2edf918a9a32c76b42",
+  "timing_scope": "Input read, clique construction and independent edge certificate; excluded from per-run search time and recorded as one-time preprocessing.",
+  "valid_clique": true,
+  "vertices": [
+    418,
+    142,
+    64,
+    240,
+    21
+  ]
+}

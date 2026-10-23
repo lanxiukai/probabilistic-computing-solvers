@@ -1,0 +1,78 @@
+{
+  "schema": "covering-array-public-source-v1",
+  "original_source_archive_sha256": "b0bd4480d00847cc2a3709feb7af1c5f4e74d931a407099f755c3fc4a93fbe24",
+  "numerical_files": [
+    {
+      "public_destination": "src/combinatorial_solvers/covering_array/__init__.py",
+      "original_sha256": "40228c0a4b7fb54b551e2baf96cad41ce1b98d3f2619e26b8c61abdba3615d48",
+      "public_sha256": "40228c0a4b7fb54b551e2baf96cad41ce1b98d3f2619e26b8c61abdba3615d48"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/covering_array/baseline.py",
+      "original_sha256": "a62676908aaa65eb23080a8b867d2f69df7f00076f21436628c9b26956ffc777",
+      "public_sha256": "a62676908aaa65eb23080a8b867d2f69df7f00076f21436628c9b26956ffc777"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/covering_array/column_gpu.py",
+      "original_sha256": "4cafeae0558bd114dd9882a04852676a00d42f7b5a7f2a1b5ba9bf286da4da1b",
+      "public_sha256": "4cafeae0558bd114dd9882a04852676a00d42f7b5a7f2a1b5ba9bf286da4da1b"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/covering_array/gpu.py",
+      "original_sha256": "049ef33a688a66f662b249865a3d5d937872c4d73d824ecd30aaff1b18b6830d",
+      "public_sha256": "049ef33a688a66f662b249865a3d5d937872c4d73d824ecd30aaff1b18b6830d"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/covering_array/model.py",
+      "original_sha256": "52c94490163ac9f0a00a4c1adba0deda1a363430492ca6f13f35d6540fe5e91b",
+      "public_sha256": "52c94490163ac9f0a00a4c1adba0deda1a363430492ca6f13f35d6540fe5e91b"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/covering_array/runner.py",
+      "original_sha256": "775c71eb47042608e46e37b25bfc99e5f660e0900dedebf141e15442894d4d86",
+      "public_sha256": "f84d6afd2a03d2e06eacd5d2158d13fa0f60767937e66c2b804cc6a1c89062b5"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/covering_array/solver.py",
+      "original_sha256": "bdb971bd2e4d18063b71efbbc5af561fe9dbc2b70910981d6987c7d948bb6ed8",
+      "public_sha256": "bdb971bd2e4d18063b71efbbc5af561fe9dbc2b70910981d6987c7d948bb6ed8"
+    }
+  ],
+  "source_transformations": [
+    "Package namespace replacement and formatting only; numerical AST equals executed final confirmation."
+  ],
+  "complete_original_audit": {
+    "confirmation_state_checks": 329733,
+    "development_state_checks": 64640
+  },
+  "classical_support": "ACTS Basic/IPOG is a separate CPU reference; original pair-coverage evaluation is used by every native update.",
+  "public_source_work_replays": {
+    "status": "passed",
+    "work_replays": 3,
+    "new_independent_trials": 0,
+    "records": [
+      {
+        "id": "replay-ca3-ca9k4v3-heatbath-s1",
+        "non_timing_arrays_matched": 21,
+        "public_manifest_sha256": "047f76592c8d7b18bd4e1bf9058324c8ebce86a31ea7269c153fcff60dddd8a5"
+      },
+      {
+        "id": "replay-ca3-ca35k300v3-heatbath-s1",
+        "non_timing_arrays_matched": 21,
+        "public_manifest_sha256": "4db40a21b11eec7010210501b673b737d8e8f3a20377c783b162547829d3a3c2"
+      },
+      {
+        "id": "replay-ca3-ca30k300v3-heatbath-s1",
+        "non_timing_arrays_matched": 21,
+        "public_manifest_sha256": "5f4a8654324b489cd96a60980aefe941e525a686a017579a9aca2d03fd770011"
+      }
+    ]
+  },
+  "public_software_tests_passed": 662,
+  "public_software_suite_skipped": 2,
+  "resolved_skipped_checks": {
+    "reason": "Public test fixture initially used the private ACTS input path; switched to the released baseline path.",
+    "targeted_acts_integration_tests_passed": 2,
+    "solver_source_changed": false
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "kind": "maxsat",
+    "canonical_identity": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "file": "instances/d847c1f3e43f3fded3a1.npz",
+    "file_sha256": "f171e75d7df0cf640212ffc2c9d6bc3dc321531fa46aad9ff48745a4c0b9a805",
+    "redistributed": true
+  },
+  {
+    "id": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "kind": "maxsat",
+    "canonical_identity": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "file": "instances/88797487c45affea3b66.npz",
+    "file_sha256": "dc1ad64ef0b990ef63a62e6de47cbc87e068e0eaf66f2e9ec570b18b83bb18c0",
+    "redistributed": true
+  },
+  {
+    "id": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "kind": "maxsat",
+    "canonical_identity": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "file": "instances/5c17c05c8699021941af.npz",
+    "file_sha256": "cebcb9b3b3aea19314be93ec714e417b02990de7ee8e0fa11b783932581362f0",
+    "redistributed": true
+  },
+  {
+    "id": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "kind": "maxsat",
+    "canonical_identity": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "file": "instances/f9e70e36c7860e7f4892.npz",
+    "file_sha256": "514a493fb94d2ec1ffbf96dffe6b585c17f89778842225f9808aa49436db05b1",
+    "redistributed": true
+  }
+]

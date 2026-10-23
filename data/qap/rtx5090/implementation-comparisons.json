@@ -1,0 +1,547 @@
+{
+  "schema": "qap-implementation-comparisons-v1",
+  "problem": "qap",
+  "calls_file": "data/qap/rtx5090/calls.json",
+  "calls_file_sha256": "e1ec3a9187186c541f0d63b84c6dd5540f668fe0d28226de74ba03d614eecb72",
+  "path_resolution": "All file paths are repository-relative; no private filesystem, cloud-operation or archive paths are included.",
+  "comparisons": [
+    {
+      "id": "q2-nug30-candidate-vs-factored",
+      "instance": "nug30",
+      "status": "accepted",
+      "paired_timing_measurements": 1,
+      "optimization_trial_count": 0,
+      "configuration_difference_keys": [
+        "solver.energy_layout"
+      ],
+      "candidate": {
+        "call_id": "q2-nug30-candidate-prewarmed-work",
+        "configuration_file": "data/qap/rtx5090/configs/q2-nug30-candidate-prewarmed-work.json",
+        "configuration_sha256": "f7844d5aff5ceffe8968903c100ff7bedef50010fe67f51c59f0d09e624d3a30",
+        "public_witness_file": "data/qap/rtx5090/witnesses/q2-nug30-candidate-prewarmed-work.npz",
+        "public_witness_sha256": "d928e71cf565799fcd1322a3819bc8987dd94375c258a0065a929c607887334c",
+        "executed_source_archive_sha256": "846fa7ba18593ee8a821cafbeac1eb33234a362df3f71dbc52850fa8daab3192",
+        "executed_source_tree_sha256": "16e62fbc70f8aba1c44bcc0750c307636c44d6ceeb8c3ed2f8a1b9ce0285c489",
+        "public_source_files": [
+          {
+            "path": "src/combinatorial_solvers/qap/__init__.py",
+            "executed_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "public_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/baseline.py",
+            "executed_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "public_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/gpu.py",
+            "executed_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "public_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/model.py",
+            "executed_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "public_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/rots.py",
+            "executed_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "public_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/runner.py",
+            "executed_sha256": "96183d4c6c0a5c80af5e55547a7265cf0969ba5493a1386272b4fb472084d89a",
+            "public_sha256": "ce453232f98e2d3abd03fbdbbf1f063bc6b9e73cc699de5b78bb9756ff3a0ca9",
+            "transformation": "accepted-external-reference-dispatch-and-namespace-formatting"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/solver.py",
+            "executed_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "public_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "transformation": "none"
+          }
+        ],
+        "device": "NVIDIA GeForce RTX 5090",
+        "launcher_wall_seconds": 6.1006725281476974,
+        "method": "heatbath",
+        "energy_layout": "candidate",
+        "seed": 2026102320,
+        "replicas": 128,
+        "width": 4,
+        "num_warps": 4,
+        "chunk_steps": 512,
+        "cycle_steps": 4096,
+        "beta_start": 0.020901245512831016,
+        "beta_end": 1.337679712821185,
+        "snapshot_every_chunks": 1148,
+        "checkpoint_seconds": 2.0,
+        "max_steps": 131072,
+        "completed_steps": 131072,
+        "quality_max_step": 131072,
+        "max_seconds": 90,
+        "initial_best_cost": 7484,
+        "best_feasible_cost": 6124,
+        "returned_best_cost": 6124,
+        "preparation_seconds": 2.16673411661759,
+        "search_seconds": 1.0625939322635531,
+        "complete_runner_seconds": 3.5967028266750276,
+        "peak_allocated_bytes": 6602752,
+        "peak_reserved_bytes": 23068672,
+        "warmup_kernel_variants": [
+          {
+            "kernel_hash": "8c065144c2587e1c9c3043c9c7d35f8c34eda069a4371b7f072d80ab24baf283",
+            "local_bytes_per_thread": 320,
+            "num_warps": 4,
+            "registers_per_thread": 255,
+            "static_shared_bytes": 256
+          }
+        ],
+        "search_kernel_variants": [
+          {
+            "kernel_hash": "8c065144c2587e1c9c3043c9c7d35f8c34eda069a4371b7f072d80ab24baf283",
+            "local_bytes_per_thread": 320,
+            "num_warps": 4,
+            "registers_per_thread": 255,
+            "static_shared_bytes": 256
+          }
+        ],
+        "unprepared_kernel_hashes": [],
+        "kernel_resource_scope": "CUDA function registers, static shared memory, and local memory bytes per thread; local bytes include compiler local storage and are not a count of spill instructions."
+      },
+      "factored": {
+        "call_id": "q2-nug30-factored-prewarmed-work",
+        "configuration_file": "data/qap/rtx5090/configs/q2-nug30-factored-prewarmed-work.json",
+        "configuration_sha256": "312ebf8525b89d3b3e25c8062454e66cd0476c1aea29c658fe45145ff676c929",
+        "public_witness_file": "data/qap/rtx5090/witnesses/q2-nug30-factored-prewarmed-work.npz",
+        "public_witness_sha256": "71d1ae3774cd9de6cc65cca64ab93f550a9f1f028665b73e8c0af3ab87614090",
+        "executed_source_archive_sha256": "846fa7ba18593ee8a821cafbeac1eb33234a362df3f71dbc52850fa8daab3192",
+        "executed_source_tree_sha256": "16e62fbc70f8aba1c44bcc0750c307636c44d6ceeb8c3ed2f8a1b9ce0285c489",
+        "public_source_files": [
+          {
+            "path": "src/combinatorial_solvers/qap/__init__.py",
+            "executed_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "public_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/baseline.py",
+            "executed_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "public_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/gpu.py",
+            "executed_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "public_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/model.py",
+            "executed_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "public_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/rots.py",
+            "executed_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "public_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/runner.py",
+            "executed_sha256": "96183d4c6c0a5c80af5e55547a7265cf0969ba5493a1386272b4fb472084d89a",
+            "public_sha256": "ce453232f98e2d3abd03fbdbbf1f063bc6b9e73cc699de5b78bb9756ff3a0ca9",
+            "transformation": "accepted-external-reference-dispatch-and-namespace-formatting"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/solver.py",
+            "executed_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "public_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "transformation": "none"
+          }
+        ],
+        "device": "NVIDIA GeForce RTX 5090",
+        "launcher_wall_seconds": 5.31886202422902,
+        "method": "heatbath",
+        "energy_layout": "factored",
+        "seed": 2026102320,
+        "replicas": 128,
+        "width": 4,
+        "num_warps": 4,
+        "chunk_steps": 512,
+        "cycle_steps": 4096,
+        "beta_start": 0.020901245512831016,
+        "beta_end": 1.337679712821185,
+        "snapshot_every_chunks": 1148,
+        "checkpoint_seconds": 2.0,
+        "max_steps": 131072,
+        "completed_steps": 131072,
+        "quality_max_step": 131072,
+        "max_seconds": 90,
+        "initial_best_cost": 7484,
+        "best_feasible_cost": 6124,
+        "returned_best_cost": 6124,
+        "preparation_seconds": 1.840925136115402,
+        "search_seconds": 0.45526708010584116,
+        "complete_runner_seconds": 2.6277487040497363,
+        "peak_allocated_bytes": 6602752,
+        "peak_reserved_bytes": 23068672,
+        "warmup_kernel_variants": [
+          {
+            "kernel_hash": "9d36a06bce8eee4f64cb8d9cca3510be167927d85bc30ae997b43744d0c1ff1b",
+            "local_bytes_per_thread": 0,
+            "num_warps": 4,
+            "registers_per_thread": 116,
+            "static_shared_bytes": 32
+          }
+        ],
+        "search_kernel_variants": [
+          {
+            "kernel_hash": "9d36a06bce8eee4f64cb8d9cca3510be167927d85bc30ae997b43744d0c1ff1b",
+            "local_bytes_per_thread": 0,
+            "num_warps": 4,
+            "registers_per_thread": 116,
+            "static_shared_bytes": 32
+          }
+        ],
+        "unprepared_kernel_hashes": [],
+        "kernel_resource_scope": "CUDA function registers, static shared memory, and local memory bytes per thread; local bytes include compiler local storage and are not a count of spill instructions."
+      },
+      "equivalence": {
+        "source_panel_manifest_sha256": "f9aab11e558428e92b46c661e74f75dba0aa1dd436418f046c3dc69a8855cc41",
+        "source_audit_manifest_sha256": "4d769075eb65edfc6b0d498cb2ecdb27e3e0adacfa36d2a4e775ed29c0caae86",
+        "source_audit_summary_sha256": "0d4665be421d32358a71da4667993e2d7265817e132e90c8331b9b0251a3a311",
+        "comparison_scope": "All original private NPZ arrays except curve_seconds; public core arrays are a separately curated subset.",
+        "full_archive_array_names": [
+          "best_cost",
+          "best_permutation",
+          "best_snapshots",
+          "bits",
+          "changed",
+          "cost",
+          "curve_best",
+          "curve_cost",
+          "curve_eligible",
+          "curve_steps",
+          "final_rng",
+          "initial_cost",
+          "initial_permutation",
+          "initial_rng",
+          "permutation",
+          "quality_best_cost",
+          "quality_best_permutation",
+          "snapshot_steps",
+          "snapshots",
+          "visited"
+        ],
+        "arrays_equal": 20,
+        "excluded_array_names": [
+          "curve_seconds"
+        ],
+        "all_non_timing_arrays_equal": true,
+        "public_core_array_names": [
+          "best_cost",
+          "best_permutation",
+          "bits",
+          "changed",
+          "cost",
+          "curve_best",
+          "curve_cost",
+          "curve_eligible",
+          "curve_indices",
+          "curve_steps",
+          "final_rng",
+          "initial_cost",
+          "initial_permutation",
+          "initial_rng",
+          "permutation",
+          "quality_best_cost",
+          "quality_best_permutation",
+          "visited"
+        ],
+        "public_core_arrays_equal": true
+      },
+      "ratios": {
+        "candidate_over_factored_search_seconds": 2.334001246074106,
+        "candidate_over_factored_complete_runner_seconds": 1.3687392638162068,
+        "candidate_over_factored_launcher_wall_seconds": 1.1469883032041994
+      },
+      "timing_scope": "Host-observed search after complete warm-up, including random-number generation, observations, transfers and checkpoint I/O; not isolated CUDA kernel timing.",
+      "claim_limit": "One fixed-work pair per instance, with identical state/RNG output. No confidence interval, hardware-energy claim, optimization-success denominator or general speedup claim is inferred."
+    },
+    {
+      "id": "q2-tai150b-candidate-vs-factored",
+      "instance": "tai150b",
+      "status": "accepted",
+      "paired_timing_measurements": 1,
+      "optimization_trial_count": 0,
+      "configuration_difference_keys": [
+        "solver.energy_layout"
+      ],
+      "candidate": {
+        "call_id": "q2-tai150b-candidate-prewarmed-work",
+        "configuration_file": "data/qap/rtx5090/configs/q2-tai150b-candidate-prewarmed-work.json",
+        "configuration_sha256": "6f32f734e38ebe53936e6182c50ead61fc9c80ef632fd6c521fba2e0c9c148e6",
+        "public_witness_file": "data/qap/rtx5090/witnesses/q2-tai150b-candidate-prewarmed-work.npz",
+        "public_witness_sha256": "9b0b932aa525fc3e92344c418a5798d18ff5fc60e46aac0c97b5c7e9cddc7028",
+        "executed_source_archive_sha256": "846fa7ba18593ee8a821cafbeac1eb33234a362df3f71dbc52850fa8daab3192",
+        "executed_source_tree_sha256": "16e62fbc70f8aba1c44bcc0750c307636c44d6ceeb8c3ed2f8a1b9ce0285c489",
+        "public_source_files": [
+          {
+            "path": "src/combinatorial_solvers/qap/__init__.py",
+            "executed_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "public_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/baseline.py",
+            "executed_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "public_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/gpu.py",
+            "executed_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "public_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/model.py",
+            "executed_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "public_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/rots.py",
+            "executed_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "public_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/runner.py",
+            "executed_sha256": "96183d4c6c0a5c80af5e55547a7265cf0969ba5493a1386272b4fb472084d89a",
+            "public_sha256": "ce453232f98e2d3abd03fbdbbf1f063bc6b9e73cc699de5b78bb9756ff3a0ca9",
+            "transformation": "accepted-external-reference-dispatch-and-namespace-formatting"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/solver.py",
+            "executed_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "public_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "transformation": "none"
+          }
+        ],
+        "device": "NVIDIA GeForce RTX 5090",
+        "launcher_wall_seconds": 11.706559795886278,
+        "method": "heatbath",
+        "energy_layout": "candidate",
+        "seed": 2026102320,
+        "replicas": 128,
+        "width": 4,
+        "num_warps": 4,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "beta_start": 2.839353862231626e-06,
+        "beta_end": 0.0007268745887312962,
+        "snapshot_every_chunks": 280,
+        "checkpoint_seconds": 2.0,
+        "max_steps": 8192,
+        "completed_steps": 8192,
+        "quality_max_step": 8192,
+        "max_seconds": 90,
+        "initial_best_cost": 631779433,
+        "best_feasible_cost": 514146217,
+        "returned_best_cost": 514146217,
+        "preparation_seconds": 5.741165558341891,
+        "search_seconds": 3.082384880166501,
+        "complete_runner_seconds": 9.310607055202127,
+        "peak_allocated_bytes": 32534016,
+        "peak_reserved_bytes": 46137344,
+        "warmup_kernel_variants": [
+          {
+            "kernel_hash": "4051dcd23f27aff44d8378f14830c07386a5d9648f0f5db88bdae4c987fcebad",
+            "local_bytes_per_thread": 8400,
+            "num_warps": 4,
+            "registers_per_thread": 40,
+            "static_shared_bytes": 2048
+          }
+        ],
+        "search_kernel_variants": [
+          {
+            "kernel_hash": "4051dcd23f27aff44d8378f14830c07386a5d9648f0f5db88bdae4c987fcebad",
+            "local_bytes_per_thread": 8400,
+            "num_warps": 4,
+            "registers_per_thread": 40,
+            "static_shared_bytes": 2048
+          }
+        ],
+        "unprepared_kernel_hashes": [],
+        "kernel_resource_scope": "CUDA function registers, static shared memory, and local memory bytes per thread; local bytes include compiler local storage and are not a count of spill instructions."
+      },
+      "factored": {
+        "call_id": "q2-tai150b-factored-prewarmed-work",
+        "configuration_file": "data/qap/rtx5090/configs/q2-tai150b-factored-prewarmed-work.json",
+        "configuration_sha256": "3e6248cbf8744e211c49e72374ccad56433df94b2adeb14b8fdf9d8131e8523b",
+        "public_witness_file": "data/qap/rtx5090/witnesses/q2-tai150b-factored-prewarmed-work.npz",
+        "public_witness_sha256": "07a32822dd2d39bbecbe3aea279bdcd27d990efc76e2cd37bc31f46dc9bd41b4",
+        "executed_source_archive_sha256": "846fa7ba18593ee8a821cafbeac1eb33234a362df3f71dbc52850fa8daab3192",
+        "executed_source_tree_sha256": "16e62fbc70f8aba1c44bcc0750c307636c44d6ceeb8c3ed2f8a1b9ce0285c489",
+        "public_source_files": [
+          {
+            "path": "src/combinatorial_solvers/qap/__init__.py",
+            "executed_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "public_sha256": "12d3127dc69567ac170f84ab90e5a212ca3f9dbbcd0ffcd514c3533d86893f8d",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/baseline.py",
+            "executed_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "public_sha256": "d345087717110ead046cc4ee3e95ce2bde89122f5e1782faf68d078d64afa300",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/gpu.py",
+            "executed_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "public_sha256": "07c73931cabde31a06789ea8b432324e82bceb2b02c27db080e1177bb52da011",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/model.py",
+            "executed_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "public_sha256": "25092ad911df5a9ebf462301410642c8c90ec9e91e2ad0145d8b88bc84963799",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/rots.py",
+            "executed_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "public_sha256": "5a62e48eb16d6d0b7dfc3bd91d061278934e9c98ac198f05b67aa34f4902d281",
+            "transformation": "none"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/runner.py",
+            "executed_sha256": "96183d4c6c0a5c80af5e55547a7265cf0969ba5493a1386272b4fb472084d89a",
+            "public_sha256": "ce453232f98e2d3abd03fbdbbf1f063bc6b9e73cc699de5b78bb9756ff3a0ca9",
+            "transformation": "accepted-external-reference-dispatch-and-namespace-formatting"
+          },
+          {
+            "path": "src/combinatorial_solvers/qap/solver.py",
+            "executed_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "public_sha256": "1d69046299b2c5ac13ed8867c44f86da1ff7de182b20678f4f38d1a9b8587ea4",
+            "transformation": "none"
+          }
+        ],
+        "device": "NVIDIA GeForce RTX 5090",
+        "launcher_wall_seconds": 4.928454617969692,
+        "method": "heatbath",
+        "energy_layout": "factored",
+        "seed": 2026102320,
+        "replicas": 128,
+        "width": 4,
+        "num_warps": 4,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "beta_start": 2.839353862231626e-06,
+        "beta_end": 0.0007268745887312962,
+        "snapshot_every_chunks": 280,
+        "checkpoint_seconds": 2.0,
+        "max_steps": 8192,
+        "completed_steps": 8192,
+        "quality_max_step": 8192,
+        "max_seconds": 90,
+        "initial_best_cost": 631779433,
+        "best_feasible_cost": 514146217,
+        "returned_best_cost": 514146217,
+        "preparation_seconds": 1.9559258706867695,
+        "search_seconds": 0.04571371292695403,
+        "complete_runner_seconds": 2.487848348915577,
+        "peak_allocated_bytes": 32534016,
+        "peak_reserved_bytes": 46137344,
+        "warmup_kernel_variants": [
+          {
+            "kernel_hash": "55da21b623fa5e183a5d67be0188b967e232eaba5cfd7b6b0b398d85b049761b",
+            "local_bytes_per_thread": 0,
+            "num_warps": 4,
+            "registers_per_thread": 184,
+            "static_shared_bytes": 2048
+          }
+        ],
+        "search_kernel_variants": [
+          {
+            "kernel_hash": "55da21b623fa5e183a5d67be0188b967e232eaba5cfd7b6b0b398d85b049761b",
+            "local_bytes_per_thread": 0,
+            "num_warps": 4,
+            "registers_per_thread": 184,
+            "static_shared_bytes": 2048
+          }
+        ],
+        "unprepared_kernel_hashes": [],
+        "kernel_resource_scope": "CUDA function registers, static shared memory, and local memory bytes per thread; local bytes include compiler local storage and are not a count of spill instructions."
+      },
+      "equivalence": {
+        "source_panel_manifest_sha256": "f9aab11e558428e92b46c661e74f75dba0aa1dd436418f046c3dc69a8855cc41",
+        "source_audit_manifest_sha256": "4d769075eb65edfc6b0d498cb2ecdb27e3e0adacfa36d2a4e775ed29c0caae86",
+        "source_audit_summary_sha256": "0d4665be421d32358a71da4667993e2d7265817e132e90c8331b9b0251a3a311",
+        "comparison_scope": "All original private NPZ arrays except curve_seconds; public core arrays are a separately curated subset.",
+        "full_archive_array_names": [
+          "best_cost",
+          "best_permutation",
+          "best_snapshots",
+          "bits",
+          "changed",
+          "cost",
+          "curve_best",
+          "curve_cost",
+          "curve_eligible",
+          "curve_steps",
+          "final_rng",
+          "initial_cost",
+          "initial_permutation",
+          "initial_rng",
+          "permutation",
+          "quality_best_cost",
+          "quality_best_permutation",
+          "snapshot_steps",
+          "snapshots",
+          "visited"
+        ],
+        "arrays_equal": 20,
+        "excluded_array_names": [
+          "curve_seconds"
+        ],
+        "all_non_timing_arrays_equal": true,
+        "public_core_array_names": [
+          "best_cost",
+          "best_permutation",
+          "bits",
+          "changed",
+          "cost",
+          "curve_best",
+          "curve_cost",
+          "curve_eligible",
+          "curve_indices",
+          "curve_steps",
+          "final_rng",
+          "initial_cost",
+          "initial_permutation",
+          "initial_rng",
+          "permutation",
+          "quality_best_cost",
+          "quality_best_permutation",
+          "visited"
+        ],
+        "public_core_arrays_equal": true
+      },
+      "ratios": {
+        "candidate_over_factored_search_seconds": 67.42801410797337,
+        "candidate_over_factored_complete_runner_seconds": 3.7424335206205424,
+        "candidate_over_factored_launcher_wall_seconds": 2.3753003128410404
+      },
+      "timing_scope": "Host-observed search after complete warm-up, including random-number generation, observations, transfers and checkpoint I/O; not isolated CUDA kernel timing.",
+      "claim_limit": "One fixed-work pair per instance, with identical state/RNG output. No confidence interval, hardware-energy claim, optimization-success denominator or general speedup claim is inferred."
+    }
+  ]
+}

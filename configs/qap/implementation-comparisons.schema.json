@@ -1,0 +1,509 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Accepted QAP implementation comparison evidence",
+  "description": "Portable final Q2 evidence only. Values are extracted by the primary agent after complete private audit and local recovery. Semantic acceptance rules accompany this schema. Source transformations explicitly distinguish formatting and the previously executed Q3 external-reference dispatch from the unchanged Q2 native branch.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "problem",
+    "calls_file",
+    "calls_file_sha256",
+    "path_resolution",
+    "comparisons"
+  ],
+  "properties": {
+    "schema": {
+      "const": "qap-implementation-comparisons-v1"
+    },
+    "problem": {
+      "const": "qap"
+    },
+    "calls_file": {
+      "const": "data/qap/rtx5090/calls.json"
+    },
+    "calls_file_sha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "path_resolution": {
+      "const": "All file paths are repository-relative; no private filesystem, cloud-operation or archive paths are included."
+    },
+    "comparisons": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "$ref": "#/$defs/comparison"
+      },
+      "allOf": [
+        {
+          "contains": {
+            "properties": {
+              "instance": {
+                "const": "nug30"
+              }
+            },
+            "required": [
+              "instance"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "instance": {
+                "const": "tai150b"
+              }
+            },
+            "required": [
+              "instance"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "relativePath": {
+      "type": "string",
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)[A-Za-z0-9._/-]+$"
+    },
+    "sourceFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "executed_sha256",
+        "public_sha256",
+        "transformation"
+      ],
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "executed_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "public_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "transformation": {
+          "enum": [
+            "none",
+            "package-namespace-only",
+            "package-namespace-and-formatting",
+            "accepted-external-reference-dispatch-and-namespace-formatting"
+          ]
+        }
+      }
+    },
+    "kernel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kernel_hash",
+        "registers_per_thread",
+        "local_bytes_per_thread",
+        "static_shared_bytes",
+        "num_warps"
+      ],
+      "properties": {
+        "kernel_hash": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        },
+        "registers_per_thread": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "local_bytes_per_thread": {
+          "type": "integer",
+          "minimum": 0,
+          "multipleOf": 4
+        },
+        "static_shared_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "num_warps": {
+          "enum": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32
+          ]
+        }
+      }
+    },
+    "call": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "call_id",
+        "configuration_file",
+        "configuration_sha256",
+        "public_witness_file",
+        "public_witness_sha256",
+        "executed_source_archive_sha256",
+        "executed_source_tree_sha256",
+        "public_source_files",
+        "device",
+        "method",
+        "energy_layout",
+        "seed",
+        "replicas",
+        "width",
+        "num_warps",
+        "chunk_steps",
+        "cycle_steps",
+        "beta_start",
+        "beta_end",
+        "snapshot_every_chunks",
+        "checkpoint_seconds",
+        "max_steps",
+        "completed_steps",
+        "quality_max_step",
+        "max_seconds",
+        "initial_best_cost",
+        "best_feasible_cost",
+        "returned_best_cost",
+        "preparation_seconds",
+        "search_seconds",
+        "complete_runner_seconds",
+        "launcher_wall_seconds",
+        "peak_allocated_bytes",
+        "peak_reserved_bytes",
+        "warmup_kernel_variants",
+        "search_kernel_variants",
+        "unprepared_kernel_hashes",
+        "kernel_resource_scope"
+      ],
+      "properties": {
+        "call_id": {
+          "type": "string",
+          "pattern": "^q2-(nug30|tai150b)-(candidate|factored)-prewarmed-work$"
+        },
+        "configuration_file": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "configuration_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "public_witness_file": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "public_witness_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "executed_source_archive_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "executed_source_tree_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "public_source_files": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "$ref": "#/$defs/sourceFile"
+          }
+        },
+        "device": {
+          "const": "NVIDIA GeForce RTX 5090"
+        },
+        "method": {
+          "const": "heatbath"
+        },
+        "energy_layout": {
+          "enum": [
+            "candidate",
+            "factored"
+          ]
+        },
+        "seed": {
+          "const": 2026102320
+        },
+        "replicas": {
+          "const": 128
+        },
+        "width": {
+          "const": 4
+        },
+        "num_warps": {
+          "const": 4
+        },
+        "chunk_steps": {
+          "enum": [
+            128,
+            512
+          ]
+        },
+        "cycle_steps": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "beta_start": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "beta_end": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "snapshot_every_chunks": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "checkpoint_seconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "max_steps": {
+          "enum": [
+            8192,
+            131072
+          ]
+        },
+        "completed_steps": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quality_max_step": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_seconds": {
+          "const": 90
+        },
+        "initial_best_cost": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "best_feasible_cost": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "returned_best_cost": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "preparation_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "search_seconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "complete_runner_seconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "launcher_wall_seconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "peak_allocated_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "peak_reserved_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "warmup_kernel_variants": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/kernel"
+          }
+        },
+        "search_kernel_variants": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/kernel"
+          }
+        },
+        "unprepared_kernel_hashes": {
+          "const": []
+        },
+        "kernel_resource_scope": {
+          "const": "CUDA function registers, static shared memory, and local memory bytes per thread; local bytes include compiler local storage and are not a count of spill instructions."
+        }
+      }
+    },
+    "equality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_panel_manifest_sha256",
+        "source_audit_manifest_sha256",
+        "source_audit_summary_sha256",
+        "comparison_scope",
+        "full_archive_array_names",
+        "arrays_equal",
+        "excluded_array_names",
+        "all_non_timing_arrays_equal",
+        "public_core_array_names",
+        "public_core_arrays_equal"
+      ],
+      "properties": {
+        "source_panel_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "source_audit_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "source_audit_summary_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "comparison_scope": {
+          "const": "All original private NPZ arrays except curve_seconds; public core arrays are a separately curated subset."
+        },
+        "full_archive_array_names": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "arrays_equal": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "excluded_array_names": {
+          "const": [
+            "curve_seconds"
+          ]
+        },
+        "all_non_timing_arrays_equal": {
+          "const": true
+        },
+        "public_core_array_names": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "public_core_arrays_equal": {
+          "const": true
+        }
+      }
+    },
+    "comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "instance",
+        "status",
+        "paired_timing_measurements",
+        "optimization_trial_count",
+        "configuration_difference_keys",
+        "candidate",
+        "factored",
+        "equivalence",
+        "ratios",
+        "timing_scope",
+        "claim_limit"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^q2-(nug30|tai150b)-candidate-vs-factored$"
+        },
+        "instance": {
+          "enum": [
+            "nug30",
+            "tai150b"
+          ]
+        },
+        "status": {
+          "const": "accepted"
+        },
+        "paired_timing_measurements": {
+          "const": 1
+        },
+        "optimization_trial_count": {
+          "const": 0
+        },
+        "configuration_difference_keys": {
+          "const": [
+            "solver.energy_layout"
+          ]
+        },
+        "candidate": {
+          "$ref": "#/$defs/call",
+          "properties": {
+            "energy_layout": {
+              "const": "candidate"
+            },
+            "call_id": {
+              "pattern": "^q2-(nug30|tai150b)-candidate-prewarmed-work$"
+            }
+          }
+        },
+        "factored": {
+          "$ref": "#/$defs/call",
+          "properties": {
+            "energy_layout": {
+              "const": "factored"
+            },
+            "call_id": {
+              "pattern": "^q2-(nug30|tai150b)-factored-prewarmed-work$"
+            }
+          }
+        },
+        "equivalence": {
+          "$ref": "#/$defs/equality"
+        },
+        "ratios": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "candidate_over_factored_search_seconds",
+            "candidate_over_factored_complete_runner_seconds",
+            "candidate_over_factored_launcher_wall_seconds"
+          ],
+          "properties": {
+            "candidate_over_factored_search_seconds": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "candidate_over_factored_complete_runner_seconds": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "candidate_over_factored_launcher_wall_seconds": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        },
+        "timing_scope": {
+          "const": "Host-observed search after complete warm-up, including random-number generation, observations, transfers and checkpoint I/O; not isolated CUDA kernel timing."
+        },
+        "claim_limit": {
+          "const": "One fixed-work pair per instance, with identical state/RNG output. No confidence interval, hardware-energy claim, optimization-success denominator or general speedup claim is inferred."
+        }
+      }
+    }
+  }
+}

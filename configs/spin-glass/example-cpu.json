@@ -1,0 +1,13 @@
+{
+  "instance_file": "example-instance.json",
+  "solver": {
+    "device": "cpu",
+    "algorithm": "pbit-pt-icm",
+    "sweeps": 8,
+    "temperatures": 4,
+    "copies": 2,
+    "groups": 2,
+    "max_seconds": 10,
+    "seed": 17
+  }
+}

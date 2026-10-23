@@ -1,0 +1,47 @@
+{
+  "status": "independently-audited",
+  "natural_calls": 41,
+  "origin_replays": 6,
+  "origin_replay_checks": [
+    {
+      "arrays_checked": 31,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "native32k-a-esm1-s0-penalty-ramp"
+    },
+    {
+      "arrays_checked": 31,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "native32k-a-esm1-s0-warm-fixed"
+    },
+    {
+      "arrays_checked": 31,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "quadratic16k-a-esm1-s0-quad-pair-ramp"
+    },
+    {
+      "arrays_checked": 31,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "quadratic16k-a-esm1-s0-quad-pair-ramp-warm"
+    },
+    {
+      "arrays_checked": 19,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "native32k-a-esm1-s0-lsd"
+    },
+    {
+      "arrays_checked": 16,
+      "differences": [],
+      "new_independent_trials": 0,
+      "origin": "wifi648-heldout-esm2-s0-gpu-spa"
+    }
+  ],
+  "replays_add_independent_trials": false,
+  "audited_saved_states": 6652,
+  "executed_source_identity": "b9b910b367df35b0fff0fd4c62a36a2decc9b9ebc930e9c4b8df0bf3fdf2898b",
+  "complete_raw_evidence_retained_privately": true
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": {
+    "role": "pre-publication-matched-control-development"
+  },
+  "problem": {
+    "instance_file": "data/covering-array/instances/ca30k300v3.json"
+  },
+  "solver": {
+    "beta_end": 8,
+    "beta_start": 8,
+    "chunk_steps": 512,
+    "cycle_steps": 9000,
+    "max_seconds": 45,
+    "method": "heatbath",
+    "orientation": "column",
+    "replicas": 128,
+    "seed": 2026102344,
+    "snapshot_every_chunks": 1024,
+    "width": 2
+  }
+}

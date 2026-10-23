@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5b12658660cdb17cd9058541294cfbcf85fd6d042dfeb3955621f38824ca1f1e",
+    "kind": "partition",
+    "canonical_identity": "5b12658660cdb17cd9058541294cfbcf85fd6d042dfeb3955621f38824ca1f1e",
+    "external": {
+      "url": "https://raw.githubusercontent.com/KaHIP/KaHIP/34e1d0a00afeae2ae2ebfe625826e9c8f8f40ac4/examples/delaunay_n15.graph",
+      "sha256": "ae5f9f3449dac27285d45b7256e4950ba0e06d2ccf4719381c4aa4f338cd7489",
+      "format": "metis",
+      "cache_file": "external/benchmarks/partition/delaunay_n15.graph"
+    },
+    "redistributed": false
+  },
+  {
+    "id": "0c1e64062056ecb0896590e86bba4959a7598c4ff15bc46fb688364891b7d35e",
+    "kind": "partition",
+    "canonical_identity": "0c1e64062056ecb0896590e86bba4959a7598c4ff15bc46fb688364891b7d35e",
+    "external": {
+      "url": "https://raw.githubusercontent.com/KaHIP/KaHIP/34e1d0a00afeae2ae2ebfe625826e9c8f8f40ac4/examples/rgg_n_2_15_s0.graph",
+      "sha256": "60bd75703d101baaf6f48699d88c205b64e7e558ee689ca41ef11bc59a2c4813",
+      "format": "metis",
+      "cache_file": "external/benchmarks/partition/rgg_n_2_15_s0.graph"
+    },
+    "redistributed": false
+  },
+  {
+    "id": "ee478178cf2aa01d51312d0b565032caaa425a6f7339b09ec678c59f72ad709d",
+    "kind": "partition",
+    "canonical_identity": "ee478178cf2aa01d51312d0b565032caaa425a6f7339b09ec678c59f72ad709d",
+    "file": "instances/ee478178cf2aa01d5131.npz",
+    "file_sha256": "75e86885e0591adbba68a59f18a269c167690dd2c6d01dd722ab2cf2ea3eb258",
+    "redistributed": true
+  },
+  {
+    "id": "065221fdf93cf417fa46033a45298c9a8dfb424141eae95a11b5f7db99806b81",
+    "kind": "partition",
+    "canonical_identity": "065221fdf93cf417fa46033a45298c9a8dfb424141eae95a11b5f7db99806b81",
+    "file": "instances/065221fdf93cf417fa46.npz",
+    "file_sha256": "c91ca44c04a3be98fff2142ab0465ba569081068cd65d69c9b9b29f407a31e7c",
+    "redistributed": true
+  }
+]

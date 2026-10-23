@@ -1,0 +1,72 @@
+{
+  "schema": "jssp-public-source-v1",
+  "original_source_archive_sha256": "c5a083ef2ba943f3bc0abeedaac606f761d69684194f9adf44dfd62729d0666f",
+  "numerical_files": [
+    {
+      "public_destination": "src/combinatorial_solvers/jssp/__init__.py",
+      "original_sha256": "eb23231890890e935da3b0caf92077fec290b8d9934e91f449f979b0dc85e815",
+      "public_sha256": "eb23231890890e935da3b0caf92077fec290b8d9934e91f449f979b0dc85e815"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/jssp/active_gpu.py",
+      "original_sha256": "4a9a4b1540ebcb6ea3aef6ae8fc221aa133bdd50bb0e7d14f9379e4d56c33bd3",
+      "public_sha256": "4a9a4b1540ebcb6ea3aef6ae8fc221aa133bdd50bb0e7d14f9379e4d56c33bd3"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/jssp/baseline.py",
+      "original_sha256": "cc3edcc9a4dcd9b674390f0650c464dc853e0414b5f0a87fe367ca0d6672df48",
+      "public_sha256": "cc3edcc9a4dcd9b674390f0650c464dc853e0414b5f0a87fe367ca0d6672df48"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/jssp/gpu.py",
+      "original_sha256": "3224ddcafed09bbc7cbefdfea9ed385de84d5bd5b4cf4df2edf560b49cc8ed46",
+      "public_sha256": "3224ddcafed09bbc7cbefdfea9ed385de84d5bd5b4cf4df2edf560b49cc8ed46"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/jssp/model.py",
+      "original_sha256": "ceb805e381ce483cc25547b5df5db04f69b2eac9ffafd0246b251171ec45cc63",
+      "public_sha256": "ceb805e381ce483cc25547b5df5db04f69b2eac9ffafd0246b251171ec45cc63"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/jssp/runner.py",
+      "original_sha256": "f877a4a31c05f1ac25114e2bb2e28f81372a59892a78c764a669f8682e23cea2",
+      "public_sha256": "66522afc4eb04412190bb592ae2da42d7e6afb5906f7b0205adf328dcc73ad80"
+    },
+    {
+      "public_destination": "src/combinatorial_solvers/jssp/solver.py",
+      "original_sha256": "f69512040f6fbe7ada0c650fab8d2e0c83867a032580c29f2c4fc67e82a08c7f",
+      "public_sha256": "f69512040f6fbe7ada0c650fab8d2e0c83867a032580c29f2c4fc67e82a08c7f"
+    }
+  ],
+  "source_transformations": [
+    "Package namespace replacement and formatting only; numerical AST matched the executed source."
+  ],
+  "classical_support": "Deterministic schedule decoding is part of each evaluated priority sequence; CP-SAT is an independent CPU reference.",
+  "complete_original_audit": {
+    "natural_calls": 72,
+    "work_replays": 3,
+    "integer_state_checks": 1106542
+  },
+  "public_source_work_replays": {
+    "status": "passed",
+    "work_replays": 3,
+    "new_independent_trials": 0,
+    "records": [
+      {
+        "id": "replay-j4-ft06-heatbath-s1",
+        "non_timing_arrays_matched": 23,
+        "public_manifest_sha256": "ffb363aca742d2c521c315b0aab0898dc277f3e777577eb7a470dc4c3a136c94"
+      },
+      {
+        "id": "replay-j4-la16-heatbath-s1",
+        "non_timing_arrays_matched": 23,
+        "public_manifest_sha256": "ead0b685098c2790a19d4c65ce8ec07c3f074f9910b57a132993c3c7b59f225f"
+      },
+      {
+        "id": "replay-j4-ta51js-heatbath-s1",
+        "non_timing_arrays_matched": 23,
+        "public_manifest_sha256": "e39b68fc815551274b45009cb39e7ae4bade0a99bc17675b3071d817f2aef58e"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kroA150",
+    "external": {
+      "url": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/kroA150.tsp.gz",
+      "download_sha256": "cf6ee4e5d9d1e98cf0c2916e68e60f710d29b1b4bf547abb690de74f2cf77aee",
+      "sha256": "acfeddc0cf4dd78ae69dd0c379b52b4031a4a8daa61a0cab3f46c1e3e2a616ba",
+      "compression": "gzip",
+      "format": "tsplib",
+      "cache_file": "external/benchmarks/tsp/kroA150.tsp"
+    },
+    "redistributed": false
+  }
+]

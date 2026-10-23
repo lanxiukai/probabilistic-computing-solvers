@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "build_log": "data/graph-coloring/tabu-reference/build.log",
+    "build_metadata": "data/graph-coloring/tabu-reference/build.json",
+    "executable": "data/graph-coloring/tabu-reference/reference",
+    "max_iterations": 100000000,
+    "max_seconds": 20,
+    "process_limit_seconds": 150,
+    "seed": 2026102351,
+    "source": "data/graph-coloring/tabu-reference/tabu_reference.cpp"
+  },
+  "experiment": {
+    "evaluation_split": "untuned-natural-scale",
+    "role": "independent-classical-reference",
+    "seed_role": "frozen fresh-seed confirmation; not tuning"
+  },
+  "method": "tabucol-style",
+  "problem": {
+    "colors": 54,
+    "instance_file": "data/graph-coloring/dimacs/inithx.i.1.col",
+    "symmetry_clique_file": "data/graph-coloring/preprocessing/inithx.i.1-0def4588f315.json"
+  }
+}

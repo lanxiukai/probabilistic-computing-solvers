@@ -1,0 +1,866 @@
+[
+  {
+    "instance": "rail516",
+    "method": "heatbath",
+    "calls": [
+      "sc8-rail516-heatbath-s1",
+      "sc8-rail516-heatbath-s2",
+      "sc8-rail516-heatbath-s3"
+    ],
+    "costs": [
+      184,
+      185,
+      185
+    ],
+    "gap_percent": [
+      1.098901098901095,
+      1.6483516483516425,
+      1.6483516483516425
+    ],
+    "complete_seconds": [
+      38.330632898025215,
+      38.31752617005259,
+      38.328002023044974
+    ]
+  },
+  {
+    "instance": "rail516",
+    "method": "metropolis",
+    "calls": [
+      "sc8-rail516-metropolis-s1",
+      "sc8-rail516-metropolis-s2",
+      "sc8-rail516-metropolis-s3"
+    ],
+    "costs": [
+      187,
+      188,
+      188
+    ],
+    "gap_percent": [
+      2.7472527472527375,
+      3.296703296703307,
+      3.296703296703307
+    ],
+    "complete_seconds": [
+      38.50511748995632,
+      38.585609490051866,
+      38.50105841225013
+    ]
+  },
+  {
+    "instance": "rail516",
+    "method": "plateau",
+    "calls": [
+      "sc8-rail516-plateau-s1",
+      "sc8-rail516-plateau-s2",
+      "sc8-rail516-plateau-s3"
+    ],
+    "costs": [
+      185,
+      185,
+      185
+    ],
+    "gap_percent": [
+      1.6483516483516425,
+      1.6483516483516425,
+      1.6483516483516425
+    ],
+    "complete_seconds": [
+      38.78473814204335,
+      38.76779255177826,
+      38.76904768915847
+    ]
+  },
+  {
+    "instance": "rail516",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-rail516-cft-s1",
+      "sc8-rail516-cft-s2",
+      "sc8-rail516-cft-s3"
+    ],
+    "costs": [
+      182,
+      182,
+      182
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      2.412945664022118,
+      2.23143228655681,
+      2.0257447860203683
+    ]
+  },
+  {
+    "instance": "scp41",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scp41-heatbath-s1",
+      "sc8-scp41-heatbath-s2",
+      "sc8-scp41-heatbath-s3"
+    ],
+    "costs": [
+      429,
+      429,
+      429
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      32.7167520429939,
+      32.717052024789155,
+      32.85340022109449
+    ]
+  },
+  {
+    "instance": "scp41",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scp41-metropolis-s1",
+      "sc8-scp41-metropolis-s2",
+      "sc8-scp41-metropolis-s3"
+    ],
+    "costs": [
+      432,
+      430,
+      431
+    ],
+    "gap_percent": [
+      0.6993006993007089,
+      0.2331002331002363,
+      0.4662004662004726
+    ],
+    "complete_seconds": [
+      32.729626403190196,
+      32.76785449683666,
+      32.7976049487479
+    ]
+  },
+  {
+    "instance": "scp41",
+    "method": "plateau",
+    "calls": [
+      "sc8-scp41-plateau-s1",
+      "sc8-scp41-plateau-s2",
+      "sc8-scp41-plateau-s3"
+    ],
+    "costs": [
+      433,
+      433,
+      433
+    ],
+    "gap_percent": [
+      0.932400932400923,
+      0.932400932400923,
+      0.932400932400923
+    ],
+    "complete_seconds": [
+      32.20440150005743,
+      32.26035563601181,
+      32.15984953707084
+    ]
+  },
+  {
+    "instance": "scp41",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scp41-cft-s1",
+      "sc8-scp41-cft-s2",
+      "sc8-scp41-cft-s3"
+    ],
+    "costs": [
+      429,
+      429,
+      429
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      0.3908571577630937,
+      0.3618434867821634,
+      0.35556855285540223
+    ]
+  },
+  {
+    "instance": "scp42",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scp42-heatbath-s1",
+      "sc8-scp42-heatbath-s2",
+      "sc8-scp42-heatbath-s3"
+    ],
+    "costs": [
+      512,
+      512,
+      512
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      33.01905187033117,
+      32.876926008146256,
+      32.883393545635045
+    ]
+  },
+  {
+    "instance": "scp42",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scp42-metropolis-s1",
+      "sc8-scp42-metropolis-s2",
+      "sc8-scp42-metropolis-s3"
+    ],
+    "costs": [
+      512,
+      512,
+      512
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      32.806849614717066,
+      32.73583263717592,
+      32.760223919991404
+    ]
+  },
+  {
+    "instance": "scp42",
+    "method": "plateau",
+    "calls": [
+      "sc8-scp42-plateau-s1",
+      "sc8-scp42-plateau-s2",
+      "sc8-scp42-plateau-s3"
+    ],
+    "costs": [
+      525,
+      525,
+      525
+    ],
+    "gap_percent": [
+      2.5390625,
+      2.5390625,
+      2.5390625
+    ],
+    "complete_seconds": [
+      32.18071549711749,
+      32.164427114184946,
+      32.16373621392995
+    ]
+  },
+  {
+    "instance": "scp42",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scp42-cft-s1",
+      "sc8-scp42-cft-s2",
+      "sc8-scp42-cft-s3"
+    ],
+    "costs": [
+      512,
+      512,
+      512
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      0.3012790307402611,
+      0.31219137413427234,
+      0.31221375800669193
+    ]
+  },
+  {
+    "instance": "scpa1",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scpa1-heatbath-s1",
+      "sc8-scpa1-heatbath-s2",
+      "sc8-scpa1-heatbath-s3"
+    ],
+    "costs": [
+      258,
+      258,
+      258
+    ],
+    "gap_percent": [
+      1.976284584980248,
+      1.976284584980248,
+      1.976284584980248
+    ],
+    "complete_seconds": [
+      32.83583487709984,
+      32.74987480184063,
+      32.72844522073865
+    ]
+  },
+  {
+    "instance": "scpa1",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scpa1-metropolis-s1",
+      "sc8-scpa1-metropolis-s2",
+      "sc8-scpa1-metropolis-s3"
+    ],
+    "costs": [
+      258,
+      258,
+      258
+    ],
+    "gap_percent": [
+      1.976284584980248,
+      1.976284584980248,
+      1.976284584980248
+    ],
+    "complete_seconds": [
+      32.41551473690197,
+      32.413135971874,
+      32.42015725187957
+    ]
+  },
+  {
+    "instance": "scpa1",
+    "method": "plateau",
+    "calls": [
+      "sc8-scpa1-plateau-s1",
+      "sc8-scpa1-plateau-s2",
+      "sc8-scpa1-plateau-s3"
+    ],
+    "costs": [
+      260,
+      260,
+      260
+    ],
+    "gap_percent": [
+      2.7667984189723382,
+      2.7667984189723382,
+      2.7667984189723382
+    ],
+    "complete_seconds": [
+      32.462734572123736,
+      32.462213162798434,
+      32.48215599078685
+    ]
+  },
+  {
+    "instance": "scpa1",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scpa1-cft-s1",
+      "sc8-scpa1-cft-s2",
+      "sc8-scpa1-cft-s3"
+    ],
+    "costs": [
+      254,
+      254,
+      253
+    ],
+    "gap_percent": [
+      0.39525691699604515,
+      0.39525691699604515,
+      0.0
+    ],
+    "complete_seconds": [
+      0.914313243702054,
+      0.7850462389178574,
+      0.9193167453631759
+    ]
+  },
+  {
+    "instance": "scpa4",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scpa4-heatbath-s1",
+      "sc8-scpa4-heatbath-s2",
+      "sc8-scpa4-heatbath-s3"
+    ],
+    "costs": [
+      235,
+      235,
+      235
+    ],
+    "gap_percent": [
+      0.42735042735042583,
+      0.42735042735042583,
+      0.42735042735042583
+    ],
+    "complete_seconds": [
+      32.66794789908454,
+      32.72633990785107,
+      32.70183364581317
+    ]
+  },
+  {
+    "instance": "scpa4",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scpa4-metropolis-s1",
+      "sc8-scpa4-metropolis-s2",
+      "sc8-scpa4-metropolis-s3"
+    ],
+    "costs": [
+      236,
+      236,
+      236
+    ],
+    "gap_percent": [
+      0.8547008547008517,
+      0.8547008547008517,
+      0.8547008547008517
+    ],
+    "complete_seconds": [
+      32.412415753118694,
+      32.491785874124616,
+      32.516343349125236
+    ]
+  },
+  {
+    "instance": "scpa4",
+    "method": "plateau",
+    "calls": [
+      "sc8-scpa4-plateau-s1",
+      "sc8-scpa4-plateau-s2",
+      "sc8-scpa4-plateau-s3"
+    ],
+    "costs": [
+      238,
+      238,
+      238
+    ],
+    "gap_percent": [
+      1.7094017094017033,
+      1.7094017094017033,
+      1.7094017094017033
+    ],
+    "complete_seconds": [
+      32.46852540364489,
+      32.46805249014869,
+      32.55215158406645
+    ]
+  },
+  {
+    "instance": "scpa4",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scpa4-cft-s1",
+      "sc8-scpa4-cft-s2",
+      "sc8-scpa4-cft-s3"
+    ],
+    "costs": [
+      234,
+      234,
+      234
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      0.6703992141410708,
+      0.6752656879834831,
+      0.6705377139151096
+    ]
+  },
+  {
+    "instance": "scpnre1",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scpnre1-heatbath-s1",
+      "sc8-scpnre1-heatbath-s2",
+      "sc8-scpnre1-heatbath-s3"
+    ],
+    "costs": [
+      29,
+      29,
+      29
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      35.47986781364307,
+      35.466225855983794,
+      35.491549423430115
+    ]
+  },
+  {
+    "instance": "scpnre1",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scpnre1-metropolis-s1",
+      "sc8-scpnre1-metropolis-s2",
+      "sc8-scpnre1-metropolis-s3"
+    ],
+    "costs": [
+      29,
+      29,
+      29
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      35.290903877001256,
+      35.24430503929034,
+      35.20987538713962
+    ]
+  },
+  {
+    "instance": "scpnre1",
+    "method": "plateau",
+    "calls": [
+      "sc8-scpnre1-plateau-s1",
+      "sc8-scpnre1-plateau-s2",
+      "sc8-scpnre1-plateau-s3"
+    ],
+    "costs": [
+      29,
+      29,
+      29
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      35.43312287563458,
+      36.06428927695379,
+      35.213269602973014
+    ]
+  },
+  {
+    "instance": "scpnre1",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scpnre1-cft-s1",
+      "sc8-scpnre1-cft-s2",
+      "sc8-scpnre1-cft-s3"
+    ],
+    "costs": [
+      29,
+      29,
+      29
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      1.8885790877975523,
+      1.8659100220538676,
+      1.90423356089741
+    ]
+  },
+  {
+    "instance": "scpnre4",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scpnre4-heatbath-s1",
+      "sc8-scpnre4-heatbath-s2",
+      "sc8-scpnre4-heatbath-s3"
+    ],
+    "costs": [
+      28,
+      28,
+      28
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      35.64190424559638,
+      35.52799331583083,
+      35.51277481298894
+    ]
+  },
+  {
+    "instance": "scpnre4",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scpnre4-metropolis-s1",
+      "sc8-scpnre4-metropolis-s2",
+      "sc8-scpnre4-metropolis-s3"
+    ],
+    "costs": [
+      28,
+      28,
+      28
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      35.320310587994754,
+      35.29088126402348,
+      35.343283854890615
+    ]
+  },
+  {
+    "instance": "scpnre4",
+    "method": "plateau",
+    "calls": [
+      "sc8-scpnre4-plateau-s1",
+      "sc8-scpnre4-plateau-s2",
+      "sc8-scpnre4-plateau-s3"
+    ],
+    "costs": [
+      28,
+      28,
+      28
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      35.47834530193359,
+      35.3784726113081,
+      35.45552249997854
+    ]
+  },
+  {
+    "instance": "scpnre4",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scpnre4-cft-s1",
+      "sc8-scpnre4-cft-s2",
+      "sc8-scpnre4-cft-s3"
+    ],
+    "costs": [
+      28,
+      28,
+      28
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      1.8819515369832516,
+      2.0670207398943603,
+      2.0119576030410826
+    ]
+  },
+  {
+    "instance": "scpnrg1",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scpnrg1-heatbath-s1",
+      "sc8-scpnrg1-heatbath-s2",
+      "sc8-scpnrg1-heatbath-s3"
+    ],
+    "costs": [
+      176,
+      176,
+      176
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      35.41651315102354,
+      35.44358204398304,
+      35.54250833578408
+    ]
+  },
+  {
+    "instance": "scpnrg1",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scpnrg1-metropolis-s1",
+      "sc8-scpnrg1-metropolis-s2",
+      "sc8-scpnrg1-metropolis-s3"
+    ],
+    "costs": [
+      181,
+      179,
+      179
+    ],
+    "gap_percent": [
+      2.840909090909083,
+      1.7045454545454586,
+      1.7045454545454586
+    ],
+    "complete_seconds": [
+      35.15429864404723,
+      35.12681437609717,
+      35.22471647290513
+    ]
+  },
+  {
+    "instance": "scpnrg1",
+    "method": "plateau",
+    "calls": [
+      "sc8-scpnrg1-plateau-s1",
+      "sc8-scpnrg1-plateau-s2",
+      "sc8-scpnrg1-plateau-s3"
+    ],
+    "costs": [
+      188,
+      188,
+      188
+    ],
+    "gap_percent": [
+      6.818181818181812,
+      6.818181818181812,
+      6.818181818181812
+    ],
+    "complete_seconds": [
+      35.12947433209047,
+      35.16717789275572,
+      35.258132085204124
+    ]
+  },
+  {
+    "instance": "scpnrg1",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scpnrg1-cft-s1",
+      "sc8-scpnrg1-cft-s2",
+      "sc8-scpnrg1-cft-s3"
+    ],
+    "costs": [
+      176,
+      176,
+      176
+    ],
+    "gap_percent": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "complete_seconds": [
+      5.101141849998385,
+      4.2705705016851425,
+      4.822430358268321
+    ]
+  },
+  {
+    "instance": "scpnrg4",
+    "method": "heatbath",
+    "calls": [
+      "sc8-scpnrg4-heatbath-s1",
+      "sc8-scpnrg4-heatbath-s2",
+      "sc8-scpnrg4-heatbath-s3"
+    ],
+    "costs": [
+      172,
+      171,
+      172
+    ],
+    "gap_percent": [
+      1.17647058823529,
+      0.588235294117645,
+      1.17647058823529
+    ],
+    "complete_seconds": [
+      35.43784868391231,
+      35.43251756997779,
+      35.53705224208534
+    ]
+  },
+  {
+    "instance": "scpnrg4",
+    "method": "metropolis",
+    "calls": [
+      "sc8-scpnrg4-metropolis-s1",
+      "sc8-scpnrg4-metropolis-s2",
+      "sc8-scpnrg4-metropolis-s3"
+    ],
+    "costs": [
+      177,
+      176,
+      176
+    ],
+    "gap_percent": [
+      4.117647058823537,
+      3.529411764705892,
+      3.529411764705892
+    ],
+    "complete_seconds": [
+      35.179699239786714,
+      35.19969425210729,
+      35.302930012810975
+    ]
+  },
+  {
+    "instance": "scpnrg4",
+    "method": "plateau",
+    "calls": [
+      "sc8-scpnrg4-plateau-s1",
+      "sc8-scpnrg4-plateau-s2",
+      "sc8-scpnrg4-plateau-s3"
+    ],
+    "costs": [
+      180,
+      180,
+      180
+    ],
+    "gap_percent": [
+      5.882352941176472,
+      5.882352941176472,
+      5.882352941176472
+    ],
+    "complete_seconds": [
+      35.31958638364449,
+      35.11649478878826,
+      35.20585227198899
+    ]
+  },
+  {
+    "instance": "scpnrg4",
+    "method": "ac-cft",
+    "calls": [
+      "sc8-scpnrg4-cft-s1",
+      "sc8-scpnrg4-cft-s2",
+      "sc8-scpnrg4-cft-s3"
+    ],
+    "costs": [
+      171,
+      171,
+      171
+    ],
+    "gap_percent": [
+      0.588235294117645,
+      0.588235294117645,
+      0.588235294117645
+    ],
+    "complete_seconds": [
+      4.261138163041323,
+      4.076616847887635,
+      3.9887921009212732
+    ]
+  }
+]

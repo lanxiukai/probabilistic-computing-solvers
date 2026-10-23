@@ -1,0 +1,31 @@
+{
+  "experiment": {
+    "evaluation_split": "held-out",
+    "role": "pbit-confirmation",
+    "seed_role": "frozen fresh-seed confirmation; not tuning"
+  },
+  "problem": {
+    "colors": 25,
+    "instance_file": "data/graph-coloring/dimacs/le450_25d.col"
+  },
+  "solver": {
+    "beta_end": 16,
+    "beta_start": 1,
+    "cache_boltzmann_weights": true,
+    "checkpoint_seconds": 2.0,
+    "chunk_steps": 512,
+    "cycle_steps": 7200,
+    "exchange_every_chunks": 1,
+    "max_seconds": 60,
+    "max_steps": 100000000,
+    "method": "heatbath",
+    "replicas": 128,
+    "reuse_preparation": true,
+    "seed": 2026102352,
+    "snapshot_every_chunks": null,
+    "stop_when_all_groups_solved": true,
+    "tempering_ladder_size": 16,
+    "warmup_steps": null,
+    "width": 2
+  }
+}

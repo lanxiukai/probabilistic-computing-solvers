@@ -1,0 +1,25 @@
+{
+  "experiment": {
+    "role": "optimization-development"
+  },
+  "problem": {
+    "instance_file": "data/qap/qaplib/nug30.dat",
+    "reference_file": "data/qap/qaplib/nug30.sln",
+    "reference_status": "proven_optimum"
+  },
+  "solver": {
+    "beta_end": 1.337679712821185,
+    "beta_start": 0.020901245512831016,
+    "checkpoint_seconds": 2,
+    "chunk_steps": 512,
+    "cycle_steps": 4096,
+    "energy_layout": "factored",
+    "max_seconds": 15,
+    "method": "heatbath",
+    "num_warps": 4,
+    "replicas": 128,
+    "seed": 2026102314,
+    "snapshot_every_chunks": 64,
+    "width": 4
+  }
+}

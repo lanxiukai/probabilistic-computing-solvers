@@ -1,0 +1,42 @@
+{
+  "measured_source_tree_sha256": "8334202cef5b085fd71b463924e1bc442f6193301d751531760efd2d0a7afa04",
+  "public_modules": [
+    {
+      "path": "src/combinatorial_solvers/tsp/eax_runner.py",
+      "bytes": 10916,
+      "sha256": "077f94400aa354a8a5387c9eed505e97889ab2c4435b86a1d2c722a99e913c10",
+      "executable": false,
+      "normalized_ast_sha256": "2c9afcc6d1446d80bc9f561afba474cbc66f815727165978f7a8781fd651db28"
+    },
+    {
+      "path": "src/combinatorial_solvers/tsp/edge_model.py",
+      "bytes": 9216,
+      "sha256": "a15a804d52b799c9dd956cafc42fc66196e4220ee89f25a4aaabf558631f7342",
+      "executable": false,
+      "normalized_ast_sha256": "9eed0b294dbeeb2fd9cbf2b887f6000ab882a536bed68e6363bc50e36ab7f2ab"
+    },
+    {
+      "path": "src/combinatorial_solvers/tsp/edge_cuda.py",
+      "bytes": 5883,
+      "sha256": "4d041b58894bb0f3909789594f0fa5551c6cce35b312f5057b26ce061593a561",
+      "executable": false,
+      "normalized_ast_sha256": "1fc2565a3267b4fc6e4bc1372d6f1a419c57c90fb21fa7c6993cc56e112489b3"
+    },
+    {
+      "path": "src/combinatorial_solvers/tsp/edge_runner.py",
+      "bytes": 17431,
+      "sha256": "0bd07fbfb256e713e5293080d8e440b0174862f8b985d02ce83fbeca78d87f2f",
+      "executable": false,
+      "normalized_ast_sha256": "197fe6bbd457f17be031697cc18dfc582732a80a7b26ffedb8015ccf8fba6ed4"
+    },
+    {
+      "path": "src/combinatorial_solvers/tsp/runner.py",
+      "bytes": 24556,
+      "sha256": "10cdf3a172323fa247994268819fa6500a74aef7e67e18205b58d3ff238cd480",
+      "executable": false,
+      "normalized_ast_sha256": "750007676376d2a3557ca14c967f091bbf46a765c8840bdcecb153b9a0d5540c"
+    }
+  ],
+  "permitted_transformations": "Package namespace, import ordering and formatting only; numerical expressions verified equal",
+  "analysis_tools": "Verification and plotting consume the saved data without new solver calls"
+}

@@ -1,0 +1,1071 @@
+[
+  {
+    "id": "ca2b-ca30k300v3-column2-b4",
+    "instance": "ca30k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca30k300v3.json"
+      },
+      "solver": {
+        "beta_end": 4,
+        "beta_start": 4,
+        "chunk_steps": 512,
+        "cycle_steps": 9000,
+        "max_seconds": 45,
+        "method": "heatbath",
+        "orientation": "column",
+        "replicas": 128,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca30k300v3-column2-b4.json",
+    "metrics": {
+      "best_feasible_cost": 25,
+      "certification_seconds": 2.0069511719048023,
+      "columns": 300,
+      "complete_runner_seconds": 62.79709636885673,
+      "completed_steps": 2131968,
+      "deadline_overshoot_seconds": 0.00547312805429101,
+      "final_array_write_seconds": 9.87869939301163,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 10104,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "heatbath",
+      "model_binary_variables": 27000,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "physical_update_pbits_per_model": 27000,
+      "preparation_seconds": 4.448140153195709,
+      "quality_max_step": 2131456,
+      "replicas_improved": 128,
+      "returned_best_cost": 25,
+      "rows": 30,
+      "search_seconds": 45.00547312805429,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 27000,
+      "zero_missing_hits": 0
+    },
+    "witness_file": "witnesses/ca2b-ca30k300v3-column2-b4.npz",
+    "witness_sha256": "17cfe269179f3ef128d28ca111892380f82ad076fc8a29bfb4dec3a5aa5d8202",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 27000,
+      "visited_assignment_bits_min": 27000,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "preparation_seconds": 4.448140153195709,
+      "search_seconds": 45.00547312805429,
+      "certification_seconds": 2.0069511719048023,
+      "complete_runner_seconds": 62.79709636885673,
+      "physical_update_pbits_per_model": 27000
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca30k300v3.json",
+        "sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4164,
+        "retained_observations": 1683,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca30k300v3-column2-b8",
+    "instance": "ca30k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca30k300v3.json"
+      },
+      "solver": {
+        "beta_end": 8,
+        "beta_start": 8,
+        "chunk_steps": 512,
+        "cycle_steps": 9000,
+        "max_seconds": 45,
+        "method": "heatbath",
+        "orientation": "column",
+        "replicas": 128,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca30k300v3-column2-b8.json",
+    "metrics": {
+      "best_feasible_cost": 0,
+      "certification_seconds": 2.012686289846897,
+      "columns": 300,
+      "complete_runner_seconds": 62.6136412746273,
+      "completed_steps": 2131968,
+      "deadline_overshoot_seconds": 0.008913927711546421,
+      "final_array_write_seconds": 9.744759721681476,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 10104,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "heatbath",
+      "model_binary_variables": 27000,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "physical_update_pbits_per_model": 27000,
+      "preparation_seconds": 4.416504235938191,
+      "quality_max_step": 2131456,
+      "replicas_improved": 128,
+      "returned_best_cost": 0,
+      "rows": 30,
+      "search_seconds": 45.008913927711546,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 27000,
+      "zero_missing_hits": 113
+    },
+    "witness_file": "witnesses/ca2b-ca30k300v3-column2-b8.npz",
+    "witness_sha256": "14f459fc4352fda0d9320173b30aae5f0407b7ece216dbb9c9668b3f7b005284",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 27000,
+      "visited_assignment_bits_min": 27000,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "preparation_seconds": 4.416504235938191,
+      "search_seconds": 45.008913927711546,
+      "certification_seconds": 2.012686289846897,
+      "complete_runner_seconds": 62.6136412746273,
+      "physical_update_pbits_per_model": 27000
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca30k300v3.json",
+        "sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4164,
+        "retained_observations": 1927,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca30k300v3-column2-b12",
+    "instance": "ca30k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca30k300v3.json"
+      },
+      "solver": {
+        "beta_end": 12,
+        "beta_start": 12,
+        "chunk_steps": 512,
+        "cycle_steps": 9000,
+        "max_seconds": 45,
+        "method": "heatbath",
+        "orientation": "column",
+        "replicas": 128,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca30k300v3-column2-b12.json",
+    "metrics": {
+      "best_feasible_cost": 0,
+      "certification_seconds": 2.029888833872974,
+      "columns": 300,
+      "complete_runner_seconds": 62.587889245245606,
+      "completed_steps": 2135552,
+      "deadline_overshoot_seconds": 0.0005770358256995678,
+      "final_array_write_seconds": 9.695082194171846,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 10104,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "heatbath",
+      "model_binary_variables": 27000,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "physical_update_pbits_per_model": 27000,
+      "preparation_seconds": 4.425377994310111,
+      "quality_max_step": 2135552,
+      "replicas_improved": 128,
+      "returned_best_cost": 0,
+      "rows": 30,
+      "search_seconds": 45.0005770358257,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 27000,
+      "zero_missing_hits": 118
+    },
+    "witness_file": "witnesses/ca2b-ca30k300v3-column2-b12.npz",
+    "witness_sha256": "40717b5ebdb035ebe1ab3f830d9a475e7db9e7c50bec73e4c00c52496a56c4fe",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 27000,
+      "visited_assignment_bits_min": 27000,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "preparation_seconds": 4.425377994310111,
+      "search_seconds": 45.0005770358257,
+      "certification_seconds": 2.029888833872974,
+      "complete_runner_seconds": 62.587889245245606,
+      "physical_update_pbits_per_model": 27000
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca30k300v3.json",
+        "sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4171,
+        "retained_observations": 1869,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca30k300v3-column2-b16",
+    "instance": "ca30k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca30k300v3.json"
+      },
+      "solver": {
+        "beta_end": 16,
+        "beta_start": 16,
+        "chunk_steps": 512,
+        "cycle_steps": 9000,
+        "max_seconds": 45,
+        "method": "heatbath",
+        "orientation": "column",
+        "replicas": 128,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca30k300v3-column2-b16.json",
+    "metrics": {
+      "best_feasible_cost": 0,
+      "certification_seconds": 2.0295181940309703,
+      "columns": 300,
+      "complete_runner_seconds": 62.6535858688876,
+      "completed_steps": 2127360,
+      "deadline_overshoot_seconds": 0.0011616148985922337,
+      "final_array_write_seconds": 9.739835736341774,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 10104,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "heatbath",
+      "model_binary_variables": 27000,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "physical_update_pbits_per_model": 27000,
+      "preparation_seconds": 4.4339161100797355,
+      "quality_max_step": 2126848,
+      "replicas_improved": 128,
+      "returned_best_cost": 0,
+      "rows": 30,
+      "search_seconds": 45.00116161489859,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 27000,
+      "zero_missing_hits": 120
+    },
+    "witness_file": "witnesses/ca2b-ca30k300v3-column2-b16.npz",
+    "witness_sha256": "4506d122ad57b359e5167f9e699944635e2f0f715548bd4c7684985be8df35fd",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 27000,
+      "visited_assignment_bits_min": 27000,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "preparation_seconds": 4.4339161100797355,
+      "search_seconds": 45.00116161489859,
+      "certification_seconds": 2.0295181940309703,
+      "complete_runner_seconds": 62.6535858688876,
+      "physical_update_pbits_per_model": 27000
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca30k300v3.json",
+        "sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4155,
+        "retained_observations": 1855,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca30k300v3-column2-plateau",
+    "instance": "ca30k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca30k300v3.json"
+      },
+      "solver": {
+        "beta_end": 8,
+        "beta_start": 8,
+        "chunk_steps": 512,
+        "cycle_steps": 9000,
+        "max_seconds": 45,
+        "method": "plateau",
+        "orientation": "column",
+        "replicas": 128,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca30k300v3-column2-plateau.json",
+    "metrics": {
+      "best_feasible_cost": 0,
+      "certification_seconds": 2.0457195779308677,
+      "columns": 300,
+      "complete_runner_seconds": 63.67981423297897,
+      "completed_steps": 4188160,
+      "deadline_overshoot_seconds": 0.003262951970100403,
+      "final_array_write_seconds": 10.830130810849369,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 10104,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "plateau",
+      "model_binary_variables": 27000,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": false,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "physical_update_pbits_per_model": 0,
+      "preparation_seconds": 4.336351124104112,
+      "quality_max_step": 4187648,
+      "replicas_improved": 128,
+      "returned_best_cost": 0,
+      "rows": 30,
+      "search_seconds": 45.0032629519701,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 27000,
+      "zero_missing_hits": 128
+    },
+    "witness_file": "witnesses/ca2b-ca30k300v3-column2-plateau.npz",
+    "witness_sha256": "17afe9e51d245918447a74a090550346c9d803de58a0a15ac8c20b8bdf41a529",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 27000,
+      "visited_assignment_bits_min": 27000,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "preparation_seconds": 4.336351124104112,
+      "search_seconds": 45.0032629519701,
+      "certification_seconds": 2.0457195779308677,
+      "complete_runner_seconds": 63.67981423297897,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca30k300v3.json",
+        "sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 8180,
+        "retained_observations": 1863,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca30k300v3-column2-metropolis",
+    "instance": "ca30k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca30k300v3.json"
+      },
+      "solver": {
+        "beta_end": 8,
+        "beta_start": 8,
+        "chunk_steps": 512,
+        "cycle_steps": 9000,
+        "max_seconds": 45,
+        "method": "metropolis",
+        "orientation": "column",
+        "replicas": 128,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca30k300v3-column2-metropolis.json",
+    "metrics": {
+      "best_feasible_cost": 1,
+      "certification_seconds": 2.0313033391721547,
+      "columns": 300,
+      "complete_runner_seconds": 63.31257452396676,
+      "completed_steps": 3389952,
+      "deadline_overshoot_seconds": 0.004600672982633114,
+      "final_array_write_seconds": 10.464142160024494,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 10104,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "metropolis",
+      "model_binary_variables": 27000,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": false,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "physical_update_pbits_per_model": 0,
+      "preparation_seconds": 4.3601496601477265,
+      "quality_max_step": 3389440,
+      "replicas_improved": 128,
+      "returned_best_cost": 1,
+      "rows": 30,
+      "search_seconds": 45.00460067298263,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 27000,
+      "zero_missing_hits": 0
+    },
+    "witness_file": "witnesses/ca2b-ca30k300v3-column2-metropolis.npz",
+    "witness_sha256": "c8910abe5e8c5cd1940cc87921ceb70cf6b1507a59babce8310976f500b1144e",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 27000,
+      "visited_assignment_bits_min": 27000,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "preparation_seconds": 4.3601496601477265,
+      "search_seconds": 45.00460067298263,
+      "certification_seconds": 2.0313033391721547,
+      "complete_runner_seconds": 63.31257452396676,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca30k300v3.json",
+        "sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 6621,
+        "retained_observations": 4541,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca29k300v3-column2-b8",
+    "instance": "ca29k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca29k300v3.json"
+      },
+      "solver": {
+        "beta_end": 8,
+        "beta_start": 8,
+        "chunk_steps": 512,
+        "cycle_steps": 8700,
+        "max_seconds": 90,
+        "method": "heatbath",
+        "orientation": "column",
+        "replicas": 256,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca29k300v3-column2-b8.json",
+    "metrics": {
+      "best_feasible_cost": 34,
+      "certification_seconds": 3.9913171101361513,
+      "columns": 300,
+      "complete_runner_seconds": 122.60509292082861,
+      "completed_steps": 1700864,
+      "deadline_overshoot_seconds": 0.01317524304613471,
+      "final_array_write_seconds": 19.144493183586746,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 11426,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "heatbath",
+      "model_binary_variables": 26100,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 256,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "physical_update_pbits_per_model": 26100,
+      "preparation_seconds": 6.975518526043743,
+      "quality_max_step": 1700352,
+      "replicas_improved": 256,
+      "returned_best_cost": 34,
+      "rows": 29,
+      "search_seconds": 90.01317524304613,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 26100,
+      "zero_missing_hits": 0
+    },
+    "witness_file": "witnesses/ca2b-ca29k300v3-column2-b8.npz",
+    "witness_sha256": "7399d543e56c4971540c99e4d640013620c7db10fd8c25efcd079c23dc2c9ac9",
+    "resources": {
+      "parallel_replicas": 256,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 26100,
+      "visited_assignment_bits_min": 26100,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "preparation_seconds": 6.975518526043743,
+      "search_seconds": 90.01317524304613,
+      "certification_seconds": 3.9913171101361513,
+      "complete_runner_seconds": 122.60509292082861,
+      "physical_update_pbits_per_model": 26100
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca29k300v3.json",
+        "sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 3322,
+        "retained_observations": 3289,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca29k300v3-column2-b12",
+    "instance": "ca29k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca29k300v3.json"
+      },
+      "solver": {
+        "beta_end": 12,
+        "beta_start": 12,
+        "chunk_steps": 512,
+        "cycle_steps": 8700,
+        "max_seconds": 90,
+        "method": "heatbath",
+        "orientation": "column",
+        "replicas": 256,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca29k300v3-column2-b12.json",
+    "metrics": {
+      "best_feasible_cost": 36,
+      "certification_seconds": 4.017021503765136,
+      "columns": 300,
+      "complete_runner_seconds": 122.57902266364545,
+      "completed_steps": 1826816,
+      "deadline_overshoot_seconds": 0.011538555845618248,
+      "final_array_write_seconds": 19.10925820376724,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 11426,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "heatbath",
+      "model_binary_variables": 26100,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 256,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "physical_update_pbits_per_model": 26100,
+      "preparation_seconds": 6.959960191976279,
+      "quality_max_step": 1826304,
+      "replicas_improved": 256,
+      "returned_best_cost": 35,
+      "rows": 29,
+      "search_seconds": 90.01153855584562,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 26100,
+      "zero_missing_hits": 0
+    },
+    "witness_file": "witnesses/ca2b-ca29k300v3-column2-b12.npz",
+    "witness_sha256": "dd666a1385ce62f5865193bc7442ca5b5f09a9ef1615e6ebb35837f8f96e976c",
+    "resources": {
+      "parallel_replicas": 256,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 26100,
+      "visited_assignment_bits_min": 26100,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "preparation_seconds": 6.959960191976279,
+      "search_seconds": 90.01153855584562,
+      "certification_seconds": 4.017021503765136,
+      "complete_runner_seconds": 122.57902266364545,
+      "physical_update_pbits_per_model": 26100
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca29k300v3.json",
+        "sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 3568,
+        "retained_observations": 3516,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca29k300v3-column2-plateau",
+    "instance": "ca29k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca29k300v3.json"
+      },
+      "solver": {
+        "beta_end": 8,
+        "beta_start": 8,
+        "chunk_steps": 512,
+        "cycle_steps": 8700,
+        "max_seconds": 90,
+        "method": "plateau",
+        "orientation": "column",
+        "replicas": 256,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca29k300v3-column2-plateau.json",
+    "metrics": {
+      "best_feasible_cost": 18,
+      "certification_seconds": 3.989636902231723,
+      "columns": 300,
+      "complete_runner_seconds": 125.21664206963032,
+      "completed_steps": 3402752,
+      "deadline_overshoot_seconds": 0.007827847730368376,
+      "final_array_write_seconds": 21.602969069965184,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 11426,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "plateau",
+      "model_binary_variables": 26100,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 256,
+      "pbit_heatbath_participation": false,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "physical_update_pbits_per_model": 0,
+      "preparation_seconds": 7.070582507643849,
+      "quality_max_step": 3402240,
+      "replicas_improved": 256,
+      "returned_best_cost": 18,
+      "rows": 29,
+      "search_seconds": 90.00782784773037,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 26100,
+      "zero_missing_hits": 0
+    },
+    "witness_file": "witnesses/ca2b-ca29k300v3-column2-plateau.npz",
+    "witness_sha256": "6f4b67a9fb06ef0fe149a2aea24eb7578128d1e232ce6e3abb45cf81bff92201",
+    "resources": {
+      "parallel_replicas": 256,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 26100,
+      "visited_assignment_bits_min": 26100,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "preparation_seconds": 7.070582507643849,
+      "search_seconds": 90.00782784773037,
+      "certification_seconds": 3.989636902231723,
+      "complete_runner_seconds": 125.21664206963032,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca29k300v3.json",
+        "sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 6646,
+        "retained_observations": 5809,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "ca2b-ca29k300v3-column2-metropolis",
+    "instance": "ca29k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca29k300v3.json"
+      },
+      "solver": {
+        "beta_end": 8,
+        "beta_start": 8,
+        "chunk_steps": 512,
+        "cycle_steps": 8700,
+        "max_seconds": 90,
+        "method": "metropolis",
+        "orientation": "column",
+        "replicas": 256,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/ca2b-ca29k300v3-column2-metropolis.json",
+    "metrics": {
+      "best_feasible_cost": 75,
+      "certification_seconds": 3.9344351859763265,
+      "columns": 300,
+      "complete_runner_seconds": 123.90397076820955,
+      "completed_steps": 2435584,
+      "deadline_overshoot_seconds": 0.0014276388101279736,
+      "final_array_write_seconds": 20.559402130078524,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 11426,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "metropolis",
+      "model_binary_variables": 26100,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 256,
+      "pbit_heatbath_participation": false,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "physical_update_pbits_per_model": 0,
+      "preparation_seconds": 6.877644760068506,
+      "quality_max_step": 2435584,
+      "replicas_improved": 256,
+      "returned_best_cost": 75,
+      "rows": 29,
+      "search_seconds": 90.00142763881013,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 26100,
+      "zero_missing_hits": 0
+    },
+    "witness_file": "witnesses/ca2b-ca29k300v3-column2-metropolis.npz",
+    "witness_sha256": "df3100690ce0ceb0a730a9326feaca4be6d2fae021fd1ef20c713a5109c53752",
+    "resources": {
+      "parallel_replicas": 256,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 26100,
+      "visited_assignment_bits_min": 26100,
+      "peak_allocated_bytes": 930854400,
+      "peak_reserved_bytes": 981467136,
+      "preparation_seconds": 6.877644760068506,
+      "search_seconds": 90.00142763881013,
+      "certification_seconds": 3.9344351859763265,
+      "complete_runner_seconds": 123.90397076820955,
+      "physical_update_pbits_per_model": 0
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca29k300v3.json",
+        "sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "a350d7ed316282d7b277b6fd12e1b43133126217b972fbdf3c6cd43f52bfa570"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4757,
+        "retained_observations": 4722,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "replay-ca2b-ca30k300v3-column2-b8",
+    "instance": "ca30k300v3",
+    "configuration": {
+      "experiment": {
+        "role": "pre-publication-matched-control-development"
+      },
+      "problem": {
+        "instance_file": "data/covering-array/instances/ca30k300v3.json"
+      },
+      "solver": {
+        "beta_end": 8,
+        "beta_start": 8,
+        "chunk_steps": 512,
+        "cycle_steps": 9000,
+        "max_seconds": 300,
+        "max_steps": 2131968,
+        "method": "heatbath",
+        "orientation": "column",
+        "quality_max_step": 2131456,
+        "replicas": 128,
+        "seed": 2026102344,
+        "snapshot_every_chunks": 1024,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/covering-array/development-ca2b/configs/replay-ca2b-ca30k300v3-column2-b8.json",
+    "metrics": {
+      "best_feasible_cost": 0,
+      "certification_seconds": 2.016445972956717,
+      "columns": 300,
+      "complete_runner_seconds": 62.70664864080027,
+      "completed_steps": 2131968,
+      "deadline_overshoot_seconds": 0,
+      "final_array_write_seconds": 9.815324243158102,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 10104,
+      "initialization": "independent_uniform_array_entries",
+      "levels": 3,
+      "method": "heatbath",
+      "model_binary_variables": 27000,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimality_scope": "Zero missing interactions certifies this row count; it does not prove the minimum possible number of rows.",
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "physical_update_pbits_per_model": 27000,
+      "preparation_seconds": 4.446671030018479,
+      "quality_max_step": 2131456,
+      "replicas_improved": 128,
+      "returned_best_cost": 0,
+      "rows": 30,
+      "search_seconds": 44.936854214873165,
+      "status": "completed",
+      "strength": 2,
+      "total_interactions": 403650,
+      "visited_assignment_bits_min": 27000,
+      "zero_missing_hits": 113
+    },
+    "witness_file": "witnesses/replay-ca2b-ca30k300v3-column2-b8.npz",
+    "witness_sha256": "5240bf3306a2625c9704859b072f7a0aae525b5b0fb07f362551623847cec389",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 27000,
+      "visited_assignment_bits_min": 27000,
+      "peak_allocated_bytes": 468552192,
+      "peak_reserved_bytes": 497025024,
+      "preparation_seconds": 4.446671030018479,
+      "search_seconds": 44.936854214873165,
+      "certification_seconds": 2.016445972956717,
+      "complete_runner_seconds": 62.70664864080027,
+      "physical_update_pbits_per_model": 27000
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/covering-array/instances/ca30k300v3.json",
+        "sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821",
+        "source": "Project-created fixed-row covering-array parameter declaration",
+        "recorded_original_sha256": "b5a2737b2b163b0801e5a974f4620d5862b7fd4f5b6f2b728df8cb9af8b5b821"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "optimization-development-not-independent-confirmation",
+    "evaluation_role": "pre-publication-matched-control-development",
+    "trial_kind": "work-replay",
+    "replay_of": "ca2b-ca30k300v3-column2-b8",
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4164,
+        "retained_observations": 1927,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  }
+]

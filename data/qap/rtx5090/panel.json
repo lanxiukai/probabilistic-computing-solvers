@@ -1,0 +1,149 @@
+{
+  "problem": "qap",
+  "status": "independently-verified",
+  "planned_natural_calls": 76,
+  "expected_natural_ids": [
+    "q2-nug12-heatbath-s2026102411",
+    "q2-nug12-metropolis-s2026102411",
+    "q2-nug12-plateau-s2026102411",
+    "q2-nug12-tabu-s2026102411",
+    "q2-nug12-heatbath-s2026102412",
+    "q2-nug12-metropolis-s2026102412",
+    "q2-nug12-plateau-s2026102412",
+    "q2-nug12-tabu-s2026102412",
+    "q2-nug12-heatbath-s2026102413",
+    "q2-nug12-metropolis-s2026102413",
+    "q2-nug12-plateau-s2026102413",
+    "q2-nug12-tabu-s2026102413",
+    "q2-nug20-heatbath-s2026102411",
+    "q2-nug20-metropolis-s2026102411",
+    "q2-nug20-plateau-s2026102411",
+    "q2-nug20-tabu-s2026102411",
+    "q2-nug20-heatbath-s2026102412",
+    "q2-nug20-metropolis-s2026102412",
+    "q2-nug20-plateau-s2026102412",
+    "q2-nug20-tabu-s2026102412",
+    "q2-nug20-heatbath-s2026102413",
+    "q2-nug20-metropolis-s2026102413",
+    "q2-nug20-plateau-s2026102413",
+    "q2-nug20-tabu-s2026102413",
+    "q2-nug30-heatbath-s2026102411",
+    "q2-nug30-metropolis-s2026102411",
+    "q2-nug30-plateau-s2026102411",
+    "q2-nug30-tabu-s2026102411",
+    "q2-nug30-heatbath-s2026102412",
+    "q2-nug30-metropolis-s2026102412",
+    "q2-nug30-plateau-s2026102412",
+    "q2-nug30-tabu-s2026102412",
+    "q2-nug30-heatbath-s2026102413",
+    "q2-nug30-metropolis-s2026102413",
+    "q2-nug30-plateau-s2026102413",
+    "q2-nug30-tabu-s2026102413",
+    "q2-tai40a-heatbath-s2026102411",
+    "q2-tai40a-metropolis-s2026102411",
+    "q2-tai40a-plateau-s2026102411",
+    "q2-tai40a-tabu-s2026102411",
+    "q2-tai40a-heatbath-s2026102412",
+    "q2-tai40a-metropolis-s2026102412",
+    "q2-tai40a-plateau-s2026102412",
+    "q2-tai40a-tabu-s2026102412",
+    "q2-tai40a-heatbath-s2026102413",
+    "q2-tai40a-metropolis-s2026102413",
+    "q2-tai40a-plateau-s2026102413",
+    "q2-tai40a-tabu-s2026102413",
+    "q2-tai80a-heatbath-s2026102411",
+    "q2-tai80a-metropolis-s2026102411",
+    "q2-tai80a-plateau-s2026102411",
+    "q2-tai80a-tabu-s2026102411",
+    "q2-tai80a-heatbath-s2026102412",
+    "q2-tai80a-metropolis-s2026102412",
+    "q2-tai80a-plateau-s2026102412",
+    "q2-tai80a-tabu-s2026102412",
+    "q2-tai80a-heatbath-s2026102413",
+    "q2-tai80a-metropolis-s2026102413",
+    "q2-tai80a-plateau-s2026102413",
+    "q2-tai80a-tabu-s2026102413",
+    "q2-tai150b-heatbath-s2026102411",
+    "q2-tai150b-metropolis-s2026102411",
+    "q2-tai150b-plateau-s2026102411",
+    "q2-tai150b-tabu-s2026102411",
+    "q2-tai150b-heatbath-s2026102412",
+    "q2-tai150b-metropolis-s2026102412",
+    "q2-tai150b-plateau-s2026102412",
+    "q2-tai150b-tabu-s2026102412",
+    "q2-tai150b-heatbath-s2026102413",
+    "q2-tai150b-metropolis-s2026102413",
+    "q2-tai150b-plateau-s2026102413",
+    "q2-tai150b-tabu-s2026102413",
+    "q2-nug30-candidate-prewarmed-work",
+    "q2-nug30-factored-prewarmed-work",
+    "q2-tai150b-candidate-prewarmed-work",
+    "q2-tai150b-factored-prewarmed-work"
+  ],
+  "expected_replays": [
+    {
+      "id": "replay-q2-nug30-heatbath-s2026102411",
+      "origin": "q2-nug30-heatbath-s2026102411"
+    },
+    {
+      "id": "replay-q2-nug30-tabu-s2026102411",
+      "origin": "q2-nug30-tabu-s2026102411"
+    },
+    {
+      "id": "replay-q2-tai80a-heatbath-s2026102411",
+      "origin": "q2-tai80a-heatbath-s2026102411"
+    },
+    {
+      "id": "replay-q2-tai150b-heatbath-s2026102411",
+      "origin": "q2-tai150b-heatbath-s2026102411"
+    },
+    {
+      "id": "replay-q2-tai150b-tabu-s2026102411",
+      "origin": "q2-tai150b-tabu-s2026102411"
+    }
+  ],
+  "frozen_targets": {
+    "nug12": {
+      "cost": 578,
+      "status": "proven_optimum",
+      "source": "https://coral.ise.lehigh.edu/data-sets/qaplib/qaplib-problem-instances-and-solutions/"
+    },
+    "nug20": {
+      "cost": 2570,
+      "status": "proven_optimum",
+      "source": "https://coral.ise.lehigh.edu/data-sets/qaplib/qaplib-problem-instances-and-solutions/"
+    },
+    "nug30": {
+      "cost": 6124,
+      "status": "proven_optimum",
+      "source": "https://coral.ise.lehigh.edu/data-sets/qaplib/qaplib-problem-instances-and-solutions/"
+    },
+    "tai40a": {
+      "cost": 3139370,
+      "status": "historical_feasible_reference",
+      "source": "https://coral.ise.lehigh.edu/data-sets/qaplib/qaplib-problem-instances-and-solutions/"
+    },
+    "tai80a": {
+      "cost": 13499184,
+      "status": "historical_feasible_reference",
+      "source": "https://coral.ise.lehigh.edu/data-sets/qaplib/qaplib-problem-instances-and-solutions/"
+    },
+    "tai150b": {
+      "cost": 498896643,
+      "status": "historical_feasible_reference",
+      "source": "https://coral.ise.lehigh.edu/data-sets/qaplib/qaplib-problem-instances-and-solutions/"
+    }
+  },
+  "completed_natural_calls": 76,
+  "failed_natural_calls": 0,
+  "unexecuted_natural_calls": 0,
+  "work_replays": 5,
+  "replays_add_independent_trials": false,
+  "private_panel_manifest_sha256": "f9aab11e558428e92b46c661e74f75dba0aa1dd436418f046c3dc69a8855cc41",
+  "full_original_evidence": "Retained independently; this distribution contains core witnesses",
+  "path_resolution": {
+    "configuration_file": "Repository relative",
+    "benchmark_inputs.path": "Repository relative",
+    "witness_file": "Relative to calls.json parent directory"
+  }
+}

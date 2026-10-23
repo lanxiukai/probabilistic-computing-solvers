@@ -1,0 +1,46 @@
+[
+  {
+    "id": "d0d655e3528c8111e236d099d4976b292b5108e77910d5f696f5d657a0587a88",
+    "kind": "maxcut-dense",
+    "canonical_identity": "d0d655e3528c8111e236d099d4976b292b5108e77910d5f696f5d657a0587a88",
+    "generator": {
+      "family": "sk",
+      "instance_seed": 202610193100,
+      "size": 32768
+    },
+    "redistributed": false
+  },
+  {
+    "id": "d0d08c3f4ea75d9f2e6e66fb7404929872493d223f15d3ac4988b04888f28ba4",
+    "kind": "maxcut-dense",
+    "canonical_identity": "d0d08c3f4ea75d9f2e6e66fb7404929872493d223f15d3ac4988b04888f28ba4",
+    "generator": {
+      "family": "sk",
+      "instance_seed": 202610193101,
+      "size": 32768
+    },
+    "redistributed": false
+  },
+  {
+    "id": "28e64be7e96ad606f8f8fbab5fc9ab5b5f9b802206423b2bc555659010640f57",
+    "kind": "maxcut-dense",
+    "canonical_identity": "28e64be7e96ad606f8f8fbab5fc9ab5b5f9b802206423b2bc555659010640f57",
+    "generator": {
+      "family": "er50",
+      "instance_seed": 202610193110,
+      "size": 32768
+    },
+    "redistributed": false
+  },
+  {
+    "id": "6e66036fdbaeaa61e7f46f17cee525777edc2531caea8de71789e08b95682d43",
+    "kind": "maxcut-dense",
+    "canonical_identity": "6e66036fdbaeaa61e7f46f17cee525777edc2531caea8de71789e08b95682d43",
+    "generator": {
+      "family": "er50",
+      "instance_seed": 202610193111,
+      "size": 32768
+    },
+    "redistributed": false
+  }
+]

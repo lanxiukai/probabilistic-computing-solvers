@@ -1,0 +1,56 @@
+{
+  "schema": "yafu-baseline-build-v1",
+  "revision": "c7d90283972820f99b3b4920bfc1eff05c1f6342",
+  "source_url": "https://codeload.github.com/bbuhrow/yafu/tar.gz/c7d90283972820f99b3b4920bfc1eff05c1f6342",
+  "source_sha256": "631d169c76918e9fe2e3a49b96648f7ff558a63a7978353b9f1bdb6e23c0cdb3",
+  "dependency_platform": "Ubuntu 24.04 amd64; project-local extraction, no system install",
+  "packages": [
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/g/gmp-ecm/libecm1_7.0.5%2bds-1build1_amd64.deb",
+      "file": "libecm1_7.0.5+ds-1build1_amd64.deb",
+      "bytes": 231568,
+      "sha256": "8da643d6d90e1965ad764b17ff4514551b3f9e15262f4d4aea4a0a054f26034e"
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/g/gmp-ecm/libecm1-dev_7.0.5%2bds-1build1_amd64.deb",
+      "file": "libecm1-dev_7.0.5+ds-1build1_amd64.deb",
+      "bytes": 262768,
+      "sha256": "bdda237e86613ceac34e94ae1de91a2ec62fec8db259b646279e437a50592b87"
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/g/gmp-ecm/libecm1-dev-common_7.0.5%2bds-1build1_all.deb",
+      "file": "libecm1-dev-common_7.0.5+ds-1build1_all.deb",
+      "bytes": 7128,
+      "sha256": "fc5390259e6fe0a2604626ff69e383c47c9ae9f5fee7645b3aa095999aa02c93"
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/libgmp-dev_6.3.0%2bdfsg-2ubuntu6.1_amd64.deb",
+      "file": "libgmp-dev_2%3a6.3.0+dfsg-2ubuntu6.1_amd64.deb",
+      "bytes": 340090,
+      "sha256": "a9847b5ecfff791a46cb198f29a06d9d23a20afdfdd434812f2b44ccfb61d46a"
+    },
+    {
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gmp/libgmp10_6.3.0%2bdfsg-2ubuntu6.1_amd64.deb",
+      "file": "libgmp10_2%3a6.3.0+dfsg-2ubuntu6.1_amd64.deb",
+      "bytes": 253460,
+      "sha256": "285f8a505dfa8e1b33f357a9d8d3477ad35bf18c0b34771a6df4c25923f3ae0d"
+    }
+  ],
+  "make_flags": [
+    "USE_AVX2=1",
+    "USE_BMI2=1",
+    "ECM=1",
+    "OMP=0",
+    "NO_ZLIB=1"
+  ],
+  "cpu_requirements": [
+    "avx2",
+    "bmi2"
+  ],
+  "run_policy": {
+    "plan": "noecm",
+    "threads": 1,
+    "seed": "nonzero uint64 decimal",
+    "stdin": "owned expression file"
+  }
+}

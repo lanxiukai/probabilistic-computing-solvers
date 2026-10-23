@@ -1,0 +1,25 @@
+{
+  "experiment": {
+    "role": "optimization-development"
+  },
+  "problem": {
+    "instance_file": "data/qap/qaplib/tai150b.dat",
+    "reference_file": "data/qap/qaplib/tai150b.sln",
+    "reference_status": "historical_feasible_reference"
+  },
+  "solver": {
+    "beta_end": 0.00018171864718282405,
+    "beta_start": 2.839353862231626e-06,
+    "checkpoint_seconds": 2,
+    "chunk_steps": 512,
+    "cycle_steps": 65536,
+    "energy_layout": "factored",
+    "max_seconds": 30,
+    "method": "heatbath",
+    "num_warps": 4,
+    "replicas": 256,
+    "seed": 2026102314,
+    "snapshot_every_chunks": 64,
+    "width": 2
+  }
+}

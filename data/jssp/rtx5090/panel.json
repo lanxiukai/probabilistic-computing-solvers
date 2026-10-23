@@ -1,0 +1,137 @@
+{
+  "problem": "jssp",
+  "status": "independently-verified",
+  "planned_natural_calls": 72,
+  "expected_natural_ids": [
+    "j4-ft06-heatbath-s1",
+    "j4-ft06-metropolis-s1",
+    "j4-ft06-plateau-s1",
+    "j4-ft06-cp-sat-s1",
+    "j4-la01-heatbath-s1",
+    "j4-la01-metropolis-s1",
+    "j4-la01-plateau-s1",
+    "j4-la01-cp-sat-s1",
+    "j4-la16-heatbath-s1",
+    "j4-la16-metropolis-s1",
+    "j4-la16-plateau-s1",
+    "j4-la16-cp-sat-s1",
+    "j4-ft10-heatbath-s1",
+    "j4-ft10-metropolis-s1",
+    "j4-ft10-plateau-s1",
+    "j4-ft10-cp-sat-s1",
+    "j4-ta01js-heatbath-s1",
+    "j4-ta01js-metropolis-s1",
+    "j4-ta01js-plateau-s1",
+    "j4-ta01js-cp-sat-s1",
+    "j4-ta51js-heatbath-s1",
+    "j4-ta51js-metropolis-s1",
+    "j4-ta51js-plateau-s1",
+    "j4-ta51js-cp-sat-s1",
+    "j4-ft06-metropolis-s2",
+    "j4-ft06-plateau-s2",
+    "j4-ft06-cp-sat-s2",
+    "j4-ft06-heatbath-s2",
+    "j4-la01-metropolis-s2",
+    "j4-la01-plateau-s2",
+    "j4-la01-cp-sat-s2",
+    "j4-la01-heatbath-s2",
+    "j4-la16-metropolis-s2",
+    "j4-la16-plateau-s2",
+    "j4-la16-cp-sat-s2",
+    "j4-la16-heatbath-s2",
+    "j4-ft10-metropolis-s2",
+    "j4-ft10-plateau-s2",
+    "j4-ft10-cp-sat-s2",
+    "j4-ft10-heatbath-s2",
+    "j4-ta01js-metropolis-s2",
+    "j4-ta01js-plateau-s2",
+    "j4-ta01js-cp-sat-s2",
+    "j4-ta01js-heatbath-s2",
+    "j4-ta51js-metropolis-s2",
+    "j4-ta51js-plateau-s2",
+    "j4-ta51js-cp-sat-s2",
+    "j4-ta51js-heatbath-s2",
+    "j4-ft06-plateau-s3",
+    "j4-ft06-cp-sat-s3",
+    "j4-ft06-heatbath-s3",
+    "j4-ft06-metropolis-s3",
+    "j4-la01-plateau-s3",
+    "j4-la01-cp-sat-s3",
+    "j4-la01-heatbath-s3",
+    "j4-la01-metropolis-s3",
+    "j4-la16-plateau-s3",
+    "j4-la16-cp-sat-s3",
+    "j4-la16-heatbath-s3",
+    "j4-la16-metropolis-s3",
+    "j4-ft10-plateau-s3",
+    "j4-ft10-cp-sat-s3",
+    "j4-ft10-heatbath-s3",
+    "j4-ft10-metropolis-s3",
+    "j4-ta01js-plateau-s3",
+    "j4-ta01js-cp-sat-s3",
+    "j4-ta01js-heatbath-s3",
+    "j4-ta01js-metropolis-s3",
+    "j4-ta51js-plateau-s3",
+    "j4-ta51js-cp-sat-s3",
+    "j4-ta51js-heatbath-s3",
+    "j4-ta51js-metropolis-s3"
+  ],
+  "expected_replays": [
+    {
+      "id": "replay-j4-ft06-heatbath-s1",
+      "origin": "j4-ft06-heatbath-s1"
+    },
+    {
+      "id": "replay-j4-la16-heatbath-s1",
+      "origin": "j4-la16-heatbath-s1"
+    },
+    {
+      "id": "replay-j4-ta51js-heatbath-s1",
+      "origin": "j4-ta51js-heatbath-s1"
+    }
+  ],
+  "frozen_targets": {
+    "ft06": {
+      "cost": 55,
+      "status": "catalog_equal_lower_and_upper_bound",
+      "source": "https://github.com/ScheduleOpt/benchmarks/blob/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/README.md"
+    },
+    "ft10": {
+      "cost": 930,
+      "status": "catalog_equal_lower_and_upper_bound",
+      "source": "https://github.com/ScheduleOpt/benchmarks/blob/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/README.md"
+    },
+    "la01": {
+      "cost": 666,
+      "status": "catalog_equal_lower_and_upper_bound",
+      "source": "https://github.com/ScheduleOpt/benchmarks/blob/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/README.md"
+    },
+    "la16": {
+      "cost": 945,
+      "status": "catalog_equal_lower_and_upper_bound",
+      "source": "https://github.com/ScheduleOpt/benchmarks/blob/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/README.md"
+    },
+    "ta01js": {
+      "cost": 1231,
+      "status": "catalog_equal_lower_and_upper_bound",
+      "source": "https://github.com/ScheduleOpt/benchmarks/blob/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/README.md"
+    },
+    "ta51js": {
+      "cost": 2760,
+      "status": "catalog_equal_lower_and_upper_bound",
+      "source": "https://github.com/ScheduleOpt/benchmarks/blob/8a6e36ef31263d36975e56fb481e0ba04e188d6f/jobshop/README.md"
+    }
+  },
+  "completed_natural_calls": 72,
+  "failed_natural_calls": 0,
+  "unexecuted_natural_calls": 0,
+  "work_replays": 3,
+  "replays_add_independent_trials": false,
+  "private_panel_manifest_sha256": "8d7d092e35031bb530eda66fb9a0d796b724c65f85384bf1476d970849f7be3b",
+  "full_original_evidence": "Retained independently; this distribution contains core witnesses",
+  "path_resolution": {
+    "configuration_file": "Repository relative",
+    "benchmark_inputs.path": "Repository relative",
+    "witness_file": "Relative to calls.json parent directory"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "run_id": "j4-ft06-heatbath-s1",
+  "replica": 0,
+  "schedule_decoder": "append",
+  "replica_selection": "lowest_eligible_cost_then_lowest_replica_index",
+  "initial_makespan": 106,
+  "best_makespan": 55,
+  "initial_starts": [
+    [
+      30,
+      31,
+      34,
+      61,
+      69,
+      74
+    ],
+    [
+      3,
+      11,
+      16,
+      26,
+      79,
+      89
+    ],
+    [
+      16,
+      57,
+      61,
+      89,
+      98,
+      99
+    ],
+    [
+      11,
+      44,
+      49,
+      54,
+      57,
+      76
+    ],
+    [
+      21,
+      40,
+      65,
+      72,
+      76,
+      79
+    ],
+    [
+      0,
+      3,
+      6,
+      34,
+      70,
+      74
+    ]
+  ],
+  "best_starts": [
+    [
+      5,
+      6,
+      16,
+      30,
+      38,
+      49
+    ],
+    [
+      0,
+      8,
+      13,
+      28,
+      38,
+      48
+    ],
+    [
+      0,
+      5,
+      9,
+      18,
+      27,
+      42
+    ],
+    [
+      8,
+      13,
+      22,
+      27,
+      30,
+      45
+    ],
+    [
+      13,
+      22,
+      25,
+      41,
+      48,
+      52
+    ],
+    [
+      13,
+      16,
+      19,
+      28,
+      38,
+      42
+    ]
+  ],
+  "scope": "An illustrative same-replica improvement, not a classical-baseline comparison"
+}

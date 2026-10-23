@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "adapter_source": "data/qap/baselines/taillard-rots/rots_adapter.c",
+    "build_log": "data/qap/baselines/taillard-rots/build.log",
+    "build_metadata": "data/qap/baselines/taillard-rots/build.json",
+    "executable": "data/qap/baselines/taillard-rots/rots",
+    "instrumented_source": "data/qap/baselines/taillard-rots/instrumented.c",
+    "max_iterations": 100000000,
+    "max_seconds": 30,
+    "process_limit_seconds": 180,
+    "seed": 2026102403,
+    "source": "data/qap/baselines/taillard-rots/upstream.c",
+    "upstream_conditions": "data/qap/baselines/taillard-rots/UPSTREAM-CONDITIONS.txt"
+  },
+  "experiment": {
+    "role": "independent-external-classical-reference"
+  },
+  "method": "taillard-rots",
+  "problem": {
+    "instance_file": "data/qap/qaplib/nug12.dat",
+    "reference_file": "data/qap/qaplib/nug12.sln",
+    "reference_index_base": 1,
+    "reference_inverse": false,
+    "reference_status": "proven_optimum"
+  }
+}

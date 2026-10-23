@@ -1,0 +1,31 @@
+{
+  "status": "independently-audited",
+  "natural_calls": 110,
+  "origin_replays": 5,
+  "origin_replay_checks": [
+    {
+      "arrays": 14,
+      "origin": "n32768-positive-i0-s0-pbit-anneal"
+    },
+    {
+      "arrays": 14,
+      "origin": "n32768-positive-i0-s0-metropolis-anneal"
+    },
+    {
+      "arrays": 14,
+      "origin": "n32768-positive-i0-s0-pbit-pt"
+    },
+    {
+      "arrays": 2,
+      "origin": "n32768-positive-i0-s0-burer2002"
+    },
+    {
+      "arrays": 2,
+      "origin": "n32768-positive-i0-s0-festa2002vns"
+    }
+  ],
+  "replays_add_independent_trials": false,
+  "audited_saved_states": 3256,
+  "executed_source_identity": "b9b910b367df35b0fff0fd4c62a36a2decc9b9ebc930e9c4b8df0bf3fdf2898b",
+  "complete_raw_evidence_retained_privately": true
+}

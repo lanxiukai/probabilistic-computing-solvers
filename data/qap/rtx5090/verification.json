@@ -1,0 +1,495 @@
+{
+  "status": "verified",
+  "solver_executed": false,
+  "calls": 81,
+  "witnesses_checked": 78294,
+  "work_replays_checked": 5,
+  "records": [
+    {
+      "id": "q2-nug12-heatbath-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-metropolis-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-plateau-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-tabu-s2026102411",
+      "witnesses_checked": 15,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-heatbath-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-metropolis-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-plateau-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-tabu-s2026102412",
+      "witnesses_checked": 14,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-heatbath-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-metropolis-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-plateau-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug12-tabu-s2026102413",
+      "witnesses_checked": 16,
+      "best_feasible_cost": 578,
+      "reference_cost": 578
+    },
+    {
+      "id": "q2-nug20-heatbath-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-metropolis-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-plateau-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-tabu-s2026102411",
+      "witnesses_checked": 28,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-heatbath-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-metropolis-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-plateau-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-tabu-s2026102412",
+      "witnesses_checked": 37,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-heatbath-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-metropolis-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-plateau-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug20-tabu-s2026102413",
+      "witnesses_checked": 25,
+      "best_feasible_cost": 2570,
+      "reference_cost": 2570
+    },
+    {
+      "id": "q2-nug30-heatbath-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-metropolis-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6128,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-plateau-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6142,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-tabu-s2026102411",
+      "witnesses_checked": 55,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-heatbath-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-metropolis-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6128,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-plateau-s2026102412",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6128,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-tabu-s2026102412",
+      "witnesses_checked": 60,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-heatbath-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-metropolis-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6128,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-plateau-s2026102413",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6128,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-tabu-s2026102413",
+      "witnesses_checked": 49,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-tai40a-heatbath-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3152140,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-metropolis-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3168552,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-plateau-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3183628,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-tabu-s2026102411",
+      "witnesses_checked": 50,
+      "best_feasible_cost": 3166152,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-heatbath-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3152596,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-metropolis-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3169150,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-plateau-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3172440,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-tabu-s2026102412",
+      "witnesses_checked": 56,
+      "best_feasible_cost": 3168976,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-heatbath-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3156140,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-metropolis-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3175790,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-plateau-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 3187164,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai40a-tabu-s2026102413",
+      "witnesses_checked": 54,
+      "best_feasible_cost": 3164344,
+      "reference_cost": 3139370
+    },
+    {
+      "id": "q2-tai80a-heatbath-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13740924,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-metropolis-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13850062,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-plateau-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13778290,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-tabu-s2026102411",
+      "witnesses_checked": 111,
+      "best_feasible_cost": 13733488,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-heatbath-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13709802,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-metropolis-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13846838,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-plateau-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13709460,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-tabu-s2026102412",
+      "witnesses_checked": 116,
+      "best_feasible_cost": 13742896,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-heatbath-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13726626,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-metropolis-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13872442,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-plateau-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13748952,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai80a-tabu-s2026102413",
+      "witnesses_checked": 100,
+      "best_feasible_cost": 13749400,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "q2-tai150b-heatbath-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 499135234,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-metropolis-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 501107193,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-plateau-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 505197962,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-tabu-s2026102411",
+      "witnesses_checked": 488,
+      "best_feasible_cost": 512223237,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-heatbath-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 499088558,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-metropolis-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 501808246,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-plateau-s2026102412",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 503913358,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-tabu-s2026102412",
+      "witnesses_checked": 339,
+      "best_feasible_cost": 514310031,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-heatbath-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 499287160,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-metropolis-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 501391157,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-plateau-s2026102413",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 502787623,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-tabu-s2026102413",
+      "witnesses_checked": 362,
+      "best_feasible_cost": 514765731,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-nug30-candidate-prewarmed-work",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-nug30-factored-prewarmed-work",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "q2-tai150b-candidate-prewarmed-work",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 514146217,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "q2-tai150b-factored-prewarmed-work",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 514146217,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "replay-q2-nug30-heatbath-s2026102411",
+      "witnesses_checked": 512,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "replay-q2-nug30-tabu-s2026102411",
+      "witnesses_checked": 55,
+      "best_feasible_cost": 6124,
+      "reference_cost": 6124
+    },
+    {
+      "id": "replay-q2-tai80a-heatbath-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 13740924,
+      "reference_cost": 13499184
+    },
+    {
+      "id": "replay-q2-tai150b-heatbath-s2026102411",
+      "witnesses_checked": 2048,
+      "best_feasible_cost": 499135234,
+      "reference_cost": 498896643
+    },
+    {
+      "id": "replay-q2-tai150b-tabu-s2026102411",
+      "witnesses_checked": 488,
+      "best_feasible_cost": 512223237,
+      "reference_cost": 498896643
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "experiment": {
+    "role": "confirmation"
+  },
+  "method": "native",
+  "problem": {
+    "format": "scp",
+    "instance_file": "data/set-cover/or-library-v1/scp41.txt.gz",
+    "benchmark_id": "scp41"
+  },
+  "solver": {
+    "banks": 16,
+    "beta_end": 8,
+    "beta_start": 0.2,
+    "block_policy": "cost-minhash",
+    "cache_initial": true,
+    "chunk_steps": 256,
+    "cycle_sweeps": 64,
+    "initialization": "greedy",
+    "max_seconds": 240,
+    "max_steps": 4855552,
+    "method": "heatbath",
+    "quality_max_step": 4855296,
+    "replicas": 128,
+    "representation": "feasible",
+    "seed": 2026102391,
+    "selection": "active",
+    "snapshot_every_chunks": 512,
+    "width": 8
+  }
+}

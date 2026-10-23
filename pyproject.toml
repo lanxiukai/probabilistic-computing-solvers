@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "probabilistic-computing-solvers"
+version = "0.1.0"
+description = "Reproducible solvers and research results for probabilistic computing and combinatorial problems"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "matplotlib==3.11.1",
+  "numpy==2.4.4",
+  "ortools==9.15.6755",
+  "pandas==3.0.5",
+  "PyYAML==6.0.3",
+  "scipy==1.18.0",
+  "torch==2.13.0",
+]
+
+[dependency-groups]
+dev = [
+  "pyright==1.1.411",
+  "pytest==9.0.2",
+  "ruff==0.14.14",
+]
+
+[tool.uv]
+environments = [
+  "sys_platform == 'linux' and platform_machine == 'x86_64'",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[project.scripts]
+factor-bench = "sparse_factorization.cli:main"
+spin-glass-bench = "cubic_spin_glass.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sparse_factorization = ["templates/*.md"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

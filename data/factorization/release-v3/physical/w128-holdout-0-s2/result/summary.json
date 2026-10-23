@@ -1,0 +1,31 @@
+{
+  "arm": "physical",
+  "capture_seconds": 3.684119833749719,
+  "cell_wall_seconds": 2985.194210572983,
+  "certification_seconds": 0.00019346503540873528,
+  "events": 1048576,
+  "first_event": null,
+  "first_hit_seconds": null,
+  "full_origin_replay": false,
+  "independent_trials": 1,
+  "initialization": {
+    "algorithm": "independent_rademacher_physical_spins_v1",
+    "base_seed": 1418145382371399617,
+    "outcome_information_used": false,
+    "replicas": 32,
+    "state_sha256": "7d48c811197c9295ce2852bee26cb14167342955cac96b3e8c3671fbf3daa1ad",
+    "stream_seed": 4370693749694309678,
+    "variables": 32256
+  },
+  "peak_reserved_bytes": 1147142144,
+  "product_bits": 128,
+  "run_id": "w128-holdout-0-s2",
+  "sampling_seconds": 2981.0624121390283,
+  "setup_seconds": 3.8598693259991705,
+  "source_sha256": "ed7418caf6e12546895f1007d588c7c5f06b3b3e6fbb5ef53b4f64ca726c0960",
+  "status": "event_limit",
+  "success": false,
+  "target": 258978174157611559246940759218116894067,
+  "transition_replay": "no_witness",
+  "witnesses": []
+}

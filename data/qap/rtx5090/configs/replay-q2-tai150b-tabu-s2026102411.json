@@ -1,0 +1,25 @@
+{
+  "baseline": {
+    "build_log": "data/qap/baselines/attribute-tabu/build.log",
+    "build_metadata": "data/qap/baselines/attribute-tabu/build.json",
+    "executable": "data/qap/baselines/attribute-tabu/tabu",
+    "max_iterations": 148314,
+    "max_seconds": 180,
+    "process_limit_seconds": 210,
+    "quality_max_curve_index": 483,
+    "quality_max_iteration": 26825,
+    "seed": 2026102411,
+    "source": "data/qap/baselines/attribute-tabu/tabu_reference.cpp"
+  },
+  "experiment": {
+    "role": "independent-seed-classical-reference"
+  },
+  "method": "attribute-tabu",
+  "problem": {
+    "instance_file": "data/qap/qaplib/tai150b.dat",
+    "reference_file": "data/qap/qaplib/tai150b.sln",
+    "reference_index_base": 1,
+    "reference_inverse": false,
+    "reference_status": "historical_feasible_reference"
+  }
+}

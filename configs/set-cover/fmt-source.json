@@ -1,0 +1,7 @@
+{
+  "url": "https://codeload.github.com/fmtlib/fmt/tar.gz/refs/tags/10.2.1",
+  "version": "10.2.1",
+  "bytes": 854665,
+  "sha256": "1250e4cc58bf06ee631567523f48848dc4596133e163f02615c97f78bab6c811",
+  "reason": "Explicit pinned header-only dependency instead of the upstream unpinned fmt FetchContent."
+}

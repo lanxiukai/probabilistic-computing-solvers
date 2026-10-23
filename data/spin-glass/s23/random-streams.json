@@ -1,0 +1,976 @@
+{
+  "records": [
+    {
+      "length": 2,
+      "instance_id": -1,
+      "seed": 2026101906,
+      "keys": {
+        "initial": 1849589831,
+        "local": 1137199288,
+        "exchange": 1438799767,
+        "cluster": 3519817968,
+        "resample": 547186632
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 0,
+      "seed": 2026101901,
+      "keys": {
+        "initial": 3635859416,
+        "local": 1074960137,
+        "exchange": 3936905635,
+        "cluster": 1267325914,
+        "resample": 1118010658
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 1,
+      "seed": 2026101901,
+      "keys": {
+        "initial": 121782442,
+        "local": 2288460670,
+        "exchange": 2993954375,
+        "cluster": 556533294,
+        "resample": 4176181623
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 2,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 4248571433,
+        "local": 2208549017,
+        "exchange": 1040601320,
+        "cluster": 535272325,
+        "resample": 2283393325
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 2,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 3260309479,
+        "local": 2196487337,
+        "exchange": 2238468748,
+        "cluster": 812346741,
+        "resample": 2417108064
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 3,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 1328703431,
+        "local": 573594045,
+        "exchange": 689708851,
+        "cluster": 1238081775,
+        "resample": 1383264889
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 3,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 2417745855,
+        "local": 3966896501,
+        "exchange": 2276893030,
+        "cluster": 3619884491,
+        "resample": 161650447
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 4,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3308322152,
+        "local": 2861988528,
+        "exchange": 2034474188,
+        "cluster": 289381336,
+        "resample": 3236948178
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 4,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 4240040760,
+        "local": 171454413,
+        "exchange": 3018322672,
+        "cluster": 2573125955,
+        "resample": 3108937613
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 5,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2432949120,
+        "local": 214907420,
+        "exchange": 22764742,
+        "cluster": 1095849748,
+        "resample": 2886481752
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 5,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1473365787,
+        "local": 3450676707,
+        "exchange": 620570293,
+        "cluster": 2504801789,
+        "resample": 3147376724
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 6,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 1587950407,
+        "local": 184740188,
+        "exchange": 2716203698,
+        "cluster": 3274086733,
+        "resample": 1449139587
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 6,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1167421713,
+        "local": 2056671759,
+        "exchange": 1059662052,
+        "cluster": 3178342548,
+        "resample": 2213134136
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 7,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 759679899,
+        "local": 88730965,
+        "exchange": 258085724,
+        "cluster": 940703838,
+        "resample": 1126134130
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 7,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 510632591,
+        "local": 957618197,
+        "exchange": 1765368021,
+        "cluster": 3192458481,
+        "resample": 677794084
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 8,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3753479951,
+        "local": 324889639,
+        "exchange": 628948063,
+        "cluster": 3828327111,
+        "resample": 378507746
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 8,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 113595712,
+        "local": 1413562954,
+        "exchange": 2490187472,
+        "cluster": 490545522,
+        "resample": 2716633521
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 9,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 4254002679,
+        "local": 1771090459,
+        "exchange": 306857335,
+        "cluster": 4168449003,
+        "resample": 2123390872
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 9,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 2675403427,
+        "local": 2305767275,
+        "exchange": 3967641020,
+        "cluster": 1353017424,
+        "resample": 902881417
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 10,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3050647658,
+        "local": 3342164661,
+        "exchange": 1597369194,
+        "cluster": 1526630678,
+        "resample": 3165988463
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 10,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1440430080,
+        "local": 250769297,
+        "exchange": 4170280376,
+        "cluster": 3999631757,
+        "resample": 1006466025
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 11,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3878079284,
+        "local": 2934066327,
+        "exchange": 34402554,
+        "cluster": 2292593629,
+        "resample": 1923378585
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 11,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 2787660142,
+        "local": 3491262236,
+        "exchange": 2725827541,
+        "cluster": 1858354194,
+        "resample": 518534661
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 12,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2197718518,
+        "local": 3976887602,
+        "exchange": 3725816230,
+        "cluster": 2126085192,
+        "resample": 3747867885
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 12,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 4040967,
+        "local": 2733583000,
+        "exchange": 721475798,
+        "cluster": 846155783,
+        "resample": 2256314631
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 13,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 1978584139,
+        "local": 2193550497,
+        "exchange": 1967894823,
+        "cluster": 307559246,
+        "resample": 3915434354
+      }
+    },
+    {
+      "length": 16,
+      "instance_id": 13,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 3174245764,
+        "local": 367762215,
+        "exchange": 1134913327,
+        "cluster": 2417959057,
+        "resample": 1375205955
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 0,
+      "seed": 2026101901,
+      "keys": {
+        "initial": 2044209296,
+        "local": 3473340527,
+        "exchange": 364170441,
+        "cluster": 958241422,
+        "resample": 3673964525
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 1,
+      "seed": 2026101901,
+      "keys": {
+        "initial": 3312374017,
+        "local": 3874180800,
+        "exchange": 3714458672,
+        "cluster": 3374693400,
+        "resample": 951522161
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 2,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3391903774,
+        "local": 3228194280,
+        "exchange": 3496487875,
+        "cluster": 958580198,
+        "resample": 2181361740
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 2,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1073119341,
+        "local": 3346143284,
+        "exchange": 282833517,
+        "cluster": 4210262007,
+        "resample": 973086676
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 3,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2456849250,
+        "local": 1740306211,
+        "exchange": 3787124165,
+        "cluster": 1208450010,
+        "resample": 2290063275
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 3,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 994488282,
+        "local": 1755017456,
+        "exchange": 2908367363,
+        "cluster": 638990095,
+        "resample": 1748158253
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 4,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2598369667,
+        "local": 658326571,
+        "exchange": 948918451,
+        "cluster": 1460015330,
+        "resample": 1341149297
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 4,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 3467338437,
+        "local": 2183225650,
+        "exchange": 891770666,
+        "cluster": 2176320983,
+        "resample": 2518203222
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 5,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 410927370,
+        "local": 813481790,
+        "exchange": 1933496623,
+        "cluster": 1582865762,
+        "resample": 4022741118
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 5,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 3602003103,
+        "local": 2669627598,
+        "exchange": 1236002004,
+        "cluster": 1856699261,
+        "resample": 1837174892
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 6,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2752843354,
+        "local": 378228498,
+        "exchange": 3674920816,
+        "cluster": 1483131348,
+        "resample": 1663821319
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 6,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 3951027158,
+        "local": 281132890,
+        "exchange": 3365141000,
+        "cluster": 1969364204,
+        "resample": 1986957958
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 7,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2679418317,
+        "local": 200535579,
+        "exchange": 1920439877,
+        "cluster": 3771452404,
+        "resample": 2040205386
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 7,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1520142618,
+        "local": 987109256,
+        "exchange": 368215110,
+        "cluster": 1306379570,
+        "resample": 2475590072
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 8,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 400042181,
+        "local": 2499516501,
+        "exchange": 3118348062,
+        "cluster": 142597218,
+        "resample": 3297859818
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 8,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1693954639,
+        "local": 2856320492,
+        "exchange": 512852636,
+        "cluster": 3288941735,
+        "resample": 1387389061
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 9,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3265448753,
+        "local": 2553050398,
+        "exchange": 13439502,
+        "cluster": 86959342,
+        "resample": 2402271183
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 9,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 685171308,
+        "local": 2893688599,
+        "exchange": 2835140883,
+        "cluster": 3997191365,
+        "resample": 406201482
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 10,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 899272681,
+        "local": 3223612912,
+        "exchange": 1670401179,
+        "cluster": 2697622427,
+        "resample": 921690321
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 10,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1569630166,
+        "local": 3554854634,
+        "exchange": 631678017,
+        "cluster": 1132760853,
+        "resample": 2142162281
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 11,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3232451919,
+        "local": 594294905,
+        "exchange": 4016224012,
+        "cluster": 3544665426,
+        "resample": 3890796580
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 11,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 4282217742,
+        "local": 3206411457,
+        "exchange": 1068670870,
+        "cluster": 1965942067,
+        "resample": 3608970499
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 12,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2159953234,
+        "local": 499380186,
+        "exchange": 1094241821,
+        "cluster": 4188100241,
+        "resample": 1197374622
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 12,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 2461875568,
+        "local": 2722850269,
+        "exchange": 2882866793,
+        "cluster": 2615183866,
+        "resample": 2540771929
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 13,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3240552653,
+        "local": 4273335356,
+        "exchange": 3921853708,
+        "cluster": 2419135155,
+        "resample": 2930595697
+      }
+    },
+    {
+      "length": 24,
+      "instance_id": 13,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 757891219,
+        "local": 2452667422,
+        "exchange": 3323797321,
+        "cluster": 1803381888,
+        "resample": 2150314241
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 0,
+      "seed": 2026101901,
+      "keys": {
+        "initial": 612548442,
+        "local": 3102854893,
+        "exchange": 3439583945,
+        "cluster": 2058664221,
+        "resample": 95066840
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 0,
+      "seed": 2026101904,
+      "keys": {
+        "initial": 3165328721,
+        "local": 335786566,
+        "exchange": 3544273052,
+        "cluster": 3539423667,
+        "resample": 568860473
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 0,
+      "seed": 2026101905,
+      "keys": {
+        "initial": 936891979,
+        "local": 2188207207,
+        "exchange": 2790660759,
+        "cluster": 4125778297,
+        "resample": 99826292
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 1,
+      "seed": 2026101901,
+      "keys": {
+        "initial": 91368864,
+        "local": 2864313102,
+        "exchange": 246388778,
+        "cluster": 627266695,
+        "resample": 4100693118
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 2,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 573380128,
+        "local": 1452830210,
+        "exchange": 1502580491,
+        "cluster": 4283585782,
+        "resample": 2013769684
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 2,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 2417045697,
+        "local": 3675370876,
+        "exchange": 3148747171,
+        "cluster": 1281727284,
+        "resample": 1176740232
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 3,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 1302061084,
+        "local": 2586284221,
+        "exchange": 52578420,
+        "cluster": 2405767755,
+        "resample": 1416846830
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 3,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 2646115415,
+        "local": 4261584577,
+        "exchange": 3124966708,
+        "cluster": 3897251432,
+        "resample": 4031317872
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 4,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3713846461,
+        "local": 4156325386,
+        "exchange": 1217567145,
+        "cluster": 3521943144,
+        "resample": 1892829983
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 4,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1906802146,
+        "local": 3316086681,
+        "exchange": 1499020629,
+        "cluster": 1656808988,
+        "resample": 2562453405
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 5,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3986246771,
+        "local": 2068825341,
+        "exchange": 1288711953,
+        "cluster": 2007507104,
+        "resample": 205262391
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 5,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 318277604,
+        "local": 1086180049,
+        "exchange": 3927339401,
+        "cluster": 3342964595,
+        "resample": 1492691062
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 6,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2092647273,
+        "local": 1516270109,
+        "exchange": 2518003961,
+        "cluster": 1609106222,
+        "resample": 2865638077
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 6,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1628394588,
+        "local": 3807729545,
+        "exchange": 1872001264,
+        "cluster": 1529501829,
+        "resample": 299303540
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 7,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3958351728,
+        "local": 3764831527,
+        "exchange": 275972574,
+        "cluster": 1207641528,
+        "resample": 3871462643
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 7,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 931758318,
+        "local": 2912208096,
+        "exchange": 3874233629,
+        "cluster": 3644608797,
+        "resample": 1976367637
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 8,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2800420744,
+        "local": 943943123,
+        "exchange": 458098476,
+        "cluster": 478206773,
+        "resample": 1251698378
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 8,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1098437460,
+        "local": 1218889203,
+        "exchange": 1180448482,
+        "cluster": 343477055,
+        "resample": 3420783289
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 9,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 538942081,
+        "local": 2911488655,
+        "exchange": 3817733173,
+        "cluster": 4073567395,
+        "resample": 2365871733
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 9,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1328221298,
+        "local": 3093073807,
+        "exchange": 1920155152,
+        "cluster": 1592421340,
+        "resample": 3520346654
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 10,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 2200502995,
+        "local": 3421417547,
+        "exchange": 2034666128,
+        "cluster": 1737987923,
+        "resample": 4239058917
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 10,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1293426731,
+        "local": 2412657669,
+        "exchange": 2287244192,
+        "cluster": 3809186244,
+        "resample": 2273373962
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 11,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 3936432424,
+        "local": 3659686801,
+        "exchange": 933482481,
+        "cluster": 1035530716,
+        "resample": 3226727533
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 11,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1327373238,
+        "local": 1120205552,
+        "exchange": 3041349088,
+        "cluster": 3543463799,
+        "resample": 3334374568
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 12,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 1393429694,
+        "local": 1505924095,
+        "exchange": 1463471617,
+        "cluster": 1024115469,
+        "resample": 1474844450
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 12,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 145461513,
+        "local": 2203863823,
+        "exchange": 4070995406,
+        "cluster": 3960995751,
+        "resample": 3049637082
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 13,
+      "seed": 2026101902,
+      "keys": {
+        "initial": 1582520107,
+        "local": 3440358671,
+        "exchange": 3233686613,
+        "cluster": 1505741269,
+        "resample": 1812595532
+      }
+    },
+    {
+      "length": 32,
+      "instance_id": 13,
+      "seed": 2026101903,
+      "keys": {
+        "initial": 1544471382,
+        "local": 2631978316,
+        "exchange": 2999872645,
+        "cluster": 3404168762,
+        "resample": 3004518393
+      }
+    }
+  ]
+}

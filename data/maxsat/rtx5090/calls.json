@@ -1,0 +1,3953 @@
+[
+  {
+    "id": "n32768-i0-s0-pbit",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.65605993301142,
+      "cost": 26193,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.65605993301142,
+      "id": "n32768-i0-s0-pbit",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 10.818058909004321,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177410560,
+      "runner_seconds": 8.747702681983355,
+      "sweeps": 460,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-pbit.npz",
+    "witness_sha256": "2bb5a90c9636e936793637ad0a2b5ab8a5813c9b57a8d71cad2b16d7fa08e882",
+    "first_certificate": {
+      "certified_cost": 26193,
+      "elapsed_runner_seconds": 8.65605993301142,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177410560,
+      "preparation_seconds": 6.625567009992665,
+      "sampling_seconds": 1.0002306060050614,
+      "state_transfer_seconds": 0.02688111297902651,
+      "certification_seconds": 0.13461079300031997,
+      "complete_runner_seconds": 8.747702681983355,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": [],
+    "origin_replay_configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 240.0,
+        "max_sweeps": 460,
+        "method": "pbit",
+        "observe_every": 4,
+        "quality_max_sweep": 460,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "target_cost": 26214
+      }
+    }
+  },
+  {
+    "id": "n32768-i0-s0-metropolis",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.665086291002808,
+      "cost": 26177,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.665086291002808,
+      "id": "n32768-i0-s0-metropolis",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 10.948864174017217,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177410560,
+      "runner_seconds": 8.759816475998377,
+      "sweeps": 440,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-metropolis.npz",
+    "witness_sha256": "b189886dbac056574e97ef670a5ab380f7455d57bd72ed6270f111dbacaf204c",
+    "first_certificate": {
+      "certified_cost": 26177,
+      "elapsed_runner_seconds": 8.665086291002808,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177410560,
+      "preparation_seconds": 6.616918757004896,
+      "sampling_seconds": 1.0557696939795278,
+      "state_transfer_seconds": 0.027657452010316774,
+      "certification_seconds": 0.1359040539828129,
+      "complete_runner_seconds": 8.759816475998377,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": [],
+    "origin_replay_configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 240.0,
+        "max_sweeps": 440,
+        "method": "metropolis",
+        "observe_every": 4,
+        "quality_max_sweep": 440,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "target_cost": 26214
+      }
+    }
+  },
+  {
+    "id": "n32768-i0-s0-usw-1",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 31.486961481976323,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 31.486961481976323,
+      "id": "n32768-i0-s0-usw-1",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 33.57372181900428,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 31.525671026989585,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-usw-1.npz",
+    "witness_sha256": "305cc5c3d58851fadfd2edebc3e3cb46e7faca661be5b6b3bf9bb3ed54c8602e",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 31.486961481976323,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.10216629298520274,
+      "complete_runner_seconds": 31.525671026989585,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ],
+    "origin_replay_configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "fixed_flips": 8587973,
+        "max_seconds": 240.0,
+        "seed": 2026101931,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "target_cost": 26214
+      }
+    }
+  },
+  {
+    "id": "n32768-i0-s0-usw-4",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 31.464038360019913,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 31.464038360019913,
+      "id": "n32768-i0-s0-usw-4",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 33.68110021398752,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 31.614744808000978,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-usw-4.npz",
+    "witness_sha256": "f32cae52ebd88aebfa7326a5fa2a8f5bebd4669916e06fc0ed2efeb5fd140b2f",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 31.464038360019913,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 31.614744808000978,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ],
+    "origin_replay_configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "fixed_flips_by_worker": [
+          8587973,
+          8448739,
+          8104028,
+          8442653
+        ],
+        "max_seconds": 240.0,
+        "seed": 2026101931,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "target_cost": 26214
+      }
+    }
+  },
+  {
+    "id": "n32768-i0-s0-usw-16",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 33.671848519006744,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 33.671848519006744,
+      "id": "n32768-i0-s0-usw-16",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 35.93974107198301,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 33.86035664999508,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s0-usw-16.npz",
+    "witness_sha256": "02eac1560e4f3fd45d7ded368ed1cc4dab05540f290108ab7e139bca78259443",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 33.671848519006744,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 33.86035664999508,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ],
+    "origin_replay_configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "fixed_flips_by_worker": [
+          8587973,
+          8068339,
+          8206305,
+          8313405,
+          8163390,
+          8112514,
+          7891547,
+          8326403,
+          8113651,
+          8404952,
+          7987451,
+          8561113,
+          8198876,
+          8499120,
+          8448006,
+          7874815
+        ],
+        "max_seconds": 240.0,
+        "seed": 2026101931,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "target_cost": 26214
+      }
+    }
+  },
+  {
+    "id": "n32768-i0-s1-metropolis",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.755538180994336,
+      "cost": 26170,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.755538180994336,
+      "id": "n32768-i0-s1-metropolis",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 10.944092617020942,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177410560,
+      "runner_seconds": 8.853433291980764,
+      "sweeps": 436,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-metropolis.npz",
+    "witness_sha256": "23cabbfbb54ed1acb293482d618abb9c107540583fa79ab39311960e391c97e7",
+    "first_certificate": {
+      "certified_cost": 26170,
+      "elapsed_runner_seconds": 8.755538180994336,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177410560,
+      "preparation_seconds": 6.628620447998401,
+      "sampling_seconds": 1.0503893370041624,
+      "state_transfer_seconds": 0.02797630801796913,
+      "certification_seconds": 0.1426636339747347,
+      "complete_runner_seconds": 8.853433291980764,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i0-s1-usw-1",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 33.98471306098509,
+      "cost": 26213,
+      "exact_optimum": null,
+      "first_certificate_seconds": 33.98471306098509,
+      "id": "n32768-i0-s1-usw-1",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 36.04911642198567,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 34.024415202991804,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-usw-1.npz",
+    "witness_sha256": "9b75f2ca0be5ae194efbae983b16bb7266d310c950622659be4c0d50c077e3dc",
+    "first_certificate": {
+      "certified_cost": 26213,
+      "elapsed_runner_seconds": 33.98471306098509,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.10042153799440712,
+      "complete_runner_seconds": 34.024415202991804,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i0-s1-usw-4",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 32.723529656999744,
+      "cost": 26210,
+      "exact_optimum": null,
+      "first_certificate_seconds": 32.723529656999744,
+      "id": "n32768-i0-s1-usw-4",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 34.90533400600543,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 32.8382795760117,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-usw-4.npz",
+    "witness_sha256": "58a7cb1f20474c6cc36f3c635d1deb4b8ddda7b8d00039bd40dc32b4ab5a3a57",
+    "first_certificate": {
+      "certified_cost": 26210,
+      "elapsed_runner_seconds": 32.723529656999744,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 32.8382795760117,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i0-s1-usw-16",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 30.391287714010105,
+      "cost": 26212,
+      "exact_optimum": null,
+      "first_certificate_seconds": 30.391287714010105,
+      "id": "n32768-i0-s1-usw-16",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 32.71878562902566,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 30.61455975199351,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-usw-16.npz",
+    "witness_sha256": "4ad3bedceee7c1340abd45565fe1a9413f9b684b2292b590ca626adc2d4e109f",
+    "first_certificate": {
+      "certified_cost": 26212,
+      "elapsed_runner_seconds": 30.391287714010105,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 30.61455975199351,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i0-s1-pbit",
+    "instance": "d847c1f3e43f3fded3a19433f0d0c5adee8ef07a9c639a67c3add3e341e49af9",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.735121427016566,
+      "cost": 26090,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.735121427016566,
+      "id": "n32768-i0-s1-pbit",
+      "instance_seed": 202610190900,
+      "launcher_seconds": 10.948036936984863,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177410560,
+      "runner_seconds": 8.830102880019695,
+      "sweeps": 460,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190900,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i0-s1-pbit.npz",
+    "witness_sha256": "b68c71067a30c4da8bccde827ae805d579f871780133ad77b74709a86a6a19f6",
+    "first_certificate": {
+      "certified_cost": 26090,
+      "elapsed_runner_seconds": 8.735121427016566,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177410560,
+      "preparation_seconds": 6.6836166190041695,
+      "sampling_seconds": 0.9980684449838009,
+      "state_transfer_seconds": 0.026796735008247197,
+      "certification_seconds": 0.13420608098385856,
+      "complete_runner_seconds": 8.830102880019695,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s0-metropolis",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.570383468002547,
+      "cost": 26183,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.570383468002547,
+      "id": "n32768-i1-s0-metropolis",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 10.759266424021916,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177197568,
+      "runner_seconds": 8.6654082830064,
+      "sweeps": 440,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-metropolis.npz",
+    "witness_sha256": "57d61e4a08eb5e625e00bddf7e78a8a9cb04c849dfedc57278d012fd136eb17f",
+    "first_certificate": {
+      "certified_cost": 26183,
+      "elapsed_runner_seconds": 8.570383468002547,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177197568,
+      "preparation_seconds": 6.562215721001849,
+      "sampling_seconds": 1.0493591029953677,
+      "state_transfer_seconds": 0.026732593978522345,
+      "certification_seconds": 0.13441335200332105,
+      "complete_runner_seconds": 8.6654082830064,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s0-usw-1",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 30.706065043981653,
+      "cost": 26212,
+      "exact_optimum": null,
+      "first_certificate_seconds": 30.706065043981653,
+      "id": "n32768-i1-s0-usw-1",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 32.77952990500489,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 30.746462871989934,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-usw-1.npz",
+    "witness_sha256": "824f4bc8b2737506cf43b549b354cf762f9997ce3b7510064b16205116346fa3",
+    "first_certificate": {
+      "certified_cost": 26212,
+      "elapsed_runner_seconds": 30.706065043981653,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.10137942599249072,
+      "complete_runner_seconds": 30.746462871989934,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s0-usw-4",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 31.18258114598575,
+      "cost": 26212,
+      "exact_optimum": null,
+      "first_certificate_seconds": 31.18258114598575,
+      "id": "n32768-i1-s0-usw-4",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 33.372411950986134,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 31.305825123999966,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-usw-4.npz",
+    "witness_sha256": "e7f66728f587e0342a09addbb0e83f3f9f8cd9078842b971e147b4bf4ad32553",
+    "first_certificate": {
+      "certified_cost": 26212,
+      "elapsed_runner_seconds": 31.18258114598575,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 31.305825123999966,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s0-usw-16",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 33.11291945600533,
+      "cost": 26212,
+      "exact_optimum": null,
+      "first_certificate_seconds": 33.11291945600533,
+      "id": "n32768-i1-s0-usw-16",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 35.41744467400713,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 33.35427867699764,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-usw-16.npz",
+    "witness_sha256": "e6fcb807e803e9c5e1969ff9021c0475de4fbf1ad6a9b00159c5d9990464888c",
+    "first_certificate": {
+      "certified_cost": 26212,
+      "elapsed_runner_seconds": 33.11291945600533,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 33.35427867699764,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s0-pbit",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.684952448005788,
+      "cost": 26106,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.684952448005788,
+      "id": "n32768-i1-s0-pbit",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 10.896860972017748,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177197568,
+      "runner_seconds": 8.779691246018047,
+      "sweeps": 456,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s0-pbit.npz",
+    "witness_sha256": "02305212b6f74e1fecc82c62668bf42c689fedde324e37e871c24c4a71434471",
+    "first_certificate": {
+      "certified_cost": 26106,
+      "elapsed_runner_seconds": 8.684952448005788,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177197568,
+      "preparation_seconds": 6.6449731120083015,
+      "sampling_seconds": 0.9902246069977991,
+      "state_transfer_seconds": 0.02672558801714331,
+      "certification_seconds": 0.13511996998568065,
+      "complete_runner_seconds": 8.779691246018047,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s1-usw-1",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 46.449184294993756,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 46.449184294993756,
+      "id": "n32768-i1-s1-usw-1",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 48.53880405399832,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 46.48931707901647,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-usw-1.npz",
+    "witness_sha256": "ce41ea04251b6538164eb9704cf28204a33c08922c8664c483da915103469532",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 46.449184294993756,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.10348283799248748,
+      "complete_runner_seconds": 46.48931707901647,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s1-usw-4",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 32.67190032999497,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 32.67190032999497,
+      "id": "n32768-i1-s1-usw-4",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 34.87619814201025,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 32.830532155989204,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-usw-4.npz",
+    "witness_sha256": "27f49b91bee8cc32c234c1a802dc3e585bee242f8c1bf6aa1bc4bb6586772a66",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 32.67190032999497,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 32.830532155989204,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s1-usw-16",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 34.86438789201202,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 34.86438789201202,
+      "id": "n32768-i1-s1-usw-16",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 37.12567286597914,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 35.06828408400179,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-usw-16.npz",
+    "witness_sha256": "796ca90e51baf88ad5333ab14f15a149af5b45a24dbec12c688d4f33bf3ced6f",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 34.86438789201202,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 35.06828408400179,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i1-s1-pbit",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.621644622005988,
+      "cost": 26199,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.621644622005988,
+      "id": "n32768-i1-s1-pbit",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 10.826109496993013,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177197568,
+      "runner_seconds": 8.715199422993464,
+      "sweeps": 464,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-pbit.npz",
+    "witness_sha256": "561b8013957dab6ab60a20ff860f8856cab0e9098964718a9687b41909a2da74",
+    "first_certificate": {
+      "certified_cost": 26199,
+      "elapsed_runner_seconds": 8.621644622005988,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177197568,
+      "preparation_seconds": 6.554731043986976,
+      "sampling_seconds": 1.0045579470170196,
+      "state_transfer_seconds": 0.02633550198515877,
+      "certification_seconds": 0.1338025379809551,
+      "complete_runner_seconds": 8.715199422993464,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i1-s1-metropolis",
+    "instance": "88797487c45affea3b6630207c3ad5cfd24efedff3dc0009897ebc96db348371",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.594941147981444,
+      "cost": 26190,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.594941147981444,
+      "id": "n32768-i1-s1-metropolis",
+      "instance_seed": 202610190901,
+      "launcher_seconds": 10.778968684986467,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177197568,
+      "runner_seconds": 8.689469278993784,
+      "sweeps": 440,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190901,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i1-s1-metropolis.npz",
+    "witness_sha256": "3e7c9c97c245ac8bda8ccf68d8a6f87d1a1ec338a62ed604849dbd0ef8569ab5",
+    "first_certificate": {
+      "certified_cost": 26190,
+      "elapsed_runner_seconds": 8.594941147981444,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177197568,
+      "preparation_seconds": 6.583451223006705,
+      "sampling_seconds": 1.0496964790218044,
+      "state_transfer_seconds": 0.026769241987494752,
+      "certification_seconds": 0.1338258589967154,
+      "complete_runner_seconds": 8.689469278993784,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s0-usw-1",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 34.810020553995855,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 34.810020553995855,
+      "id": "n32768-i2-s0-usw-1",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 36.91431568202097,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 34.84445706900442,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-usw-1.npz",
+    "witness_sha256": "0abd6454045aff0a61ce217e606b564a26cfeac9e9710325c9bc5b5853d17e21",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 34.810020553995855,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.1044410299800802,
+      "complete_runner_seconds": 34.84445706900442,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s0-usw-4",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 32.276305531995604,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 32.276305531995604,
+      "id": "n32768-i2-s0-usw-4",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 34.47196210900438,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 32.399500700004864,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-usw-4.npz",
+    "witness_sha256": "51fe79a7cc50410bb7a5ba218cc1e07d4ce10f6c371bf0494b26e8db40efdf7d",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 32.276305531995604,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 32.399500700004864,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s0-usw-16",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 32.76093012801721,
+      "cost": 26213,
+      "exact_optimum": null,
+      "first_certificate_seconds": 32.76093012801721,
+      "id": "n32768-i2-s0-usw-16",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 35.050724039028864,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 32.977156158012804,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-usw-16.npz",
+    "witness_sha256": "0acf9eb0787dc89f1d2fcd68985b534973b1acced0ac64013f9d632dd6967687",
+    "first_certificate": {
+      "certified_cost": 26213,
+      "elapsed_runner_seconds": 32.76093012801721,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 32.977156158012804,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s0-pbit",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.618548063997878,
+      "cost": 26123,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.618548063997878,
+      "id": "n32768-i2-s0-pbit",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 10.826908438990358,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177213440,
+      "runner_seconds": 8.713315861998126,
+      "sweeps": 460,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-pbit.npz",
+    "witness_sha256": "c2e3bc7394e8ce349da344c2a510e2c50be7f934f1eb6cb397282e01ffa59e53",
+    "first_certificate": {
+      "certified_cost": 26123,
+      "elapsed_runner_seconds": 8.618548063997878,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177213440,
+      "preparation_seconds": 6.56962624102016,
+      "sampling_seconds": 0.9967584910045844,
+      "state_transfer_seconds": 0.026955964014632627,
+      "certification_seconds": 0.13516122999135405,
+      "complete_runner_seconds": 8.713315861998126,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s0-metropolis",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.64245620300062,
+      "cost": 26149,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.64245620300062,
+      "id": "n32768-i2-s0-metropolis",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 10.848556456010556,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177213440,
+      "runner_seconds": 8.736617663002107,
+      "sweeps": 440,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s0-metropolis.npz",
+    "witness_sha256": "e1744af9d9945277f3f1889d81648df5d6b389bc9c5f3b3efd0712e0ea2aaae6",
+    "first_certificate": {
+      "certified_cost": 26149,
+      "elapsed_runner_seconds": 8.64245620300062,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177213440,
+      "preparation_seconds": 6.605100673012203,
+      "sampling_seconds": 1.0504078569938429,
+      "state_transfer_seconds": 0.026801224012160674,
+      "certification_seconds": 0.132155674014939,
+      "complete_runner_seconds": 8.736617663002107,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s1-usw-4",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 35.62098402000265,
+      "cost": 26213,
+      "exact_optimum": null,
+      "first_certificate_seconds": 35.62098402000265,
+      "id": "n32768-i2-s1-usw-4",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 37.802578089991584,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 35.74529370397795,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-usw-4.npz",
+    "witness_sha256": "22a8ecef2ad32b4e32a52277683473b9e8a042c6c7268a4fba7178b528069a8b",
+    "first_certificate": {
+      "certified_cost": 26213,
+      "elapsed_runner_seconds": 35.62098402000265,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 35.74529370397795,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s1-usw-16",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 29.31385400900035,
+      "cost": 26214,
+      "exact_optimum": null,
+      "first_certificate_seconds": 29.31385400900035,
+      "id": "n32768-i2-s1-usw-16",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 31.645779620012036,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 29.55216976199881,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-usw-16.npz",
+    "witness_sha256": "de16bd415f59fe2de8c3266b109861b5917146a5a4c3528f532bd652074e8eed",
+    "first_certificate": {
+      "certified_cost": 26214,
+      "elapsed_runner_seconds": 29.31385400900035,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 29.55216976199881,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i2-s1-pbit",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.600402166019194,
+      "cost": 26120,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.600402166019194,
+      "id": "n32768-i2-s1-pbit",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 10.797048605018063,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177213440,
+      "runner_seconds": 8.694695459998911,
+      "sweeps": 464,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-pbit.npz",
+    "witness_sha256": "3e52ff3f9be6f867a683360f1c82526c04ad9fbfdb73814e8cb7b8b14d092e95",
+    "first_certificate": {
+      "certified_cost": 26120,
+      "elapsed_runner_seconds": 8.600402166019194,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177213440,
+      "preparation_seconds": 6.539474691002397,
+      "sampling_seconds": 0.9957688459835481,
+      "state_transfer_seconds": 0.026255606004269794,
+      "certification_seconds": 0.13588163600070402,
+      "complete_runner_seconds": 8.694695459998911,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s1-metropolis",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.65909469500184,
+      "cost": 26078,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.65909469500184,
+      "id": "n32768-i2-s1-metropolis",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 10.858762772986665,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177213440,
+      "runner_seconds": 8.754264118993888,
+      "sweeps": 440,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-metropolis.npz",
+    "witness_sha256": "df2956ad3ca1ae781f4df1b3871bbf8982d9b477c483e10bc15f4f5c7413f7a0",
+    "first_certificate": {
+      "certified_cost": 26078,
+      "elapsed_runner_seconds": 8.65909469500184,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177213440,
+      "preparation_seconds": 6.627767630008748,
+      "sampling_seconds": 1.051777682005195,
+      "state_transfer_seconds": 0.026840005011763424,
+      "certification_seconds": 0.13486230897251517,
+      "complete_runner_seconds": 8.754264118993888,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i2-s1-usw-1",
+    "instance": "5c17c05c8699021941af69af50bdde45c17f9e3820ddc28ebdd20121e73f7575",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 36.74247922498034,
+      "cost": 26211,
+      "exact_optimum": null,
+      "first_certificate_seconds": 36.74247922498034,
+      "id": "n32768-i2-s1-usw-1",
+      "instance_seed": 202610190902,
+      "launcher_seconds": 38.84909360497841,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 36.78261189899058,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190902,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i2-s1-usw-1.npz",
+    "witness_sha256": "c0e818bfb2c3642c079ff66d290bde28365e1a7cd62f8e9048cfe27b834ca38a",
+    "first_certificate": {
+      "certified_cost": 26211,
+      "elapsed_runner_seconds": 36.74247922498034,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.10127129900502041,
+      "complete_runner_seconds": 36.78261189899058,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s0-usw-4",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 32.3284912740055,
+      "cost": 26211,
+      "exact_optimum": null,
+      "first_certificate_seconds": 32.3284912740055,
+      "id": "n32768-i3-s0-usw-4",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 34.52389382899855,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 32.469286573003046,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-usw-4.npz",
+    "witness_sha256": "6a87ba0a71dd7abd2594ad2e41fb3b65a15d01b3d21f660fb1e1c6bd70e0b6bd",
+    "first_certificate": {
+      "certified_cost": 26211,
+      "elapsed_runner_seconds": 32.3284912740055,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 32.469286573003046,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s0-usw-16",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 33.09034777400666,
+      "cost": 26211,
+      "exact_optimum": null,
+      "first_certificate_seconds": 33.09034777400666,
+      "id": "n32768-i3-s0-usw-16",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 35.39216202398529,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 33.3303638100042,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-usw-16.npz",
+    "witness_sha256": "936c347b94a62100d5cd9a164cc0b881336604848f23fe0ef418f3d23ac2b506",
+    "first_certificate": {
+      "certified_cost": 26211,
+      "elapsed_runner_seconds": 33.09034777400666,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 33.3303638100042,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s0-pbit",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.732675210980233,
+      "cost": 26213,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.732675210980233,
+      "id": "n32768-i3-s0-pbit",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 10.950001553981565,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177217536,
+      "runner_seconds": 8.82664479597588,
+      "sweeps": 472,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-pbit.npz",
+    "witness_sha256": "ef57ebe405344134a1743fda435d75ead25a2cead188b06beaf05e6a4d0ebaf6",
+    "first_certificate": {
+      "certified_cost": 26213,
+      "elapsed_runner_seconds": 8.732675210980233,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177217536,
+      "preparation_seconds": 6.659959696989972,
+      "sampling_seconds": 1.0103643990005367,
+      "state_transfer_seconds": 0.026205542992101982,
+      "certification_seconds": 0.13421681700856425,
+      "complete_runner_seconds": 8.82664479597588,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s0-metropolis",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 9.024344642995857,
+      "cost": 26127,
+      "exact_optimum": null,
+      "first_certificate_seconds": 9.024344642995857,
+      "id": "n32768-i3-s0-metropolis",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 11.251078038010746,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177217536,
+      "runner_seconds": 9.117882418009685,
+      "sweeps": 444,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101931
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-metropolis.npz",
+    "witness_sha256": "263b45f0391b297527526e92c9dfb54232d5cd0d33b76ba76f448b88cc42c410",
+    "first_certificate": {
+      "certified_cost": 26127,
+      "elapsed_runner_seconds": 9.024344642995857,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177217536,
+      "preparation_seconds": 6.975786315975711,
+      "sampling_seconds": 1.0526565249892883,
+      "state_transfer_seconds": 0.0261368700012099,
+      "certification_seconds": 0.13369595402036794,
+      "complete_runner_seconds": 9.117882418009685,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s0-usw-1",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 32.35303233601735,
+      "cost": 26213,
+      "exact_optimum": null,
+      "first_certificate_seconds": 32.35303233601735,
+      "id": "n32768-i3-s0-usw-1",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 34.43791002398939,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 32.39249825201114,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101931,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s0-usw-1.npz",
+    "witness_sha256": "b312e4e4f76879db52aee2ac32403c66457abbe238be151b8702c78e729d3a0c",
+    "first_certificate": {
+      "certified_cost": 26213,
+      "elapsed_runner_seconds": 32.35303233601735,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.10264950900455005,
+      "complete_runner_seconds": 32.39249825201114,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s1-usw-16",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 31.41354046500055,
+      "cost": 26212,
+      "exact_optimum": null,
+      "first_certificate_seconds": 31.41354046500055,
+      "id": "n32768-i3-s1-usw-16",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 33.680008862982504,
+      "method": "usw-16",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 31.59552740000072,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 16
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-usw-16.npz",
+    "witness_sha256": "26a514b5810bbdf26ddb3b2f06344126c5af5a6dab31b55fd3aa9f84146e4a1f",
+    "first_certificate": {
+      "certified_cost": 26212,
+      "elapsed_runner_seconds": 31.41354046500055,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 31.59552740000072,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s1-pbit",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.812282833998324,
+      "cost": 26177,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.812282833998324,
+      "id": "n32768-i3-s1-pbit",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 11.021311316988431,
+      "method": "pbit",
+      "peak_cuda_allocated_bytes": 177217536,
+      "runner_seconds": 8.906390236021252,
+      "sweeps": 468,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "pbit",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-pbit.npz",
+    "witness_sha256": "27a6ccca1c9ce82bff2f3aa0b76f7ba52f38ef9175b3e5e9cd22dfaf1681da50",
+    "first_certificate": {
+      "certified_cost": 26177,
+      "elapsed_runner_seconds": 8.812282833998324,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177217536,
+      "preparation_seconds": 6.754632213996956,
+      "sampling_seconds": 1.004092959978152,
+      "state_transfer_seconds": 0.026731736987130716,
+      "certification_seconds": 0.1308154450089205,
+      "complete_runner_seconds": 8.906390236021252,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s1-metropolis",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 8.609168122988194,
+      "cost": 26152,
+      "exact_optimum": null,
+      "first_certificate_seconds": 8.609168122988194,
+      "id": "n32768-i3-s1-metropolis",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 10.815472768008476,
+      "method": "metropolis",
+      "peak_cuda_allocated_bytes": 177217536,
+      "runner_seconds": 8.702847156004282,
+      "sweeps": 444,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "native",
+      "solver": {
+        "beta_max": 16.0,
+        "beta_min": 0.1,
+        "chains": 16,
+        "cycle_sweeps": 512,
+        "device": "cuda",
+        "dtype": "float32",
+        "max_seconds": 60.0,
+        "max_sweeps": 1000000,
+        "method": "metropolis",
+        "observe_every": 4,
+        "seed": 2026101932
+      },
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-metropolis.npz",
+    "witness_sha256": "435620be20947c98c4538c09b778a0f363d37e221dded22506612b47753bc3e2",
+    "first_certificate": {
+      "certified_cost": 26152,
+      "elapsed_runner_seconds": 8.609168122988194,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "auxiliary_pbits": 0,
+      "objective_active_variables": 32768,
+      "peak_cuda_allocated_bytes": 177217536,
+      "preparation_seconds": 6.594520815007854,
+      "sampling_seconds": 1.0540244939911645,
+      "state_transfer_seconds": 0.02632995301974006,
+      "certification_seconds": 0.1340952270256821,
+      "complete_runner_seconds": 8.702847156004282,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 32768,
+      "counting_scope": "Per model; replicas and classical control state are separate"
+    },
+    "baseline_inputs": []
+  },
+  {
+    "id": "n32768-i3-s1-usw-1",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 38.14506806299323,
+      "cost": 26210,
+      "exact_optimum": null,
+      "first_certificate_seconds": 38.14506806299323,
+      "id": "n32768-i3-s1-usw-1",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 40.2219058519986,
+      "method": "usw-1",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 38.18521780500305,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 1
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-usw-1.npz",
+    "witness_sha256": "141012bc9fde72aa17b4d80f0b4b07ad7a4926564c6e6488f1373121c8ebeb58",
+    "first_certificate": {
+      "certified_cost": 26210,
+      "elapsed_runner_seconds": 38.14506806299323,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "preparation_seconds": 0.10053536499617621,
+      "complete_runner_seconds": 38.18521780500305,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  },
+  {
+    "id": "n32768-i3-s1-usw-4",
+    "instance": "f9e70e36c7860e7f489215e3b92a82172abe0baa902ec1eebd9b57c6065d2caf",
+    "metrics": {
+      "budget_seconds": 60.0,
+      "censored_target_seconds": 29.533103697001934,
+      "cost": 26212,
+      "exact_optimum": null,
+      "first_certificate_seconds": 29.533103697001934,
+      "id": "n32768-i3-s1-usw-4",
+      "instance_seed": 202610190903,
+      "launcher_seconds": 31.684531689010328,
+      "method": "usw-4",
+      "peak_cuda_allocated_bytes": null,
+      "runner_seconds": 29.639979689003667,
+      "sweeps": null,
+      "target": 26214,
+      "target_success": true,
+      "variables": 32768
+    },
+    "configuration": {
+      "method": "usw-ls",
+      "exact_reference": false,
+      "problem": {
+        "arity": 3,
+        "clause_ratio": 8,
+        "instance_seed": 202610190903,
+        "variables": 32768,
+        "weight_max": 10
+      },
+      "baseline_parameters": {
+        "max_seconds": 60.0,
+        "seed": 2026101932,
+        "workers": 4
+      },
+      "experiment": {
+        "return_reserve_seconds": 2.0,
+        "runner_seconds": 60.0,
+        "target_cost": 26214
+      }
+    },
+    "witness_file": "witnesses/n32768-i3-s1-usw-4.npz",
+    "witness_sha256": "c621c11cbee6e23ef7e10a0649d2163d8dca7d23fd91b85038a9f6c0c6f940ce",
+    "first_certificate": {
+      "certified_cost": 26212,
+      "elapsed_runner_seconds": 29.533103697001934,
+      "target_cost": 26214,
+      "within_budget": true,
+      "witness_key": "first_certificate_bits"
+    },
+    "historical_role": "confirmation",
+    "evaluation_role": "device-confirmation-on-existing-frozen-inputs",
+    "trial_kind": "natural",
+    "warm_start": false,
+    "resources": {
+      "objective_active_variables": 32768,
+      "complete_runner_seconds": 29.639979689003667,
+      "logical_variables": 32768,
+      "physical_update_pbits_per_model": 0,
+      "counting_scope": "Per model; replicas and classical control state are separate",
+      "metadata_note": "The original runner also labeled classical decision variables as physical p-bits. This derived public ledger counts classical controls as zero stochastic update p-bits."
+    },
+    "baseline_inputs": [
+      {
+        "field": "baseline.executable",
+        "bytes": 56416,
+        "sha256": "b8a336c089b482a024c43ccce2dd9f3a5f72a32357d8c3c99f0760c92a70ba94",
+        "executable": true,
+        "filename": "USW-LS"
+      },
+      {
+        "field": "baseline.source_archive",
+        "bytes": 11336,
+        "sha256": "d380a4dee0631cc443787e2975ba30075b4c6908dabbdfe4b3f20668f3bbb602",
+        "executable": false,
+        "filename": "source.tar.gz"
+      },
+      {
+        "field": "baseline.upstream_archive",
+        "bytes": 899259,
+        "sha256": "111b429328242aff5210217fa7d77be44f9a086cc9a02a9464c0e1935028e8c3",
+        "executable": false,
+        "filename": "upstream.tar.gz"
+      },
+      {
+        "field": "baseline.patch",
+        "bytes": 2455,
+        "sha256": "da150080966c2e5c473050cb2ea77636d3bfa90b96ad209451bedbc044b11030",
+        "executable": false,
+        "filename": "instrumentation.patch"
+      },
+      {
+        "field": "baseline.metadata",
+        "bytes": 1773,
+        "sha256": "6ef04dda69af1a2f00f0c30bba3ce8eff1f3ab19f8eeb00640bda4907565f6d4",
+        "executable": false,
+        "filename": "metadata.json"
+      },
+      {
+        "field": "baseline.build_log",
+        "bytes": 158,
+        "sha256": "c4bc2b9c17363357a2bd8fc955e8961ec247e91cdc6be81403f867a914dad014",
+        "executable": false,
+        "filename": "build.log"
+      }
+    ]
+  }
+]

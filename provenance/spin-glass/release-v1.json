@@ -1,0 +1,71 @@
+{
+  "schema": "cubic-spin-glass-release-v1",
+  "license": "MIT",
+  "gpu_evaluation": "s23",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "numerical_files_byte_identical_to_executed_source": [
+    {
+      "path": "src/cubic_spin_glass/__init__.py",
+      "sha256": "5cdf95941037a2eb81430149a758d6578f30136a701ab45b29003252fdbfeacd"
+    },
+    {
+      "path": "src/cubic_spin_glass/certificates.py",
+      "sha256": "a4488af91ce2646a74b85a13c993199e3e8a7e8fdebf738b0e882b7985efbbf8"
+    },
+    {
+      "path": "src/cubic_spin_glass/cli.py",
+      "sha256": "401459874fcaf101e0c513f6e00729527f23e74db9201e075b6cf0009665712f"
+    },
+    {
+      "path": "src/cubic_spin_glass/core/__init__.py",
+      "sha256": "5cdf95941037a2eb81430149a758d6578f30136a701ab45b29003252fdbfeacd"
+    },
+    {
+      "path": "src/cubic_spin_glass/core/edge_model.py",
+      "sha256": "bc70cdc4f2f056da9c8ed2515440ee857879cb4f33a5e6c9b2b58c08c15d25ee"
+    },
+    {
+      "path": "src/cubic_spin_glass/core/model.py",
+      "sha256": "bf7c971c7d8c84415be9bca5de5a75fb35757f6ebfa7d3748b87d255186a362f"
+    },
+    {
+      "path": "src/cubic_spin_glass/core/padded_sparse.py",
+      "sha256": "a7c86db03306ea52cfa27402d7a1d27cef5de485f83a4b87d1d3b50c08a32233"
+    },
+    {
+      "path": "src/cubic_spin_glass/model.py",
+      "sha256": "41bfb70c45785a4dd3e7be991cff37f7746ba5a782ad4b30e9846066d88c379c"
+    },
+    {
+      "path": "src/cubic_spin_glass/population.py",
+      "sha256": "f8643e484f56bf81b2fc7119b7030db022cfb8607412a846ec0f9ff2b6b0dd38"
+    },
+    {
+      "path": "src/cubic_spin_glass/solver.py",
+      "sha256": "80b819ba2a68a0c28cc41ff1de05119badfe3ca3d095205b71625299a9ca8097"
+    },
+    {
+      "path": "src/cubic_spin_glass/triton_energy.py",
+      "sha256": "be9ba2f690a23e215c5d82492b07f13d0328333dd60efcca64ddc514bf66183c"
+    },
+    {
+      "path": "src/cubic_spin_glass/triton_fields.py",
+      "sha256": "37078e829b52ebc8e3b77eb3271fea0b99167a55fd8653c409cdb2244961de60"
+    },
+    {
+      "path": "src/cubic_spin_glass/triton_tiled_energy.py",
+      "sha256": "a980e712d722ffd3edb0fc088ca08ccb53343c0f4d0bbd061b2f71ed2210712a"
+    },
+    {
+      "path": "src/cubic_spin_glass/triton_updates.py",
+      "sha256": "ab5a51f316c6e7c98230411a2692ec1f503943c7712febbcf5e602417c0f2f68"
+    }
+  ],
+  "changes_since_measured_runtime": [
+    "Public data selection and privacy filtering",
+    "Reproduction and verification scripts",
+    "Bilingual documentation and navigation"
+  ],
+  "source_change_affects_numerical_kernel": false,
+  "public_panel_sha256": "c5dc35c4cf9125eb727d3a29aeee94840012d7ece3cd4dbf256e7c044c56788a"
+}

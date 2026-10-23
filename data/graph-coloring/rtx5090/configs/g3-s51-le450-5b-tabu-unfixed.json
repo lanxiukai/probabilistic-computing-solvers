@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "build_log": "data/graph-coloring/tabu-reference/build.log",
+    "build_metadata": "data/graph-coloring/tabu-reference/build.json",
+    "executable": "data/graph-coloring/tabu-reference/reference",
+    "max_iterations": 100000000,
+    "max_seconds": 60,
+    "process_limit_seconds": 150,
+    "seed": 2026102351,
+    "source": "data/graph-coloring/tabu-reference/tabu_reference.cpp"
+  },
+  "experiment": {
+    "evaluation_split": "held-out",
+    "role": "independent-classical-reference",
+    "seed_role": "frozen fresh-seed confirmation; not tuning"
+  },
+  "method": "tabucol-style",
+  "problem": {
+    "colors": 5,
+    "instance_file": "data/graph-coloring/dimacs/le450_5b.col"
+  }
+}

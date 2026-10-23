@@ -1,0 +1,8 @@
+{
+  "rows": 9,
+  "columns": 4,
+  "levels": 3,
+  "strength": 2,
+  "reference_source": "Orthogonal-array elementary bound/construction",
+  "reference_status": "known_optimal_rows"
+}

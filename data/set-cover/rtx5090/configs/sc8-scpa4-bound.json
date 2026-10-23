@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "max_seconds": 60
+  },
+  "experiment": {
+    "role": "confirmation"
+  },
+  "method": "milp",
+  "problem": {
+    "format": "scp",
+    "instance_file": "data/set-cover/or-library-v1/scpa4.txt.gz",
+    "benchmark_id": "scpa4"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schema": "qap-benchmarks-v1",
+  "source_catalog": "https://coral.ise.lehigh.edu/data-sets/qaplib/qaplib-problem-instances-and-solutions/",
+  "catalog_retrieved_at": "2026-10-23T08:54:47.140360+00:00",
+  "redistribution": "Inputs are fetched from the cited public source; original files are not bundled. Public availability alone is not a license grant.",
+  "records": [
+    {
+      "name": "nug12",
+      "order": 12,
+      "one_hot_variables": 144,
+      "reference_cost": 578,
+      "reference_status": "proven_optimum",
+      "reference_index_base": 1,
+      "reference_inverse": false,
+      "flow_nonzero_fraction": 0.9166666666666666,
+      "distance_nonzero_fraction": 0.625,
+      "files": [
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug12.dat",
+          "sha256": "15ad1047d3d39e2820466349dc75ce8cc560443e125c4f67ff06223d735f47b6",
+          "bytes": 713,
+          "filename": "nug12.dat"
+        },
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/nug12.sln",
+          "sha256": "9d94c144dc4015f6233bc4738b6ca166bc5dad2f972cdc9fe5fb4028ac0cbd83",
+          "bytes": 50,
+          "filename": "nug12.sln"
+        }
+      ]
+    },
+    {
+      "name": "nug20",
+      "order": 20,
+      "one_hot_variables": 400,
+      "reference_cost": 2570,
+      "reference_status": "proven_optimum",
+      "reference_index_base": 1,
+      "reference_inverse": false,
+      "flow_nonzero_fraction": 0.95,
+      "distance_nonzero_fraction": 0.705,
+      "files": [
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug20.dat",
+          "sha256": "a82316ada09e9c8d7fe40591306cfe0a2505b44254f37da54f2916ea81f1ecf1",
+          "bytes": 2005,
+          "filename": "nug20.dat"
+        },
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/nug20.sln",
+          "sha256": "8ee356ac206af5d3f77a587d047f97cee01cdf471fae23ff8c2a5736329bcf7c",
+          "bytes": 73,
+          "filename": "nug20.sln"
+        }
+      ]
+    },
+    {
+      "name": "nug30",
+      "order": 30,
+      "one_hot_variables": 900,
+      "reference_cost": 6124,
+      "reference_status": "proven_optimum",
+      "reference_index_base": 1,
+      "reference_inverse": false,
+      "flow_nonzero_fraction": 0.9666666666666667,
+      "distance_nonzero_fraction": 0.6511111111111111,
+      "files": [
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug30.dat",
+          "sha256": "7c8e1001b1fb13e93417193707f4975c968bd2ff2d27451b8c4fccbd76645c09",
+          "bytes": 4505,
+          "filename": "nug30.dat"
+        },
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/nug30.sln",
+          "sha256": "2f29aab37f086bf9b8745800b8da6e47591988e76b1bb824bfbbb10310a016e2",
+          "bytes": 92,
+          "filename": "nug30.sln"
+        }
+      ]
+    },
+    {
+      "name": "tai40a",
+      "order": 40,
+      "one_hot_variables": 1600,
+      "reference_cost": 3139370,
+      "reference_status": "historical_feasible_reference",
+      "reference_index_base": 0,
+      "reference_inverse": false,
+      "flow_nonzero_fraction": 0.96125,
+      "distance_nonzero_fraction": 0.96625,
+      "files": [
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai40a.dat",
+          "sha256": "4920f20750ebb667cec1963ce0c85b9e55538971de7237d4e370e1c80ab3b3c5",
+          "bytes": 9687,
+          "filename": "tai40a.dat"
+        },
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai40a.sln",
+          "sha256": "67f84cf7ea0f15517e48f0ae9548b2c389ba1bfd77ecd90990a41b7e79cbd670",
+          "bytes": 162,
+          "filename": "tai40a.sln"
+        }
+      ]
+    },
+    {
+      "name": "tai80a",
+      "order": 80,
+      "one_hot_variables": 6400,
+      "reference_cost": 13499184,
+      "reference_status": "historical_feasible_reference",
+      "reference_index_base": 1,
+      "reference_inverse": true,
+      "flow_nonzero_fraction": 0.9771875,
+      "distance_nonzero_fraction": 0.97875,
+      "files": [
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai80a.dat",
+          "sha256": "99a401c93d7294429383823dfab749e6e74cdd9d0208ed0cf9e52bcb18d1681a",
+          "bytes": 38565,
+          "filename": "tai80a.dat"
+        },
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai80a.sln",
+          "sha256": "b94a15dc36aa6a9d8976fa07edf6d262fe9c1e4fd9c6f490e05531eb2401165a",
+          "bytes": 256,
+          "filename": "tai80a.sln"
+        }
+      ]
+    },
+    {
+      "name": "tai150b",
+      "order": 150,
+      "one_hot_variables": 22500,
+      "reference_cost": 498896643,
+      "reference_status": "historical_feasible_reference",
+      "reference_index_base": 1,
+      "reference_inverse": false,
+      "flow_nonzero_fraction": 0.9904888888888889,
+      "distance_nonzero_fraction": 0.4451111111111111,
+      "files": [
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+          "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+          "bytes": 270158,
+          "filename": "tai150b.dat"
+        },
+        {
+          "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+          "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+          "bytes": 510,
+          "filename": "tai150b.sln"
+        }
+      ]
+    }
+  ]
+}

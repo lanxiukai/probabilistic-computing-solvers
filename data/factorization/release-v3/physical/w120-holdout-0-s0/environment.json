@@ -1,0 +1,19 @@
+{
+  "cpu_affinity_count": 30,
+  "cpu_model": "AMD Ryzen 9 7945HX with Radeon Graphics",
+  "gpu": "NVIDIA GeForce RTX 5090, 595.91.07, 32607 MiB, 500.00 W",
+  "gpu_query_returncode": 0,
+  "machine": "x86_64",
+  "memory_cgroup_limit": "96392445952",
+  "os": "Linux",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.18.0",
+    "torch": "2.13.0+cu130",
+    "triton": "3.7.1"
+  },
+  "python": "3.14.6",
+  "system_memtotal": "MemTotal:       98056316 kB",
+  "torch_gpu_count": 1,
+  "torch_gpu_name": "NVIDIA GeForce RTX 5090"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "kind": "mwis",
+    "canonical_identity": "24e2183de91317049239b25bb22a406608c06c0597fcbc0d2f869738587979ca",
+    "file": "instances/24e2183de91317049239.json",
+    "file_sha256": "d52186cd686242a54bc46a28feb9bcbc66f7612c40c1ebfeadd8e10c9cf22a3b",
+    "redistributed": true
+  },
+  {
+    "id": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "kind": "mwis",
+    "canonical_identity": "aa140080724d1bcc14b6e9e83900500070364f538f85da06f6a01865762ab1c1",
+    "file": "instances/aa140080724d1bcc14b6.json",
+    "file_sha256": "669342981febc4df0496218658a382090e94964920327b121f2c10db06a34479",
+    "redistributed": true
+  },
+  {
+    "id": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "kind": "mwis",
+    "canonical_identity": "a37dbb53224e470232a08b773ce2d32c989613dd61aca244dd7074addb8f5486",
+    "file": "instances/a37dbb53224e470232a0.json",
+    "file_sha256": "8bbab234d8b2028634b4e0ec2a7998b858fa1cee778f4718bcc182f139a4de32",
+    "redistributed": true
+  },
+  {
+    "id": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "kind": "mwis",
+    "canonical_identity": "b4278fd2115934a9fd1f7fbcd5f554eae8edc6e984c7b68c784c49122c5aab0d",
+    "file": "instances/b4278fd2115934a9fd1f.json",
+    "file_sha256": "aa1f0630cead633fddfabab1e83297bb701a2c94ed00b4b9ab47c5f408efb60a",
+    "redistributed": true
+  },
+  {
+    "id": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "kind": "mwis",
+    "canonical_identity": "e22a200141337c275464900fc5dae25d821f824231b0d8b79027c164452ce72c",
+    "file": "instances/e22a200141337c275464.json",
+    "file_sha256": "59b96895b33bcfae867d5fbe94c13ef27c259d63df645aa4d6361213fdb548ff",
+    "redistributed": true
+  },
+  {
+    "id": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "kind": "mwis",
+    "canonical_identity": "f73b8134c7a24cd90141e1fe85e406b0de2ea597a0dee1391bd02c63129bc5d7",
+    "file": "instances/f73b8134c7a24cd90141.json",
+    "file_sha256": "dea3c92210a3d656db16ea4cc6a48537696ed7adae81401f3eb551a3cd8f9cf4",
+    "redistributed": true
+  }
+]

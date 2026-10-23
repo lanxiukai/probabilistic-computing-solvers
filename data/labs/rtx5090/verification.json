@@ -1,0 +1,27 @@
+{
+  "status": "independently-audited",
+  "natural_calls": 20,
+  "origin_replays": 4,
+  "origin_replay_checks": [
+    {
+      "arrays": 24,
+      "origin": "n32768-s0-pbit-legendre"
+    },
+    {
+      "arrays": 24,
+      "origin": "n32768-s0-metro-legendre"
+    },
+    {
+      "arrays": 24,
+      "origin": "n32768-s0-mts-legendre"
+    },
+    {
+      "arrays": 24,
+      "origin": "n32768-s0-polish"
+    }
+  ],
+  "replays_add_independent_trials": false,
+  "audited_saved_states": 788,
+  "executed_source_identity": "b9b910b367df35b0fff0fd4c62a36a2decc9b9ebc930e9c4b8df0bf3fdf2898b",
+  "complete_raw_evidence_retained_privately": true
+}

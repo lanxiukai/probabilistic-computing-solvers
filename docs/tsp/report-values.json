@@ -1,0 +1,7 @@
+{
+  "RESULT_ROWS": "| cpu_pbit | 4 | 4 | 5.643 | 3.438 |\n| cuda_classical | 4 | 4 | 3.686 | 0.406 |\n| cuda_pbit | 4 | 4 | 4.054 | 0.758 |\n| lkh | 4 | 4 | 2.350 | 0.165 |",
+  "LKH_MEDIAN": "2.350",
+  "PBIT_MEDIAN": "4.054",
+  "PBIT_RATIO": "1.698",
+  "HARDWARE": "NVIDIA GeForce RTX 5090 (32607 MiB); AMD Eng Sample: 100-000001537-04 (quota 17.56 vCPU); Python 3.14.6; PyTorch 2.13.0+cu130; CUDA 13.0; driver 580.178.04."
+}

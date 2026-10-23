@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "q1c-tai150b-prewarmed-candidate-work",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "fixed-work-implementation-comparison"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.00018171864718282405,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "candidate",
+        "max_seconds": 90,
+        "max_steps": 8192,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 128,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-prewarmed-candidate-work.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 123065085,
+      "best_feasible_cost": 515782171,
+      "complete_runner_seconds": 9.291718736290932,
+      "completed_steps": 8192,
+      "deadline_overshoot_seconds": 0,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 638847256,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 3439,
+      "nonidentity_block_transitions_total": 458565,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 32534016,
+      "peak_reserved_bytes": 46137344,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 5.726587794255465,
+      "python_integer_best_cost_certificate": 515782171,
+      "quality_max_step": 8192,
+      "reference_certificate_seconds": 0.0005406481213867664,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.03384574387685347,
+      "replica_cost_reduction_median": 128622241.0,
+      "replica_cost_reduction_min": 116275333,
+      "replicas_improved": 128,
+      "returned_best_cost": 515782171,
+      "search_seconds": 3.079903465230018,
+      "state_archive_seconds": 0.08291302621364594,
+      "state_certificate_seconds": 0.02981829084455967,
+      "status": "completed",
+      "visited_assignment_bits_min": 22187,
+      "winner_certificate_seconds": 0.006317310966551304,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-prewarmed-candidate-work.npz",
+    "witness_sha256": "ea802c7b4adc08c32e058b10236be0d223104354e135039075f0c6d7d0ad666f",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22187,
+      "peak_allocated_bytes": 32534016,
+      "peak_reserved_bytes": 46137344,
+      "preparation_seconds": 5.726587794255465,
+      "search_seconds": 3.079903465230018,
+      "complete_runner_seconds": 9.291718736290932,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "fixed-work-implementation-comparison",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 16,
+        "retained_observations": 16,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-prewarmed-factored-work",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "fixed-work-implementation-comparison"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.00018171864718282405,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 90,
+        "max_steps": 8192,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 128,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-prewarmed-factored-work.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 123065085,
+      "best_feasible_cost": 515782171,
+      "complete_runner_seconds": 2.445558609906584,
+      "completed_steps": 8192,
+      "deadline_overshoot_seconds": 0,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 638847256,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 3439,
+      "nonidentity_block_transitions_total": 458565,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 32534016,
+      "peak_reserved_bytes": 46137344,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 1.9185885018669069,
+      "python_integer_best_cost_certificate": 515782171,
+      "quality_max_step": 8192,
+      "reference_certificate_seconds": 0.00044598011299967766,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.03384574387685347,
+      "replica_cost_reduction_median": 128622241.0,
+      "replica_cost_reduction_min": 116275333,
+      "replicas_improved": 128,
+      "returned_best_cost": 515782171,
+      "search_seconds": 0.045704739168286324,
+      "state_archive_seconds": 0.08249045629054308,
+      "state_certificate_seconds": 0.029501786921173334,
+      "status": "completed",
+      "visited_assignment_bits_min": 22187,
+      "winner_certificate_seconds": 0.006255721673369408,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-prewarmed-factored-work.npz",
+    "witness_sha256": "dd97c6e5bd40812034cee1e1e2165d404b5163fb89b24318a04180d0972b82ee",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22187,
+      "peak_allocated_bytes": 32534016,
+      "peak_reserved_bytes": 46137344,
+      "preparation_seconds": 1.9185885018669069,
+      "search_seconds": 0.045704739168286324,
+      "complete_runner_seconds": 2.445558609906584,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "fixed-work-implementation-comparison",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 16,
+        "retained_observations": 16,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-nug30-b4-r128-c128",
+    "instance": "nug30",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/nug30.dat",
+        "reference_file": "data/qap/qaplib/nug30.sln",
+        "reference_status": "proven_optimum"
+      },
+      "solver": {
+        "beta_end": 1.337679712821185,
+        "beta_start": 0.020901245512831016,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 128,
+        "cycle_steps": 4096,
+        "energy_layout": "factored",
+        "max_seconds": 15,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 128,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-nug30-b4-r128-c128.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 1426,
+      "best_feasible_cost": 6124,
+      "complete_runner_seconds": 18.644400492310524,
+      "completed_steps": 3470208,
+      "deadline_overshoot_seconds": 0.0004422711208462715,
+      "ensemble_first_reference_observation_seconds": 0.04602523287758231,
+      "ensemble_first_reference_or_better_observation_seconds": 0.04602523287758231,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 7550,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 900,
+      "new_reference_hits_after_initialization": 127,
+      "new_reference_or_better_hits_after_initialization": 127,
+      "nonidentity_block_transitions_min": 604278,
+      "nonidentity_block_transitions_total": 77699074,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 1884160,
+      "peak_reserved_bytes": 4194304,
+      "physical_update_pbits_per_model": 900,
+      "preparation_seconds": 1.7111694673076272,
+      "python_integer_best_cost_certificate": 6124,
+      "quality_max_step": 3470080,
+      "reference_certificate_seconds": 0.0034371940419077873,
+      "reference_hits": 127,
+      "reference_or_better_hits": 127,
+      "reference_status": "proven_optimum",
+      "relative_gap": 0.0,
+      "replica_cost_reduction_median": 2033.0,
+      "replica_cost_reduction_min": 1426,
+      "replicas_improved": 128,
+      "returned_best_cost": 6124,
+      "search_seconds": 15.000442271120846,
+      "state_archive_seconds": 1.521486354060471,
+      "state_certificate_seconds": 0.004242635797709227,
+      "status": "completed",
+      "visited_assignment_bits_min": 900,
+      "winner_certificate_seconds": 0.00032284297049045563,
+      "reference_cost": 6124
+    },
+    "witness_file": "witnesses/q1c-nug30-b4-r128-c128.npz",
+    "witness_sha256": "705375fd82304fc36a7b8e2ebdab37eed31e3a5ccf7512e26d42134c9a143893",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 900,
+      "visited_assignment_bits_min": 900,
+      "peak_allocated_bytes": 1884160,
+      "peak_reserved_bytes": 4194304,
+      "preparation_seconds": 1.7111694673076272,
+      "search_seconds": 15.000442271120846,
+      "complete_runner_seconds": 18.644400492310524,
+      "physical_update_pbits_per_model": 900
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/nug30.dat",
+        "sha256": "7c8e1001b1fb13e93417193707f4975c968bd2ff2d27451b8c4fccbd76645c09",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug30.dat",
+        "recorded_original_sha256": "7c8e1001b1fb13e93417193707f4975c968bd2ff2d27451b8c4fccbd76645c09"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/nug30.sln",
+        "sha256": "2f29aab37f086bf9b8745800b8da6e47591988e76b1bb824bfbbb10310a016e2",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/nug30.sln",
+        "recorded_original_sha256": "2f29aab37f086bf9b8745800b8da6e47591988e76b1bb824bfbbb10310a016e2"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 27111,
+        "retained_observations": 579,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-b2-r128-c128",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.00018171864718282405,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 128,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 30,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 128,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-b2-r128-c128.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 138649210,
+      "best_feasible_cost": 500198046,
+      "complete_runner_seconds": 51.91882321797311,
+      "completed_steps": 7065472,
+      "deadline_overshoot_seconds": 0.00030821794643998146,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 638847256,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 272837,
+      "nonidentity_block_transitions_total": 35303684,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 32533504,
+      "peak_reserved_bytes": 46137344,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 1.3777208370156586,
+      "python_integer_best_cost_certificate": 500198046,
+      "quality_max_step": 7065344,
+      "reference_certificate_seconds": 0.007559683173894882,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.0026085623510599567,
+      "replica_cost_reduction_median": 149398395.5,
+      "replica_cost_reduction_min": 136302825,
+      "replicas_improved": 128,
+      "returned_best_cost": 500198046,
+      "search_seconds": 30.00030821794644,
+      "state_archive_seconds": 19.911881990730762,
+      "state_certificate_seconds": 0.028929842170327902,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.006330760661512613,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-b2-r128-c128.npz",
+    "witness_sha256": "33844970720c5702e611941ec2822da98b667c5df315c62fca585863c621d47c",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 32533504,
+      "peak_reserved_bytes": 46137344,
+      "preparation_seconds": 1.3777208370156586,
+      "search_seconds": 30.00030821794644,
+      "complete_runner_seconds": 51.91882321797311,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 55199,
+        "retained_observations": 9615,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-nug30-b4-r128-c512",
+    "instance": "nug30",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/nug30.dat",
+        "reference_file": "data/qap/qaplib/nug30.sln",
+        "reference_status": "proven_optimum"
+      },
+      "solver": {
+        "beta_end": 1.337679712821185,
+        "beta_start": 0.020901245512831016,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 4096,
+        "energy_layout": "factored",
+        "max_seconds": 15,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 128,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-nug30-b4-r128-c512.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 1426,
+      "best_feasible_cost": 6124,
+      "complete_runner_seconds": 17.62327918689698,
+      "completed_steps": 4408320,
+      "deadline_overshoot_seconds": 0.001297298353165388,
+      "ensemble_first_reference_observation_seconds": 0.010392991360276937,
+      "ensemble_first_reference_or_better_observation_seconds": 0.010392991360276937,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 7550,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 900,
+      "new_reference_hits_after_initialization": 128,
+      "new_reference_or_better_hits_after_initialization": 128,
+      "nonidentity_block_transitions_min": 767941,
+      "nonidentity_block_transitions_total": 98710949,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 6602752,
+      "peak_reserved_bytes": 23068672,
+      "physical_update_pbits_per_model": 900,
+      "preparation_seconds": 1.7182274730876088,
+      "python_integer_best_cost_certificate": 6124,
+      "quality_max_step": 4407808,
+      "reference_certificate_seconds": 0.0012652818113565445,
+      "reference_hits": 128,
+      "reference_or_better_hits": 128,
+      "reference_status": "proven_optimum",
+      "relative_gap": 0.0,
+      "replica_cost_reduction_median": 2033.0,
+      "replica_cost_reduction_min": 1426,
+      "replicas_improved": 128,
+      "returned_best_cost": 6124,
+      "search_seconds": 15.001297298353165,
+      "state_archive_seconds": 0.5203601717948914,
+      "state_certificate_seconds": 0.004364944063127041,
+      "status": "completed",
+      "visited_assignment_bits_min": 900,
+      "winner_certificate_seconds": 0.00030529266223311424,
+      "reference_cost": 6124
+    },
+    "witness_file": "witnesses/q1c-nug30-b4-r128-c512.npz",
+    "witness_sha256": "e76774ef688fd6460f1a9f20327f55af8a1edba34c4e4d8540bb20be85292b51",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 900,
+      "visited_assignment_bits_min": 900,
+      "peak_allocated_bytes": 6602752,
+      "peak_reserved_bytes": 23068672,
+      "preparation_seconds": 1.7182274730876088,
+      "search_seconds": 15.001297298353165,
+      "complete_runner_seconds": 17.62327918689698,
+      "physical_update_pbits_per_model": 900
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/nug30.dat",
+        "sha256": "7c8e1001b1fb13e93417193707f4975c968bd2ff2d27451b8c4fccbd76645c09",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/nug30.dat",
+        "recorded_original_sha256": "7c8e1001b1fb13e93417193707f4975c968bd2ff2d27451b8c4fccbd76645c09"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/nug30.sln",
+        "sha256": "2f29aab37f086bf9b8745800b8da6e47591988e76b1bb824bfbbb10310a016e2",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/nug30.sln",
+        "recorded_original_sha256": "2f29aab37f086bf9b8745800b8da6e47591988e76b1bb824bfbbb10310a016e2"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 8610,
+        "retained_observations": 346,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-b2-r128-c512",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.00018171864718282405,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 30,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 128,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-b2-r128-c512.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 138513473,
+      "best_feasible_cost": 500333783,
+      "complete_runner_seconds": 38.5573416701518,
+      "completed_steps": 9258496,
+      "deadline_overshoot_seconds": 0.001057627610862255,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 638847256,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 357552,
+      "nonidentity_block_transitions_total": 46249960,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 32533504,
+      "peak_reserved_bytes": 46137344,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 1.496527194045484,
+      "python_integer_best_cost_certificate": 500333783,
+      "quality_max_step": 9257984,
+      "reference_certificate_seconds": 0.002305608708411455,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.0028806367414262197,
+      "replica_cost_reduction_median": 149153331.0,
+      "replica_cost_reduction_min": 136655051,
+      "replicas_improved": 128,
+      "returned_best_cost": 500333783,
+      "search_seconds": 30.001057627610862,
+      "state_archive_seconds": 6.5928083239123225,
+      "state_certificate_seconds": 0.028512103017419577,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.006250202190130949,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-b2-r128-c512.npz",
+    "witness_sha256": "3f8ff19ad7980ab158e101b45a66e8a8f056235fd9ccd7dc7996bda6427b3964",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 32533504,
+      "peak_reserved_bytes": 46137344,
+      "preparation_seconds": 1.496527194045484,
+      "search_seconds": 30.001057627610862,
+      "complete_runner_seconds": 38.5573416701518,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 18083,
+        "retained_observations": 3386,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-b2-r256-c512",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.00018171864718282405,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 30,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 256,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-b2-r256-c512.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 132155092,
+      "best_feasible_cost": 500183480,
+      "complete_runner_seconds": 41.36340484442189,
+      "completed_steps": 6390784,
+      "deadline_overshoot_seconds": 0.00221868883818388,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 632338572,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 245860,
+      "nonidentity_block_transitions_total": 63947679,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 256,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 64706048,
+      "peak_reserved_bytes": 69206016,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 1.490389967802912,
+      "python_integer_best_cost_certificate": 500183480,
+      "quality_max_step": 6390272,
+      "reference_certificate_seconds": 0.0030404329299926758,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.0025793659228931713,
+      "replica_cost_reduction_median": 149517554.5,
+      "replica_cost_reduction_min": 129576014,
+      "replicas_improved": 256,
+      "returned_best_cost": 500183480,
+      "search_seconds": 30.002218688838184,
+      "state_archive_seconds": 9.325584006030113,
+      "state_certificate_seconds": 0.05973582761362195,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.00629758182913065,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-b2-r256-c512.npz",
+    "witness_sha256": "445b1ec80c5ee42b055dd650973423b5a1194ba3b4fa997a0390ff8229e0b3e0",
+    "resources": {
+      "parallel_replicas": 256,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 64706048,
+      "peak_reserved_bytes": 69206016,
+      "preparation_seconds": 1.490389967802912,
+      "search_seconds": 30.002218688838184,
+      "complete_runner_seconds": 41.36340484442189,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 12482,
+        "retained_observations": 3498,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-b2-r512-c512",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.00018171864718282405,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 30,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 512,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-b2-r512-c512.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 130498714,
+      "best_feasible_cost": 499989110,
+      "complete_runner_seconds": 44.69874628074467,
+      "completed_steps": 4158464,
+      "deadline_overshoot_seconds": 0.0027527189813554287,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 630487824,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 160119,
+      "nonidentity_block_transitions_total": 83408516,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 129051136,
+      "peak_reserved_bytes": 201326592,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 1.6859099930152297,
+      "python_integer_best_cost_certificate": 499989110,
+      "quality_max_step": 4157952,
+      "reference_certificate_seconds": 0.003319517243653536,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.002189766187703131,
+      "replica_cost_reduction_median": 149255999.5,
+      "replica_cost_reduction_min": 127652253,
+      "replicas_improved": 512,
+      "returned_best_cost": 499989110,
+      "search_seconds": 30.002752718981355,
+      "state_archive_seconds": 12.27482853922993,
+      "state_certificate_seconds": 0.12183126900345087,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.006364250089973211,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-b2-r512-c512.npz",
+    "witness_sha256": "1b6ea3a820c97a5ec15aa06d468d02a646ba3d961cb5294a0dbc846ee1da15ba",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 129051136,
+      "peak_reserved_bytes": 201326592,
+      "preparation_seconds": 1.6859099930152297,
+      "search_seconds": 30.002752718981355,
+      "complete_runner_seconds": 44.69874628074467,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 8122,
+        "retained_observations": 2837,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-b2-r1024-c512",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.00018171864718282405,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 30,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 1024,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 2
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-b2-r1024-c512.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 130197497,
+      "best_feasible_cost": 500290327,
+      "complete_runner_seconds": 45.054639130830765,
+      "completed_steps": 1909248,
+      "deadline_overshoot_seconds": 0.0034545199014246464,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 630487824,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 73530,
+      "nonidentity_block_transitions_total": 76904815,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 1024,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 257769984,
+      "peak_reserved_bytes": 415236096,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 2.051006013993174,
+      "python_integer_best_cost_certificate": 500290327,
+      "quality_max_step": 1908736,
+      "reference_certificate_seconds": 0.003401694819331169,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.0027935325273375313,
+      "replica_cost_reduction_median": 147752732.5,
+      "replica_cost_reduction_min": 126899539,
+      "replicas_improved": 1024,
+      "returned_best_cost": 500290327,
+      "search_seconds": 30.003454519901425,
+      "state_archive_seconds": 11.916585274040699,
+      "state_certificate_seconds": 0.24170095706358552,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.006343941204249859,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-b2-r1024-c512.npz",
+    "witness_sha256": "94c475143af39fce6444e95429a7c3e9475af1569c55a8c9974f3b9124e58a9c",
+    "resources": {
+      "parallel_replicas": 1024,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 257769984,
+      "peak_reserved_bytes": 415236096,
+      "preparation_seconds": 2.051006013993174,
+      "search_seconds": 30.003454519901425,
+      "complete_runner_seconds": 45.054639130830765,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 3729,
+        "retained_observations": 1798,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-b4-r128-c512-cold256",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.0007268745887312962,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 30,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 128,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-b4-r128-c512-cold256.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 139443472,
+      "best_feasible_cost": 499403784,
+      "complete_runner_seconds": 36.08964926796034,
+      "completed_steps": 5443584,
+      "deadline_overshoot_seconds": 0.002508040051907301,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 638847256,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 817191,
+      "nonidentity_block_transitions_total": 105353384,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 128,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 32534016,
+      "peak_reserved_bytes": 46137344,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 1.9215626860968769,
+      "python_integer_best_cost_certificate": 499403784,
+      "quality_max_step": 5443072,
+      "reference_certificate_seconds": 0.0015751947648823261,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.001016525180346824,
+      "replica_cost_reduction_median": 150668593.0,
+      "replica_cost_reduction_min": 137653906,
+      "replicas_improved": 128,
+      "returned_best_cost": 499403784,
+      "search_seconds": 30.002508040051907,
+      "state_archive_seconds": 3.7449768371880054,
+      "state_certificate_seconds": 0.028454476967453957,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.006857629865407944,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-b4-r128-c512-cold256.npz",
+    "witness_sha256": "cb02a5d0b72f964a2023b28e08dd454fea3a1b279998f1ffc53ba31e1c39dfd2",
+    "resources": {
+      "parallel_replicas": 128,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 32534016,
+      "peak_reserved_bytes": 46137344,
+      "preparation_seconds": 1.9215626860968769,
+      "search_seconds": 30.002508040051907,
+      "complete_runner_seconds": 36.08964926796034,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 10632,
+        "retained_observations": 3658,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "q1c-tai150b-b4-r512-c512-cold256",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.0007268745887312962,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 30,
+        "method": "heatbath",
+        "num_warps": 4,
+        "replicas": 512,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/q1c-tai150b-b4-r512-c512-cold256.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 131221075,
+      "best_feasible_cost": 499266749,
+      "complete_runner_seconds": 39.13834008714184,
+      "completed_steps": 2145280,
+      "deadline_overshoot_seconds": 0.002054485958069563,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 630487824,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 323506,
+      "nonidentity_block_transitions_total": 167125844,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 129051648,
+      "peak_reserved_bytes": 201326592,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 2.219192437827587,
+      "python_integer_best_cost_certificate": 499266749,
+      "quality_max_step": 2144768,
+      "reference_certificate_seconds": 0.002031574957072735,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.0007418490486816124,
+      "replica_cost_reduction_median": 150881825.5,
+      "replica_cost_reduction_min": 129211881,
+      "replicas_improved": 512,
+      "returned_best_cost": 499266749,
+      "search_seconds": 30.00205448595807,
+      "state_archive_seconds": 6.230814024806023,
+      "state_certificate_seconds": 0.11251708120107651,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.006349240895360708,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/q1c-tai150b-b4-r512-c512-cold256.npz",
+    "witness_sha256": "2b93cb98c70674d68ce7ced1fbe23eff29a9aa04fd7b2aea044f95f382d48e5c",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 129051648,
+      "peak_reserved_bytes": 201326592,
+      "preparation_seconds": 2.219192437827587,
+      "search_seconds": 30.00205448595807,
+      "complete_runner_seconds": 39.13834008714184,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "natural",
+    "replay_of": null,
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4190,
+        "retained_observations": 2350,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  },
+  {
+    "id": "replay-q1c-tai150b-b4-r512-c512-cold256",
+    "instance": "tai150b",
+    "configuration": {
+      "experiment": {
+        "role": "optimization-development"
+      },
+      "problem": {
+        "instance_file": "data/qap/qaplib/tai150b.dat",
+        "reference_file": "data/qap/qaplib/tai150b.sln",
+        "reference_status": "historical_feasible_reference"
+      },
+      "solver": {
+        "beta_end": 0.0007268745887312962,
+        "beta_start": 2.839353862231626e-06,
+        "checkpoint_seconds": 2,
+        "chunk_steps": 512,
+        "cycle_steps": 65536,
+        "energy_layout": "factored",
+        "max_seconds": 180,
+        "max_steps": 2145280,
+        "method": "heatbath",
+        "num_warps": 4,
+        "quality_max_step": 2144768,
+        "replicas": 512,
+        "seed": 2026102314,
+        "snapshot_every_chunks": 64,
+        "width": 4
+      }
+    },
+    "configuration_file": "data/qap/development-q1c/configs/replay-q1c-tai150b-b4-r512-c512-cold256.json",
+    "metrics": {
+      "best_cost_reduction_from_initial_ensemble": 131221075,
+      "best_feasible_cost": 499266749,
+      "complete_runner_seconds": 39.124355904292315,
+      "completed_steps": 2145280,
+      "deadline_overshoot_seconds": 0,
+      "ensemble_first_reference_observation_seconds": null,
+      "ensemble_first_reference_or_better_observation_seconds": null,
+      "first_hit_time_resolution": "Recorded improvement time for the CPU comparison, or the upper bound from the completed GPU chunk; no unobserved transition-level time is inferred.",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "initial_best_cost": 630487824,
+      "initial_reference_hits": 0,
+      "initial_reference_or_better_hits": 0,
+      "initialization": "independent_uniform_permutations",
+      "method": "heatbath",
+      "model_binary_variables": 22500,
+      "new_reference_hits_after_initialization": 0,
+      "new_reference_or_better_hits_after_initialization": 0,
+      "nonidentity_block_transitions_min": 323506,
+      "nonidentity_block_transitions_total": 167125844,
+      "observation": "per-chunk best of every accepted transition; deadline crossing chunk excluded",
+      "optimized_classical_prefix_or_polishing": false,
+      "parallel_replicas": 512,
+      "pbit_heatbath_participation": true,
+      "peak_allocated_bytes": 129051648,
+      "peak_reserved_bytes": 201326592,
+      "physical_update_pbits_per_model": 22500,
+      "preparation_seconds": 2.2033910397440195,
+      "python_integer_best_cost_certificate": 499266749,
+      "quality_max_step": 2144768,
+      "reference_certificate_seconds": 0.0019592465832829475,
+      "reference_hits": 0,
+      "reference_or_better_hits": 0,
+      "reference_status": "historical_feasible_reference",
+      "relative_gap": 0.0007418490486816124,
+      "replica_cost_reduction_median": 150881825.5,
+      "replica_cost_reduction_min": 129211881,
+      "replicas_improved": 512,
+      "returned_best_cost": 499266749,
+      "search_seconds": 30.020793844014406,
+      "state_archive_seconds": 6.221784504596144,
+      "state_certificate_seconds": 0.11316601932048798,
+      "status": "completed",
+      "visited_assignment_bits_min": 22500,
+      "winner_certificate_seconds": 0.006380651146173477,
+      "reference_cost": 498896643
+    },
+    "witness_file": "witnesses/replay-q1c-tai150b-b4-r512-c512-cold256.npz",
+    "witness_sha256": "d7e5bdbf2a03be7d4c7f7a1ce6475a0103ab179ce706444cad4e84c5cac3293c",
+    "resources": {
+      "parallel_replicas": 512,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "model_binary_variables": 22500,
+      "visited_assignment_bits_min": 22500,
+      "peak_allocated_bytes": 129051648,
+      "peak_reserved_bytes": 201326592,
+      "preparation_seconds": 2.2033910397440195,
+      "search_seconds": 30.020793844014406,
+      "complete_runner_seconds": 39.124355904292315,
+      "physical_update_pbits_per_model": 22500
+    },
+    "benchmark_inputs": [
+      {
+        "field": "problem.instance_file",
+        "path": "data/qap/qaplib/tai150b.dat",
+        "sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/data.d/tai150b.dat",
+        "recorded_original_sha256": "47360f940c4e80b2670c38a5efff196830e97e2bc6b32c03ba5ef5bef2eaf464"
+      },
+      {
+        "field": "problem.reference_file",
+        "path": "data/qap/qaplib/tai150b.sln",
+        "sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd",
+        "url": "https://coral.ise.lehigh.edu/wp-content/uploads/2014/07/soln.d/tai150b.sln",
+        "recorded_original_sha256": "2ebbe92d7e232025d32a805fb7ceef8249276f52a12f7b2ea519b34735774ecd"
+      }
+    ],
+    "baseline_inputs": [],
+    "historical_role": "9-development-calls-plus-2-fixed-work-controls-and-1-replay",
+    "evaluation_role": "optimization-development",
+    "trial_kind": "work-replay",
+    "replay_of": "q1c-tai150b-b4-r512-c512-cold256",
+    "curve_curation": {
+      "curve_": {
+        "original_observations": 4190,
+        "retained_observations": 2350,
+        "rule": "all_replica_best_improvements_and_eligibility_boundaries",
+        "first_reference_hit_preserved": true,
+        "selection": "Every replica-best improvement, first/last observations and eligibility boundaries. Current-state fluctuations between these observations are omitted."
+      }
+    }
+  }
+]

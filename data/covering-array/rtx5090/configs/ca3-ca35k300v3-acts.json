@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "jar": "data/covering-array/baselines/acts-basic.jar",
+    "process_limit_seconds": 300
+  },
+  "experiment": {
+    "independence": "One fixed-parameter construction; repeated k=300 compares two fixed row targets and is not a new independent algorithm trial.",
+    "role": "constructive-classical-reference"
+  },
+  "method": "acts-ipog",
+  "problem": {
+    "instance_file": "data/covering-array/instances/ca35k300v3.json"
+  }
+}

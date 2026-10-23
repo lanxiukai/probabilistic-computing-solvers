@@ -1,0 +1,9 @@
+{
+  "status": "verified",
+  "implementation_pairs": 2,
+  "public_source_configuration_witness_hashes_checked": true,
+  "all_public_core_arrays_equal": true,
+  "observed_search_kernels_prewarmed": true,
+  "full_rosters_checked": 3,
+  "scope": "Public cross-file identities and original recorded resource metadata; not new solver or timing measurements."
+}

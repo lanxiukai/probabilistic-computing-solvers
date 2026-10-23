@@ -1,0 +1,106 @@
+[
+  {
+    "id": "56393e56956222a20068caf5c54def51028a3d4d3d3dc5756cffe977814011a9",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "56393e56956222a20068caf5c54def51028a3d4d3d3dc5756cffe977814011a9",
+    "file": "instances/56393e56956222a20068.npz",
+    "file_sha256": "81912c0f7ea7989fea465640582741949644a36ca1d77a971634496e141af548",
+    "redistributed": true
+  },
+  {
+    "id": "35bbb9a7a384957e4e7db8a309f979abda9cf7c8f5398da83186f8d16c904956",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "35bbb9a7a384957e4e7db8a309f979abda9cf7c8f5398da83186f8d16c904956",
+    "file": "instances/35bbb9a7a384957e4e7d.npz",
+    "file_sha256": "1150e369156e89a0657f3e44023591c4061e9b8c831ce49bbf1ec120a251af91",
+    "redistributed": true
+  },
+  {
+    "id": "7db14eabbbe572fc811b8bb5e93522d0ce996e290f0fda76ad7231e6aa1cdee5",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "7db14eabbbe572fc811b8bb5e93522d0ce996e290f0fda76ad7231e6aa1cdee5",
+    "file": "instances/7db14eabbbe572fc811b.npz",
+    "file_sha256": "ddd5f69e2cc7433ea2c6501e423fd04e83b68800ad7da9b297b3791c218dc45e",
+    "redistributed": true
+  },
+  {
+    "id": "2c7eaca5f1962150040f20473e4a84c37865975da19c54d372609f82747c0420",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "2c7eaca5f1962150040f20473e4a84c37865975da19c54d372609f82747c0420",
+    "file": "instances/2c7eaca5f1962150040f.npz",
+    "file_sha256": "15da3883f3eeb916ce79a50fcf5207b71ca8c45d2ccb01c9fd4c25460b9df81e",
+    "redistributed": true
+  },
+  {
+    "id": "cfc9f3a89c408836d8785c6ff060d9fd48c5c81d919c6f146fd477c6da716a72",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "cfc9f3a89c408836d8785c6ff060d9fd48c5c81d919c6f146fd477c6da716a72",
+    "file": "instances/cfc9f3a89c408836d878.npz",
+    "file_sha256": "7849ab85413e0e2745da52afb766eb529a3a24ae63c98b33c44d91ce7f5e780e",
+    "redistributed": true
+  },
+  {
+    "id": "d04bdc46ab7eb67572752e8c4597d4cace3944961011bfde1baf0830eb0c3acf",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "d04bdc46ab7eb67572752e8c4597d4cace3944961011bfde1baf0830eb0c3acf",
+    "file": "instances/d04bdc46ab7eb6757275.npz",
+    "file_sha256": "42c0f48487eed7a8afb22cbb06ca651bc62c017df0c360e5a961588abdaef84b",
+    "redistributed": true
+  },
+  {
+    "id": "b13c21de559c59beffe399fbf93e5bf21c61d725de827015b649dc7ed942b4f2",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "b13c21de559c59beffe399fbf93e5bf21c61d725de827015b649dc7ed942b4f2",
+    "file": "instances/b13c21de559c59beffe3.npz",
+    "file_sha256": "672aafac83e887d7abc9c4cc1f3b654b8da7e10ebb3108ced2e54a4b50c5d2d6",
+    "redistributed": true
+  },
+  {
+    "id": "629d8e9a712158ee9aff83148386b54a0903a48bd758e71fba6c44d75ff1b943",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "629d8e9a712158ee9aff83148386b54a0903a48bd758e71fba6c44d75ff1b943",
+    "external": {
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G1",
+      "sha256": "73bf704d8ffc55ba42260ab4cb659e3dcb6e729be70404d2cf476ba4e46d1665",
+      "format": "mqlib",
+      "cache_file": "external/benchmarks/maxcut/G1"
+    },
+    "redistributed": false
+  },
+  {
+    "id": "7b5c3a8751fe1668fd0e9fba6e94f1f47699b50edb74e15acffcf4a398c1d050",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "7b5c3a8751fe1668fd0e9fba6e94f1f47699b50edb74e15acffcf4a398c1d050",
+    "external": {
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G22",
+      "sha256": "9baeee06eb147b1c9ca42b43be86592d4e6fc60784a85af9be5b63d1362ef28e",
+      "format": "mqlib",
+      "cache_file": "external/benchmarks/maxcut/G22"
+    },
+    "redistributed": false
+  },
+  {
+    "id": "b7caf7f6be2be46e15649046df8095894b88f79650d3b880bf4d289f5487cb87",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "b7caf7f6be2be46e15649046df8095894b88f79650d3b880bf4d289f5487cb87",
+    "external": {
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G55",
+      "sha256": "7537bbb613a6e6d0fe784937be68099eeb36227d85bb273299f22cb7d3ff2227",
+      "format": "mqlib",
+      "cache_file": "external/benchmarks/maxcut/G55"
+    },
+    "redistributed": false
+  },
+  {
+    "id": "dedbc61246e771a908c0ed9cbfe341ea4feb2677382c9da296eee5dd91e9fe64",
+    "kind": "maxcut-sparse",
+    "canonical_identity": "dedbc61246e771a908c0ed9cbfe341ea4feb2677382c9da296eee5dd91e9fe64",
+    "external": {
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G81",
+      "sha256": "74e69d2f5228774cedbdb86da14debf08023556f1d7693b7346ca13df7594d5a",
+      "format": "mqlib",
+      "cache_file": "external/benchmarks/maxcut/G81"
+    },
+    "redistributed": false
+  }
+]

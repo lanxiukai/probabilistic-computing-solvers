@@ -1,0 +1,130 @@
+{
+  "problem": "covering-array",
+  "status": "independently-verified",
+  "planned_natural_calls": 50,
+  "expected_natural_ids": [
+    "ca3-ca9k4v3-heatbath-s1",
+    "ca3-ca9k4v3-metropolis-s1",
+    "ca3-ca9k4v3-plateau-s1",
+    "ca3-ca18k20v3-heatbath-s1",
+    "ca3-ca18k20v3-metropolis-s1",
+    "ca3-ca18k20v3-plateau-s1",
+    "ca3-ca35k300v3-heatbath-s1",
+    "ca3-ca35k300v3-metropolis-s1",
+    "ca3-ca35k300v3-plateau-s1",
+    "ca3-ca30k300v3-heatbath-s1",
+    "ca3-ca30k300v3-metropolis-s1",
+    "ca3-ca30k300v3-plateau-s1",
+    "ca3-ca25k100v3-heatbath-s1",
+    "ca3-ca25k100v3-metropolis-s1",
+    "ca3-ca25k100v3-plateau-s1",
+    "ca3-ca25k100v3-plateau-s2",
+    "ca3-ca25k100v3-metropolis-s2",
+    "ca3-ca25k100v3-heatbath-s2",
+    "ca3-ca30k300v3-plateau-s2",
+    "ca3-ca30k300v3-metropolis-s2",
+    "ca3-ca30k300v3-heatbath-s2",
+    "ca3-ca35k300v3-plateau-s2",
+    "ca3-ca35k300v3-metropolis-s2",
+    "ca3-ca35k300v3-heatbath-s2",
+    "ca3-ca18k20v3-plateau-s2",
+    "ca3-ca18k20v3-metropolis-s2",
+    "ca3-ca18k20v3-heatbath-s2",
+    "ca3-ca9k4v3-plateau-s2",
+    "ca3-ca9k4v3-metropolis-s2",
+    "ca3-ca9k4v3-heatbath-s2",
+    "ca3-ca9k4v3-heatbath-s3",
+    "ca3-ca9k4v3-metropolis-s3",
+    "ca3-ca9k4v3-plateau-s3",
+    "ca3-ca18k20v3-heatbath-s3",
+    "ca3-ca18k20v3-metropolis-s3",
+    "ca3-ca18k20v3-plateau-s3",
+    "ca3-ca35k300v3-heatbath-s3",
+    "ca3-ca35k300v3-metropolis-s3",
+    "ca3-ca35k300v3-plateau-s3",
+    "ca3-ca30k300v3-heatbath-s3",
+    "ca3-ca30k300v3-metropolis-s3",
+    "ca3-ca30k300v3-plateau-s3",
+    "ca3-ca25k100v3-heatbath-s3",
+    "ca3-ca25k100v3-metropolis-s3",
+    "ca3-ca25k100v3-plateau-s3",
+    "ca3-ca9k4v3-acts",
+    "ca3-ca18k20v3-acts",
+    "ca3-ca35k300v3-acts",
+    "ca3-ca30k300v3-acts",
+    "ca3-ca25k100v3-acts"
+  ],
+  "expected_replays": [
+    {
+      "id": "replay-ca3-ca9k4v3-heatbath-s1",
+      "origin": "ca3-ca9k4v3-heatbath-s1"
+    },
+    {
+      "id": "replay-ca3-ca35k300v3-heatbath-s1",
+      "origin": "ca3-ca35k300v3-heatbath-s1"
+    },
+    {
+      "id": "replay-ca3-ca30k300v3-heatbath-s1",
+      "origin": "ca3-ca30k300v3-heatbath-s1"
+    }
+  ],
+  "frozen_targets": {
+    "ca9k4v3": {
+      "rows": 9,
+      "columns": 4,
+      "levels": 3,
+      "strength": 2,
+      "cost": 0,
+      "status": "fixed-row-feasibility",
+      "source": "Orthogonal-array elementary bound/construction"
+    },
+    "ca18k20v3": {
+      "rows": 18,
+      "columns": 20,
+      "levels": 3,
+      "strength": 2,
+      "cost": 0,
+      "status": "fixed-row-feasibility",
+      "source": "Declared fixed-row feasibility target"
+    },
+    "ca35k300v3": {
+      "rows": 35,
+      "columns": 300,
+      "levels": 3,
+      "strength": 2,
+      "cost": 0,
+      "status": "fixed-row-feasibility",
+      "source": "https://math.nist.gov/coveringarrays/ipof/tables/table.2.3.html"
+    },
+    "ca30k300v3": {
+      "rows": 30,
+      "columns": 300,
+      "levels": 3,
+      "strength": 2,
+      "cost": 0,
+      "status": "fixed-row-feasibility",
+      "source": "Declared fixed-row feasibility target"
+    },
+    "ca25k100v3": {
+      "rows": 25,
+      "columns": 100,
+      "levels": 3,
+      "strength": 2,
+      "cost": 0,
+      "status": "fixed-row-feasibility",
+      "source": "Declared fixed-row feasibility target"
+    }
+  },
+  "completed_natural_calls": 50,
+  "failed_natural_calls": 0,
+  "unexecuted_natural_calls": 0,
+  "work_replays": 3,
+  "replays_add_independent_trials": false,
+  "private_panel_manifest_sha256": "7f86fa314f12ad0ebd9a5c764a6db0d6d8508e144b621c3fa7345bd91c1cc813",
+  "full_original_evidence": "Retained independently; this distribution contains core witnesses",
+  "path_resolution": {
+    "configuration_file": "Repository relative",
+    "benchmark_inputs.path": "Repository relative",
+    "witness_file": "Relative to calls.json parent directory"
+  }
+}

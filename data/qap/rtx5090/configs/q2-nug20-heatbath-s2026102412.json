@@ -1,0 +1,28 @@
+{
+  "experiment": {
+    "role": "independent-seed-confirmation"
+  },
+  "problem": {
+    "instance_file": "data/qap/qaplib/nug20.dat",
+    "reference_file": "data/qap/qaplib/nug20.sln",
+    "reference_index_base": 1,
+    "reference_inverse": false,
+    "reference_status": "proven_optimum"
+  },
+  "solver": {
+    "beta_end": 1.7680794484801896,
+    "beta_start": 0.027626241382502963,
+    "checkpoint_seconds": 2.0,
+    "chunk_steps": 512,
+    "cycle_steps": 4096,
+    "energy_layout": "factored",
+    "max_seconds": 15,
+    "max_steps": 100000000,
+    "method": "heatbath",
+    "num_warps": 4,
+    "replicas": 128,
+    "seed": 2026102412,
+    "snapshot_every_chunks": 1148,
+    "width": 4
+  }
+}

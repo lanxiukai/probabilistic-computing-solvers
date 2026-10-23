@@ -1,0 +1,307 @@
+{
+  "pairs": [
+    {
+      "after": "g2a-le450-5a-cache-1",
+      "before": "g2a-le450-5a-cache-0",
+      "changed_settings": [
+        "cache_boltzmann_weights"
+      ],
+      "equal_arrays": [
+        "initial_colors",
+        "initial_cost",
+        "quality_best_colors",
+        "quality_best_cost",
+        "snapshot_steps",
+        "snapshots",
+        "best_snapshots",
+        "curve_steps",
+        "curve_cost",
+        "curve_best",
+        "curve_eligible",
+        "initial_rng",
+        "final_rng",
+        "beta_grid",
+        "final_beta_rank",
+        "curve_beta_rank",
+        "exchange_steps",
+        "exchange_cost",
+        "exchange_uniform",
+        "exchange_beta_rank",
+        "exchange_accepted",
+        "initial_exchange_rng",
+        "final_exchange_rng",
+        "bits",
+        "colors",
+        "best_colors",
+        "counts",
+        "conflicts",
+        "best_conflicts",
+        "visited",
+        "changed"
+      ],
+      "expected": "Every raw state array except curve_seconds must match exactly; both calls must complete all declared work before their deadlines.",
+      "parallel_replicas": 128,
+      "steps_per_replica": 65536,
+      "timings": {
+        "complete_runner_seconds": {
+          "after": 4.736304913181812,
+          "before": 4.680846558883786,
+          "before_divided_by_after": 0.9882907972956562
+        },
+        "preparation_seconds": {
+          "after": 2.8576447111554444,
+          "before": 2.7121729347854853,
+          "before_divided_by_after": 0.949093819885279
+        },
+        "search_seconds": {
+          "after": 0.7029137979261577,
+          "before": 0.8402754007838666,
+          "before_divided_by_after": 1.1954174228233587
+        }
+      }
+    },
+    {
+      "after": "g2a-le450-5a-cache-1",
+      "before": "g2a-le450-5a-fresh-preparation",
+      "changed_settings": [
+        "reuse_preparation"
+      ],
+      "equal_arrays": [
+        "initial_colors",
+        "initial_cost",
+        "quality_best_colors",
+        "quality_best_cost",
+        "snapshot_steps",
+        "snapshots",
+        "best_snapshots",
+        "curve_steps",
+        "curve_cost",
+        "curve_best",
+        "curve_eligible",
+        "initial_rng",
+        "final_rng",
+        "beta_grid",
+        "final_beta_rank",
+        "curve_beta_rank",
+        "exchange_steps",
+        "exchange_cost",
+        "exchange_uniform",
+        "exchange_beta_rank",
+        "exchange_accepted",
+        "initial_exchange_rng",
+        "final_exchange_rng",
+        "bits",
+        "colors",
+        "best_colors",
+        "counts",
+        "conflicts",
+        "best_conflicts",
+        "visited",
+        "changed"
+      ],
+      "expected": "Every raw state array except curve_seconds must match exactly; report initialization/preparation and complete-run times separately.",
+      "parallel_replicas": 128,
+      "steps_per_replica": 65536,
+      "timings": {
+        "complete_runner_seconds": {
+          "after": 4.736304913181812,
+          "before": 4.916491596028209,
+          "before_divided_by_after": 1.0380437252561405
+        },
+        "preparation_seconds": {
+          "after": 2.8576447111554444,
+          "before": 3.0836063781753182,
+          "before_divided_by_after": 1.0790726944248117
+        },
+        "search_seconds": {
+          "after": 0.7029137979261577,
+          "before": 0.6998273879289627,
+          "before_divided_by_after": 0.9956091201989475
+        }
+      }
+    },
+    {
+      "after": "g2a-le450-25c-cache-1",
+      "before": "g2a-le450-25c-cache-0",
+      "changed_settings": [
+        "cache_boltzmann_weights"
+      ],
+      "equal_arrays": [
+        "initial_colors",
+        "initial_cost",
+        "quality_best_colors",
+        "quality_best_cost",
+        "snapshot_steps",
+        "snapshots",
+        "best_snapshots",
+        "curve_steps",
+        "curve_cost",
+        "curve_best",
+        "curve_eligible",
+        "initial_rng",
+        "final_rng",
+        "beta_grid",
+        "final_beta_rank",
+        "curve_beta_rank",
+        "exchange_steps",
+        "exchange_cost",
+        "exchange_uniform",
+        "exchange_beta_rank",
+        "exchange_accepted",
+        "initial_exchange_rng",
+        "final_exchange_rng",
+        "bits",
+        "colors",
+        "best_colors",
+        "counts",
+        "conflicts",
+        "best_conflicts",
+        "visited",
+        "changed"
+      ],
+      "expected": "Every raw state array except curve_seconds must match exactly; both calls must complete all declared work before their deadlines.",
+      "parallel_replicas": 128,
+      "steps_per_replica": 65536,
+      "timings": {
+        "complete_runner_seconds": {
+          "after": 5.7531683929264545,
+          "before": 5.9348658081144094,
+          "before_divided_by_after": 1.0315821479189367
+        },
+        "preparation_seconds": {
+          "after": 2.601006110198796,
+          "before": 2.6658104099333286,
+          "before_divided_by_after": 1.0249150893880752
+        },
+        "search_seconds": {
+          "after": 0.44680270878598094,
+          "before": 0.5529383649118245,
+          "before_divided_by_after": 1.2375447911097661
+        }
+      }
+    },
+    {
+      "after": "g2a-fpsol2-i-1-cache-1",
+      "before": "g2a-fpsol2-i-1-cache-0",
+      "changed_settings": [
+        "cache_boltzmann_weights"
+      ],
+      "equal_arrays": [
+        "initial_colors",
+        "initial_cost",
+        "quality_best_colors",
+        "quality_best_cost",
+        "snapshot_steps",
+        "snapshots",
+        "best_snapshots",
+        "curve_steps",
+        "curve_cost",
+        "curve_best",
+        "curve_eligible",
+        "initial_rng",
+        "final_rng",
+        "beta_grid",
+        "final_beta_rank",
+        "curve_beta_rank",
+        "exchange_steps",
+        "exchange_cost",
+        "exchange_uniform",
+        "exchange_beta_rank",
+        "exchange_accepted",
+        "initial_exchange_rng",
+        "final_exchange_rng",
+        "bits",
+        "colors",
+        "best_colors",
+        "counts",
+        "conflicts",
+        "best_conflicts",
+        "visited",
+        "changed",
+        "symmetry_clique_vertices"
+      ],
+      "expected": "Every raw state array except curve_seconds must match exactly; both calls must complete all declared work before their deadlines.",
+      "parallel_replicas": 128,
+      "steps_per_replica": 65536,
+      "timings": {
+        "complete_runner_seconds": {
+          "after": 4.476231320295483,
+          "before": 4.4938947525806725,
+          "before_divided_by_after": 1.0039460499293462
+        },
+        "preparation_seconds": {
+          "after": 2.2326132063753903,
+          "before": 2.1896663177758455,
+          "before_divided_by_after": 0.9807638472813353
+        },
+        "search_seconds": {
+          "after": 0.13916005427017808,
+          "before": 0.22170730773359537,
+          "before_divided_by_after": 1.593182101690996
+        }
+      }
+    },
+    {
+      "after": "g2a-fpsol2-i-1-cache-1",
+      "before": "g2a-fpsol2-i-1-fresh-preparation",
+      "changed_settings": [
+        "reuse_preparation"
+      ],
+      "equal_arrays": [
+        "initial_colors",
+        "initial_cost",
+        "quality_best_colors",
+        "quality_best_cost",
+        "snapshot_steps",
+        "snapshots",
+        "best_snapshots",
+        "curve_steps",
+        "curve_cost",
+        "curve_best",
+        "curve_eligible",
+        "initial_rng",
+        "final_rng",
+        "beta_grid",
+        "final_beta_rank",
+        "curve_beta_rank",
+        "exchange_steps",
+        "exchange_cost",
+        "exchange_uniform",
+        "exchange_beta_rank",
+        "exchange_accepted",
+        "initial_exchange_rng",
+        "final_exchange_rng",
+        "bits",
+        "colors",
+        "best_colors",
+        "counts",
+        "conflicts",
+        "best_conflicts",
+        "visited",
+        "changed",
+        "symmetry_clique_vertices"
+      ],
+      "expected": "Every raw state array except curve_seconds must match exactly; report initialization/preparation and complete-run times separately.",
+      "parallel_replicas": 128,
+      "steps_per_replica": 65536,
+      "timings": {
+        "complete_runner_seconds": {
+          "after": 4.476231320295483,
+          "before": 4.992620475124568,
+          "before_divided_by_after": 1.1153624819360313
+        },
+        "preparation_seconds": {
+          "after": 2.2326132063753903,
+          "before": 2.770051752217114,
+          "before_divided_by_after": 1.240721744504166
+        },
+        "search_seconds": {
+          "after": 0.13916005427017808,
+          "before": 0.13917941227555275,
+          "before_divided_by_after": 1.0001391060493343
+        }
+      }
+    }
+  ],
+  "scope": "Five fixed-work comparisons among eight calls, not additional independent trials; exact raw state arrays checked before public core curation."
+}

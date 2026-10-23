@@ -1,0 +1,536 @@
+{
+  "status": "verified",
+  "solver_executed": false,
+  "calls": 75,
+  "witnesses_checked": 45495,
+  "work_replays_checked": 3,
+  "records": [
+    {
+      "id": "j4-ft06-heatbath-s1",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-metropolis-s1",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-plateau-s1",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-cp-sat-s1",
+      "witnesses_checked": 7,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-heatbath-s1",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-metropolis-s1",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-plateau-s1",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-cp-sat-s1",
+      "witnesses_checked": 13,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-heatbath-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-metropolis-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 946,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-plateau-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-cp-sat-s1",
+      "witnesses_checked": 63,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-heatbath-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-metropolis-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 935,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-plateau-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 937,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-cp-sat-s1",
+      "witnesses_checked": 96,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-heatbath-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1249,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-metropolis-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1286,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-plateau-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1241,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-cp-sat-s1",
+      "witnesses_checked": 157,
+      "best_feasible_cost": 1231,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-heatbath-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2960,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-metropolis-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2950,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-plateau-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2951,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-cp-sat-s1",
+      "witnesses_checked": 211,
+      "best_feasible_cost": 3041,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-metropolis-s2",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-plateau-s2",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-cp-sat-s2",
+      "witnesses_checked": 7,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-heatbath-s2",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-metropolis-s2",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-plateau-s2",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-cp-sat-s2",
+      "witnesses_checked": 13,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-heatbath-s2",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-metropolis-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-plateau-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-cp-sat-s2",
+      "witnesses_checked": 62,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-heatbath-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-metropolis-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-plateau-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-cp-sat-s2",
+      "witnesses_checked": 110,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-heatbath-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-metropolis-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1281,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-plateau-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1237,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-cp-sat-s2",
+      "witnesses_checked": 186,
+      "best_feasible_cost": 1240,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-heatbath-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1253,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-metropolis-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2979,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-plateau-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2953,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-cp-sat-s2",
+      "witnesses_checked": 212,
+      "best_feasible_cost": 3135,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-heatbath-s2",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2950,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-plateau-s3",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-cp-sat-s3",
+      "witnesses_checked": 7,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-heatbath-s3",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft06-metropolis-s3",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-plateau-s3",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-cp-sat-s3",
+      "witnesses_checked": 13,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-heatbath-s3",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la01-metropolis-s3",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 666,
+      "verified_reference": 666,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-plateau-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-cp-sat-s3",
+      "witnesses_checked": 54,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-heatbath-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-la16-metropolis-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-plateau-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 937,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-cp-sat-s3",
+      "witnesses_checked": 107,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-heatbath-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 930,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ft10-metropolis-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 935,
+      "verified_reference": 930,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-plateau-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1248,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-cp-sat-s3",
+      "witnesses_checked": 159,
+      "best_feasible_cost": 1231,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-heatbath-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1256,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta01js-metropolis-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 1277,
+      "verified_reference": 1231,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-plateau-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2953,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-cp-sat-s3",
+      "witnesses_checked": 242,
+      "best_feasible_cost": 3073,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-heatbath-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2952,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "j4-ta51js-metropolis-s3",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2944,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "replay-j4-ft06-heatbath-s1",
+      "witnesses_checked": 256,
+      "best_feasible_cost": 55,
+      "verified_reference": 55,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "replay-j4-la16-heatbath-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 945,
+      "verified_reference": 945,
+      "curve_thinning_declared": true
+    },
+    {
+      "id": "replay-j4-ta51js-heatbath-s1",
+      "witnesses_checked": 1024,
+      "best_feasible_cost": 2960,
+      "verified_reference": 2760,
+      "curve_thinning_declared": true
+    }
+  ],
+  "scope": "Original witnesses and recorded-claim consistency, not independent GPU timing attestation",
+  "thinning_scope": "First hits are recomputed from retained observations and cross-checked against saved first-hit arrays; omitted events require the separately audited full source trace"
+}
